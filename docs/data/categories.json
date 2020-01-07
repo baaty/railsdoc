@@ -1,0 +1,205 @@
+[
+    {
+        "english_name": "rails_base",
+        "id": 1,
+        "name": "Railsの基礎知識",
+        "number": null,
+        "position": 1
+    },
+    {
+        "english_name": "ruby_base",
+        "id": 2,
+        "name": "Rubyの基礎知識",
+        "number": null,
+        "position": 2
+    },
+    {
+        "english_name": "setup",
+        "id": 3,
+        "name": "セットアップ",
+        "number": null,
+        "position": 4
+    },
+    {
+        "english_name": "rails",
+        "id": 4,
+        "name": "railsコマンド(rails)",
+        "number": null,
+        "position": 7
+    },
+    {
+        "english_name": "migration",
+        "id": 5,
+        "name": "マイグレーション(migration)",
+        "number": null,
+        "position": 8
+    },
+    {
+        "english_name": "model",
+        "id": 6,
+        "name": "モデル(model)",
+        "number": null,
+        "position": 9
+    },
+    {
+        "english_name": "controller",
+        "id": 7,
+        "name": "コントローラ(controller)",
+        "number": null,
+        "position": 10
+    },
+    {
+        "english_name": "view",
+        "id": 8,
+        "name": "ビュー(view)",
+        "number": null,
+        "position": 11
+    },
+    {
+        "english_name": "form",
+        "id": 9,
+        "name": "フォーム(form)",
+        "number": null,
+        "position": 12
+    },
+    {
+        "english_name": "ajax",
+        "id": 10,
+        "name": "Ajax",
+        "number": null,
+        "position": 16
+    },
+    {
+        "english_name": "cookie_cache",
+        "id": 11,
+        "name": "クッキー・キャッシュ",
+        "number": null,
+        "position": 20
+    },
+    {
+        "english_name": "plugin",
+        "id": 12,
+        "name": "プラグイン(plugin)",
+        "number": null,
+        "position": 21
+    },
+    {
+        "english_name": "validation",
+        "id": 13,
+        "name": "検証(validation)",
+        "number": null,
+        "position": 22
+    },
+    {
+        "english_name": "routes",
+        "id": 14,
+        "name": "ルーティング(routes)",
+        "number": null,
+        "position": 23
+    },
+    {
+        "english_name": "config",
+        "id": 15,
+        "name": "設定ファイル(config)",
+        "number": null,
+        "position": 24
+    },
+    {
+        "english_name": "test",
+        "id": 16,
+        "name": "テスト(test)",
+        "number": null,
+        "position": 25
+    },
+    {
+        "english_name": "ops",
+        "id": 17,
+        "name": "運用",
+        "number": null,
+        "position": 26
+    },
+    {
+        "english_name": "etc",
+        "id": 18,
+        "name": "その他",
+        "number": null,
+        "position": 29
+    },
+    {
+        "english_name": "bookmarks",
+        "id": 19,
+        "name": "ブックマーク",
+        "number": null,
+        "position": 28
+    },
+    {
+        "english_name": "active_support",
+        "id": 20,
+        "name": "アクティブサポート(activesupport)",
+        "number": null,
+        "position": 14
+    },
+    {
+        "english_name": "html_base",
+        "id": 22,
+        "name": "HTMLの基礎知識",
+        "number": null,
+        "position": 3
+    },
+    {
+        "english_name": "asset_pipeline",
+        "id": 23,
+        "name": "アセットパイプライン(Asset Pipeline)",
+        "number": null,
+        "position": 15
+    },
+    {
+        "english_name": "helper",
+        "id": 24,
+        "name": "ヘルパー(helper)",
+        "number": null,
+        "position": 13
+    },
+    {
+        "english_name": "gem",
+        "id": 25,
+        "name": "Gem",
+        "number": null,
+        "position": 5
+    },
+    {
+        "english_name": "rake",
+        "id": 26,
+        "name": "Rake",
+        "number": null,
+        "position": 6
+    },
+    {
+        "english_name": "best_practices",
+        "id": 27,
+        "name": "RubyとRailsのベストプラクティス",
+        "number": null,
+        "position": 27
+    },
+    {
+        "english_name": "coffeescript",
+        "id": 28,
+        "name": "CoffeeScript",
+        "number": null,
+        "position": 17
+    },
+    {
+        "english_name": "jquery",
+        "id": 29,
+        "name": "jQuery",
+        "number": null,
+        "position": 18
+    },
+    {
+        "english_name": "coffeescript_jquery",
+        "id": 30,
+        "name": "CoffeeScriptとjQueryの実例",
+        "number": null,
+        "position": 19
+    }
+]

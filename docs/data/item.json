@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "text": "Yahoo! JAPAN",
+      "href": "https://www.yahoo.co.jp/"
+    },
+    {
+      "text": "Yahoo!ショッピング",
+      "href": "https://shopping.yahoo.co.jp/"
+    },
+    {
+      "text": "ヤフオク!",
+      "href": "https://auctions.yahoo.co.jp/"
+    },
+    {
+      "text": "Yahoo!トラベル",
+      "href": "https://travel.yahoo.co.jp/"
+    }
+  ]
+}
