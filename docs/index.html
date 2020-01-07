@@ -34,12 +34,8 @@
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
   </head>
   <body>
-    <template id="yahoo-list" type="amp-mustache">
-      {{#category_id}}
-      {{{content}}}
-      {{/category_id}}
-    </template>
-
-    <amp-list layout="flex-item" template="yahoo-list" src="data/pages.json" class="DynamicList" binding="no" single-item></amp-list>
+    {% for page in site.data.pages %}
+      {{ page.content }}
+    {% endfor %}
   </body>
 </html>
