@@ -11,7 +11,7 @@
   <table class="table-borderless">
   {% for i in site.data.categories %}
   <tr>
-    <td><a href="/{{i.english_name}}/">{{i.name}}</a></td>
+    <td><a href="/{{i.english_name}}">{{i.name}}</a></td>
     <td>{{i.description}}</td>
   </tr>
   {% endfor %}
@@ -20,7 +20,7 @@
   <h2>メソッド一覧</h2>
   {%- for i in site.data.pages -%}
     {% if i[1].method == "" %}{% continue %}{% endif %}
-    <span class="tag"><a href="#{{i[0]}}">{{i[1].method}}</a></span>
+    <span class="tag"><a href="/page/{{i[0]}}">{{i[1].method}}</a></span>
   {% endfor %}
   </aside class="xs-hide">
 </main>

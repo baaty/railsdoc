@@ -2,7 +2,7 @@
 {% capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
 <main class="sm-col-10">
 <article>
-<h2 id="{{ site.data.pages[nameStr].name }}">{{ site.data.pages[nameStr].title }}</h2>
+<h2 id="{{ nameStr }}">{{ site.data.pages[nameStr].title }}</h2>
 {% if site.data.pages[nameStr].versions %}
 <h3>適応バージョン</h3>
 <ul class="versions">
