@@ -1,0 +1,34 @@
+---
+title: "Rubyの基礎知識"
+---
+{% include header.html %}
+<main class="col-12 sm-col-8">
+{%- for i in site.data.pages -%}
+  {% if i[1].category_id != 2 %}{% continue %}{% endif %}
+  {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
+<article>
+  <h2 id="{{i[0]}}">{{i[1].title}}</h2>
+  {% if i[1].versions %}
+  <aside>
+  <h3>適応バージョン</h3>
+  <ul class="versions">
+  {% for i2 in i[1].versions %}
+    <li>{{i2}}</li>
+  {% endfor %}
+  </ul>
+  </aside>
+  {% endif %}
+  {{ markdownStr | remove: "layout: page" | remove: "---" | markdownify }}
+</article>
+{% endfor %}
+</main>
+<aside class="xs-hide sm-col-2">
+  <h3>目次</h3>
+  <ol>
+    {%- for i in site.data.pages -%}
+      {% if i[1].category_id != 2 %}{% continue %}{% endif %}
+      <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
+    {% endfor %}
+  </ol>
+</aside>
+{% include footer.html %}

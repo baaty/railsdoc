@@ -1,0 +1,67 @@
+{% if page.title %}
+{% capture title %}{{page.title}} | Railsドキュメント{% endcapture %}
+{% elsif site.data.pages[nameStr].title %}
+{% capture title %}{{site.data.pages[nameStr].title}} | Railsドキュメント{% endcapture %}
+{% else %}
+{% assign title = 'Railsドキュメント' %}
+{% endif %}
+<!doctype html>
+<html amp lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>{{title}}</title>
+    <link rel="canonical" href="https://amp.dev/ja/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "author": {
+          "@type": "Person",
+          "name": "ばてぃ"
+        },
+        "headline": "{{title}}",
+        "datePublished": "2020-01-29T00:00:00Z",
+        "image": [
+          "https://railsdoc.com/assets/images/ogp.png"
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "Railsドキュメント",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://railsdoc.com/assets/images/amplogo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <style amp-custom>
+      {% include style.css %}
+    </style>
+  </head>
+  <body>
+    <header class="col-12"><span role="button" class="sm-hide" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span>
+    <h1><a href="/">Railsドキュメント</a></h1></header>
+    <amp-sidebar id="sidebar" layout="nodisplay" side="left">
+      <ul>
+      {% for i in site.data.categories %}
+        <li><a href="/{{i.english_name}}/">{{i.name}}</a></li>
+      {% endfor %}
+      </ul>
+    </amp-sidebar>
+    <nav class="sm-col-2 xs-hide">
+      <h3>メニュー</h3>
+      <ul>
+      {% for i in site.data.categories %}
+        <li><a href="/{{i.english_name}}/">{{i.name}}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>

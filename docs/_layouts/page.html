@@ -1,0 +1,17 @@
+{% include header.html %}
+{% capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
+<main class="sm-col-10">
+<article>
+<h2 id="{{ site.data.pages[nameStr].name }}">{{ site.data.pages[nameStr].title }}</h2>
+{% if site.data.pages[nameStr].versions %}
+<h3>適応バージョン</h3>
+<ul class="versions">
+{% for i in site.data.pages[nameStr].versions %}
+  <li>{{i}}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{{ content }}
+</article>
+</main class="sm-col-10">
+{% include footer.html %}

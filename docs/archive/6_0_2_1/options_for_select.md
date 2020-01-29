@@ -1,0 +1,39 @@
+---
+layout: page
+---
+### 説明
+配列・ハッシュから選択肢を生成する
+
+### 使い方
+    options_for_select(タグの配列 or ハッシュ [, オプション])
+
+#### オプション
+
+オプション  | 説明
+--------- | ----------
+:selected | 選択されたオプション
+
+### 例
+#### タグの情報を配列で指定
+    <%= select_tag 'page[name]', options_for_select([["Railsの基礎", "rails_base"], ["Rubyの基礎", "ruby_base"]]) %>
+    # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
+    # <option value="ruby_base">Rubyの基礎</option></select>
+
+#### タグの情報をハッシュで指定
+    <%= select_tag 'page[name]', options_for_select({Railsの基礎: "rails_base", Rubyの基礎: "ruby_base"}) %>
+    # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
+    # <option value="ruby_base">Rubyの基礎</option></select>
+
+#### 選択されたオプション
+    <%= select_tag 'page[name]', options_for_select({Railsの基礎: "rails_base", Rubyの基礎: "ruby_base"}, selected: "ruby_base") %>
+    # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
+    # <option value="ruby_base">Rubyの基礎</option></select>
+
+#### HTML属性あり
+    options_for_select([ "Denmark", ["USA", { class: 'bold' }], "Sweden" ], ["USA", "Sweden"])
+    # <option value="Denmark">Denmark</option>
+    # <option value="USA" class="bold" selected="selected">USA</option>
+    # <option value="Sweden" selected="selected">Sweden</option>
+
+### ソースコード
+* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_options_helper.rb#L357)
