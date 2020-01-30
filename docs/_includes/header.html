@@ -1,7 +1,7 @@
 {% if page.title %}
 {% capture title %}{{page.title}} | Railsドキュメント{% endcapture %}
-{% elsif nameStr %}
-{% capture title %}{{nameStr}} | Railsドキュメント{% endcapture %}
+{% elsif include.title %}
+{% capture title %}{{include.title}} | Railsドキュメント{% endcapture %}
 {% else %}
 {% assign title = 'Railsドキュメント' %}
 {% endif %}
@@ -10,8 +10,9 @@
   <head>
     <meta charset="utf-8">
     <title>{{title}}</title>
-    <link rel="canonical" href="https://amp.dev/ja/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <link rel="canonical" href="https://railsdoc.com/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -49,7 +50,7 @@
   </head>
   <body>
     <header class="col-12"><span role="button" class="sm-hide" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span>
-    <h1><a href="/">Railsドキュメント{{ site.data.pages[nameStr] }}</a></h1></header>
+    <h1><a href="/">Railsドキュメント</a></h1></header>
     <amp-sidebar id="sidebar" layout="nodisplay" side="left">
       <ul>
       {% for i in site.data.categories %}

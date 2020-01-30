@@ -1,5 +1,6 @@
-{% include header.html %}
 {% capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
+{% assign title = site.data.pages[nameStr].title %}
+{% include header.html title=title %}
 <main class="sm-col-10">
 <article>
 <h2 id="{{ nameStr }}">{{ site.data.pages[nameStr].title }}</h2>
