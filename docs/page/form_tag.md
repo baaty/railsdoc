@@ -16,9 +16,7 @@ layout: page
 :method             | HTTPメソッドを指定
 :authenticity_token | 認証トークンを指定
 :remote             | Ajaxでリンクを処理
-:enforce_utf8       |
-:id                 | idを指定
-:class              | classを指定
+:enforce_utf8       | utf8用の非表示用を出力するか?
 
 ### HTMLオプション
 
@@ -56,6 +54,13 @@ layout: page
     <% end %>
     # <form action="users" method="post" enctype="multipart/form-data">
     # </form>
+
+#### JavaScriptを使う
+    <%= form_tag('/posts', remote: true) %>
+    # <form action="/posts" method="post" data-remote="true">
+
+#### 外部リソースへのForm
+    form_tag('http://far.away.com/form', authenticity_token: "cf50faa3fe97702ca1ae")
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L71)

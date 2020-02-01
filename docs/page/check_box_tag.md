@@ -5,7 +5,7 @@ layout: page
 チェックボックスを生成
 
 ### 使い方
-    check_box_tag(要素名 [, 値, checked = false, オプション or HTMLオプション])
+    check_box_tag(要素名 [, value値, checked = false, オプション or HTMLオプション])
 
 ### オプション
 

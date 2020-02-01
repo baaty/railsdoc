@@ -24,5 +24,8 @@ layout: page
     User.maximum('age')
     # SELECT MAX("users"."age") AS max_id FROM "users"
 
+#### 条件を指定
+    Account.maximum(:limit, :conditions => "limit > 50")
+
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/relation/calculations.rb#L75)

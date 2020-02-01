@@ -6,3 +6,6 @@ layout: page
 
 ### 使い方
     ApplicationController.helpers.<メソッド名>
+
+### 例
+    ApplicationController.helpers.user_path

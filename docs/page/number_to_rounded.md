@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-フォーマットの指定されたレベル
+数値を丸める
 
 ### 使い方
     number_to_rounded(数値 [, オプション])
@@ -12,43 +12,42 @@ layout: page
 オプション                      | 説明                                            | デフォルト値
 ---------------------------|-----------------------------------------------|-------
 :locale                    | 使用するロケール。YAML形式で「/config/locales/」以下の設定 |
-:precision                 | 小数以下の桁数                                   | 2
-:significant               | 精度                                            | false
+:precision                 | 桁数                                            | 3
+:significant               | 少数も桁数に含める                                  | false
 :separator                 | 小数点記号                                      | .
 :delimiter                 | 桁区切り文字                                     | ,
 :strip_insignificant_zeros | 小数点以下の余分な0を削除                          | false
 
 ### 例
+#### 数値を丸める
     number_to_rounded(111.2345)
     # 111.235
 
+#### 小数点以下2桁で丸める
     number_to_rounded(111.2345, precision: 2)
     # 111.23
 
+#### 少数以下5桁
     number_to_rounded(13, precision: 5)
     # 13.00000
 
+#### 整数のみ
     number_to_rounded(389.32314, precision: 0)
     # 389
 
+#### ３桁で丸める
     number_to_rounded(111.2345, significant: true)
     # 111
 
+#### 1つめ桁で丸める
     number_to_rounded(111.2345, precision: 1, significant: true)
     # 100
 
-    number_to_rounded(13, precision: 5, significant: true)
-    # 13.000
-
+#### ロケール指定
     number_to_rounded(111.234, locale: :fr)
     # 111,234
 
-    number_to_rounded(13, precision: 5, significant: true, strip_insignificant_zeros: true)
-    # 13
-
-    number_to_rounded(389.32314, precision: 4, significant: true)
-    # 389.3
-
+#### 区切り文字を変更
     number_to_rounded(1111.2345, precision: 2, separator: ',', delimiter: '.')
     # 1.111,23
 

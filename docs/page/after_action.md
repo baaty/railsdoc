@@ -5,7 +5,14 @@ layout: page
 アクションの後に処理を実行
 
 ### 使い方
-    after_action 名前
+    after_action アクション名 [, オプション]
+
+### オプション
+
+オプション   | 説明
+--------|-----------
+:only   | 実行するアクション
+:except | 実行しないアクション
 
 ### 例
     after_action :render_form, only: [:new :edit]

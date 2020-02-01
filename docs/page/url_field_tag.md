@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 使い方
-    url_field_tag(要素名 [, 値, オプション])
+    url_field_tag(要素名 [, value値, オプション])
 
 ### オプション
 

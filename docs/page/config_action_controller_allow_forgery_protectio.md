@@ -2,10 +2,12 @@
 layout: page
 ---
 ### 説明
-CSRF保護を有効にするかデフォルトは、「false」
+CSRF保護を有効にするか
+デフォルトは、「false」
 
 ### 使い方
     config.action_controller.allow_forgery_protection = ( true | false )
 
 ### 例
+#### CSRF保護を有効
     config.action_controller.allow_forgery_protection = true

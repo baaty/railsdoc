@@ -8,6 +8,7 @@ HTMLタグをエスケープ
     html_escape(文字列)
 
 ### 例
+#### HTMLタグをエスケープ
     html_escape('is a > 0 & a < 10?')
     # is a &gt; 0 &amp; a &lt; 10?
 

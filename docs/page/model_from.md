@@ -8,12 +8,15 @@ layout: page
     モデル.from(値 [, サブクエリ])
 
 ### 例
+#### レコードが参照されるテーブルを指定
     Topic.select('title').from('posts')
     # SELECT title FROM posts
 
+#### 関連付けモデル
     Topic.select('title').from(Topic.approved)
     # SELECT title FROM (SELECT * FROM topics WHERE approved = 't') subquery
 
+#### サブクエリ
     Topic.select('a.title').from(Topic.approved, :a)
     # SELECT a.title FROM (SELECT * FROM topics WHERE approved = 't') a
 

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-条件に一致しなかったらリンクを生成
+メールアドレス用のタグを生成
 
 ### 使い方
     mail_to(メールアドレス, [リンクテキスト, オプション])
@@ -18,12 +18,15 @@ layout: page
 :reply_to    | Reply-Toフィールド
 
 ### 例
+#### メールアドレス用のタグを生成
     mail_to "me@domain.com"
     # <a href="mailto:me@domain.com">me@domain.com</a>
 
+#### リンクテキストを指定
     mail_to "me@domain.com", "My email"
     # <a href="mailto:me@domain.com">My email</a>
 
+#### オプションを指定
     mail_to "me@domain.com", "My email", cc: "ccaddress@domain.com", subject: "This is an example email"
     # <a href="mailto:me@domain.com?cc=ccaddress@domain.com&subject=This%20is%20an%20example%20email">My email</a>
 

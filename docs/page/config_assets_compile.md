@@ -5,7 +5,7 @@ layout: page
 「true」の場合は、public/assetsのなかに必要なファイルを見つからなかった時に、app/assetsなどからファイルを探しコンパイルを行う
 
 ### 使い方
-    config.assets.compile = ( true | false )
+    config.assets.compile
 
 ### デフォルトの設定
 

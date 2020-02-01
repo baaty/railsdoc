@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-フラグメントキャッシュの参照
+フラグメントキャッシュの配列を取得
 
 ### 使い方
     combined_fragment_cache_key(キー名)

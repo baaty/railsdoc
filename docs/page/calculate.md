@@ -5,7 +5,17 @@ layout: page
 カラムを処理
 
 ### 使い方
-    モデル.calculate(条件, カラム名)
+    モデル.calculate(処理方法, カラム名)
+
+### 処理方法
+
+処理方法 | 説明
+---- | ----
+:count | カウント
+:sum | 合計値
+:average | 平均値
+:minimum | 最小値
+:maximum | 最大値
 
 ### 例
 #### pagesテーブルのカラム数

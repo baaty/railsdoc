@@ -15,6 +15,3 @@ layout: page
         load entry if entry =~ /.rb$/
       end
     end
-
-### ソースコード
-* [GitHub]()

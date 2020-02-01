@@ -8,3 +8,4 @@ layout: page
     config.middleware.swap
 
 ### 例
+    config.middleware.swap ActionController::Failsafe, Lifo::Failsafe

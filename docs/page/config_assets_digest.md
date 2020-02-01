@@ -5,7 +5,7 @@ layout: page
 assetにMD5フィンガープリントを使用
 
 ### 使い方
-    config.assets.digest = ( true | false )
+    config.assets.digest
 
 ### デフォルトの設定
 

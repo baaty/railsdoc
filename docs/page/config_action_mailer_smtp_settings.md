@@ -9,14 +9,14 @@ SMTPの設定
 
 ### オプション
 
-オプション           | 説明                                                                                                                                                         | デフォルト
---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------
-:address        | Allows you to use a remote mail server. Just change it from its default "localhost" setting.                                                               | localhost
-:port           | On the off chance that your mail server doesn't run on port 25, you can change it.                                                                         | 25
-:domain         | If you need to specify a HELO domain, you can do it here.                                                                                                  |
-:user_name      | If your mail server requires authentication, set the username in this setting.                                                                             |
-:password       | If your mail server requires authentication, set the password in this setting.                                                                             |
-:authentication | If your mail server requires authentication, you need to specify the authentication type here. This is a symbol and one of `:plain`, `:login`, `:cram_md5` |
+オプション           | 説明                                              | デフォルト
+----------------|---------------------------------------------------|----------
+:address        | リモートメールサーバのアドレス                                   | localhost
+:port           | ポート番号                                           | 25
+:domain         | HELOドメインを指定                                     |
+:user_name      | 認証が必要な場合のユーザ名                              |
+:password       | 認証が必要な場合のパスワード                              |
+:authentication | 認証が必要ば場合の認証タイプ(:plain, :login, :cram_md5) |
 
 ### 例
     config.action_mailer.smtp_settings = {

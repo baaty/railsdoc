@@ -5,7 +5,7 @@ layout: page
 アプリケーションのキャッシュの有無
 
 ### 使い方
-    config.action_controller.perform_caching = ( true | false )
+    config.action_controller.perform_caching
 
 ### デフォルトの設定
 

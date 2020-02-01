@@ -39,9 +39,11 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### ボタンを生成
     button("作成")
     # <button name='button' type='submit'>作成</button>
 
+#### ブロックでボタンを生成
     button do
       content_tag(:strong, 'Ask me!')
     end

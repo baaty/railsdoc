@@ -43,13 +43,16 @@ URL、スコープ、モデルなどからフォームタグを生成
     # <input type="text" name="post[title]">
     # </form>
 
-# モデルを指定してフォームを生成
+##### モデルを指定してフォームを生成
     <%= form_with model: Post.new do |form| %>
       <%= form.text_field :title %>
     <% end %>
     # <form action="/posts" method="post" data-remote="true">
     # <input type="text" name="post[title]">
     # </form>
+
+#### 開始タグのみ生成
+    form_with(model: @post, url: super_posts_path)
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L742)

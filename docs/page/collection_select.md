@@ -3,7 +3,7 @@ layout: page
 ---
 ### collection_select
 #### 説明
-選択ボックスをデータベースの情報を元に生成
+選択ボックスをモデルの情報を元に生成
 
 #### 使い方
     collection_select(オブジェクト名, メソッド名, 要素の配列, value属性の項目, テキストの項目 [, オプション or HTMLオプション])
@@ -61,7 +61,7 @@ layout: page
 
 ### f.collection_select
 #### 説明
-選択ボックスをデータベースの情報を元に生成
+選択ボックスをモデルの情報を元に生成
 
 #### 使い方
     f.collection_select(メソッド名, オブジェクトの配列, value属性の項目, テキストの項目 [, オプション or HTMLオプション])

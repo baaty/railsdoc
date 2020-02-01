@@ -9,17 +9,17 @@ layout: page
 
 ### オプション
 
-オプション     | 説明
------------- | --
-:lower | ローワーキャメルケース
-:upper | キャメルケース
+オプション     | 説明 | デフォルト値
+------------ | ----- | ---
+:lower | ローワーキャメルケース |
+:upper | キャメルケース | o
 
 ### 例
-##### 「product」を変換
+##### キャメルケース
     "product".camelize
     # "Product"
 
-#### 「backoffice/session」を変換
+#### 「/」を含む文字の変換
     "backoffice/session".camelize
     # "Backoffice::Session"
 

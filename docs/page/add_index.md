@@ -8,7 +8,7 @@ layout: page
     add_index(テーブル名, インデックスを付与するカラム名 [, オプション])
 
     change_tabe テーブル名 do |t|
-        t.index ンデックスを付与するフィールド名 [, オプション]
+        t.index インデックスを付与するフィールド名 [, オプション]
     end
 
 ### オプション
@@ -24,6 +24,7 @@ layout: page
 :opclass   | 特定の演算子クラスのインデックス | PostgreSQL
 :type      | 特定のタイプのインデックス | MySQL
 :algorithm | 特定のアルゴリズムのインデックス | PostgreSQL
+:internal  | 長さ制限をするか | false
 
 ### 例
 #### usersテーブルのnameカラムのインデックスを作成

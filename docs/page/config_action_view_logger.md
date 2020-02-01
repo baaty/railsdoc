@@ -8,4 +8,7 @@ layout: page
     config.action_view.logger
 
 ### 例
+#### ロガーの設定
+    config.action_view.logger = Log4r
+#### ロギングを無効
     config.action_view.logger = nil

@@ -31,19 +31,20 @@ layout: page
 :dir       | 表記方向
 :lang      | 基本言語
 
-#### 例
+### 例
+#### 画像サブミットボタンを生成
     image_submit_tag("login.png")
     # <input alt="Login" src="/images/login.png" type="image" />
 
-    image_submit_tag("purchase.png", disabled: true)
-    # <input alt="Purchase" disabled="disabled" src="/images/purchase.png" type="image" />
-
+#### class属性を付与
     image_submit_tag("search.png", class: 'search_button', alt: 'Find')
     # <input alt="Find" class="search_button" src="/images/search.png" type="image" />
 
+#### 無効化
     image_submit_tag("agree.png", disabled: true, class: "agree_disagree_button")
     # <input alt="Agree" class="agree_disagree_button" disabled="disabled" src="/images/agree.png" type="image" />
 
+#### data要素
     image_submit_tag("save.png", data: { confirm: "Are you sure?" })
     # <input alt="Save" src="/images/save.png" data-confirm="Are you sure?" type="image" />
 

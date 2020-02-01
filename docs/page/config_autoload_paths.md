@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-オートロード対象となるパスを追加する。Rails3からautoload_pathsの設定はデフォルトでは無効になっている
+オートロード対象となるパスを追加
+この設定の変更は非推奨
 
 ### 使い方
     config.autoload_paths += %W(#{config.root}/ディレクトリ名)

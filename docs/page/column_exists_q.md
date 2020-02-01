@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-指定したテーブルにカラムが存在するかチェックする
+指定したテーブルにカラムが存在するか？
 
 ### 使い方
     column_exists?(テーブル名, カラム名 [, 型, オプション])
@@ -13,7 +13,7 @@ layout: page
 -----------|------------------------------------------------|-------
 :limit     | カラムの桁数を指定                                    |
 :default   | デフォルト値を指定                                     |
-:null      | nill値を許可するか                                   | true
+:null      | NULL値を許可するか                                   | true
 :precision | :decimal、:numeric、:datetime、および:time型の精度を指定 |
 :scale     | :decimal、:numeric型の小数点以下の桁数              |
 :collation | :stringまたは;textの照合順序を指定                    |

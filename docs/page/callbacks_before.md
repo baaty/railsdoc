@@ -17,6 +17,3 @@ layout: page
 
       require 'example/my_class'
     end
-
-### ソースコード
-* [GitHub]()

@@ -2,14 +2,14 @@
 layout: page
 ---
 ### 説明
-アクセスのたびにアプリケーションクラスのリロードするかの設定を行います
+アクセスのたびにアプリケーションクラスのリロードするかの設定
 
 ### 使い方
 #### リロードしない
-    cache_classes = true
+    config.cache_classes = true
 
 #### リロードする
-    cache_classes = false
+    config.cache_classes = false
 
 ### デフォルトの設定
 

@@ -11,10 +11,10 @@ layout: page
 
 ### 例
 #### モデルオブジェクトを生成
-    user = User.new
+    User.new
 
 #### 属性を設定してモデルオブジェクトを生成
-    user = User.new(name: "tarou")
+    User.new(name: "tarou")
 
-#### 属性を設定してモデルオブジェクトを生成(Ruby1.9以上)
-    user = User.new(name: "tarou")
+#### 属性を設定してモデルオブジェクトを生成
+    User.new(name: "tarou")

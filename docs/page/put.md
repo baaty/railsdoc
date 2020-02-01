@@ -17,6 +17,7 @@ PUTリクエスト
 :as                  | ルート名を指定
 
 ### 例
+#### PUTリクエスト
     put 'bacon', to: 'food#bacon'
 
 ### ソースコード

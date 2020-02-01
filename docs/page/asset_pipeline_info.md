@@ -2,7 +2,7 @@
 layout: page
 ---
 ### アセットパイプラインとは
-JavaScriptやCSSを結合したり圧縮したりする。また、CoffeeScriptやSass、ERBの言語を使ってJavaScriptやCSSを書くことも可能
+JavaScriptやCSSを結合したり圧縮して連結するためのフレームワーク。また、CoffeeScriptやSass、ERBの言語を使ってJavaScriptやCSSを書くことも可能
 
 ### 特徴
 * JavaScriptやCSSを結合することによって、ブラウザでのリクエスト回数を削減
@@ -21,17 +21,6 @@ JavaScriptやCSSを結合したり圧縮したりする。また、CoffeeScript�
 |/assets/style.js<ファイル名>       | app/assets/stylesheets/style.js
 |/assets/lib_test.js           | /lib/assets/lib.js
 |/assets/vendort.js            | /vendor/assets/vendort.js
-
-### アクセスの流れ
-1. ブラウザから「/assets/application.js」にアクセス
-
-* app/assets/javascripts/application.js
-* app/assets/javascripts/application.js.coffeeなど
-* app/assets/stylesheets/application.jsなど
-* app/assets/stylesheets/application.js.sassなど
-* ・・・
-
-2. 対象ファイルが無ければ404
 
 ### その他
 #### Asset Pipelineのパスの確認法法

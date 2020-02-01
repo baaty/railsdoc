@@ -27,6 +27,9 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 範囲選択バーを生成
+    range_field(:product, :discount, in: 1..100)
+
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1522)
 
@@ -56,6 +59,8 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 範囲選択バーを生成
+    f.range_field(:discount, in: 1..100)
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1904)

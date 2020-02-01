@@ -21,7 +21,7 @@ assetファイルへのパスを取得
     # "/assets/application-60aa4fdc5cea14baf5400fba1abf4f2a46a5166bad4772b1effe341570f07de9.js"
 
 #### assetsのpathを付けない
-    asset_path("application.js", skip_pipeline: true)
+    asset_path "application.js", skip_pipeline: true
     # "application.js"
 
 #### javascriptへのパスを取得
@@ -33,7 +33,7 @@ assetファイルへのパスを取得
     # /stylesheets/application.css
 
 #### 絶対パス指定
-    asset_path("/foo.png")
+    asset_path "/foo.png"
     # "/foo.png"
 
 #### URLを指定してパスを取得
@@ -41,7 +41,7 @@ assetファイルへのパスを取得
     # http://www.example.com/js/xmlhr.js
 
 #### 拡張子指定
-    asset_path("foo", skip_pipeline: true, extname: ".js")
+    asset_path "foo", skip_pipeline: true, extname: ".js"
     # "/foo.js"
 
 ### ソースコード

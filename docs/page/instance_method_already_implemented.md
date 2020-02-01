@@ -2,21 +2,17 @@
 layout: page
 ---
 ### 説明
-例外が発生するかチェック
+例外が発生するか？
 
 ### 使い方
     モデル.instance_method_already_implemented?(属性)
 
 ### 例
-    class Person < ActiveRecord::Base
-      def save
-        'already defined by Active Record'
-      end
-    end
-
+#### 例外が発生する
     Person.instance_method_already_implemented?(:save)
     # ActiveRecord::DangerousAttributeError: save is defined by ActiveRecord
 
+#### 例外が発生しない
     Person.instance_method_already_implemented?(:name)
     # false
 

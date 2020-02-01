@@ -17,8 +17,10 @@ layout: page
 :error    | ステータスコードが500〜599
 
 ### 例
+#### ステータスコードの検証
     assert_response :redirect
 
+#### ステータスコードが401
     assert_response 401
 
 ### ソースコード

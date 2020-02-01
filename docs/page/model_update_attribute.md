@@ -2,15 +2,15 @@
 layout: page
 ---
 ### 説明
-属性ハッシュを指定して更新
+条件に一致するレコードを更新
+検証はスキップ
 
 ### 使い方
-    モデル.update_attribute = { カラム名 = 値 }
+    モデル.update_attribute(カラム名, 値)
 
 ### 例
-
-#### 属性の変更・保存メソッド
-    @user.update_attribute = { :username = 'A' }
+#### 条件に一致するレコードを更新
+    @user.update_attribute(:name, "hoge")
 
 ### 更新メソッドの種類
 

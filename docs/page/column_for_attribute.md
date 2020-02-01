@@ -2,10 +2,10 @@
 layout: page
 ---
 ### 説明
-データベースから取得したレコードのカラム名を取得
+指定したカラム名のオブジェクトを取得
 
 ### 使い方
-    モデル.column_for_attribute[:カラム名]
+    モデル.column_for_attribute[カラム名]
 
 ### 例
 #### pageのtitleを取得

@@ -9,6 +9,7 @@ layout: page
 
 
 ### 例
+#### 全ての検証をクリア
     Person.clear_validators!
 
 ### ソースコード

@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-データベーススキーマの出力形式を変更する。デフォルトは、「:ruby」
+データベーススキーマの出力形式を変更
+デフォルトは、「:ruby」
 
 ### 使い方
     config.active_record.schema_format = 形式

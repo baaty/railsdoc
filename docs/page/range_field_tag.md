@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+### 説明
+範囲選択バーを生成
+
 ### 使い方
     range_field_tag(要素名 [, 値, オプション])
 
@@ -27,6 +30,8 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### 範囲選択バーを生成
+range_field_tag :volume
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L815)

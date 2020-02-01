@@ -1,8 +1,11 @@
 ---
 layout: page
 ---
+#### 説明
+ラジオボタンを生成
+
 ### 使い方
-    radio_button_tag(要素名, 値 [, checked = false, オプション or HTMLオプション])
+    radio_button_tag(要素名, value値 [, checked = false, オプション or HTMLオプション])
 
 ### オプション
 
@@ -29,13 +32,13 @@ layout: page
 :lang      | 基本言語
 
 ### 例
-#### ラジオボックスOFF
+#### ラジオボタンOFF
     Railsの基礎知識: <%= radio_button_tag 'page[category]', 'rails_base' %><br />
     Rubeの基礎知識: <%= radio_button_tag 'page[category]', 'ruby_base' %>
     # Railsの基礎知識: <input id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
     # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
 
-#### ラジオボックスON
+#### ラジオボタンON
     Railsの基礎知識: <%= radio_button_tag 'page[category]', 'rails_base' %><br />
     Rubeの基礎知識: <%= radio_button_tag 'page[category]', 'ruby_base' %>
     # Railsの基礎知識: <input checked="checked" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />

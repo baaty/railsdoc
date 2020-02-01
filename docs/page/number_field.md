@@ -12,6 +12,10 @@ layout: page
 
 オプション      | 説明
 ---------- | ------------------
+:min       | 最少値
+:max       | 最大値
+:in        | 最少値から最大値
+:step      | 許容値の粒度
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
 :accept    | フォームで受付可能なMIMEタイプ
@@ -27,6 +31,9 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 数値入力ボックスを生成
+    number_field :product, :price
+
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1514)
 
@@ -41,6 +48,10 @@ layout: page
 
 オプション      | 説明
 ---------- | ------------------
+:min       | 最少値
+:max       | 最大値
+:in        | 最少値から最大値
+:step      | 許容値の粒度
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
 :accept    | フォームで受付可能なMIMEタイプ
@@ -56,6 +67,8 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 数値入力ボックスを生成
+    f.number_field :confirmed
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1891)

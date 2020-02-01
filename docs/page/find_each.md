@@ -24,5 +24,13 @@ layout: page
       person.do_awesome_stuff
     end
 
+#### 同時処理数を10
+    Post.find_each(:batch_size => 10) do |post|
+    end
+
+#### 開始位置を指定
+    Person.find_each(start: 2000, batch_size: 2000) do |person|
+    end
+
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/relation/batches.rb#L67)

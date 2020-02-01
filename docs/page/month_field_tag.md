@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+### 説明
+月の入力欄を生成
+
 ### 使い方
     month_field_tag(要素名 [, 値, オプション or HTMLオプション])
 
@@ -8,8 +11,8 @@ layout: page
 
 オプション | 説明
 ------|-------
-:min  | 最少許容値
-:max  | 最大許容値
+:min  | 最少値
+:max  | 最大値
 :step | 許容値の粒度
 
 ### HTMLオプション
@@ -31,7 +34,11 @@ layout: page
 :lang        | 基本言語
 
 ### 例
+#### 月のテキストフィールドを生成
     month_field_tag :published_month
+
+#### 最小値を設定
+    month_field_tag(:published_month, :min => DateTime.new(2020, 1, 1)
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L704)

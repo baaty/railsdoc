@@ -112,5 +112,11 @@
         "id": 18,
         "name": "その他",
         "description": "その他"
+    },
+    {
+        "english_name": "deprecated",
+        "id": 99,
+        "name": "廃止",
+        "description": "最新のバージョンでは廃止になっているメソッドなど"
     }
 ]

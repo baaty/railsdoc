@@ -8,6 +8,7 @@ layout: page
     html_escape_once(文字列)
 
 ### 例
+#### HTMLタグをエスケープ
     html_escape_once('&lt;&lt; Accept & Checkout')
     # "&lt;&lt; Accept &amp; Checkout"
 

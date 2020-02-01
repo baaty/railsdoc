@@ -21,11 +21,11 @@ layout: page
 
 ### 例
 #### バイト単位に変換
-    <%= number_to_human_size(123456789) %>
+    number_to_human_size 123456789
     # 118 MB
 
 #### 小数以下の桁数を指定
-    <%= number_to_human_size(524288000, precision: 5) %>
+    number_to_human_size 524288000, precision: 5
     # 500 MB
 
 ### ソースコード

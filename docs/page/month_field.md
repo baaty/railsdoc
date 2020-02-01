@@ -12,8 +12,8 @@ layout: page
 
 オプション      | 説明
 ---------- | ------------------
-:min       | 最少許容値
-:max       | 最大許容値
+:min       | 最少値
+:max       | 最大値
 :step      | 許容値の粒度
 
 #### HTMLオプション
@@ -35,6 +35,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 月の入力欄を生成
     month_field("user", "born_on")
     # <input id="user_born_on" name="user[born_on]" type="month" />
 
@@ -52,8 +53,8 @@ layout: page
 
 オプション      | 説明
 ---------- | ------------------
-:min       | 最少許容値
-:max       | 最大許容値
+:min       | 最少値
+:max       | 最大値
 :step      | 許容値の粒度
 
 #### HTMLオプション
@@ -72,6 +73,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 月の入力欄を生成
     f.month_field("user", "born_on")
     # <input id="user_born_on" name="user[born_on]" type="month" />
 

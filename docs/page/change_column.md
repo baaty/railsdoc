@@ -13,7 +13,7 @@ layout: page
 ---------- | -------------------
 :limit     | カラムの桁数を指定
 :default   | デフォルト値を指定
-:null      | nill値を許可するか
+:null      | NULL値を許可するか
 :precision | :decimal 型の精度を指定
 :scale     | :decimal 型の小数点以下の桁数
 :collation | :stringまたは:textの照合順序を指定

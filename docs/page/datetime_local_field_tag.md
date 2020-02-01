@@ -6,7 +6,7 @@ layout: page
 datetime_field_tagの別名
 
 ### 使い方
-    datetime_local_field_tag(要素名 [, 値, オプション])
+    datetime_local_field_tag(要素名 [, 値, オプション or HTMLオプション])
 
 ### オプション
 
@@ -36,6 +36,7 @@ datetime_field_tagの別名
 :lang      | 基本言語
 
 ### 例
+#### ローカル日時の入力欄を生成
     datetime_local_field_tag :published
     # <input type="datetime-local" name="published" id="published">
 

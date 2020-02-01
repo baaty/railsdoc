@@ -27,6 +27,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 日付の入力欄を生成
     date_field("user", "born_on")
     # <input id="user_born_on" name="user[born_on]" type="date" />
 
@@ -59,6 +60,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 日付の入力欄を生成
     f.date_field("user", "born_on")
     # <input id="user_born_on" name="user[born_on]" type="date" />
 

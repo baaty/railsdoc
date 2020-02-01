@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-タグ付きログの設定をする
+タグ付きログの設定
 
 ### 使い方
     config.log_tags

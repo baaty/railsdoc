@@ -15,11 +15,10 @@ layout: page
 
 #### 動的にレイアウトを変える
     layout :writers_and_readers
-
     private
     def writers_and_readers
-    &nbsp;&nbsp;logged_in? ? "writer_layout" : "reader_layout"
-     end
+      logged_in? ? "writer_layout" : "reader_layout"
+    end
 
 #### 特定のアクションのみにレイアウトを指定
     layout weblog_standard, only: :rss

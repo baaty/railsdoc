@@ -5,7 +5,7 @@ layout: page
 非推奨の警告を表示するかどうかの設定
 
 ### 使い方
-    ActiveSupport::Deprecation.silenced = ( true | false )
+    ActiveSupport::Deprecation.silenced
 
 ### 例
     ActiveSupport::Deprecation.silenced = true

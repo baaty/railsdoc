@@ -5,7 +5,7 @@ layout: page
 検証の直後に呼び出されるメソッド
 
 ### 使い方
-    after_validation(引数 [, ...])
+    after_validation(メソッド名 [, ...])
 
 ### 例
     after_validation :set_status

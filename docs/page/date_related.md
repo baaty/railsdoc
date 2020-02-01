@@ -37,7 +37,7 @@ layout: page
 
 ### prev_year
 #### 説明
-去年の日付を取得
+前の年の日付を取得
 
 #### 使い方
     日付.prev_year
@@ -54,7 +54,7 @@ layout: page
 
 ### next_year
 #### 説明
-来年の日付を取得
+次の年の日付を取得
 
 #### 使い方
     日付.next_year
@@ -71,7 +71,7 @@ layout: page
 
 ### prev_month
 #### 説明
-先月の日付を取得
+前の月の日付を取得
 
 #### 使い方
     日付.prev_month
@@ -88,7 +88,7 @@ layout: page
 
 ### next_month
 #### 説明
-来月の日付を取得
+次の月の日付を取得
 
 #### 使い方
     日付.next_month

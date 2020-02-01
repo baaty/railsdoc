@@ -5,13 +5,16 @@ layout: page
 テーブルに外部キー制約が存在するか
 
 ### 使い方
-    foreign_key_exists?(from_table, to_table = nil, **options)
+    foreign_key_exists?(from_table [, to_table = nil, オプション])
 
 ### 例
+#### テーブルに外部キー制約が存在するか
     foreign_key_exists?(:accounts, :branches)
 
+#### カラムを指定
     foreign_key_exists?(:accounts, column: :owner_id)
 
+#### nameを指定
     foreign_key_exists?(:accounts, name: "special_fk_name")
 
 ### ソースコード

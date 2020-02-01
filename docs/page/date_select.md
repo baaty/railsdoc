@@ -6,12 +6,12 @@ layout: page
 日付の入力に特化した選択ボックスを生成
 
 #### 使い方
-    date_select(オブジェクト名, メソッド名 [, オプション])
+    date_select(オブジェクト名, メソッド名 [, オプション or HTMLオプション])
 
 #### オプション
 
 オプション                  | 説明
------------------------|-------------------
+-----------------------|---------------
 :use_month_numbers     | 月を数字で表示
 :use_two_digit_numbers | 月と日を2桁表示
 :use_short_month       | 月名を省略形で表示
@@ -33,20 +33,26 @@ layout: page
 :disabled              | 無効化
 :prompt                | 選択値の一番上を指定
 :with_css_classes      | スタイルを変更するタグの設定
-:discard_type          | 名前の型を破棄
-:prefix                | 名前の接頭辞を設定
-:size                  | フォームの幅
-:maxlength             | 入力フィールドに入力可能な最大文字数
-:accept                | フォームで受付可能なMIMEタイプ
-:readonly              | フォームの内容変更禁止
-:tabindex              | Tabキーによる入力欄の移動順
-:accesskey             | フォームに移動するショートカットキー
-:id                    | 要素固有の識別子
-:class                 | 要素を分類するクラス名
-:title                 | 要素の補足情報
-:style                 | 要素の補足情報
-:dir                   | 表記方向
-:lang                  | 基本言語
+:use_hidden            | 非表示のタグのみ生成
+
+#### HTMLオプション
+
+オプション         | 説明
+--------------|-------------------
+:discard_type | 名前の型を破棄
+:prefix       | 名前の接頭辞を設定
+:size         | フォームの幅
+:maxlength    | 入力フィールドに入力可能な最大文字数
+:accept       | フォームで受付可能なMIMEタイプ
+:readonly     | フォームの内容変更禁止
+:tabindex     | Tabキーによる入力欄の移動順
+:accesskey    | フォームに移動するショートカットキー
+:id           | 要素固有の識別子
+:class        | 要素を分類するクラス名
+:title        | 要素の補足情報
+:style        | 要素の補足情報
+:dir          | 表記方向
+:lang         | 基本言語
 
 #### 例
 ##### 基本形(オプションなし)
@@ -93,12 +99,12 @@ layout: page
 日付の入力に特化した選択ボックスを生成
 
 #### 使い方
-    f.date_select(メソッド名 [, オプション])
+    f.date_select(メソッド名 [, オプション or HTMLオプション])
 
 #### オプション
 
 オプション                  | 説明
------------------------|-------------------
+-----------------------|---------------
 :use_month_numbers     | 月を数字で表示
 :use_two_digit_numbers | 月と日を2桁表示
 :use_short_month       | 月名を省略形で表示
@@ -120,20 +126,26 @@ layout: page
 :disabled              | 無効化
 :prompt                | 選択値の一番上を指定
 :with_css_classes      | スタイルを変更するタグの設定
-:discard_type          | 名前の型を破棄
-:prefix                | 名前の接頭辞を設定
-:size                  | フォームの幅
-:maxlength             | 入力フィールドに入力可能な最大文字数
-:accept                | フォームで受付可能なMIMEタイプ
-:readonly              | フォームの内容変更禁止
-:tabindex              | Tabキーによる入力欄の移動順
-:accesskey             | フォームに移動するショートカットキー
-:id                    | 要素固有の識別子
-:class                 | 要素を分類するクラス名
-:title                 | 要素の補足情報
-:style                 | 要素の補足情報
-:dir                   | 表記方向
-:lang                  | 基本言語
+:use_hidden            | 非表示のタグのみ生成
+
+#### HTMLオプション
+
+オプション         | 説明
+--------------|-------------------
+:discard_type | 名前の型を破棄
+:prefix       | 名前の接頭辞を設定
+:size         | フォームの幅
+:maxlength    | 入力フィールドに入力可能な最大文字数
+:accept       | フォームで受付可能なMIMEタイプ
+:readonly     | フォームの内容変更禁止
+:tabindex     | Tabキーによる入力欄の移動順
+:accesskey    | フォームに移動するショートカットキー
+:id           | 要素固有の識別子
+:class        | 要素を分類するクラス名
+:title        | 要素の補足情報
+:style        | 要素の補足情報
+:dir          | 表記方向
+:lang         | 基本言語
 
 #### 例
     <%= form_for @person do |f| %>

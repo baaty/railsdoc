@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-関連オブジェクトから新しいモデルを作成
+関連オブジェクトから新しいレコードを作成
 「nil」を引数で渡すと属性をリセットすることができる
 
 ### 使い方
@@ -10,10 +10,6 @@ layout: page
 
 ### 例
 #### 関連オブジェクトから新しいモデルを作成
-    users = User.where(name: 'Oscar')
-    users.new.name
-    # 'Oscar'
-
     users = users.create_with(name: 'DHH')
     users.new.name
     # 'DHH'

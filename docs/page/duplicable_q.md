@@ -8,12 +8,15 @@ layout: page
     duplicable?
 
 ### 例
+#### 複製可能
     "hoge".duplicable?
     # true
 
+#### 空文字の場合
     "".duplicable?
     # true
 
+#### 複製不可能
     method(:puts).unbind.duplicable?
     # false
 

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-ミドルウェアスタックを削除する
+ミドルウェアスタックを削除
 
 ### 使い方
     config.middleware.delete

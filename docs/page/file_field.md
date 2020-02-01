@@ -26,6 +26,7 @@ layout: page
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+:value     | 初期値
 
 #### 例
 ##### オプションなし
@@ -63,6 +64,7 @@ layout: page
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+:value     | 初期値
 
 #### 例
 ##### オプションなし

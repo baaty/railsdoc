@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-ロケールファイルへのパス。デフォルトは、「config/locales/*.{yml,rb}」
+ロケールファイルへのパス
+デフォルトは、「config/locales/*.{yml,rb}」
 
 ### 使い方
     config.i18n.load_path

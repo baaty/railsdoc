@@ -20,16 +20,17 @@ layout: page
 :error_on_ignore | 例外を発生させる |
 
 ### 例
+#### 分割してレコードを取得して処理
     Person.where("age > 21").in_batches do |relation|
       relation.delete_all
       sleep(10) # Throttle the delete queries
     end
 
+#### 分割して取得して削除
     Person.in_batches.delete_all
 
+#### 分割して取得して更新
     Person.in_batches.update_all(awesome: true)
-
-    Person.in_batches.each_record(&:party_all_night!)
 
 ### 補足
 * find_in_batchesとの違いはActiveRecord::Relationで値を返す

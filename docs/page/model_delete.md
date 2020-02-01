@@ -2,12 +2,14 @@
 layout: page
 ---
 ### 説明
-モデルを削除
+指定した条件に一致するレコードをSQLを直接実行して削除
+関連付けられたモデルは削除しない
 
 ### 使い方
-    モデル.delete([引数 or 配列])
+    モデル.delete(条件)
 
 ### 例
+#### レコードを削除
     person.pets.delete(Pet.find(1))
     # [<Pet id: 1, name: "Fancy-Fancy", person_id: 1>]
 

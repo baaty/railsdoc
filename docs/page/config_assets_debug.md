@@ -5,7 +5,7 @@ layout: page
 Assetの結合と圧縮の設定
 
 ### 使い方
-    config.assets.debug = ( true | false )
+    config.assets.debug
 
 ### デフォルトの設定
 

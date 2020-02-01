@@ -8,6 +8,7 @@ OR条件式
     モデル.or(条件式)
 
 ### 例
+#### OR条件式
     Post.where("id = 1").or(Post.where("author_id = 3"))
     # SELECT `posts`.* FROM `posts` WHERE ((id = 1) OR (author_id = 3))
 

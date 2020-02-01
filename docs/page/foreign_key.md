@@ -6,15 +6,18 @@ layout: page
 separate_class_name_and_id_with_underscoreがfalseでアンダーバーなし
 
 ### 使い方
-    文字列.foreign_key([separate_class_name_and_id_with_underscore = true])
+    文字列.foreign_key([名前とidの間にアンダーバーを入れるか = true])
 
 ### 例
+#### クラス名から外部キーの名前を生成
     'Message'.foreign_key
     # "message_id"
 
+#### 名前とidの間にアンダーバーを入れない
     'Message'.foreign_key(false)
     # "messageid"
 
+#### 親クラスがある場合
     'Admin::Post'.foreign_key
     # "post_id"
 

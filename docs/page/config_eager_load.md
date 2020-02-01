@@ -5,7 +5,7 @@ layout: page
 「true」のとき、eager_loadを使用
 
 ### 使い方
-    config.eager_load = ( true | false )
+    config.eager_load
 
 ### 例
     config.eager_load = true

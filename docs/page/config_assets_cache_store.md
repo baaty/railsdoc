@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-キャッシュストアの設定。デフォルトは、「Rails file store」
+キャッシュストアの設定
+デフォルトは、「Rails file store」
 
 ### 使い方
     config.assets.cache_store

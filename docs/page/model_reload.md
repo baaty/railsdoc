@@ -2,12 +2,13 @@
 layout: page
 ---
 ### 説明
-データベースからレコードを再取得する
+レコードを再取得
 
 ### 使い方
     モデル.reload
 
 ### 例
+#### レコードを再取得
     @page = Page.find(1)
     # SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", 1]]
     @page.reload

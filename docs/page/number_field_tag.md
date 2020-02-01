@@ -1,16 +1,19 @@
 ---
 layout: page
 ---
+### 説明
+数値入力ボックスを生成
+
 ### 使い方
-    number_field_tag(要素名 [, 値, オプション])
+    number_field_tag(要素名 [, value値, オプション])
 
 #### オプション
 
 オプション      | 説明
 ---------- | ------------------
-:min       | 最少許容値
-:max       | 最大許容値
-:in        | 最少許容値から最大許容値
+:min       | 最少値
+:max       | 最大値
+:in        | 最少値から最大値
 :step      | 許容値の粒度
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
@@ -27,18 +30,23 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 数値入力ボックスを生成
     number_field_tag 'quantity'
     # <input id="quantity" name="quantity" type="number" />
 
+##### 値を指定
     number_field_tag 'quantity', '1'
     # <input id="quantity" name="quantity" type="number" value="1" />
 
+##### class属性を付与
     number_field_tag 'quantity', nil, class: 'special_input'
     # <input class="special_input" id="quantity" name="quantity" type="number" />
 
+##### 最小値を指定
     number_field_tag 'quantity', nil, min: 1
     # <input id="quantity" name="quantity" min="1" type="number" />
 
+##### 最大値を指定
     number_field_tag 'quantity', nil, max: 9
     # <input id="quantity" name="quantity" max="9" type="number" />
 

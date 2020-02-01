@@ -8,12 +8,16 @@ layout: page
     assert_generates(パス, オプション [, nil, 追加のパラメータ, メッセージ])
 
 ### 例
+#### 指定したパスが生成できるか検証
     assert_generates "/items", controller: "items", action: "index"
 
+#### itemsコントローラにlistアクションがあるか
     assert_generates "/items/list", controller: "items", action: "list"
 
+#### itemsコントローラのlistアクションにid=1があるか
     assert_generates "/items/list/1", { controller: "items", action: "list", id: "1" }
 
+#### カスタムしたルーティング
     assert_generates "changesets/12", { controller: 'scm', action: 'show_diff', revision: "12" }
 
 ### ソースコード

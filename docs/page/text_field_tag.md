@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 使い方
-    text_field_tag(要素名 [, 値, オプション or HTMLオプション])
+    text_field_tag(要素名 [, value値, オプション or HTMLオプション])
 
 ### オプション
 

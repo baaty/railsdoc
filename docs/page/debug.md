@@ -8,6 +8,7 @@ layout: page
     debug(オブジェクト)
 
 ### 例
+#### デバッグ表示
     debug(@categories)
     # [#<Category id: 1, name: "Railsの基礎知識">, #<Category id: 2, name: "Rubyの基礎知識">]
 

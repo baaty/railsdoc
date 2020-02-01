@@ -21,18 +21,19 @@ labelタグを生成
 :lang      | 基本言語
 
 #### 例
+##### labelタグを生成
     label(:post, :cost)
     # <label for="post_cost">Total cost</label>
 
+##### ラベル名を指定
     label(:post, :title, "A short title")
     # <label for="post_title">A short title</label>
 
+#### class属性を付与
     label(:post, :title, "A short title", class: "title_label")
     # <label for="post_title" class="title_label">A short title</label>
 
-    label(:post, :privacy, "Public Post", value: "public")
-    # <label for="post_privacy_public">Public Post</label>
-
+#### ブロック指定
     label(:post, :terms) do
       raw('Accept <a href="/terms">Terms</a>.')
     end
@@ -70,7 +71,7 @@ labelタグを生成
     # <label for="page_name">abc</label>
 
 ##### class属性の指定
-    f.label :name, '', :class = 'page_name'
+    f.label :name, '', class: 'page_name'
     # <label class="page_name" for="page_name">Name</label>
 
 #### ソースコード

@@ -2,10 +2,11 @@
 layout: page
 ---
 ### 説明
-ログを出力する時に、ANSIカラーコードを使用するかどうかを指定する。デフォルトはtrue
+ログを出力する時に、ANSIカラーコードを使用するかどうかを指定
+デフォルトはtrue
 
 ### 使い方
-    config.colorize_logging = (true or false)
+    config.colorize_logging
 
 ### 例
     config.active_record.colorize_logging = false

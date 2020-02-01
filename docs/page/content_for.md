@@ -16,16 +16,7 @@ layout: page
 :flush   | スタックを削除
 
 ### 例
-レイアウトに複数のコンテンツを設定
-
-    layouts/xxx
-    ・・・
-    <%=  yield :extend_menu %>
-    ・・・
-    <%= yield %>
-    ・・・
-
-    views/xxx
+#### レイアウトに複数のコンテンツを設定
     <% content_for :extend_menu do %>
       [<%= link_to 文字列A, action: "A" %>]
       [<%= link_to 文字列B, action: "B" %>]

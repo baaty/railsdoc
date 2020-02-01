@@ -6,7 +6,7 @@ layout: page
 日時の入力欄を生成
 
 #### 使い方
-    datetime_field(要素名 [, 値, オプション])
+    datetime_field(要素名 [, value値, オプション or HTMLオプション])
 
 ### オプション
 
@@ -61,7 +61,7 @@ layout: page
 日時の入力欄を生成
 
 #### 使い方
-    f.datetime_field(要素名 [, 値, オプション])
+    f.datetime_field(要素名 [, 値, オプション or HTMLオプション])
 
 ### オプション
 

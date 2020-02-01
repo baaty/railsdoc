@@ -2,12 +2,13 @@
 layout: page
 ---
 ### 説明
-モデルが保存される前に変更された値をハッシュで取得
+保存される前に変更された値をハッシュで取得
 
 ### 使い方
-    モデル.previous_changes
+    モデル.previous_changes()
 
 ### 例
+#### 保存される前に変更された値をハッシュで取得
     person.name # "bob"
     person.name = 'robert'
     person.save

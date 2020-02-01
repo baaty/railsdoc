@@ -2,16 +2,10 @@
 layout: page
 ---
 ### 説明
-配列・ハッシュから選択肢を生成する
+配列・ハッシュから選択肢を生成
 
 ### 使い方
-    options_for_select(タグの配列 or ハッシュ [, オプション])
-
-#### オプション
-
-オプション  | 説明
---------- | ----------
-:selected | 選択されたオプション
+    options_for_select(要素の配列 or ハッシュ [, 選択された要素])
 
 ### 例
 #### タグの情報を配列で指定
@@ -29,11 +23,8 @@ layout: page
     # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
     # <option value="ruby_base">Rubyの基礎</option></select>
 
-#### HTML属性あり
-    options_for_select([ "Denmark", ["USA", { class: 'bold' }], "Sweden" ], ["USA", "Sweden"])
-    # <option value="Denmark">Denmark</option>
-    # <option value="USA" class="bold" selected="selected">USA</option>
-    # <option value="Sweden" selected="selected">Sweden</option>
+#### 選択された要素あり
+    options_for_select([['Japanese', 'JPN']], 'JPN')
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_options_helper.rb#L357)

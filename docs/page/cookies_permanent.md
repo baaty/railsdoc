@@ -8,3 +8,4 @@ layout: page
     cookies.permanent[クッキー名] = 値
 
 ### 例
+    cookies.permanent[:user_name] = "Jamie"

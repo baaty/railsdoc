@@ -5,12 +5,19 @@ layout: page
 アクションの前に処理を実行
 
 ### 使い方
-    before_action 名前 [, only: アクション名]
+    before_action(アクション名 [, オプション])
+
+### オプション
+
+オプション   | 説明
+--------|-----------
+:only   | 実行するアクション
+:except | 実行しないアクション
 
 ### 例
-    before_action :login
-    def login
-      redirect_to login_url unless signed_in?
+    before_action :render_form, only: [:new :edit]
+    def render_form
+      render 'form'
     end
 
 

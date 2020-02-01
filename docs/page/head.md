@@ -24,9 +24,14 @@ layout: page
 :internal_server_error | 500 | 内部サーバエラー
 
 ### 例
+#### 応答ステータスとヘッダ情報のみを表示
     head :created, location: person_path(@person)
 
-    head :created, location: @person
+#### ステータスコード200
+    head :ok
+
+#### ステータスコード404
+    head :not_found
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/action_controller/metal/head.rb#L21)

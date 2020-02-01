@@ -9,15 +9,15 @@ layout: page
 
 ### オプション
 
-オプション | 説明                     | バージョン
--------- | ----------------------- | --------
-:size    | 画像サイズ(幅x高さ)        |
-:srcset  |                          |
+オプション   | 説明
+--------|----------------------
+:size   | 画像サイズ(幅x高さ)
+:srcset | ウィンドウサイズに合わせて画像を切り替える
 
 ### HTMLオプション
 
-オプション  | 説明
---------- | -----------------
+オプション     | 説明
+----------|------------------
 :src      | 画像ファイルのパス
 :alt      | alt属性
 :longdesc | 画像の説明文章のパス
@@ -36,20 +36,24 @@ layout: page
 
 ### 例
 #### icon.png画像を表示
-    <%= image_tag("icon.png") %>
+    image_tag "icon.png"
     # <img alt="Icon" src="/images/icon.png" />
 
 #### 16x16でaltがEdit Entryのicon.png画像を表示
-    <%= image_tag("icon.png", size: "16x16", alt: "アイコン") %>
+    image_tag "icon.png", size: "16x16", alt: "アイコン"
     # <img alt="アイコン" height="16" src="/images/icon.png" width="16" />
 
 #### classがmenu_iconのicon.png画像を表示
-    <%= image_tag("/icons/icon.gif", class: "menu_icon") %>
+    image_tag "/icons/icon.gif", class: "menu_icon"
     # <img alt="Icon" class="menu_icon" src="/images/icon.png" />
 
 #### 画像のリンクを生成
-    <%= link_to image_tag("logo.png"), action: "index" %>
+    link_to image_tag("logo.png"), action: "index"
     # <a href="/blogs"><img alt="Logo" src="/images/logo.png" /></a>
+
+#### ウィンドウサイズに合わせて画像を切り替える
+    image_tag "icon.png", srcset: { "icon_2x.png" => "2x", "icon_4x.png" => "4x" }
+    # <img src="/assets/icon.png" srcset="/assets/icon_2x.png 2x, /assets/icon_4x.png 4x">
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/asset_tag_helper.rb#L340)

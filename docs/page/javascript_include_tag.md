@@ -2,10 +2,10 @@
 layout: page
 ---
 ### 説明
-外部のJacaScriptファイルをインクルード
+JacaScriptファイルをインクルード
 
 ### 使い方
-    javascript_include_tag JavaScriptファイルへのパス [, オプション]
+    javascript_include_tag(JavaScriptファイルへのパス [, オプション])
 
 ### JavaScriptファイルへのパスの予約語
 
@@ -22,41 +22,37 @@ layout: page
 :protocol | プロトコルを指定
 :host     | 相対パスの場合にホストを追加
 :skip_pipeline | アセットパイプラインをスキップ
-:nonce |
+:nonce | nonce属性
 
 ### 例
-#### 外部のJacaScriptファイルをインクルードタグの生成
-    <%= javascript_include_tag "example" %>
-    # <script src="/javascripts/example.js" type="text/javascript"></script>
+#### JacaScriptファイルをインクルード
+    javascript_include_tag "xmlhr"
+    # <script src="/assets/xmlhr.debug-1284139606.js"></script>
 
-#### 外部のJacaScriptファイルをインクルードタグの生成
-    <%= javascript_include_tag "example.js" %>
-    # <script src="/javascripts/example.js" type="text/javascript"></script>
+#### ホストを指定
+    javascript_include_tag "xmlhr", host: "localhost", protocol: "https"
+    # <script src="https://localhost/assets/xmlhr.debug-1284139606.js"></script>
 
-#### JacaScriptファイルを複数指定
-    <%= javascript_include_tag "example1", "example2" %>
-    # <script src="/javascripts/example1.js" type="text/javascript"></script>
-    # <script src="/javascripts/example2.js" type="text/javascript"></script>
+#### 拡張子を指定
+    javascript_include_tag "template.jst", extname: false
+    # <script src="/assets/template.debug-1284139606.jst"></script>
 
-#### 外部サイトのJacaScriptファイルを指定
-    <%= javascript_include_tag "http://www.example.com/example" %>
-    # <script src="http://www.example.com/example" type="text/javascript"></script>
+#### .js拡張を指定
+    javascript_include_tag "xmlhr.js"
+    # <script src="/assets/xmlhr.debug-1284139606.js"></script>
 
-#### Railsのデフォルトで使用するJacaScriptを指定
-##### jQuery(Rails3.1以上でデフォルトの設定)
-    <%= javascript_include_tag :defaults
-    # <script src="/javascripts/jquery.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/rails.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/application.js?xxx" type="text/javascript"></script>
+#### 複数指定
+    javascript_include_tag "common.javascript", "/elsewhere/cools"
+    # <script src="/assets/common.javascript.debug-1284139606.js"></script>
+    # <script src="/elsewhere/cools.debug-1284139606.js"></script>
 
-##### jQueryを使わない(Rails3.1以下でデフォルトの設定)
-    <%= javascript_include_tag :defaults
-    # <script src="/javascripts/prototype.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/effects.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/dragdrop.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/controls.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/rails.js?xxx" type="text/javascript"></script>
-    # <script src="/javascripts/application.js?xxx" type="text/javascript"></script>
+#### URL指定
+    javascript_include_tag "http://www.example.com/xmlhr"
+    # <script src="http://www.example.com/xmlhr"></script>
+
+#### nonce属性を指定
+    javascript_include_tag "http://www.example.com/xmlhr.js", nonce: true
+    # <script src="http://www.example.com/xmlhr.js" nonce="..."></script>
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/asset_tag_helper.rb#L87)

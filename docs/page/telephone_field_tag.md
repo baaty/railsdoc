@@ -5,7 +5,7 @@ layout: page
 電話番号入力ボックスを生成
 
 ### 使い方
-    telephone_field_tag(要素名 [, 値, オプション])
+    telephone_field_tag(要素名 [, value値, オプション])
 
 ### オプション
 

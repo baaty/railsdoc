@@ -5,7 +5,7 @@ layout: page
 日時の入力欄を生成
 
 ### 使い方
-    datetime_field_tag(要素名 [, 値, オプション])
+    datetime_field_tag(要素名 [, 値, オプション or HTMLオプション])
 
 ### オプション
 
@@ -35,6 +35,7 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### 日時の入力欄を生成
     datetime_field_tag :published
     # <input type="datetime-local" name="published" id="published">
 

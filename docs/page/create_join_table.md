@@ -18,6 +18,7 @@ layout: page
 :force          | テーブルを作成前に、既存のテーブルを削除
 
 ### 例
+#### 2つのテーブルを結合して新しいテーブルを作成
     create_join_table(:assemblies, :parts, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8')
     # CREATE TABLE assemblies_parts (
     #   assembly_id int NOT NULL,

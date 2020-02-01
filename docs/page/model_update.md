@@ -2,14 +2,18 @@
 layout: page
 ---
 ### 説明
-データベースから取得したオブジェクトを更新
+条件に一致するレコードを更新
 
 ### 使い方
-    モデル.update(カラム名 = 値)
+    モデル.update(ID, カラム)
 
 ### 例
-#### データを更新
-    User.update("name = 'A'")
+#### 条件に一致するレコードを更新
+    Person.update(15, user_name: "Samuel", group: "expert")
+
+#### ハッシュを使って更新
+    people = { 1 => { "first_name" => "David" }, 2 => { "first_name" => "Jeremy" } }
+    Person.update(people.keys, people.values)
 
 ### 更新メソッドの種類
 

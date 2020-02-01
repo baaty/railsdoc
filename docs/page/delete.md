@@ -5,7 +5,7 @@ layout: page
 DELETEリクエスト
 
 ### 使い方
-    delete(URLパターン [, オプション])
+    delete(パス [, オプション])
 
 ### オプション
 
@@ -17,7 +17,11 @@ DELETEリクエスト
 |:as                  | ルート名を指定
 
 ### 例
+#### DELETEリクエスト
     delete 'broccoli', to: 'food#broccoli'
+
+#### ルート名を指定
+    delete '/delete/:id', action: 'destroy', as: 'destroy_user'
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/action_dispatch/routing/mapper.rb#L743)

@@ -25,25 +25,28 @@ layout: page
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+:value     | 初期値
 
 ### 例
+#### ファイル選択ボックスを生成
     file_field_tag 'attachment'
     # <input id="attachment" name="attachment" type="file" />
 
+#### class付与
     file_field_tag 'avatar', class: 'profile_input'
     # <input class="profile_input" id="avatar" name="avatar" type="file" />
 
+#### 無効化
     file_field_tag 'picture', disabled: true
     # <input disabled="disabled" id="picture" name="picture" type="file" />
 
+#### 初期値
     file_field_tag 'resume', value: '~/resume.doc'
     # <input id="resume" name="resume" type="file" value="~/resume.doc" />
 
+#### 複数タイプ指定
     file_field_tag 'user_pic', accept: 'image/png,image/gif,image/jpeg'
     # <input accept="image/png,image/gif,image/jpeg" id="user_pic" name="user_pic" type="file" />
-
-    file_field_tag 'file', accept: 'text/html', class: 'upload', value: 'index.html'
-    # <input accept="text/html" class="upload" id="file" name="file" type="file" value="index.html" />
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L281)

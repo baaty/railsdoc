@@ -12,7 +12,7 @@ layout: page
     User.limit(5)
     # SELECT * FROM users LIMIT 5
 
-#### 重複する場合あとが優先(最大10件取得)
+#### 重複する場合あとが優先(最大20件取得)
     User.limit(5).limit(20)
     # SELECT * FROM users LIMIT 20
 

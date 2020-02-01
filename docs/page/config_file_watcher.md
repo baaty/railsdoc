@@ -9,3 +9,4 @@ ActiveSupport::FileUpdateCheckerに準拠する必要
     config.file_watcher
 
 ### 例
+    config.file_watcher = ActiveSupport::EventedFileUpdateChecker

@@ -6,5 +6,3 @@ layout: page
 
 ### 使い方
     config.middleware
-
-### 例

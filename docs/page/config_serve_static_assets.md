@@ -5,7 +5,7 @@ layout: page
 assetsの静的ファイルの設定
 
 ### 使い方
-    config.serve_static_assets = ( true | false )
+    config.serve_static_assets
 
 ### 例
     config.serve_static_assets = false

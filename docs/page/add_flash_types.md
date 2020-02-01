@@ -8,16 +8,8 @@ layout: page
     add_flash_types(:タイプ名)
 
 ### 例
-    # in application_controller.rb
-    class ApplicationController < ActionController::Base
+#### フラッシュメッセージのタイプを指定
       add_flash_types :warning
-    end
-
-    # controller
-    redirect_to user_path(@user), warning: "Incomplete profile"
-
-    # view
-    <%= warning %>
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/action_controller/metal/flash.rb#L32)

@@ -2,12 +2,13 @@
 layout: page
 ---
 ### 説明
-指定したテーブルのすべてのデータを取得
+左外部結合を使ってすべてのデータを取得
 
 ### 使い方
     モデル.eager_load(属性)
 
 ### 例
+#### すべてのデータを取得
     User.eager_load(:posts)
     # SELECT "users"."id" AS t0_r0, "users"."name" AS t0_r1, ...
     # FROM "users" LEFT OUTER JOIN "posts" ON "posts"."user_id" =

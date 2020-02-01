@@ -5,7 +5,7 @@ layout: page
 メールアドレス入力ボックスを生成
 
 ### 使い方
-    email_field_tag(要素名 [, 値, オプション or HTMLオプション])
+    email_field_tag(要素名 [, value値, オプション or HTMLオプション])
 
 ### オプション
 
@@ -32,15 +32,19 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### メールアドレス入力ボックスを生成
     email_field_tag 'name'
     # <input id="name" name="name" type="email" />
 
+#### 初期値
     email_field_tag 'email', 'email@example.com'
     # <input id="email" name="email" type="email" value="email@example.com" />
 
+#### classを付与
     email_field_tag 'email', nil, class: 'special_input'
     # <input class="special_input" id="email" name="email" type="email" />
 
+#### 無効化
     email_field_tag 'email', 'email@example.com', class: 'special_input', disabled: true
     # <input disabled="disabled" class="special_input" id="email" name="email" type="email" value="email@example.com" />
 

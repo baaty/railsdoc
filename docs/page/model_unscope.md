@@ -8,6 +8,7 @@ layout: page
     モデル.unscope(条件式)
 
 ### 例
+#### 条件式を削除
     User.order('email DESC').unscope(:order) == User.all
 
 ### ソースコード

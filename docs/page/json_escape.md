@@ -8,6 +8,7 @@ JSONエスケープ
     json_escape(文字列)
 
 ### 例
+#### JSONエスケープ
     json_escape(json)
     # "{\"name\":\"\\u003C/script\\u003E\\u003Cscript\\u003Ealert('PWNED!!!')\\u003C/script\\u003E\"}"
 

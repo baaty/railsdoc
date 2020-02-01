@@ -8,8 +8,6 @@ layout: page
 ### 使い方
     モデル.extending(モジュール)
 
-    モデル.extending(ブロック)
-
 ### 例
 #### モジュール
     module Pagination

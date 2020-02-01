@@ -8,3 +8,4 @@ layout: page
     config.action_controller.logger
 
 ### 例
+    config.action_controller.logger = Log4r

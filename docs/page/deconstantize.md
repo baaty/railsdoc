@@ -2,24 +2,25 @@
 layout: page
 ---
 ### 説明
-文字列から右端のセグメントを削除する
+文字列から右端のセグメントを削除
 
 ### 使い方
     文字列.deconstantize()
 
 ### 例
+#### ::HTMPを削除
     'Net::HTTP'.deconstantize
     # "Net"
 
+#### ::HTMPを削除
     '::Net::HTTP'.deconstantize
     # "::Net"
 
+#### セグメントが1つ場合
     'String'.deconstantize
     # ""
 
-    '::String'.deconstantize
-    # ""
-
+#### 空文字の場合
     ''.deconstantize
     # ""
 

@@ -3,10 +3,10 @@ layout: page
 ---
 ### radio_button
 #### 説明
-ラジオボックスを生成
+ラジオボタンを生成
 
 #### 使い方
-    radio_button(オブジェクト名, メソッド名, 値 [, オプション])
+    radio_button(オブジェクト名, メソッド名, value値 [, オプション])
 
 #### オプション
 
@@ -28,45 +28,35 @@ layout: page
 :lang      | 基本言語
 
 #### 例
-##### ラジオボックスOFF
-    Railsの基礎知識: <%= radio_button 'page', 'category', 'rails_base', {} %><br />
-    Rubeの基礎知識: <%= radio_button 'page', 'category', 'ruby_base', {} %>
-    # Railsの基礎知識: <input id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+##### ラジオボタンOFF
+    radio_button 'page', 'category', 'rails_base'
+    # <input id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
-##### ラジオボックスON
-    Railsの基礎知識: <%= radio_button 'page', 'category', 'rails_base', {checked: true} %><br />
-    Rubeの基礎知識: <%= radio_button 'page', 'category', 'ruby_base', {} %>
-    # Railsの基礎知識: <input checked="checked" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+##### ラジオボタンON
+    radio_button 'page', 'category', 'rails_base', checked: true
+    # <input checked="checked" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 ##### フォームの項目の利用禁止
-    Railsの基礎知識: <%= radio_button 'page', 'category', 'rails_base', {disabled: true} %><br />
-    Rubeの基礎知識: <%= radio_button page', 'category', 'ruby_base', {disabled: true} %>
-    # Railsの基礎知識: <input disabled="disabled" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input disabled="disabled" id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+    radio_button 'page', 'category', 'rails_base', disabled: true
+    # <input disabled="disabled" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 ##### Tabキーによる入力欄の移動順
-    Railsの基礎知識: <%= radio_button 'page', 'category', 'rails_base', {tabindex: 1} %><br />
-    Rubeの基礎知識: <%= radio_button 'page', 'category', 'ruby_base', {tabindex: 2} %>
-    # Railsの基礎知識: <input id="page_category_rails_base" name="page[category]" tabindex="1" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" tabindex="2" type="radio" value="ruby_base" />
+    radio_button 'page', 'category', 'rails_base', tabindex: 1
+    # <input id="page_category_rails_base" name="page[category]" tabindex="1" type="radio" value="rails_base" />
 
 ##### フォームに移動するショートカットキー
-    Railsの基礎知識: <%= radio_button 'page', 'category', 'rails_base', {accesskey: 'k'} %><br />
-    Rubeの基礎知識: <%= radio_button 'page', 'category', 'ruby_base', {accesskey: 'l'} %>
-    # Railsの基礎知識: <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
+    radio_button 'page', 'category', 'rails_base', accesskey: 'k'
+    # <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1322)
 
 ### f.radio_button
 #### 説明
-ラジオボックスを生成
+ラジオボタンを生成
 
 #### 使い方
-    f.radio_button(メソッド名, 値 [, オプション])
+    f.radio_button(メソッド名, value値 [, オプション])
 
 #### オプション
 
@@ -88,35 +78,25 @@ layout: page
 :lang      | 基本言語
 
 #### 例
-##### ラジオボックスOFF
-    Railsの基礎知識: <%= f.radio_button 'category', 'rails_base', {} %><br />
-    Rubeの基礎知識: <%= f.radio_button 'category', 'ruby_base', {} %>
-    # Railsの基礎知識: <input id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+##### ラジオボタンOFF
+    f.radio_button 'category', 'rails_base'
+    # <input id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
-##### ラジオボックスON
-    Railsの基礎知識: <%= f.radio_button 'category', 'rails_base', {checked: true} %><br />
-    Rubeの基礎知識: <%= f.radio_button 'category', 'ruby_base', {} %>
-    # Railsの基礎知識: <input checked="checked" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+##### ラジオボタンON
+    f.radio_button 'category', 'rails_base', checked: true
+    # <input checked="checked" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 ##### フォームの項目の利用禁止
-    Railsの基礎知識: <%= f.radio_button 'category', 'rails_base', {disabled: true} %><br />
-    Rubeの基礎知識: <%= f.radio_button 'category', 'ruby_base', {disabled: true} %>
-    # Railsの基礎知識: <input disabled="disabled" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input disabled="disabled" id="page_category_ruby_base" name="page[category]" type="radio" value="ruby_base" />
+    f.radio_button 'category', 'rails_base', disabled: true
+    # <input disabled="disabled" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 ##### Tabキーによる入力欄の移動順
-    Railsの基礎知識: <%= f.radio_button 'category', 'rails_base', {tabindex: 1} %><br />
-    Rubeの基礎知識: <%= f.radio_button 'category', 'ruby_base', {tabindex: 2} %>
-    # Railsの基礎知識: <input id="page_category_rails_base" name="page[category]" tabindex="1" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input id="page_category_ruby_base" name="page[category]" tabindex="2" type="radio" value="ruby_base" />
+    f.radio_button 'category', 'rails_base', tabindex: 1
+    # <input id="page_category_rails_base" name="page[category]" tabindex="1" type="radio" value="rails_base" />
 
 ##### フォームに移動するショートカットキー
-    Railsの基礎知識: <%= f.radio_button 'category', 'rails_base', {accesskey: 'k'} %><br />
-    Rubeの基礎知識: <%= f.radio_button 'category', 'ruby_base', {accesskey: 'l'} %>
-    # Railsの基礎知識: <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" /><br />
-    # Rubeの基礎知識: <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
+    f.radio_button 'category', 'rails_base', accesskey: 'k'
+    # <input accesskey="k" id="page_category_rails_base" name="page[category]" type="radio" value="rails_base" />
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L2335)

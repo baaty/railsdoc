@@ -5,7 +5,7 @@ layout: page
 検索ボックスを生成
 
 ### 使い方
-    search_field_tag(要素名 [, 値, オプション])
+    search_field_tag(要素名 [, value値, オプション])
 
 ### オプション
 

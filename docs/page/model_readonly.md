@@ -2,12 +2,13 @@
 layout: page
 ---
 ### 説明
-読み込み専用として、モデルオブジェクトを取得
+読み込み専用としてモデルを取得
 
 ### 使い方
     モデル.readonly(値)
 
 ### 例
+#### 読み込み専用としてモデルを取得
     users = User.readonly
     users.first.save
     # ActiveRecord::ReadOnlyRecord: ActiveRecord::ReadOnlyRecord

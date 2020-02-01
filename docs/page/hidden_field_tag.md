@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 使い方
-    hidden_field_tag(要素名 [, 値, HTMLオプション])
+    hidden_field_tag(要素名 [, value値, HTMLオプション])
 
 ### HTMLオプション
 

@@ -5,7 +5,7 @@ layout: page
 日付の入力欄を生成
 
 ### 使い方
-    date_field_tag(要素名 [, 値, オプション or HRMLオプション])
+    date_field_tag(要素名 [, value値, オプション or HRMLオプション])
 
 ### オプション
 
@@ -32,12 +32,15 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### 日付の入力欄を生成
     date_field_tag 'name'
     # <input id="name" name="name" type="date" />
 
+#### 初期値を指定
     date_field_tag 'date', '01/01/2014'
     # <input id="date" name="date" type="date" value="01/01/2014" />
 
+#### classを付与
     date_field_tag 'date', nil, class: 'special_input'
     # <input class="special_input" id="date" name="date" type="date" />
 

@@ -2,18 +2,17 @@
 layout: page
 ---
 ### 説明
-モデルに任意のカラムが存在するかチェック
+モデルに任意のカラムが存在するか
 
 ### 使い方
     モデル.has_attribute?(属性)
 
 ### 例
+#### カラムが存在する場合
     person.has_attribute?(:name)
     # true
 
-    person.has_attribute?('age')
-    # true
-
+#### カラムが存在しない場合
     person.has_attribute?(:nothing)
     # false
 

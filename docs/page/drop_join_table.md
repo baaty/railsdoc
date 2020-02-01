@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-join_tableを削除
+結合テーブルを削除
 
 ### 使い方
     drop_join_table(テーブル1, テーブル2 [, オプション])
@@ -18,8 +18,10 @@ join_tableを削除
 :force          | テーブルを作成前に、既存のテーブルを削除
 
 ### 例
-     drop_join_table(:assemblies, :parts)
+#### 結合テーブルを削除
+    drop_join_table(:assemblies, :parts)
 
+#### オプション指定
     drop_join_table(:assemblies, :parts, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8')
 
 ### ソースコード

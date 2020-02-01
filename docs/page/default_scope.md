@@ -8,6 +8,7 @@ layout: page
     default_scope(条件式 [, ブロック])
 
 ### 例
+#### whereを付与
     class Article < ActiveRecord::Base
       default_scope { where(published: true) }
     end

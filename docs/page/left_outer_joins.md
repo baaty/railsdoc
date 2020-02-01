@@ -5,9 +5,10 @@ layout: page
 関連するモデルの左外部結合
 
 ### 使い方
-    モデル.left_outer_joins(:モデル名)
+    モデル.left_outer_joins(モデル名)
 
 ### 例
+#### 関連するモデルの左外部結合
     User.left_outer_joins(:posts)
     # SELECT "users".* FROM "users" LEFT OUTER JOIN "posts" ON "posts"."user_id" = "users"."id"
 

@@ -68,7 +68,7 @@ layout: page
     # <form method="post" action="/items/new"  class="button_to"><div><input type="submit" value="新規作成" /><input name="authenticity_token" type="hidden" value="xxx" /></div></form>
 
 #### 確認ダイヤログ付きで削除ボタンを生成
-    button_to('Destroy', 'http://www.example.com', method: "delete", remote: true, data: { confirm: '本当に削除しますか?', disable_with: 'loading...' })
+    button_to 'Destroy', 'http://www.example.com', method: "delete", remote: true, data: { confirm: '本当に削除しますか?', disable_with: 'loading...' }
     # <form class='button_to' method='post' action='http://www.example.com' data-remote='true'>
     # <input name='_method' value='delete' type='hidden' />
     # <input value='Destroy' type='submit' data-disable-with='loading...' data-confirm='本当に削除しますか?' />

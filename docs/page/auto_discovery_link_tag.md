@@ -7,6 +7,14 @@ RSSフィードやAtomフィードを自動検出させるlinkタグを生成
 ### 使い方
     auto_discovery_link_tag(フォードの種類, [URLオプション,  オプション])
 
+### フィードの種類
+
+種類 | 説明
+---- | ----
+:rss | RSS
+:atom | Atom
+:json | JSON
+
 ### オプション
 
 オプション  | 説明       | デフォルト値
@@ -25,7 +33,7 @@ RSSフィードやAtomフィードを自動検出させるlinkタグを生成
     # <link href="http://localhost:3000/" rel="alternate" title="ATOM" type="application/rss+xml" />
 
 #### フィードへのパスを指定
-    <%= auto_discovery_link_tag(:rss, {controller: "pages"}, {action: "feed"}) %>
+    <%= auto_discovery_link_tag(:rss, {controller: "pages", action: "feed"}) %>
     # <link href="http://localhost:3000/pages/feed" rel="alternate" title="RSS" type="application/rss+xml" />
 
 #### RSSのタイトルを指定して、RSSを自動検出させるタグを生成
