@@ -91,6 +91,7 @@ article p {
 }
 article pre {
   margin-top: 4px;
+  white-space: pre-wrap;
 }
 article ul {
   margin-top: 4px;
