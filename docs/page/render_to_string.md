@@ -5,7 +5,7 @@ layout: page
 表示結果を文字列として取得
 
 ### 使い方
-    render_to_string(partial: "テンプレート名")
+    render_to_string(リクエスト)
 
 ### 例
 #### userテンプレートを取得

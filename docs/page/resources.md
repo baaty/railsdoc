@@ -10,7 +10,7 @@ RESTfulなURLを自動生成
 ### 生成されるルート
 
 URL                      | アクション   | HTTPメソッド | 説明
------------------------- | ------- | -------- | -------
+-------------------------|---------|----------|--------
 /XXXs(.:format)          | index   | GET      | 一覧画面を生成
 /XXXs/:id(.:format)      | show    | GET      | 詳細画面を生成
 /XXXs/new(.:format)      | new     | GET      | 登録画面を生成
@@ -21,8 +21,8 @@ URL                      | アクション   | HTTPメソッド | 説明
 
 ### 生成されるパス
 
-パス                | URL               | 戻り値
------------------- | ----------------- | --------------
+パス                 | URL               | 戻り値
+-------------------|-------------------|---------------
 XXXs_path          | XXXs_url          | /XXXs
 XXX_path(:id)      | XXX_url(:id)      | /XXXs/:id
 new_XXX_path       | new_XXX_url       | /XXXs/new
@@ -31,7 +31,7 @@ edit_XXX_path(:id) | edit_XXX_url(:id) | /XXXs/:id/edit
 ### オプション
 
 オプション           | 説明
---------------- | -------------------------------------------------------------------------------------------------------------------------------------
+----------------|-----------------------------
 :as             | ルート名に利用する別名
 :controller     | コントローラを指定
 :path_names     | 指定したアクションのみ名前の変更
@@ -42,6 +42,7 @@ edit_XXX_path(:id) | edit_XXX_url(:id) | /XXXs/:id/edit
 :shallow_path   | 指定したパラメータを先頭に追加
 :shallow_prefix | 指定したパラメータを名前付きルーティングとして先頭に追加
 :format         | フォーマット指定
+:param          | パラメータを上書き
 
 ### 例
 #### RESTfulなURLを自動生成
@@ -115,6 +116,11 @@ edit_XXX_path(:id) | edit_XXX_url(:id) | /XXXs/:id/edit
     #      user GET    /users/:id(.:format)      users#show {:title=>/[a-z]{1,15}/}
     #           PUT    /users/:id(.:format)      users#update {:title=>/[a-z]{1,15}/}
     #           DELETE /users/:id(.:format)      users#destroy {:title=>/[a-z]{1,15}/}
+
+#### ブロック
+    resources :photos do
+      resources :comments
+    end
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f5d2f3fc759ec9a942609ca5b8446e83fdf869b4/actionpack/lib/action_dispatch/routing/mapper.rb#L1348)

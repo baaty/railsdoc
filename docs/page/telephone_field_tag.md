@@ -26,15 +26,19 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### 電話番号入力ボックスを生成
     telephone_field_tag 'name'
     # <input id="name" name="name" type="tel" />
 
+#### value値を設定
     telephone_field_tag 'tel', '0123456789'
     # <input id="tel" name="tel" type="tel" value="0123456789" />
 
+#### value値が無い
     telephone_field_tag 'tel', nil, class: 'special_input'
     # <input class="special_input" id="tel" name="tel" type="tel" />
 
+#### 無効化
     telephone_field_tag 'tel', '0123456789', class: 'special_input', disabled: true
     # <input disabled="disabled" class="special_input" id="tel" name="tel" type="tel" value="0123456789" />
 

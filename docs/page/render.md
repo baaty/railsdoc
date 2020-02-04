@@ -9,24 +9,36 @@ layout: page
 * 同じアクション内でrenderメソッドを複数呼び出すと、エラーになるので、and returnを付ける
 
 ### 使い方
-    render(オプション)
+    render(表示方法 [, オプション])
 
-#### オプション
+#### 出力方法
 
-オプション  | 説明
---------- | -----------------------------------------
+表示方法  | 説明
+----------|-----------------------------------------
 :action   | 他のアクションのテンプレートを表示
 :partial  | 部分テンプレートを呼び出して表示
 :template | テンプレートを指定して表示
-:layout   | レイアウトを指定
-:file     | ファイルを指定して表示
 :text     | 任意のテキストを指定して表示
-:xml      | 指定されたテキストを表示し、コンテンツタイプをapplication/xmlに設定
-:json     | 指定されたテキストを表示し、コンテンツタイプをtext/x-jsonに設定
-:update   |  ブロックで処理を行い表示
-:inline   | ビューとするソースコードを直接指定
+:xml      | 指定したテキストを表示し、コンテンツタイプをapplication/xmlに設定
+:json     | 指定したテキストを表示し、コンテンツタイプをtext/x-jsonに設定
+:update   | ブロックで処理を行い表示
 :nothing  | 何も表示しない
-:status   | ステータスコードを制御
+:file     | ファイルを指定して表示
+:inline   | ビューとするソースコードを直接指定
+:plain    | 平文テキストを表示
+:html     | HTML文字列を表示
+:js       | JavaScriptを表示
+:body     | 生のコンテンツを表示
+
+#### オプション
+
+オプション         | 説明
+--------------|----------------
+:content_type | content-typeを変更
+:layout       | レイアウトを指定
+:location     | HTTPのLocationヘッダーを設定
+:status       | ステータスコードを制御
+:formats      | フォーマット指定
 
 ### render :action
 #### 説明
@@ -56,15 +68,22 @@ layout: page
 ##### 他のコントローラのテンプレートを表示
     render template: "user/show"
 
+##### templateを省略
+    render "user/show"
+
 ### render :file
 #### 説明
 アプリケーション外のテンプレートを表示
+「/」で始まる場合はファイル出力と認識するので、fileオプションは省略可能
 
 #### 使い方
     render file: ファイルパス
 
 #### 例
 ##### 「/common/template/index」を表示
+    render file: "/common/template/index"
+
+##### fileを省略
     render file: "/common/template/index"
 
 ### render :text
@@ -118,24 +137,6 @@ layout: page
 ##### 現在の時刻を表示
     render inline: "<%= Time.now %>"
 
-### render :layout
-#### 説明
-レイアウトを指定
-
-#### 使い方
-    render layout: レイアウト名 [, オプション]
-
-#### オプション
-
-オプション   | 説明
-------- | ----------------------
-:only   | 指定されたアクションにだけ、レイアウトを適用
-:except | 指定されたアクション以外にレイアウトを適用
-
-#### 例
-##### pageのレイアウトを使用
-    render layout: 'page'
-
 ### render :xml
 #### 説明
 指定されたテキストを表示し、コンテンツタイプをapplication/xmlに設定
@@ -170,6 +171,50 @@ layout: page
 #### 例
 ##### 404コード
     render nothing: true, status: 404
+
+### render :plain
+#### 説明
+平文テキストを表示
+
+#### 使い方
+    render plain: 文字列
+
+#### 例
+##### OK
+    render plain: "OK
+
+### render :html
+#### 説明
+平文テキストを表示
+
+#### 使い方
+    render html: 文字列
+
+#### 例
+##### Not Found
+    render html: helpers.tag.strong('Not Found')
+
+### render :js
+#### 説明
+JavaScriptを表示
+
+#### 使い方
+    render js: 文字列
+
+#### 例
+##### JavaScriptを表示
+    render js: "alert('Hello Rails');"
+
+### render :body
+#### 説明
+生のコンテンツを表示
+
+#### 使い方
+    render body: 文字列
+
+#### 例
+##### JavaScriptを表示
+    render body: "raw"
 
 ### その他
 #### renderを複数使用

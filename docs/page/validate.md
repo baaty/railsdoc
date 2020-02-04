@@ -2,22 +2,24 @@
 layout: page
 ---
 ### 説明
-モデルの検証を定義
+検証を定義
 
 ### 使い方
-    validate 検証メソッド名 [, ...]
+    validate(検証メソッド名 [, ...])
 
 ### オプション
 
-オプション     | 説明                        | デフォルト値
------------- | --------------------------- | -----
-:on          | 保存されるタイミングを設定      |
-:allow_nil   | trueならば、nilの検証はスキップ | false
-:allow_blank | trueならば、空の検証はスキップ   | false
-:if          | 検証する条件を指定             |
-:unless      | 検証しない条件を指定            |
+オプション        | 説明                      | デフォルト値
+-------------|-------------------------|-------
+:on          | 保存されるタイミングを設定         |
+:allow_nil   | trueならば、nilの検証はスキップ     | false
+:allow_blank | trueならば、空の検証はスキップ      | false
+:if          | 検証する条件を指定           |
+:unless      | 検証しない条件を指定          |
+:strict      | 検証に失敗した場合に例外を発生 |
 
 ### 例
+#### 検証を定義
     class Comment
       include ActiveModel::Validations
 
@@ -28,6 +30,7 @@ layout: page
       end
     end
 
+#### ブロック
     class Comment
       include ActiveModel::Validations
 

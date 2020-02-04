@@ -5,7 +5,7 @@ layout: page
 条件に一致しなかったらリンクを生成
 
 ### 使い方
-    link_to_unless(条件式, リンクテキスト, url [, オプション, HTMLオプション])
+    link_to_unless(条件式, リンクテキスト, url [, オプション, HTML属性 or イベント属性])
 
 ### オプション
 
@@ -24,9 +24,9 @@ layout: page
 :method         | HTTPメソッド(:get, :post, :put, :delete)の指定 |
 :remote         | Ajaxでリンクを処理                             |
 
-### HTMLオプション
+### HTML属性
 
-オプション     | 説明
+HTML属性     | 説明
 ----------|------------------------------------------
 :name     | アンカー名
 :href     | リンク先
@@ -46,6 +46,23 @@ layout: page
 :style    | 要素の補足情報
 :dir      | 表記方向
 :lang     | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
 
 ### 例
 #### @pageが空じゃなかったら、編集のリンクを表示

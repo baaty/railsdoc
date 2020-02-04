@@ -8,6 +8,7 @@ layout: page
     モデル.read_attribute_before_type_cast(カラム名)
 
 ### 例
+#### 型に変更前のハッシュを取得
     task = Task.new(id: '1', completed_on: '2012-10-21')
     task.read_attribute('id')                            # 1
     task.read_attribute_before_type_cast('id')           # '1'

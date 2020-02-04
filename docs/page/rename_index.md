@@ -8,6 +8,7 @@ layout: page
     rename_index(テーブル名, 変更前の名前, 変更後の名前)
 
 ### 例
+#### 指定したテーブルのインデックスを変更
     rename_index :people, 'index_people_on_last_name', 'index_users_on_last_name'
 
 ### ソースコード

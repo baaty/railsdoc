@@ -10,8 +10,11 @@ layout: page
 
 #### オプション
 
-オプション   | 説明
----------- | ------------------
+オプション      | 説明
+-----------|-------------------
+:autosave  | オートセーブ
+:results   | 表示される最大数
+:onsearch  | インクリメンタルサーチ
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
 :accept    | フォームで受付可能なMIMEタイプ
@@ -27,26 +30,21 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 検索ボックスを生成
     search_field(:user, :name)
     # <input id="user_name" name="user[name]" type="search" />
 
-    search_field(:user, :name, autosave: false)
-    # <input autosave="false" id="user_name" name="user[name]" type="search" />
-
+##### 表示される最大数を3
     search_field(:user, :name, results: 3)
     # <input id="user_name" name="user[name]" results="3" type="search" />
 
+##### オートセーブ
     search_field(:user, :name, autosave: true)
     # <input autosave="com.example.www" id="user_name" name="user[name]" results="10" type="search" />
 
+##### インクリメンタルサーチ
     search_field(:user, :name, onsearch: true)
     # <input id="user_name" incremental="true" name="user[name]" onsearch="true" type="search" />
-
-    search_field(:user, :name, autosave: false, onsearch: true)
-    # <input autosave="false" id="user_name" incremental="true" name="user[name]" onsearch="true" type="search" />
-
-    search_field(:user, :name, autosave: true, onsearch: true)
-    # <input autosave="com.example.www" id="user_name" incremental="true" name="user[name]" onsearch="true" results="10" type="search" />
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1353)
@@ -61,7 +59,7 @@ layout: page
 #### オプション
 
 オプション      | 説明
----------- | ------------------
+-----------|-------------------
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
 :accept    | フォームで受付可能なMIMEタイプ
@@ -77,6 +75,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 検索ボックスを生成
     f.search_field :name
 
 #### ソースコード

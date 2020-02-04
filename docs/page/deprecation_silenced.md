@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-非推奨の警告を表示するかどうかの設定
+非推奨の警告を表示するかの設定
 
 ### 使い方
     ActiveSupport::Deprecation.silenced

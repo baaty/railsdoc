@@ -8,6 +8,7 @@ layout: page
     table_exists?(テーブル名)
 
 ### 例
+#### テーブルが存在するかチェック
     table_exists?(:developers)
 
 ### ソースコード

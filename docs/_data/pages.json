@@ -116,45 +116,6 @@
       "6.0.2.1"
     ]
   },
-  "javascript_include_tag": {
-    "category_id": 8,
-    "created_at": "2011-07-23 09:27:30.846134",
-    "title": "JavaScriptをインクルード",
-    "method": "javascript_include_tag",
-    "updated_at": "2015-05-05 06:32:18.721274",
-    "versions": [
-      "1.0.0",
-      "1.1.0",
-      "1.1.1",
-      "1.1.6",
-      "1.2.0",
-      "1.2.6",
-      "2.0.0",
-      "2.0.1",
-      "2.0.3",
-      "2.1.0",
-      "2.2.1",
-      "2.3.2",
-      "2.3.8",
-      "3.0.0",
-      "3.0.5",
-      "3.0.7",
-      "3.0.9",
-      "3.1.0",
-      "3.2.3",
-      "3.2.8",
-      "3.2.13",
-      "4.0.2",
-      "4.1.8",
-      "4.2.1",
-      "4.2.7",
-      "4.2.9",
-      "5.0.0.1",
-      "5.1.7",
-      "5.2.3",
-      "6.0.2.1"
-    ]
-  },
   "conf_info": {
     "category_id": 15,
     "created_at": "2011-12-19 15:09:13.528319",
@@ -228,7 +189,7 @@
   "check_box": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:06.860453",
-    "title": "チェックボックス",
+    "title": "チェックボックスを生成",
     "method": "check_box",
     "updated_at": "2015-05-05 06:37:11.607183",
     "versions": [
@@ -320,7 +281,7 @@
   "rails_scaffold": {
     "category_id": 4,
     "created_at": "2011-07-23 08:48:56.044688",
-    "title": "アプリケーションに必要なコントローラ、モデル、ビューをまとめて生成",
+    "title": "アプリケーションに必要なファイルをまとめて生成",
     "method": "rails generate scaffold",
     "updated_at": "2015-05-04 09:06:35.513238"
   },
@@ -504,8 +465,8 @@
   "rake": {
     "category_id": 26,
     "created_at": "2012-01-28 07:31:40.545548",
-    "title": "コマンド一覧(rake -T)",
-    "method": "",
+    "title": "Rakeコマンド一覧",
+    "method": "rake -T",
     "updated_at": "2015-05-04 15:00:01.364534"
   },
   "execution_environment": {
@@ -539,7 +500,7 @@
   "rails_generate_controller": {
     "category_id": 4,
     "created_at": "2011-07-23 08:49:43.796148",
-    "title": "コントローラの生成",
+    "title": "コントローラとビューの生成",
     "method": "rails generate controller",
     "updated_at": "2015-05-04 15:21:09.833672"
   },
@@ -684,7 +645,7 @@
   "radio_button_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:18.714701",
-    "title": "ラジオボックス",
+    "title": "ラジオボックスを生成",
     "method": "radio_button_tag",
     "updated_at": "2015-05-04 16:29:41.457021",
     "versions": [
@@ -841,8 +802,8 @@
   "config_assets_enabled": {
     "category_id": 15,
     "created_at": "2013-05-16 13:49:31.542990",
-    "title": "アセットパイプラインを有効にするかの設定(config.assets.enabled)",
-    "method": "",
+    "title": "アセットパイプラインを有効にするかの設定",
+    "method": "config.assets.enabled",
     "updated_at": "2013-05-21 12:30:23.208644"
   },
   "rake_about": {
@@ -920,7 +881,7 @@
   "find": {
     "category_id": 6,
     "created_at": "2011-07-23 08:55:19.127194",
-    "title": "データベースから検索",
+    "title": "IDを指定してレコードを取得",
     "method": "find",
     "updated_at": "2015-05-04 16:15:35.244558",
     "versions": [
@@ -1037,7 +998,7 @@
   "text_area": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:31.405197",
-    "title": "テキストエリア",
+    "title": "テキストエリアを生成",
     "method": "text_area",
     "updated_at": "2015-05-05 06:18:33.305432",
     "versions": [
@@ -1113,7 +1074,7 @@
     ]
   },
   "verify": {
-    "category_id": 13,
+    "category_id": 99,
     "created_at": "2011-07-23 09:52:32.930975",
     "title": "実行前にリクエストの検証",
     "method": "verify",
@@ -1144,11 +1105,7 @@
       "4.1.8",
       "4.2.1",
       "4.2.7",
-      "4.2.9",
-      "5.0.0.1",
-      "5.1.7",
-      "5.2.3",
-      "6.0.2.1"
+      "4.2.9"
     ]
   },
   "resources": {
@@ -1404,7 +1361,7 @@
   "create_table": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:02.304847",
-    "title": "テーブルの作成",
+    "title": "テーブルを作成",
     "method": "create_table",
     "updated_at": "2015-05-05 07:12:38.996310",
     "versions": [
@@ -1482,7 +1439,7 @@
   "password_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:41.438423",
-    "title": "パスワード入力ボックス",
+    "title": "パスワード入力ボックスを生成",
     "method": "password_field",
     "updated_at": "2015-05-05 06:16:44.732476",
     "versions": [
@@ -1620,15 +1577,15 @@
   "rake_doc_rails": {
     "category_id": 26,
     "created_at": "2012-01-28 08:02:25.339850",
-    "title": "Railsのドキュメントを生成(rake doc:rails)",
-    "method": "",
+    "title": "Railsのドキュメントを生成",
+    "method": "rake doc:rails",
     "updated_at": "2012-10-31 16:00:42.683973"
   },
   "rake_doc_app": {
     "category_id": 26,
     "created_at": "2012-01-28 07:52:45.392628",
-    "title": "ソースコードからドキュメントを生成(rake doc:app)",
-    "method": "",
+    "title": "ソースコードからドキュメントを生成",
+    "method": "rake doc:app",
     "updated_at": "2012-04-21 10:07:34.491704"
   },
   "conditional_branch": {
@@ -1726,7 +1683,7 @@
   "hidden_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:54.262849",
-    "title": "隠しフィールド",
+    "title": "隠しフィールドを生成",
     "method": "hidden_field",
     "updated_at": "2015-05-04 17:16:32.929984",
     "versions": [
@@ -1765,7 +1722,7 @@
   "hidden_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:54.262849",
-    "title": "隠しフィールド",
+    "title": "隠しフィールドを生成",
     "method": "hidden_field_tag",
     "updated_at": "2015-05-04 17:16:32.929984",
     "versions": [
@@ -1869,8 +1826,8 @@
   "config_after_initialize": {
     "category_id": 15,
     "created_at": "2013-05-16 13:09:37.637555",
-    "title": "初期化の最後に実行する処理の設定(config.after_initialize)",
-    "method": "",
+    "title": "初期化の最後に実行する処理の設定",
+    "method": "config.after_initialize",
     "updated_at": "2013-05-21 12:17:25.024014"
   },
   "method_unit_test": {
@@ -1890,15 +1847,15 @@
   "rake_notes": {
     "category_id": 26,
     "created_at": "2012-01-28 08:08:03.996093",
-    "title": "ソースコードにTODOを記入(rake notes)",
-    "method": "",
+    "title": "ソースコードにTODOを記入",
+    "method": "rake notes",
     "updated_at": "2012-12-29 12:47:57.621404"
   },
   "rake_db_drop": {
     "category_id": 26,
     "created_at": "2012-02-06 15:02:36.744231",
-    "title": "データベースを削除(rake db:drop)",
-    "method": "",
+    "title": "データベースを削除",
+    "method": "rake db:drop",
     "updated_at": "2012-10-30 10:00:35.142864"
   },
   "rails_dbconsole": {
@@ -1911,7 +1868,7 @@
   "drop_table": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:23.772418",
-    "title": "テーブルの削除",
+    "title": "テーブルを削除",
     "method": "drop_table",
     "updated_at": "2015-05-05 07:11:40.513602",
     "versions": [
@@ -2155,8 +2112,8 @@
   "config_asset_host": {
     "category_id": 15,
     "created_at": "2013-05-16 13:17:21.695453",
-    "title": "アセットのホスト設定(config.asset_host)",
-    "method": "",
+    "title": "アセットのホスト設定",
+    "method": "config.asset_host",
     "updated_at": "2013-05-16 13:18:30.917728"
   },
   "functional_test": {
@@ -2169,8 +2126,8 @@
   "rake_db_migrate": {
     "category_id": 26,
     "created_at": "2011-07-23 08:53:02.417395",
-    "title": "マイグレーションの実行(rake db:migrate)",
-    "method": "",
+    "title": "マイグレーションの実行",
+    "method": "rake db:migrate",
     "updated_at": "2015-05-02 16:36:44.942227"
   },
   "blocks_and_iterators": {
@@ -2305,7 +2262,7 @@
   "text_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:16.563140",
-    "title": "テキストボックス",
+    "title": "テキストボックスを生成",
     "method": "text_field",
     "updated_at": "2015-05-04 16:25:50.697901",
     "versions": [
@@ -2344,7 +2301,7 @@
   "text_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:16.563140",
-    "title": "テキストボックス",
+    "title": "テキストボックスを生成",
     "method": "text_field_tag",
     "updated_at": "2015-05-04 16:25:50.697901",
     "versions": [
@@ -2448,8 +2405,8 @@
   "config_autoload_once_paths": {
     "category_id": 15,
     "created_at": "2013-05-16 13:22:36.089181",
-    "title": "起動時のみロードする設定ファイルを追加(config.autoload_once_paths)",
-    "method": "",
+    "title": "起動時のみロードする設定ファイルを追加",
+    "method": "config.autoload_once_paths",
     "updated_at": "2013-05-17 12:47:51.674181"
   },
   "integration_test": {
@@ -2462,15 +2419,15 @@
   "rake_db_version": {
     "category_id": 26,
     "created_at": "2012-02-18 05:05:06.039520",
-    "title": "マイグレーションのバージョンを確認(rake db:version)",
-    "method": "",
+    "title": "マイグレーションのバージョンを確認",
+    "method": "rake db:version",
     "updated_at": "2012-10-31 16:01:13.148599"
   },
   "rake_db_migrate_status": {
     "category_id": 26,
     "created_at": "2012-02-18 04:40:50.064645",
-    "title": "マイグレーションの履歴(rake db:migrate:status)",
-    "method": "",
+    "title": "マイグレーションの履歴",
+    "method": "rake db:migrate:status",
     "updated_at": "2012-10-31 16:01:22.414642"
   },
   "object_info": {
@@ -2501,7 +2458,7 @@
   "find_or_create_by": {
     "category_id": 6,
     "created_at": "2013-04-27 07:22:07.139785",
-    "title": "検索条件を指定して初めの1件を取得し、1件もなければ作成",
+    "title": "条件を指定して初めの1件を取得し1件もなければ作成",
     "method": "find_or_create_by",
     "updated_at": "2015-05-05 07:33:16.230846",
     "versions": [
@@ -2579,7 +2536,7 @@
   "file_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:27.415929",
-    "title": "ファイル選択ボックス",
+    "title": "ファイル選択ボックスを生成",
     "method": "file_field",
     "updated_at": "2015-05-04 17:19:54.913696",
     "versions": [
@@ -2618,7 +2575,7 @@
   "file_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:27.415929",
-    "title": "ファイル選択ボックス",
+    "title": "ファイル選択ボックスを生成",
     "method": "file_field_tag",
     "updated_at": "2015-05-04 17:19:54.913696",
     "versions": [
@@ -2657,8 +2614,8 @@
   "cookies_permanent": {
     "category_id": 11,
     "created_at": "2012-02-01 14:54:18.893185",
-    "title": "永続化クッキー(cookies.permanent)",
-    "method": "",
+    "title": "永続化クッキー",
+    "method": "cookies.permanent",
     "updated_at": "2015-05-02 18:37:22.569031"
   },
   "get": {
@@ -2700,15 +2657,15 @@
   "config_cache_classes": {
     "category_id": 15,
     "created_at": "2013-05-16 13:24:37.639970",
-    "title": "アプリケーションクラスのリロードをするかの設定(config.cache_classes)",
-    "method": "",
+    "title": "アプリケーションクラスのリロードをするかの設定",
+    "method": "config.cache_classes",
     "updated_at": "2015-05-02 16:41:19.914874"
   },
   "rake_db_schema_load": {
     "category_id": 26,
     "created_at": "2012-02-18 05:15:17.742251",
-    "title": "スキーマファイルでデータベースを作成(rake db:schema:load)",
-    "method": "",
+    "title": "スキーマファイルでデータベースを作成",
+    "method": "rake db:schema:load",
     "updated_at": "2012-10-31 16:01:03.314849"
   },
   "table_exists_q": {
@@ -2971,8 +2928,8 @@
   "config_action_view_cache_template_loading": {
     "category_id": 15,
     "created_at": "2013-05-16 13:25:23.303819",
-    "title": "テンプレートのレンダリングのキャッシュするかの設定(config.action_view.cache_template_loading)",
-    "method": "",
+    "title": "テンプレートのレンダリングのキャッシュするかの設定",
+    "method": "config.action_view.cache_template_loading",
     "updated_at": "2013-05-21 12:14:55.530255"
   },
   "symbol_info": {
@@ -2985,15 +2942,15 @@
   "cookies_signed": {
     "category_id": 11,
     "created_at": "2012-02-01 14:55:53.472074",
-    "title": "署名付きクッキー(cookies.signed)",
-    "method": "",
+    "title": "署名付きクッキー",
+    "method": "cookies.signed",
     "updated_at": "2012-02-25 04:05:22.338986"
   },
   "rake_db_schema_dump": {
     "category_id": 26,
     "created_at": "2012-02-18 05:27:42.436759",
-    "title": "現在のデータベースからスキーマファイルを生成(rake db:schema:dump)",
-    "method": "",
+    "title": "現在のデータベースからスキーマファイルを生成",
+    "method": "rake db:schema:dump",
     "updated_at": "2012-10-31 16:00:51.743735"
   },
   "regular_info": {
@@ -3006,7 +2963,7 @@
   "drop_join_table": {
     "category_id": 5,
     "created_at": "2013-04-21 10:28:26.003969",
-    "title": "join_tableを削除",
+    "title": "結合テーブルを削除",
     "method": "drop_join_table",
     "updated_at": "2015-05-05 07:03:30.345289",
     "versions": [
@@ -3060,18 +3017,13 @@
       "6.0.2.1"
     ]
   },
-  "respond_to": {
+  "model_respond_to_q": {
     "category_id": 6,
     "created_at": "2013-04-20 17:17:59.642585",
     "title": "モデルに対して呼び出せるかチェック",
-    "method": "respond_to",
+    "method": "respond_to?",
     "updated_at": "2015-05-05 07:54:41.086925",
     "versions": [
-      "1.1.6",
-      "1.2.0",
-      "1.2.6",
-      "2.0.0",
-      "2.0.1",
       "2.0.3",
       "2.1.0",
       "2.2.1",
@@ -3177,8 +3129,8 @@
   "cookies_delete": {
     "category_id": 11,
     "created_at": "2011-07-23 09:45:20.186746",
-    "title": "クッキーを削除(cookies.delete)",
-    "method": "",
+    "title": "クッキーを削除",
+    "method": "cookies.delete",
     "updated_at": "2015-05-02 18:37:52.853484"
   },
   "patch": {
@@ -3202,15 +3154,15 @@
   "config_cache_store": {
     "category_id": 99,
     "created_at": "2013-05-16 13:26:12.038926",
-    "title": "キャッシュストアの設定(config.cache_store)",
-    "method": "",
+    "title": "キャッシュストアの設定",
+    "method": "config.cache_store",
     "updated_at": "2015-05-02 16:39:14.893189"
   },
   "rake_db_seed": {
     "category_id": 26,
     "created_at": "2012-01-14 03:33:57.847342",
-    "title": "データベースに初期データを投入(rake db:seed)",
-    "method": "",
+    "title": "データベースに初期データを投入",
+    "method": "rake db:seed",
     "updated_at": "2013-04-20 04:21:09.501371"
   },
   "ruby_convenience_methods": {
@@ -3223,7 +3175,7 @@
   "add_column": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:34.683824",
-    "title": "カラムの追加",
+    "title": "カラムを追加",
     "method": "add_column",
     "updated_at": "2015-05-05 06:22:28.917389",
     "versions": [
@@ -3381,21 +3333,21 @@
   "config_consider_all_requests_local": {
     "category_id": 15,
     "created_at": "2013-05-16 13:27:23.493273",
-    "title": "エラー情報をブラウザに表示をするかの設定(config.consider_all_requests_local)",
-    "method": "",
+    "title": "エラー情報をブラウザに表示をするかの設定",
+    "method": "config.consider_all_requests_local",
     "updated_at": "2015-05-02 16:41:31.788125"
   },
   "rake_db_fixtures_load": {
     "category_id": 26,
     "created_at": "2012-02-18 06:05:07.575497",
-    "title": "データベースにテストデータを挿入(rake db:fixtures:load)",
-    "method": "",
+    "title": "データベースにテストデータを挿入",
+    "method": "rake db:fixtures:load",
     "updated_at": "2012-10-31 15:58:28.279528"
   },
   "rename_column": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:47.052366",
-    "title": "カラム名の変更",
+    "title": "カラム名を変更",
     "method": "rename_column",
     "updated_at": "2015-05-05 08:22:00.994062",
     "versions": [
@@ -3434,7 +3386,7 @@
   "take": {
     "category_id": 6,
     "created_at": "2013-04-21 12:06:15.520880",
-    "title": "引数で指定した要素数を取得",
+    "title": "指定した数のレコードを取得",
     "method": "take",
     "updated_at": "2015-05-05 07:32:39.226721",
     "versions": [
@@ -3576,8 +3528,8 @@
   "config_console": {
     "category_id": 15,
     "created_at": "2013-05-16 13:28:04.759606",
-    "title": "使用するコンソールを設定(config.console)",
-    "method": "",
+    "title": "使用するコンソールを設定",
+    "method": "config.console",
     "updated_at": "2013-05-18 07:39:41.818846"
   },
   "date_related": {
@@ -3590,14 +3542,14 @@
   "rake_db_create": {
     "category_id": 26,
     "created_at": "2012-02-06 13:32:18.779115",
-    "title": "データベースを作製(rake db:create)",
-    "method": "",
+    "title": "データベースを作製",
+    "method": "rake db:create",
     "updated_at": "2012-10-31 15:59:19.785764"
   },
   "change_column": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:57.290090",
-    "title": "カラムの変更",
+    "title": "カラムを変更",
     "method": "change_column",
     "updated_at": "2015-05-05 07:02:56.489443",
     "versions": [
@@ -3636,7 +3588,7 @@
   "model_where": {
     "category_id": 6,
     "created_at": "2011-07-23 08:55:55.883515",
-    "title": "検索条件を指定して取得",
+    "title": "条件を指定して取得",
     "method": "where",
     "updated_at": "2015-05-05 07:17:01.892116",
     "versions": [
@@ -3809,8 +3761,8 @@
   "config_dependency_loading": {
     "category_id": 99,
     "created_at": "2013-05-16 13:28:44.265006",
-    "title": "設定のオートロードをするかの設定(config.dependency_loading)",
-    "method": "",
+    "title": "設定のオートロードをするかの設定",
+    "method": "config.dependency_loading",
     "updated_at": "2015-05-02 16:41:43.810356"
   },
   "datetime": {
@@ -3823,14 +3775,14 @@
   "rake_log_clear": {
     "category_id": 26,
     "created_at": "2012-02-04 05:20:22.300185",
-    "title": "ログファイルを削除(rake log:clear)",
-    "method": "",
+    "title": "ログファイルを削除",
+    "method": "rake log:clear",
     "updated_at": "2012-10-31 15:58:20.553784"
   },
   "remove_column": {
     "category_id": 5,
     "created_at": "2011-07-23 08:52:08.557684",
-    "title": "カラムの削除",
+    "title": "カラムを削除",
     "method": "remove_column",
     "updated_at": "2015-05-05 07:02:14.460657",
     "versions": [
@@ -3869,7 +3821,7 @@
   "button_to": {
     "category_id": 8,
     "created_at": "2011-07-23 09:23:02.962924",
-    "title": "ボタンでリンク",
+    "title": "ボタンでリンクを生成",
     "method": "button_to",
     "updated_at": "2015-05-04 16:23:02.466684",
     "versions": [
@@ -3908,7 +3860,7 @@
   "collection_select": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:24.159915",
-    "title": "データベースの情報を元に選択しを生成",
+    "title": "モデルの情報を元に選択しを生成",
     "method": "collection_select",
     "updated_at": "2015-05-04 16:13:49.180195",
     "versions": [
@@ -3947,8 +3899,8 @@
   "session_session_id": {
     "category_id": 11,
     "created_at": "2012-02-01 15:11:30.947929",
-    "title": "現在のセッション情報を取得(session.session_id)",
-    "method": "",
+    "title": "現在のセッション情報を取得",
+    "method": "session.session_id",
     "updated_at": "2015-05-03 17:06:55.304398"
   },
   "validate": {
@@ -3993,8 +3945,8 @@
   "config_eager_load": {
     "category_id": 15,
     "created_at": "2013-05-16 13:29:20.512472",
-    "title": "Eager Loadingの設定(config.eager_load)",
-    "method": "",
+    "title": "Eager Loadingの設定",
+    "method": "config.eager_load",
     "updated_at": "2013-05-18 15:24:53.404569"
   },
   "time": {
@@ -4007,8 +3959,8 @@
   "rake_rails_update": {
     "category_id": 26,
     "created_at": "2012-01-28 08:23:09.809582",
-    "title": "Railsのバージョンアップ(rake rails:update)",
-    "method": "",
+    "title": "Railsのバージョンアップ",
+    "method": "rake rails:update",
     "updated_at": "2012-10-31 15:59:31.822445"
   },
   "remove_columns": {
@@ -4161,8 +4113,8 @@
   "config_eager_load_namespaces": {
     "category_id": 15,
     "created_at": "2013-05-16 13:30:01.978485",
-    "title": "Eager Loadingで使用するネームスペースの設定(config.eager_load_namespaces)",
-    "method": "",
+    "title": "Eager Loadingで使用するネームスペースの設定",
+    "method": "config.eager_load_namespaces",
     "updated_at": "2013-05-19 06:52:35.974175"
   },
   "calculate_units": {
@@ -4175,8 +4127,8 @@
   "rake_rails_templates_cop": {
     "category_id": 26,
     "created_at": "2012-01-28 08:26:18.225998",
-    "title": "自動生成されるテンプレートをカスタマイズ(rake rails:templates:copy）",
-    "method": "",
+    "title": "自動生成されるテンプレートをカスタマイズ",
+    "method": "rake rails:templates:copy",
     "updated_at": "2012-10-31 15:59:41.857007"
   },
   "change_column_default": {
@@ -4364,7 +4316,7 @@
   "email_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:51.592975",
-    "title": "メールアドレス入力ボックス",
+    "title": "メールアドレス入力ボックスを生成",
     "method": "email_field",
     "updated_at": "2015-05-05 06:00:37.290470",
     "versions": [
@@ -4390,7 +4342,7 @@
   "email_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:51.592975",
-    "title": "メールアドレス入力ボックス",
+    "title": "メールアドレス入力ボックスを生成",
     "method": "email_field_tag",
     "updated_at": "2015-05-05 06:00:37.290470",
     "versions": [
@@ -4442,8 +4394,8 @@
   "config_eager_load_paths": {
     "category_id": 15,
     "created_at": "2013-05-16 13:30:37.806415",
-    "title": "eager_loadのパスを設定(config.eager_load_paths)",
-    "method": "",
+    "title": "eager_loadのパスを設定",
+    "method": "config.eager_load_paths",
     "updated_at": "2015-05-02 16:40:36.903783"
   },
   "constantize": {
@@ -4488,8 +4440,8 @@
   "rake_db_rollback": {
     "category_id": 26,
     "created_at": "2011-07-23 08:53:14.919436",
-    "title": "マイグレーションをロールバック(rake db:rollback)",
-    "method": "",
+    "title": "マイグレーションをロールバック",
+    "method": "rake db:rollback",
     "updated_at": "2013-02-02 07:11:58.785185"
   },
   "column_exists_q": {
@@ -4547,15 +4499,15 @@
   "base_controller_path": {
     "category_id": 7,
     "created_at": "2011-07-23 09:19:14.067720",
-    "title": "コントローラのパスを取得(ActionController::Base.controller_path)",
-    "method": "",
+    "title": "コントローラのパスを取得",
+    "method": "controller_path",
     "updated_at": "2015-05-02 18:38:51.319031"
   },
   "base_controller_name": {
     "category_id": 7,
     "created_at": "2011-07-23 09:19:14.067720",
-    "title": "コントローラのクラス名を取得(ActionController::Base.controller_name)",
-    "method": "",
+    "title": "コントローラのクラス名を取得",
+    "method": "controller_name",
     "updated_at": "2015-05-02 18:38:51.319031"
   },
   "action_name": {
@@ -4607,7 +4559,7 @@
   "number_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:04.901018",
-    "title": "数値入力ボックス",
+    "title": "数値入力ボックスを生成",
     "method": "number_field",
     "updated_at": "2015-05-04 17:12:44.743236",
     "versions": [
@@ -4633,7 +4585,7 @@
   "number_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:04.901018",
-    "title": "数値入力ボックス",
+    "title": "数値入力ボックスを生成",
     "method": "number_field_tag",
     "updated_at": "2015-05-04 17:12:44.743236",
     "versions": [
@@ -4698,8 +4650,8 @@
   "config_encoding": {
     "category_id": 15,
     "created_at": "2013-05-16 13:31:26.335663",
-    "title": "アプリケーション全体のエンコーディングを設定(config.encoding)",
-    "method": "",
+    "title": "アプリケーション全体のエンコーディングを設定",
+    "method": "config.encoding",
     "updated_at": "2013-05-18 15:26:26.685999"
   },
   "dasherize": {
@@ -4741,7 +4693,7 @@
   "add_index": {
     "category_id": 5,
     "created_at": "2011-07-23 08:52:19.412296",
-    "title": "インデックスの追加",
+    "title": "インデックスを追加",
     "method": "add_index",
     "updated_at": "2015-05-05 07:07:21.683807",
     "versions": [
@@ -4850,7 +4802,7 @@
   "audio_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:24:57.014006",
-    "title": "音声を再生",
+    "title": "音声を再生タグを生成",
     "method": "audio_tag",
     "updated_at": "2015-05-05 06:59:27.639812",
     "versions": [
@@ -4876,7 +4828,7 @@
   "range_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:43:11.988118",
-    "title": "範囲選択バー",
+    "title": "範囲選択バーを生成",
     "method": "range_field",
     "updated_at": "2015-05-05 06:10:32.776500",
     "versions": [
@@ -4902,7 +4854,7 @@
   "range_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:43:11.988118",
-    "title": "範囲選択バー",
+    "title": "範囲選択バーを生成",
     "method": "range_field_tag",
     "updated_at": "2015-05-05 06:10:32.776500",
     "versions": [
@@ -4954,8 +4906,8 @@
   "config_exceptions_app": {
     "category_id": 15,
     "created_at": "2013-05-16 13:31:58.072690",
-    "title": "例外処理アプリケーションを設定(config.exceptions_app)",
-    "method": "",
+    "title": "例外処理アプリケーションを設定",
+    "method": "config.exceptions_app",
     "updated_at": "2013-05-19 06:58:40.643231"
   },
   "deconstantize": {
@@ -4982,7 +4934,7 @@
   "rename_index": {
     "category_id": 5,
     "created_at": "2013-04-21 10:54:46.016013",
-    "title": "インデックスの変更",
+    "title": "インデックスを変更",
     "method": "rename_index",
     "updated_at": "2015-05-05 08:23:08.188718",
     "versions": [
@@ -5092,7 +5044,7 @@
   "search_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:15.942136",
-    "title": "検索ボックス",
+    "title": "検索ボックスを生成",
     "method": "search_field",
     "updated_at": "2015-05-04 16:49:15.877474",
     "versions": [
@@ -5118,7 +5070,7 @@
   "search_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:15.942136",
-    "title": "検索ボックス",
+    "title": "検索ボックスを生成",
     "method": "search_field_tag",
     "updated_at": "2015-05-04 16:49:15.877474",
     "versions": [
@@ -5183,8 +5135,8 @@
   "config_file_watcher": {
     "category_id": 15,
     "created_at": "2013-05-16 13:32:34.521145",
-    "title": "ファイルシステム内の変更を検知するための設定(config.file_watcher)",
-    "method": "",
+    "title": "ファイルシステム内の変更を検知するための設定",
+    "method": "config.file_watcher",
     "updated_at": "2015-04-04 03:42:04.270949"
   },
   "demodulize": {
@@ -5229,7 +5181,7 @@
   "remove_index": {
     "category_id": 5,
     "created_at": "2011-07-23 08:52:31.598153",
-    "title": "インデックスの削除",
+    "title": "インデックスを削除",
     "method": "remove_index",
     "updated_at": "2015-05-05 07:08:00.476709",
     "versions": [
@@ -5333,7 +5285,7 @@
   "telephone_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:31.634346",
-    "title": "電話番号入力ボックス",
+    "title": "電話番号入力ボックスを生成",
     "method": "telephone_field",
     "updated_at": "2015-05-04 16:33:27.046402",
     "versions": [
@@ -5359,7 +5311,7 @@
   "telephone_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:31.634346",
-    "title": "電話番号入力ボックス",
+    "title": "電話番号入力ボックスを生成",
     "method": "telephone_field_tag",
     "updated_at": "2015-05-04 16:33:27.046402",
     "versions": [
@@ -5411,8 +5363,8 @@
   "config_filter_parameters": {
     "category_id": 15,
     "created_at": "2013-05-16 13:33:04.208715",
-    "title": "ログファイルにパラメータ情報を出力しない(config.filter_parameters)",
-    "method": "",
+    "title": "ログファイルにパラメータ情報を出力しない",
+    "method": "config.filter_parameters",
     "updated_at": "2013-05-18 04:15:25.367162"
   },
   "foreign_key": {
@@ -5500,7 +5452,7 @@
   "joins": {
     "category_id": 6,
     "created_at": "2011-08-23 15:17:23.794049",
-    "title": "複数のテーブルを結合",
+    "title": "複数のテーブルを結合して検索",
     "method": "joins",
     "updated_at": "2015-05-05 07:24:08.317498",
     "versions": [
@@ -5552,7 +5504,7 @@
   "video_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:28:43.924624",
-    "title": "動画を再生",
+    "title": "動画を再生タグを生成",
     "method": "video_tag",
     "updated_at": "2015-05-05 06:55:58.134055",
     "versions": [
@@ -5578,7 +5530,7 @@
   "url_field": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:44.132808",
-    "title": "URL入力ボックス",
+    "title": "URL入力ボックスを生成",
     "method": "url_field",
     "updated_at": "2015-05-04 17:09:15.469843",
     "versions": [
@@ -5604,7 +5556,7 @@
   "url_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:44.132808",
-    "title": "URL入力ボックス",
+    "title": "URL入力ボックスを生成",
     "method": "url_field_tag",
     "updated_at": "2015-05-04 17:09:15.469843",
     "versions": [
@@ -5656,14 +5608,14 @@
   "config_force_ssl": {
     "category_id": 15,
     "created_at": "2013-05-16 13:33:38.608170",
-    "title": "強制的にHTTPSプロトコルを使用するかの設定(config.force_ssl)",
-    "method": "",
+    "title": "強制的にHTTPSプロトコルを使用するかの設定",
+    "method": "config.force_ssl",
     "updated_at": "2013-05-21 12:29:21.406067"
   },
   "humanize": {
     "category_id": 20,
     "created_at": "2013-04-27 15:07:36.840800",
-    "title": "最初の単語を大文字にし、スペースやストリップ末尾の_idを削除",
+    "title": "最初の単語を大文字にしてアンダーバーをスペースへ変換し末尾の_idを削除",
     "method": "humanize",
     "updated_at": "2015-05-05 08:16:00.541816",
     "versions": [
@@ -5802,7 +5754,7 @@
   "submit": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:54.568814",
-    "title": "サブミットボタン",
+    "title": "サブミットボタンを生成",
     "method": "submit",
     "updated_at": "2015-05-05 06:19:54.341889",
     "versions": [
@@ -5832,7 +5784,7 @@
   "submit_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:54.568814",
-    "title": "サブミットボタン",
+    "title": "サブミットボタンを生成",
     "method": "submit_tag",
     "updated_at": "2015-05-05 06:19:54.341889",
     "versions": [
@@ -5901,8 +5853,8 @@
   "config_log_level": {
     "category_id": 15,
     "created_at": "2013-05-16 13:34:08.813155",
-    "title": "ログレベルの指定(config.log_level)",
-    "method": "",
+    "title": "ログレベルの指定",
+    "method": "config.log_level",
     "updated_at": "2015-05-02 16:39:25.061387"
   },
   "number_to_currency": {
@@ -6068,7 +6020,7 @@
   "datetime_select": {
     "category_id": 9,
     "created_at": "2011-07-23 09:42:28.782944",
-    "title": "日時選択ボックス",
+    "title": "日時選択ボックスを生成",
     "method": "datetime_select",
     "updated_at": "2015-05-05 06:09:06.756595",
     "versions": [
@@ -6107,8 +6059,8 @@
   "config_log_tags": {
     "category_id": 15,
     "created_at": "2013-05-16 13:34:38.398458",
-    "title": "タグ付きログの設定(config.log_tags)",
-    "method": "",
+    "title": "タグ付きログの設定",
+    "method": "config.log_tags",
     "updated_at": "2013-05-18 08:06:29.558082"
   },
   "number_to_human": {
@@ -6206,8 +6158,8 @@
   "config_logger": {
     "category_id": 15,
     "created_at": "2013-05-16 13:35:10.962048",
-    "title": "使用するログオブジェクトの種類(config.logger)",
-    "method": "",
+    "title": "使用するログオブジェクトの種類",
+    "method": "config.logger",
     "updated_at": "2013-05-19 05:35:38.439232"
   },
   "number_to_human_size": {
@@ -6252,7 +6204,7 @@
   "references": {
     "category_id": 5,
     "created_at": "2011-07-23 08:52:52.519738",
-    "title": "リファレンスの生成",
+    "title": "リファレンスを生成",
     "method": "references",
     "updated_at": "2015-05-05 07:17:38.786610",
     "versions": [
@@ -6403,7 +6355,7 @@
   "add_reference": {
     "category_id": 5,
     "created_at": "2013-04-21 09:46:46.326071",
-    "title": "リファレンスの追加",
+    "title": "リファレンスを追加",
     "method": "add_reference",
     "updated_at": "2015-05-05 07:08:34.359220",
     "versions": [
@@ -6509,6 +6461,45 @@
       "6.0.2.1"
     ]
   },
+  "javascript_include_tag": {
+    "category_id": 8,
+    "created_at": "2011-07-23 09:27:30.846134",
+    "title": "JavaScriptをインクルード",
+    "method": "javascript_include_tag",
+    "updated_at": "2015-05-05 06:32:18.721274",
+    "versions": [
+      "1.0.0",
+      "1.1.0",
+      "1.1.1",
+      "1.1.6",
+      "1.2.0",
+      "1.2.6",
+      "2.0.0",
+      "2.0.1",
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
   "button": {
     "category_id": 9,
     "created_at": "2013-05-01 12:36:32.731672",
@@ -6555,8 +6546,8 @@
   "config_reload_classes_only_on_change": {
     "category_id": 15,
     "created_at": "2013-05-16 13:36:18.216389",
-    "title": "ファイルの変更検知の設定(config.reload_classes_only_on_change)",
-    "method": "",
+    "title": "ファイルの変更検知の設定",
+    "method": "config.reload_classes_only_on_change",
     "updated_at": "2013-05-19 06:42:42.795700"
   },
   "number_with_delimiter": {
@@ -6601,7 +6592,7 @@
   "remove_reference": {
     "category_id": 5,
     "created_at": "2013-04-21 10:46:00.979977",
-    "title": "リファレンスの削除",
+    "title": "リファレンスを削除",
     "method": "remove_reference",
     "updated_at": "2015-05-05 07:09:26.947115",
     "versions": [
@@ -6637,7 +6628,7 @@
   "image_submit_tag": {
     "category_id": 9,
     "created_at": "2013-05-01 13:22:42.924513",
-    "title": "画像サブミットボタン",
+    "title": "画像サブミットボタンを生成",
     "method": "image_submit_tag",
     "updated_at": "2015-05-05 06:20:50.443446",
     "versions": [
@@ -6676,8 +6667,8 @@
   "config_secret_key_base": {
     "category_id": 15,
     "created_at": "2013-05-16 13:36:49.952924",
-    "title": "シークレットキーの設定(config.secret_key_base)",
-    "method": "",
+    "title": "シークレットキーの設定",
+    "method": "config.secret_key_base",
     "updated_at": "2013-05-19 07:38:28.098380"
   },
   "number_with_precision": {
@@ -6787,8 +6778,8 @@
   "config_serve_static_assets": {
     "category_id": 15,
     "created_at": "2013-05-16 13:37:22.207113",
-    "title": "assetsの静的ファイルの設定(config.serve_static_assets)",
-    "method": "",
+    "title": "assetsの静的ファイルの設定",
+    "method": "config.serve_static_assets",
     "updated_at": "2013-05-18 08:16:38.595588"
   },
   "number_to_phone": {
@@ -6898,8 +6889,8 @@
   "config_colorize_logging": {
     "category_id": 15,
     "created_at": "2013-05-16 13:44:25.334392",
-    "title": "ログを出力するときにカラーにするか(config.colorize_logging)",
-    "method": "",
+    "title": "ログを出力するときにカラーにするか",
+    "method": "config.colorize_logging",
     "updated_at": "2013-05-18 05:30:50.695213"
   },
   "number_to_delimited": {
@@ -6978,8 +6969,8 @@
   "config_session_store": {
     "category_id": 15,
     "created_at": "2013-05-16 13:46:52.654930",
-    "title": "セッションストアの設定(config.session_store)",
-    "method": "",
+    "title": "セッションストアの設定",
+    "method": "config.session_store",
     "updated_at": "2013-05-19 07:39:56.454505"
   },
   "number_to_rounded": {
@@ -7060,8 +7051,8 @@
   "config_time_zone": {
     "category_id": 15,
     "created_at": "2013-05-16 13:47:28.082070",
-    "title": "タイムゾーンの設定(config.time_zone)",
-    "method": "",
+    "title": "タイムゾーンの設定",
+    "method": "config.time_zone",
     "updated_at": "2013-05-19 13:41:56.062989"
   },
   "sum": {
@@ -7132,8 +7123,8 @@
   "config_beginning_of_week": {
     "category_id": 15,
     "created_at": "2013-05-16 13:48:28.790705",
-    "title": "週の始まりの曜日の設定(config.beginning_of_week)",
-    "method": "",
+    "title": "週の始まりの曜日の設定",
+    "method": "config.beginning_of_week",
     "updated_at": "2013-05-18 08:21:03.806180"
   },
   "model_pluck": {
@@ -7199,8 +7190,8 @@
   "config_whiny_nils": {
     "category_id": 15,
     "created_at": "2013-05-16 13:48:57.974070",
-    "title": "初期化されていないオブジェクトの警告(config.whiny_nils)",
-    "method": "",
+    "title": "初期化されていないオブジェクトの警告",
+    "method": "config.whiny_nils",
     "updated_at": "2013-05-18 08:21:32.826144"
   },
   "excerpt": {
@@ -7310,8 +7301,8 @@
   "config_assets_compress": {
     "category_id": 99,
     "created_at": "2013-05-16 13:49:57.447824",
-    "title": "assetsでコンパイルする設定(config.assets.compress)",
-    "method": "",
+    "title": "assetsでコンパイルする設定",
+    "method": "config.assets.compress",
     "updated_at": "2013-05-18 08:24:50.224355"
   },
   "save": {
@@ -7343,8 +7334,8 @@
   "config_assets_css_compressor": {
     "category_id": 15,
     "created_at": "2013-05-16 13:50:28.578273",
-    "title": "CSSコンパイラーの設定(config.assets.css_compressor)",
-    "method": "",
+    "title": "CSSコンパイラーの設定",
+    "method": "config.assets.css_compressor",
     "updated_at": "2013-05-19 07:40:42.218659"
   },
   "model_update": {
@@ -7493,8 +7484,8 @@
   "config_assets_js_compressor": {
     "category_id": 15,
     "created_at": "2013-05-16 14:13:21.056723",
-    "title": "JavaScriptのコンパイラーの設定(config.assets.js_compressor)",
-    "method": "",
+    "title": "JavaScriptのコンパイラーの設定",
+    "method": "config.assets.js_compressor",
     "updated_at": "2013-05-19 07:41:00.110978"
   },
   "model_destroy": {
@@ -7644,8 +7635,8 @@
   "config_assets_paths": {
     "category_id": 15,
     "created_at": "2013-05-16 14:13:58.632285",
-    "title": "assetsへのパス(config.assets.paths)",
-    "method": "",
+    "title": "assetsへのパス",
+    "method": "config.assets.paths",
     "updated_at": "2013-05-19 07:41:43.654605"
   },
   "calculate": {
@@ -7716,14 +7707,14 @@
   "config_assets_precompile": {
     "category_id": 15,
     "created_at": "2013-05-16 14:14:37.840660",
-    "title": "assetでプリコンパイルする設定(config.assets.precompile)",
-    "method": "",
+    "title": "assetでプリコンパイルする設定",
+    "method": "config.assets.precompile",
     "updated_at": "2013-05-19 07:42:24.071878"
   },
   "clone": {
     "category_id": 6,
     "created_at": "2013-04-21 11:18:11.103515",
-    "title": "クーロン作成",
+    "title": "コピーを生成",
     "method": "clone",
     "updated_at": "2015-05-05 07:45:59.524086",
     "versions": [
@@ -7780,8 +7771,8 @@
   "config_assets_prefix": {
     "category_id": 15,
     "created_at": "2013-05-16 14:15:36.303849",
-    "title": "アセットパイプラインでprefix(config.assets.prefix)",
-    "method": "",
+    "title": "アセットパイプラインでprefix",
+    "method": "config.assets.prefix",
     "updated_at": "2013-05-19 07:43:34.412265"
   },
   "increment": {
@@ -7856,8 +7847,8 @@
   "config_assets_digest": {
     "category_id": 15,
     "created_at": "2013-05-16 14:16:16.337356",
-    "title": "assetにMD5フィンガープリントを使用(config.assets.digest)",
-    "method": "",
+    "title": "assetにMD5フィンガープリントを使用",
+    "method": "config.assets.digest",
     "updated_at": "2015-05-02 18:24:23.492273"
   },
   "model_changed": {
@@ -7889,7 +7880,7 @@
   "model_changed_q": {
     "category_id": 6,
     "created_at": "2012-02-18 13:23:26.678532",
-    "title": "保存していないレコードがあるかどうかチェック",
+    "title": "保存していないレコードがあるかチェック",
     "method": "changed?",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
@@ -7946,15 +7937,15 @@
   "config_assets_debug": {
     "category_id": 15,
     "created_at": "2013-05-16 14:16:56.984160",
-    "title": "Assetの結合と圧縮の設定(config.assets.debug)",
-    "method": "",
+    "title": "Assetの結合と圧縮の設定",
+    "method": "config.assets.debug",
     "updated_at": "2015-05-02 16:39:57.676299"
   },
   "config_autoload_paths": {
     "category_id": 15,
     "created_at": "2011-12-22 16:59:14.995654",
-    "title": "オートロード対象となるパスの追加(config.autoload_paths)",
-    "method": "",
+    "title": "オートロード対象となるパスの追加",
+    "method": "config.autoload_paths",
     "updated_at": "2013-05-19 13:41:11.364458"
   },
   "column_for_attribute": {
@@ -8009,14 +8000,14 @@
   "config_assets_cache_store": {
     "category_id": 15,
     "created_at": "2013-05-16 14:17:39.561869",
-    "title": "キャッシュストアの設定(config.assets.cache_store)",
-    "method": "",
+    "title": "キャッシュストアの設定",
+    "method": "config.assets.cache_store",
     "updated_at": "2013-05-19 07:45:08.610761"
   },
   "attribute_names": {
     "category_id": 6,
     "created_at": "2012-02-18 12:27:08.947090",
-    "title": "テーブルのすべてのカラム名を取得",
+    "title": "すべてのカラム名を取得",
     "method": "attribute_names",
     "updated_at": "2015-05-05 07:48:03.506851",
     "versions": [
@@ -8070,8 +8061,8 @@
   "config_assets_version": {
     "category_id": 15,
     "created_at": "2013-05-16 14:18:12.528803",
-    "title": "Assetのバージョンを指定(config.assets.version)",
-    "method": "",
+    "title": "Assetのバージョンを指定",
+    "method": "config.assets.version",
     "updated_at": "2013-05-18 08:51:05.778056"
   },
   "attribute_for_inspect": {
@@ -8098,7 +8089,7 @@
   "current_page_q": {
     "category_id": 8,
     "created_at": "2011-07-23 09:23:13.268559",
-    "title": "リクエストが指定したオプションで生成されたものかの確認",
+    "title": "リクエストが指定したオプションで生成されたものかチェック",
     "method": "current_page?",
     "updated_at": "2015-05-05 08:04:31.527539",
     "versions": [
@@ -8137,14 +8128,14 @@
   "config_assets_compile": {
     "category_id": 15,
     "created_at": "2013-05-16 14:18:48.056898",
-    "title": "ファイルがないときにファイルを探して自動コンパイル(config.assets.compile)",
-    "method": "",
+    "title": "ファイルがないときにファイルを探して自動コンパイル",
+    "method": "config.assets.compile",
     "updated_at": "2015-05-02 16:40:13.915563"
   },
   "attribute_present_q": {
     "category_id": 6,
     "created_at": "2013-04-20 16:08:04.423237",
-    "title": "モデルに任意のカラムが存在するかチェック",
+    "title": "任意のカラムが存在するかチェック",
     "method": "attribute_present?",
     "updated_at": "2015-05-05 07:49:07.669025",
     "versions": [
@@ -8195,14 +8186,14 @@
   "config_assets_logger": {
     "category_id": 15,
     "created_at": "2013-05-16 14:19:23.579441",
-    "title": "Assetロガーの設定(config.assets.logger)",
-    "method": "",
+    "title": "Assetロガーの設定",
+    "method": "config.assets.logger",
     "updated_at": "2014-04-28 07:51:19.669285"
   },
   "attributes": {
     "category_id": 6,
     "created_at": "2013-04-20 17:02:16.817741",
-    "title": "モデルの全てのカラムと属性を取得",
+    "title": "全てのカラムと属性を取得",
     "method": "attributes",
     "updated_at": "2015-05-05 07:49:38.741356",
     "versions": [
@@ -8259,15 +8250,15 @@
   "config_middleware": {
     "category_id": 15,
     "created_at": "2013-05-16 13:35:43.198264",
-    "title": "アプリケーションのミドルウェアの設定(config.middleware)",
-    "method": "",
+    "title": "アプリケーションのミドルウェアの設定",
+    "method": "config.middleware",
     "updated_at": "2013-05-18 08:58:42.179735"
   },
   "config_middleware_use": {
     "category_id": 15,
     "created_at": "2013-05-16 14:26:12.384545",
-    "title": "ミドルウェアを独自に追加(config.middleware.use)",
-    "method": "",
+    "title": "ミドルウェアを独自に追加",
+    "method": "config.middleware.use",
     "updated_at": "2015-05-04 15:04:31.535433"
   },
   "attributes_before_type_cast": {
@@ -8299,22 +8290,22 @@
   "config_middleware_swap": {
     "category_id": 15,
     "created_at": "2013-05-16 14:27:27.939723",
-    "title": "ミドルウェアスタックを入れ替える(config.middleware.swap)",
-    "method": "",
+    "title": "ミドルウェアスタックを入れ替える",
+    "method": "config.middleware.swap",
     "updated_at": "2013-05-18 15:17:17.615550"
   },
   "config_middleware_delete": {
     "category_id": 15,
     "created_at": "2013-05-16 14:28:08.686776",
-    "title": "ミドルウェアスタックを削除(config.middleware.delete)",
-    "method": "",
+    "title": "ミドルウェアスタックを削除",
+    "method": "config.middleware.delete",
     "updated_at": "2015-05-04 15:06:37.708581"
   },
   "config_middleware_insert_after": {
     "category_id": 15,
     "created_at": "2013-05-16 14:26:58.859464",
-    "title": "既存のミドルウェアの後に新しいミドルウェアを追加(config.middleware.insert_after)",
-    "method": "",
+    "title": "既存のミドルウェアの後に新しいミドルウェアを追加",
+    "method": "config.middleware.insert_after",
     "updated_at": "2015-05-04 15:06:03.077887"
   },
   "record_timestamps": {
@@ -8327,7 +8318,7 @@
   "has_attribute": {
     "category_id": 6,
     "created_at": "2013-04-20 17:04:06.260607",
-    "title": "モデルに任意のカラムが存在するかチェック",
+    "title": "任意のカラムが存在するかチェック",
     "method": "has_attribute?",
     "updated_at": "2015-05-05 07:50:48.104746",
     "versions": [
@@ -8380,7 +8371,7 @@
   "color_field": {
     "category_id": 9,
     "created_at": "2013-05-06 06:38:45.894597",
-    "title": "色の入力欄",
+    "title": "色の入力欄を生成",
     "method": "color_field",
     "updated_at": "2015-05-05 06:03:23.774854",
     "versions": [
@@ -8398,7 +8389,7 @@
   "color_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 06:38:45.894597",
-    "title": "色の入力欄",
+    "title": "色の入力欄を生成",
     "method": "color_field_tag",
     "updated_at": "2015-05-05 06:03:23.774854",
     "versions": [
@@ -8416,8 +8407,8 @@
   "config_i18n_default_locale": {
     "category_id": 15,
     "created_at": "2013-05-16 14:28:49.955342",
-    "title": "国際化対応のためのデフォルトのロケール(config.i18n.default_locale)",
-    "method": "",
+    "title": "国際化対応のためのデフォルトのロケール",
+    "method": "config.i18n.default_locale",
     "updated_at": "2013-05-17 13:56:48.649773"
   },
   "read_attribute_before_type_cast": {
@@ -8449,7 +8440,7 @@
   "date_field": {
     "category_id": 9,
     "created_at": "2013-05-06 06:41:40.272554",
-    "title": "日付の入力欄",
+    "title": "日付の入力欄を生成",
     "method": "date_field",
     "updated_at": "2015-05-05 06:02:11.175585",
     "versions": [
@@ -8467,7 +8458,7 @@
   "date_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 06:41:40.272554",
-    "title": "日付の入力欄",
+    "title": "日付の入力欄を生成",
     "method": "date_field_tag",
     "updated_at": "2015-05-05 06:02:11.175585",
     "versions": [
@@ -8485,14 +8476,14 @@
   "config_i18n_load_path": {
     "category_id": 15,
     "created_at": "2013-05-16 14:29:25.262257",
-    "title": "ロケールファイルへのパス(config.i18n.load_path)",
-    "method": "",
+    "title": "ロケールファイルへのパス",
+    "method": "config.i18n.load_path",
     "updated_at": "2013-05-19 10:06:47.079079"
   },
   "attribute_method_q": {
     "category_id": 6,
     "created_at": "2013-04-20 17:34:11.788650",
-    "title": "メソッドが存在するかチェック",
+    "title": "レコードの属性が存在するかチェック",
     "method": "attribute_method?",
     "updated_at": "2015-05-05 07:51:58.748185",
     "versions": [
@@ -8518,7 +8509,7 @@
   "datetime_field": {
     "category_id": 9,
     "created_at": "2013-05-06 07:09:54.229890",
-    "title": "日時の入力欄",
+    "title": "日時の入力欄を生成",
     "method": "datetime_field",
     "updated_at": "2015-05-04 17:14:25.522914",
     "versions": [
@@ -8536,7 +8527,7 @@
   "datetime_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:09:54.229890",
-    "title": "日時の入力欄",
+    "title": "日時の入力欄を生成",
     "method": "datetime_field_tag",
     "updated_at": "2015-05-04 17:14:25.522914",
     "versions": [
@@ -8554,14 +8545,14 @@
   "config_active_record_logger": {
     "category_id": 15,
     "created_at": "2013-05-18 04:18:02.106436",
-    "title": "ログオブジェクト(config.active_record.logger)",
-    "method": "",
+    "title": "ログオブジェクト",
+    "method": "config.active_record.logger",
     "updated_at": "2013-05-19 10:07:45.029738"
   },
   "datetime_local_field": {
     "category_id": 9,
     "created_at": "2013-05-06 07:18:40.248076",
-    "title": "ローカル日時の入力欄",
+    "title": "ローカル日時の入力欄を生成",
     "method": "datetime_local_field",
     "updated_at": "2015-05-04 16:39:28.774416",
     "versions": [
@@ -8579,7 +8570,7 @@
   "datetime_local_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:18:40.248076",
-    "title": "ローカル日時の入力欄",
+    "title": "ローカル日時の入力欄を生成",
     "method": "datetime_local_field_tag",
     "updated_at": "2015-05-04 16:39:28.774416",
     "versions": [
@@ -8597,14 +8588,14 @@
   "config_active_record_primary_key_prefix_type": {
     "category_id": 15,
     "created_at": "2013-05-18 04:19:04.867054",
-    "title": "テーブルの主キーの設定(config.active_record.primary_key_prefix_type)",
-    "method": "",
+    "title": "テーブルの主キーの設定",
+    "method": "config.active_record.primary_key_prefix_type",
     "updated_at": "2013-05-19 10:10:00.172026"
   },
   "month_field": {
     "category_id": 9,
     "created_at": "2013-05-06 07:37:44.686928",
-    "title": "月の入力欄",
+    "title": "月の入力欄を生成",
     "method": "month_field",
     "updated_at": "2015-05-04 17:07:29.416011",
     "versions": [
@@ -8622,7 +8613,7 @@
   "month_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:37:44.686928",
-    "title": "月の入力欄",
+    "title": "月の入力欄を生成",
     "method": "month_field_tag",
     "updated_at": "2015-05-04 17:07:29.416011",
     "versions": [
@@ -8640,14 +8631,14 @@
   "config_active_record_table_name_prefix": {
     "category_id": 15,
     "created_at": "2013-05-18 04:19:44.998992",
-    "title": "テーブルを生成するときに指定した文字列を先頭に追加(config.active_record.table_name_prefix)",
-    "method": "",
+    "title": "テーブルを生成するときに指定した文字列を先頭に追加",
+    "method": "config.active_record.table_name_prefix",
     "updated_at": "2013-05-18 05:59:42.934491"
   },
   "time_field": {
     "category_id": 9,
     "created_at": "2013-05-06 07:45:50.758981",
-    "title": "時間の入力欄",
+    "title": "時間の入力欄を生成",
     "method": "time_field",
     "updated_at": "2015-05-04 17:10:41.803740",
     "versions": [
@@ -8665,7 +8656,7 @@
   "time_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:45:50.758981",
-    "title": "時間の入力欄",
+    "title": "時間の入力欄を生成",
     "method": "time_field_tag",
     "updated_at": "2015-05-04 17:10:41.803740",
     "versions": [
@@ -8683,14 +8674,14 @@
   "config_active_record_table_name_suffix": {
     "category_id": 15,
     "created_at": "2013-05-18 04:20:18.575551",
-    "title": "テーブルを生成するときに指定した文字列を最後に追加(config.active_record.table_name_suffix)",
-    "method": "",
+    "title": "テーブルを生成するときに指定した文字列を最後に追加",
+    "method": "config.active_record.table_name_suffix",
     "updated_at": "2013-05-18 05:59:34.239651"
   },
   "belongs_to": {
     "category_id": 6,
     "created_at": "2011-07-23 08:59:29.189251",
-    "title": "参照元テーブルから参照先テーブルにアクセス",
+    "title": "参照元テーブルから参照先テーブルを参照",
     "method": "belongs_to",
     "updated_at": "2015-05-04 15:30:28.156335",
     "versions": [
@@ -8729,7 +8720,7 @@
   "exists_q": {
     "category_id": 6,
     "created_at": "2011-07-23 09:18:15.373700",
-    "title": "データの存在を確認",
+    "title": "レコードの存在を確認",
     "method": "exists?",
     "updated_at": "2015-05-05 07:44:50.983377",
     "versions": [
@@ -8755,7 +8746,7 @@
   "week_field": {
     "category_id": 9,
     "created_at": "2013-05-06 07:49:30.467564",
-    "title": "週の入力欄",
+    "title": "週の入力欄を生成",
     "method": "week_field",
     "updated_at": "2015-05-04 17:05:54.745034",
     "versions": [
@@ -8773,7 +8764,7 @@
   "week_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:49:30.467564",
-    "title": "週の入力欄",
+    "title": "週の入力欄を生成",
     "method": "week_field_tag",
     "updated_at": "2015-05-04 17:05:54.745034",
     "versions": [
@@ -8791,8 +8782,8 @@
   "config_active_record_pluralize_table_names": {
     "category_id": 15,
     "created_at": "2013-05-18 04:20:46.830085",
-    "title": "テーブル名を生成するときに複数形への変換をするかの設定(config.active_record.pluralize_table_names)",
-    "method": "",
+    "title": "テーブル名を生成するときに複数形への変換をするかの設定",
+    "method": "config.active_record.pluralize_table_names",
     "updated_at": "2013-05-21 12:31:11.429539"
   },
   "has_one": {
@@ -8837,7 +8828,7 @@
   "date_select": {
     "category_id": 9,
     "created_at": "2013-05-10 11:53:09.021924",
-    "title": "日付選択ボックス",
+    "title": "日付選択ボックスを生成",
     "method": "date_select",
     "updated_at": "2015-05-04 16:45:10.577300",
     "versions": [
@@ -8876,8 +8867,8 @@
   "config_active_record_default_timezone": {
     "category_id": 15,
     "created_at": "2013-05-18 04:21:39.043647",
-    "title": "データベースの処理の際に使うタイムゾーン(config.active_record.default_timezone)",
-    "method": "",
+    "title": "データベースの処理の際に使うタイムゾーン",
+    "method": "config.active_record.default_timezone",
     "updated_at": "2013-05-18 05:34:44.128400"
   },
   "has_many": {
@@ -8922,7 +8913,7 @@
   "time_select": {
     "category_id": 9,
     "created_at": "2013-05-10 11:56:01.593762",
-    "title": "時間選択ボックス",
+    "title": "時間選択ボックスを生成",
     "method": "time_select",
     "updated_at": "2015-05-04 16:47:34.388347",
     "versions": [
@@ -8956,8 +8947,8 @@
   "config_active_record_schema_format": {
     "category_id": 15,
     "created_at": "2013-05-18 04:22:08.836141",
-    "title": "スキーマの形式を変更(config.active_record.schema_format)",
-    "method": "",
+    "title": "スキーマの形式を変更",
+    "method": "config.active_record.schema_format",
     "updated_at": "2015-05-02 17:35:38.900847"
   },
   "has_and_belongs_to_many": {
@@ -9002,8 +8993,8 @@
   "config_active_record_timestamped_migrations": {
     "category_id": 15,
     "created_at": "2013-05-18 04:22:40.988394",
-    "title": "マイグレーションファイルの識別子を設定(config.active_record.timestamped_migrations)",
-    "method": "",
+    "title": "マイグレーションファイルの識別子を設定",
+    "method": "config.active_record.timestamped_migrations",
     "updated_at": "2013-05-18 06:02:31.559884"
   },
   "to_xml": {
@@ -9100,8 +9091,8 @@
   "config_active_record_lock_optimistically": {
     "category_id": 15,
     "created_at": "2013-05-18 04:23:11.313681",
-    "title": "楽観的ロックの設定(config.active_record.lock_optimistically)",
-    "method": "",
+    "title": "楽観的ロックの設定",
+    "method": "config.active_record.lock_optimistically",
     "updated_at": "2013-05-18 05:39:33.037469"
   },
   "polymorphic": {
@@ -9114,8 +9105,8 @@
   "config_action_controller_asset_host": {
     "category_id": 15,
     "created_at": "2013-05-18 06:05:28.779142",
-    "title": "アセットファイルへのホストの設定(config.action_controller.asset_host)",
-    "method": "",
+    "title": "アセットファイルへのホストの設定",
+    "method": "config.action_controller.asset_host",
     "updated_at": "2013-05-18 06:14:54.119473"
   },
   "lock": {
@@ -9128,8 +9119,8 @@
   "config_action_controller_perform_caching": {
     "category_id": 15,
     "created_at": "2013-05-18 06:06:00.927745",
-    "title": "コントローラのキャッシュ設定をするかの設定(config.action_controller.perform_caching)",
-    "method": "",
+    "title": "コントローラのキャッシュ設定をするかの設定",
+    "method": "config.action_controller.perform_caching",
     "updated_at": "2015-05-02 16:41:56.053305"
   },
   "counter_cache": {
@@ -9142,21 +9133,21 @@
   "config_action_controller_default_static_extension": {
     "category_id": 15,
     "created_at": "2013-05-18 06:06:28.876979",
-    "title": "キャッシュされたページに使用される拡張子の設定(config.action_controller.default_static_extension)",
-    "method": "",
+    "title": "キャッシュされたページに使用される拡張子の設定",
+    "method": "config.action_controller.default_static_extension",
     "updated_at": "2013-05-19 10:13:15.409312"
   },
   "config_action_controller_default_charset": {
     "category_id": 15,
     "created_at": "2013-05-18 06:06:59.482592",
-    "title": "コントローラのデフォルト文字コード(config.action_controller.default_charset)",
-    "method": "",
+    "title": "コントローラのデフォルト文字コード",
+    "method": "config.action_controller.default_charset",
     "updated_at": "2013-05-18 06:20:34.831074"
   },
   "model_new_record_q": {
     "category_id": 6,
     "created_at": "2012-02-18 13:23:26.678532",
-    "title": "新しいレコードかどうかチェック",
+    "title": "新しいレコードかチェック",
     "method": "new_record?",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
@@ -9182,7 +9173,7 @@
   "model_persisted_q": {
     "category_id": 6,
     "created_at": "2012-02-18 13:23:26.678532",
-    "title": "保存済みかどうかチェック",
+    "title": "保存済みかチェック",
     "method": "persisted?",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
@@ -9200,7 +9191,7 @@
   "model_destroyed_q": {
     "category_id": 6,
     "created_at": "2012-02-18 13:23:26.678532",
-    "title": "削除済みかどうかチェック",
+    "title": "削除済みかチェック",
     "method": "destroyed?",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
@@ -9226,15 +9217,15 @@
   "config_action_controller_request_forgery_protection_token": {
     "category_id": 15,
     "created_at": "2013-05-18 06:08:09.923982",
-    "title": "RequestForgeryのトークンパラメータを設定(config.action_controller.request_forgery_protection_token)",
-    "method": "",
+    "title": "RequestForgeryのトークンパラメータを設定",
+    "method": "config.action_controller.request_forgery_protection_token",
     "updated_at": "2013-05-19 10:17:24.653557"
   },
   "config_action_controller_allow_forgery_protectio": {
     "category_id": 15,
     "created_at": "2013-05-18 06:08:40.534828",
-    "title": "CSRF保護をするかの設定(config.action_controller.allow_forgery_protection)",
-    "method": "",
+    "title": "CSRF保護をするかの設定",
+    "method": "config.action_controller.allow_forgery_protection",
     "updated_at": "2013-05-21 12:33:22.997090"
   },
   "composed_of": {
@@ -9279,8 +9270,8 @@
   "config_action_controller_relative_url_root": {
     "category_id": 15,
     "created_at": "2013-05-18 06:09:09.819448",
-    "title": "サブディレクトリ(config.action_controller.relative_url_root)",
-    "method": "",
+    "title": "サブディレクトリ",
+    "method": "config.action_controller.relative_url_root",
     "updated_at": "2013-05-19 10:19:27.000174"
   },
   "model_any_q": {
@@ -9304,21 +9295,21 @@
   "config_action_controller_permit_all_parameters": {
     "category_id": 15,
     "created_at": "2013-05-18 06:09:38.068906",
-    "title": "デフォルトで許可されるmass assignmentのパラメータの設定(config.action_controller.permit_all_parameters)",
-    "method": "",
+    "title": "デフォルトで許可されるmass assignmentのパラメータの設定",
+    "method": "config.action_controller.permit_all_parameters",
     "updated_at": "2013-05-18 14:17:18.508666"
   },
   "config_action_controller_logger": {
     "category_id": 15,
     "created_at": "2013-05-18 06:07:32.147991",
-    "title": "アクションコントローラのロガー(config.action_controller.logger)",
-    "method": "",
+    "title": "アクションコントローラのロガー",
+    "method": "config.action_controller.logger",
     "updated_at": "2013-05-19 04:44:34.342865"
   },
   "concat": {
     "category_id": 6,
     "created_at": "2013-04-20 14:50:41.723093",
-    "title": "複数のレコードを追加",
+    "title": "非出力コード内で出力",
     "method": "concat",
     "updated_at": "2015-05-05 07:53:55.139616",
     "versions": [
@@ -9348,15 +9339,15 @@
   "config_action_controller_action_on_unpermitted_params": {
     "category_id": 15,
     "created_at": "2013-05-18 06:10:10.830435",
-    "title": "許可されていないパラメータの例外処理について(config.action_controller.action_on_unpermitted_params)",
-    "method": "",
+    "title": "許可されていないパラメータの例外処理について",
+    "method": "config.action_controller.action_on_unpermitted_params",
     "updated_at": "2015-05-04 09:53:17.667595"
   },
   "config_action_view_field_error_proc": {
     "category_id": 15,
     "created_at": "2013-05-18 06:31:18.595029",
-    "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定(config.action_view.field_error_proc)",
-    "method": "",
+    "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定",
+    "method": "config.action_view.field_error_proc",
     "updated_at": "2013-05-19 10:22:19.328589"
   },
   "instance_method_already_implemented": {
@@ -9395,8 +9386,8 @@
   "config_action_view_default_form_builder": {
     "category_id": 15,
     "created_at": "2013-05-18 06:31:46.539244",
-    "title": "デフォルトで使用するビルダー形式(config.action_view.default_form_builder)",
-    "method": "",
+    "title": "デフォルトで使用するビルダー形式",
+    "method": "config.action_view.default_form_builder",
     "updated_at": "2013-05-19 10:24:16.725010"
   },
   "to_param": {
@@ -9423,8 +9414,8 @@
   "config_action_view_erb_trim_mode": {
     "category_id": 15,
     "created_at": "2013-05-18 06:32:45.820968",
-    "title": "ERBの処理方法(config.action_view.erb_trim_mode)",
-    "method": "",
+    "title": "ERBの処理方法",
+    "method": "config.action_view.erb_trim_mode",
     "updated_at": "2013-05-18 07:01:32.441859"
   },
   "touch": {
@@ -9456,8 +9447,8 @@
   "config_action_view_embed_authenticity_token_in_remote_forms": {
     "category_id": 15,
     "created_at": "2013-05-18 06:33:10.387666",
-    "title": "Fromでのauthenticity_tokenの付与について(config.action_view.embed_authenticity_token_in_remote_forms)",
-    "method": "",
+    "title": "Fromでのauthenticity_tokenの付与について",
+    "method": "config.action_view.embed_authenticity_token_in_remote_forms",
     "updated_at": "2013-05-19 04:56:16.982839"
   },
   "create_with": {
@@ -9489,14 +9480,14 @@
   "config_action_view_prefix_partial_path_with_controller_namespace": {
     "category_id": 15,
     "created_at": "2013-05-18 06:33:45.735154",
-    "title": "サブディレクトリの名前空間について(config.action_view.prefix_partial_path_with_controller_namespace)",
-    "method": "",
+    "title": "サブディレクトリの名前空間について",
+    "method": "config.action_view.prefix_partial_path_with_controller_namespace",
     "updated_at": "2013-05-19 05:01:20.933912"
   },
   "eager_load": {
     "category_id": 6,
     "created_at": "2013-04-27 04:50:00.441700",
-    "title": "テーブルの外部結合",
+    "title": "左外部結合を使ってすべてのレコードを取得",
     "method": "eager_load",
     "updated_at": "2015-05-05 07:34:37.160096",
     "versions": [
@@ -9522,8 +9513,8 @@
   "config_action_view_logger": {
     "category_id": 15,
     "created_at": "2013-05-18 06:32:18.895801",
-    "title": "ビューのロガーの設定(config.action_view.logger)",
-    "method": "",
+    "title": "ビューのロガーの設定",
+    "method": "config.action_view.logger",
     "updated_at": "2013-05-19 10:25:27.979013"
   },
   "extending": {
@@ -9555,155 +9546,155 @@
   "config_action_mailer_logger": {
     "category_id": 15,
     "created_at": "2013-05-18 06:42:17.253810",
-    "title": "電子メールで使用するデフォルトのロガーの設定(config.action_mailer.logger)",
-    "method": "",
+    "title": "電子メールで使用するデフォルトのロガーの設定",
+    "method": "config.action_mailer.logger",
     "updated_at": "2013-05-19 10:26:11.701906"
   },
   "config_action_mailer_smtp_settings": {
     "category_id": 15,
     "created_at": "2013-05-18 06:42:47.056514",
-    "title": "SMTPの設定(config.action_mailer.smtp_settings)",
-    "method": "",
+    "title": "SMTPの設定",
+    "method": "config.action_mailer.smtp_settings",
     "updated_at": "2015-05-02 16:40:55.105615"
   },
   "config_action_mailer_sendmail_settings": {
     "category_id": 15,
     "created_at": "2013-05-18 06:43:20.471280",
-    "title": "センドメールの設定(config.action_mailer.sendmail_settings)",
-    "method": "",
+    "title": "センドメールの設定",
+    "method": "config.action_mailer.sendmail_settings",
     "updated_at": "2015-05-02 16:41:05.674195"
   },
   "config_action_mailer_raise_delivery_errors": {
     "category_id": 15,
     "created_at": "2013-05-18 06:43:50.154670",
-    "title": "電子メールが配信完了できない場合にエラーを発生させるかの設定(config.action_mailer.raise_delivery_errors)",
-    "method": "",
+    "title": "電子メールが配信完了できない場合にエラーを発生させるかの設定",
+    "method": "config.action_mailer.raise_delivery_errors",
     "updated_at": "2013-05-21 12:34:16.426614"
   },
   "config_action_mailer_delivery_method": {
     "category_id": 15,
     "created_at": "2013-05-18 06:44:18.405142",
-    "title": "電子メールの配信方法を設定(config.action_mailer.delivery_method)",
-    "method": "",
+    "title": "電子メールの配信方法を設定",
+    "method": "config.action_mailer.delivery_method",
     "updated_at": "2013-05-18 07:05:34.569543"
   },
   "config_action_mailer_perform_deliveries": {
     "category_id": 15,
     "created_at": "2013-05-18 06:44:44.618982",
-    "title": "電子メールの使用をするかの設定(config.action_mailer.perform_deliveries)",
-    "method": "",
+    "title": "電子メールの使用をするかの設定",
+    "method": "config.action_mailer.perform_deliveries",
     "updated_at": "2013-05-21 12:34:39.210375"
   },
   "config_action_mailer_default_options": {
     "category_id": 15,
     "created_at": "2013-05-18 06:45:11.131690",
-    "title": "電子メールのデフォルトオプション(config.action_mailer.default_options)",
-    "method": "",
+    "title": "電子メールのデフォルトオプション",
+    "method": "config.action_mailer.default_options",
     "updated_at": "2013-05-19 10:32:08.095718"
   },
   "config_action_mailer_observers": {
     "category_id": 15,
     "created_at": "2013-05-18 06:45:37.649257",
-    "title": "メールが配信されたときに通知されオブザーバーを登録(config.action_mailer.observers)",
-    "method": "",
+    "title": "メールが配信されたときに通知されオブザーバーを登録",
+    "method": "config.action_mailer.observers",
     "updated_at": "2013-05-19 10:33:20.465589"
   },
   "config_action_mailer_interceptors": {
     "category_id": 15,
     "created_at": "2013-05-18 06:47:12.578801",
-    "title": "電子メールが送信される前に呼び出させるインタープリタを登録(config.action_mailer.interceptors)",
-    "method": "",
+    "title": "電子メールが送信される前に呼び出させるインタープリタを登録",
+    "method": "config.action_mailer.interceptors",
     "updated_at": "2013-05-18 14:52:17.442992"
   },
   "config_action_dispatch_session_store": {
     "category_id": 15,
     "created_at": "2013-05-18 06:48:58.619417",
-    "title": "セッションストアの名前の設定(config.action_dispatch.session_store)",
-    "method": "",
+    "title": "セッションストアの名前の設定",
+    "method": "config.action_dispatch.session_store",
     "updated_at": "2013-05-19 10:33:55.511589"
   },
   "config_action_dispatch_default_headers": {
     "category_id": 15,
     "created_at": "2013-05-18 06:49:31.998271",
-    "title": "デフォルトで設定されたHTMLヘッダを持つハッシュ(config.action_dispatch.default_headers)",
-    "method": "",
+    "title": "デフォルトで設定されたHTMLヘッダを持つハッシュ",
+    "method": "config.action_dispatch.default_headers",
     "updated_at": "2013-05-19 10:34:39.199677"
   },
   "config_action_dispatch_tld_length": {
     "category_id": 15,
     "created_at": "2013-05-18 06:49:57.383829",
-    "title": "アプリケーションのトップドメインの長さを設定(config.action_dispatch.tld_length)",
-    "method": "",
+    "title": "アプリケーションのトップドメインの長さを設定",
+    "method": "config.action_dispatch.tld_length",
     "updated_at": "2013-05-19 10:48:36.755404"
   },
   "callbacks_before": {
     "category_id": 99,
     "created_at": "2013-05-18 06:50:29.323329",
-    "title": "リクエストの前に実行する処理(ActionDispatch::Callbacks.before)",
-    "method": "",
+    "title": "リクエストの前に実行する処理",
+    "method": "ActionDispatch::Callbacks.before",
     "updated_at": "2013-05-19 13:29:12.728877"
   },
   "callbacks_to_prepare": {
     "category_id": 15,
     "created_at": "2013-05-18 06:51:05.897239",
-    "title": "ActionDispatch::Callbacks.beforeの後に実行する処理(ActionDispatch::Callbacks.to_prepare)",
-    "method": "",
+    "title": "ActionDispatch::Callbacks.beforeの後に実行する処理",
+    "method": "ActionDispatch::Callbacks.to_prepare",
     "updated_at": "2013-05-19 05:11:21.389712"
   },
   "callbacks_after": {
     "category_id": 15,
     "created_at": "2013-05-18 06:51:36.382986",
-    "title": "リクエストの後に実行する処理(ActionDispatch::Callbacks.after)",
-    "method": "",
+    "title": "リクエストの後に実行する処理",
+    "method": "ActionDispatch::Callbacks.after",
     "updated_at": "2013-05-19 13:30:43.875116"
   },
   "config_active_support_bare": {
     "category_id": 15,
     "created_at": "2013-05-18 06:52:52.855235",
-    "title": "アクティブサポートのロードの設定(config.active_support.bare)",
-    "method": "",
+    "title": "アクティブサポートのロードの設定",
+    "method": "config.active_support.bare",
     "updated_at": "2013-05-19 13:31:55.762797"
   },
   "config_active_support_escape_html_entities_in_json": {
     "category_id": 15,
     "created_at": "2013-05-18 06:53:25.825997",
-    "title": "JSONのシリアル化でHTMLエンティティのエスケープ処理をするかの設定(config.active_support.escape_html_entities_in_json)",
-    "method": "",
+    "title": "JSONのシリアル化でHTMLエンティティのエスケープ処理をするかの設定",
+    "method": "config.active_support.escape_html_entities_in_json",
     "updated_at": "2013-05-21 12:35:18.263089"
   },
   "config_active_support_use_standard_json_time_format": {
     "category_id": 15,
     "created_at": "2013-05-18 06:53:53.569624",
-    "title": "ISO8601形式に日時をシリアライズ(config.active_support.use_standard_json_time_format)",
-    "method": "",
+    "title": "ISO8601形式に日時をシリアライズ",
+    "method": "config.active_support.use_standard_json_time_format",
     "updated_at": "2013-05-18 15:12:09.164488"
   },
   "cache_store_logger": {
     "category_id": 15,
     "created_at": "2013-05-18 06:55:07.997818",
-    "title": "キャッシュストアで使用するロガーの設定(ActiveSupport::Cache::Store.logger)",
-    "method": "",
+    "title": "キャッシュストアで使用するロガーの設定",
+    "method": "ActiveSupport::Cache::Store.logger",
     "updated_at": "2013-05-19 13:32:58.399965"
   },
   "deprecation_behavior": {
     "category_id": 15,
     "created_at": "2013-05-18 06:55:41.066132",
-    "title": "非推奨の警告の動作を設定(ActiveSupport::Deprecation.behavior)",
-    "method": "",
+    "title": "非推奨の警告の動作を設定",
+    "method": "ActiveSupport::Deprecation.behavior",
     "updated_at": "2013-05-19 05:24:46.283460"
   },
   "deprecation_silence": {
     "category_id": 15,
     "created_at": "2013-05-18 06:56:04.511414",
-    "title": "指定されたブロックで警告が表示されるか(ActiveSupport::Deprecation.silence)",
-    "method": "",
+    "title": "指定されたブロックで警告が表示されるか",
+    "method": "ActiveSupport::Deprecation.silence",
     "updated_at": "2013-05-19 13:34:40.688524"
   },
   "deprecation_silenced": {
     "category_id": 15,
     "created_at": "2013-05-18 06:56:29.189197",
-    "title": "非推奨の警告を標示するかの設定(ActiveSupport::Deprecation.silenced)",
-    "method": "",
+    "title": "非推奨の警告を標示するかの設定",
+    "method": "ActiveSupport::Deprecation.silenced",
     "updated_at": "2013-05-21 12:35:58.811074"
   },
   "add_flash_types": {
@@ -9727,8 +9718,8 @@
   "logger_silencer": {
     "category_id": 15,
     "created_at": "2013-05-18 06:54:18.349205",
-    "title": "サイレンサーのブロックをするかの設定(ActiveSupport::Logger.silencer)",
-    "method": "",
+    "title": "サイレンサーのブロックをするかの設定",
+    "method": "ActiveSupport::Logger.silencer",
     "updated_at": "2013-05-21 12:36:37.415859"
   },
   "after_action": {
@@ -10052,7 +10043,7 @@
   "change_table_comment": {
     "category_id": 6,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "テーブルのコメントの変更",
+    "title": "テーブルのコメントを変更",
     "method": "change_table_comment",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10141,7 +10132,7 @@
   "duplicable_q": {
     "category_id": 20,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "複製可能かどうか",
+    "title": "複製可能かチェック",
     "method": "duplicable?",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10170,7 +10161,7 @@
   "foreign_key_exists_q": {
     "category_id": 6,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "テーブルに外部キー制約が存在するか",
+    "title": "テーブルに外部キー制約が存在するかチェック",
     "method": "foreign_key_exists?",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10279,7 +10270,7 @@
   "index_name_exists_q": {
     "category_id": 6,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "テーブルに指定した名前のインデックスが存在するか",
+    "title": "テーブルに指定した名前のインデックスが存在するかチェック",
     "method": "index_name_exists?",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10715,6 +10706,42 @@
     "method": "write_fragment",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "respond_to": {
+    "category_id": 7,
+    "created_at": "2011-07-23 09:14:45.471397",
+    "title": "リクエストで指定されたフォーマットに合わせて出力",
+    "method": "respond_to",
+    "updated_at": "2015-04-04 03:17:22.691495",
+    "versions": [
+      "1.1.6",
+      "1.2.0",
+      "1.2.6",
+      "2.0.0",
+      "2.0.1",
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
       "5.0.0.1",
       "5.1.7",
       "5.2.3",

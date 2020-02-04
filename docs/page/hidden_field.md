@@ -6,11 +6,11 @@ layout: page
 隠しフィールドの生成
 
 #### 使い方
-    hidden_field(オブジェクト名, メソッド名 [, HTMLオプション])
+    hidden_field(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])
 
-#### HTMLオプション
+#### HTML属性
 
-オプション      | 説明
+HTML属性      | 説明
 ---------- | ------------------
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
@@ -25,6 +25,25 @@ layout: page
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onselect    | 入力欄のテキストが選択された時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
 ##### 初期値なし
@@ -48,11 +67,11 @@ layout: page
 隠しフィールドの生成
 
 #### 使い方
-    f.hidden_field(メソッド名 [, HTMLオプション]
+    f.hidden_field(メソッド名 [, HTML属性 or イベント属性]
 
-#### HTMLオプション
+#### HTML属性
 
-オプション      | 説明
+HTML属性      | 説明
 ---------- | ------------------
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
@@ -67,6 +86,25 @@ layout: page
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onselect    | 入力欄のテキストが選択された時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
 ##### 初期値なし

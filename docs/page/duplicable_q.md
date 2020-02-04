@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-複製可能かどうか？
+複製可能か？
 
 ### 使い方
     duplicable?

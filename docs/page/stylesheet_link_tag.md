@@ -5,13 +5,13 @@ layout: page
 外部スタイルシートを指定するリンクタグを生成
 
 ### 使い方
-    stylesheet_link_tag(スタイルシートへのパス [, HTMLオプション])
+    stylesheet_link_tag(スタイルシートへのパス [, HTML属性 or イベント属性])
 
-### HTMLオプション
+### HTML属性
 
-オプション     | 説明                                  | デフォルト
+HTML属性     | 説明                                  | デフォルト
 ----------|-------------------------------------|---------------------------------------
-:href     | 関連ファイルの場所                         | app/assets/stylesheets/スタイルシートへのパス.css
+:href     | 関連ファイルの場所                         |
 :hreflang | 関連ファイルの言語コードを指定                 |
 :type     | 関連ファイルのMIMEタイプを指定                 | text/css
 :media    | 関連ファイルの出力メディアのリンクタイプ              | screen
@@ -26,31 +26,46 @@ layout: page
 :dir      | 表記方向                              |
 :lang     | 基本言語                              |
 
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+
 ### 例
 #### 外部スタイルシートを指定するリンクタグを生成
-    <%= stylesheet_link_tag "style" %>
-    # <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+    stylesheet_link_tag "style"
+    # <link href="/assets/style.css" media="screen" rel="stylesheet" />
 
-#### 拡張子を付けて指定
-    <%= stylesheet_link_tag "style.css" %>
-    # <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+#### 拡張子まで指定
+    stylesheet_link_tag "style.css"
+    # <link href="/assets/style.css" media="screen" rel="stylesheet" />
 
-#### 外部サイトのCSSを指定
-    <%= stylesheet_link_tag "http://www.example.com/style.css" %>
-    # <link href="http://www.example.com/style.css" media="screen" rel="stylesheet" type="text/css" />
+#### URLで指定
+    stylesheet_link_tag "http://www.example.com/style.css"
+    # <link href="http://www.example.com/style.css" media="screen" rel="stylesheet" />
 
-#### mediaオプションをallで指定
-    <%= stylesheet_link_tag "style", media: "all" %>
-    # <link href="/stylesheets/style.css" media="all" rel="stylesheet" type="text/css" />
+#### media属性を指定
+    stylesheet_link_tag "style", media: "all"
+    # <link href="/assets/style.css" media="all" rel="stylesheet" />
+
+#### 印刷用CSSを設定
+    stylesheet_link_tag "style", media: "print"
+    # <link href="/assets/style.css" media="print" rel="stylesheet" />
 
 #### 複数指定
-    <%= stylesheet_link_tag "style1", "style2" %>
-    # <link href="/stylesheets/style1.css" media="screen" rel="stylesheet" type="text/css" />
-    # <link href="/stylesheets/style2.css" media="screen" rel="stylesheet" type="text/css" />
-
-#### 関連ファイルの言語コードを指定
-    <%= stylesheet_link_tag "style", hreflang: :ja %>
-    # <link href="/stylesheets/style.css" hreflang="ja" media="screen" rel="stylesheet" type="text/css" />
+    stylesheet_link_tag "random.styles", "/css/stylish"
+    # <link href="/assets/random.styles" media="screen" rel="stylesheet" />
+    # <link href="/css/stylish.css" media="screen" rel="stylesheet" />
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/asset_tag_helper.rb#L137)

@@ -5,7 +5,7 @@ layout: page
 コントローラやアクションなどからURLを生成
 
 ### 使い方
-    url_for(オプション)
+    url_for([オプション])
 
 ### オプション
 
@@ -13,10 +13,18 @@ layout: page
 ----------------|-----------------------------|-------
 :controller     | コントローラ名                     |
 :action         | アクション名                      |
-:anchor         | アンカー(URLの#以降)を指定         |
-:only_path      | trueなら、URL全体ではなくパス部分を返す | true
-:trailing_slash | 末尾にスラッシュを付与              |
+:id             | IDを指定                      |
+:only_path      | trueなら、URL全体ではなくパス部分を返す | false
+:protocol       | URLのプロトコルを指定               | http
 :host           | URLのホストを指定                 |
+:subdomain      | サブドメインを指定                  |
+:tld_length     | TLDレングスを指定                 | 1
+:port           | ポート番号を指定                 |
+:anchor         | アンカー(URLの#以降)を指定         |
+:params         | パラメータを指定                   |
+:trailing_slash | 末尾にスラッシュを付与              |
+:script_name    | スクリプト名を指定                 |
+:locale         | ロケールを指定                    |
 :protocol       | URLのプロトコルを指定               |
 :user           | HTTP認証                     |
 :password       | HTTP認証                     |

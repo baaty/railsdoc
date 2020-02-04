@@ -8,15 +8,15 @@ HTMLタグを取り除く
     strip_tags(html)
 
 ### 例
+#### HTMLタグを取り除く
     strip_tags("Strip <i>these</i> tags!")
     # => Strip these tags!
 
+#### 複数箇所でタグあり
     strip_tags("<b>Bold</b> no more!  <a href='more.html'>See more here</a>...")
     # => Bold no more!  See more here...
 
-    strip_tags("<div id='top-bar'>Welcome to my website!</div>")
-    # => Welcome to my website!
-
+#### エスケープされる文字あり
     strip_tags("> A quote from Smith & Wesson")
     # => &gt; A quote from Smith &amp; Wesson
 

@@ -6,7 +6,7 @@ layout: page
 日付の入力に特化した選択ボックスを生成
 
 #### 使い方
-    date_select(オブジェクト名, メソッド名 [, オプション or HTMLオプション])
+    date_select(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])
 
 #### オプション
 
@@ -35,9 +35,9 @@ layout: page
 :with_css_classes      | スタイルを変更するタグの設定
 :use_hidden            | 非表示のタグのみ生成
 
-#### HTMLオプション
+#### HTML属性
 
-オプション         | 説明
+HTML属性         | 説明
 --------------|-------------------
 :discard_type | 名前の型を破棄
 :prefix       | 名前の接頭辞を設定
@@ -53,6 +53,24 @@ layout: page
 :style        | 要素の補足情報
 :dir          | 表記方向
 :lang         | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
 ##### 基本形(オプションなし)
@@ -99,7 +117,7 @@ layout: page
 日付の入力に特化した選択ボックスを生成
 
 #### 使い方
-    f.date_select(メソッド名 [, オプション or HTMLオプション])
+    f.date_select(メソッド名 [, オプション or HTML属性 or イベント属性])
 
 #### オプション
 
@@ -128,9 +146,9 @@ layout: page
 :with_css_classes      | スタイルを変更するタグの設定
 :use_hidden            | 非表示のタグのみ生成
 
-#### HTMLオプション
+#### HTML属性
 
-オプション         | 説明
+HTML属性         | 説明
 --------------|-------------------
 :discard_type | 名前の型を破棄
 :prefix       | 名前の接頭辞を設定
@@ -146,6 +164,24 @@ layout: page
 :style        | 要素の補足情報
 :dir          | 表記方向
 :lang         | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
     <%= form_for @person do |f| %>

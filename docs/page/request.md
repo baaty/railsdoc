@@ -9,47 +9,82 @@ layout: page
 
 ### メソッド
 
-メソッド名                  | 説明
-------------------------- | -----------------------------------------------
+メソッド名                    | 説明
+--------------------------|---------------------
 GET                       |
 POST                      |
+accept_encoding           | エンコーディング形式を取得
+accept_language           | 受信可能な言語
+authority                 | authorityを取得
 authorization             | 認証情報を取得
+base_url                  | URLを取得
 body                      | ポストデータを取得
-commit_flash              |
+content_charset           | charsetパラメータを取得
 content_length            | コンテンツサイズを取得
-content_class             |
+content_type              | content-typeを取得
 controller_class          |
 controller_class_for      |
 cookie_jar                |
-empty                     |
-form_data?                |
+cookies                   | クッキーを取得
+delete?                   | HTTPメソッドがDELETEであるか？
+get?                      | HTTPメソッドがGETであるか？
+head?                     | HTTPメソッドがHEADであるか？
+host                      | ホスト名を取得
+host_with_port            | ホスト名とポート番号を取得
+form_data?                | フォームデータがあるか？
 fullpath                  | リクエストURLを取得
 headers                   | リクエストヘッダーの情報取得
 http_auth_salt            |
 ip                        | IPアドレスを取得
-key?                      |
+link?                     | HTTPメソッドがLINKであるか？
+key?                      | 一致するヘッダーがあるか？
 local?                    | ローカル通信であるか
 logger                    |
 media_type                | メディア対応の取得
-method                    | HEAD以外は、「request.request_method」と同じ。headはgetを取得
+media_type_params         |
+method                    | HTTPメソッド
 method_symbol             | メソッドをシンボルで取得
+multithread?              |
 new                       |
-original_fullpath         |
-original_url              |
+original_fullpath         | 最後に要求されたパスを取得
+original_url              | 元のリクエストURLを取得
+options?                  |
+parseable_data?           |
+patch?                    | HTTPメソッドがPATCHであるか？
+path                      |
+path_info                 |
+path_info=                |
+port                      | ポート番号
+post?                     | HTTPメソッドがPOSTであるか？
+put?                      | HTTPメソッドがPUTであるか？
+query_string              | クエリ文字(?より後ろの部分)
+referer                   |
 query_parameters          |
-raw_post                  |
-remote_ip                 | remote_ipを取得
+raw_post                  | リクエスト本文を取得
+remote_ip                 | クライアントのipアドレスを取得
+request_id                | X-Request-Idヘッダーを取得
 request_method            | リクエストメソッドを取得
 request_method_symbol     | リクエストメソッドをシンボルで取得
 request_parameters        |
 reset_session             |
+scheme                    |
+script_name               |
+script_name=              |
+session                   |
+session_options           |
 send_early_hints          |
-server_software           | 使用しているサーバソフトウェアを取得
+server_software           | 使用しているサーバソフトウェア
 session_options=(options) |
 ssl?                      |
-uuid                      |
-xhr?                      |
-xml_http_request?         | Ajaxによって実行されたものかどうか
+trace?                    |
+trusted_proxy?            |
+unlink?                   |
+url                       | リクエストのURLを取得
+user_agent                | ユーザエージェントを取得
+values_at                 |
+uuid                      | X-Request-Idヘッダーを取得
+xhr?                      | 「X-Requested-With」ヘッダーに「XMLHttpRequest」が含まれているか？
+xml_http_request?         | Ajaxによって実行されたものか
 
 ### 例
 #### リクエストメソッドの取得

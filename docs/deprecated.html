@@ -24,6 +24,15 @@ title: "廃止"
 </main>
 <aside class="xs-hide sm-col-2">
   <h3>目次</h3>
+  <h4>メソッド一覧</h4>
+  <ol>
+    {%- for i in site.data.pages -%}
+      {% if i[1].category_id != 99 %}{% continue %}{% endif %}
+      {% if i[1].method == "" %}{% continue %}{% endif %}
+      <li><a href="#{{i[0]}}">{{i[1].method}}</a></li>
+    {% endfor %}
+  </ol>
+  <h4>逆引き</h4>
   <ol>
     {%- for i in site.data.pages -%}
       {% if i[1].category_id != 99 %}{% continue %}{% endif %}

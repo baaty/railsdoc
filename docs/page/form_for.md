@@ -36,7 +36,7 @@ layout: page
     # <form action="/users/update" class="new_user" id="new_user" method="post">
     # </form>
 
-#### htmlオプション
+#### HTML属性を指定
     <%= form_for(@user, html: {multipart: true}) do |f| %>
     <% end %>
     # <form action="/users" class="new_user" enctype="multipart/form-data" id="new_user" method="post">
@@ -58,7 +58,7 @@ layout: page
     # <input name='_method' type='hidden' value='patch' />
     # </form>
 
-#### HTMLオプション指定
+#### HTML属性を指定
     <%= form_for(@post, data: { behavior: "autosave" }, html: { name: "go" }) do |f| %>
     <% end %>
     # <form action='http://www.example.com' method='post' data-behavior='autosave' name='go'>

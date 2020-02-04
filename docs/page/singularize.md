@@ -3,31 +3,34 @@ layout: page
 ---
 ### 説明
 複数形の名詞を単数形に変換
-「config/initializers/inflections.rb」に定義を追加することによって、不可算名詞を追加できる
+「config/initializers/inflections.rb」に定義を追加することによって、不可算名詞の追加が可能
 
 ### 使い方
-    名詞.singularize
+    文字列.singularize([ロケーション])
 
 ### 例
+#### 複数形の名詞を単数形に変換
     'posts'.singularize
     # "post"
 
+#### 不可算名詞
     'octopi'.singularize
     # "octopus"
 
+#### 不可算名詞
     'sheep'.singularize
     # "sheep"
 
-    'word'.singularize
-    # "word"
-
+#### 文字列
     'the blue mailmen'.singularize
     # "the blue mailman"
 
+#### キャメルケース
     'CamelOctopi'.singularize
     # "CamelOctopus"
 
-    'leyes'.singularize(:es)
+#### ロケーション指定
+    'leyes'.singularize(:js)
     # "ley"
 
 ### ソースコード

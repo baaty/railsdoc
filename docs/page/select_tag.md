@@ -5,7 +5,7 @@ layout: page
 選択ボックスを生成
 
 ### 使い方
-    モデル.select_tag(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTMLオプション])
+    select_tag(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTML属性 or イベント属性])
 
 ### オプション
 
@@ -16,9 +16,9 @@ layout: page
 :include_blank | 先頭に空の要素を追加するか |
 :prompt        | 指定したオプションを先頭に追加 |
 
-### HTMLオプション
+### HTML属性
 
-オプション     | 説明
+HTML属性     | 説明
 ------------ | ----
 :accept      | フォームで受付可能なMIMEタイプ
 :readonly    | フォームの内容変更禁止
@@ -31,48 +31,63 @@ layout: page
 :dir         | 表記方向
 :lang        | 基本言語
 
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onchange    | フォーカスを失う際に値が変化していた時
+
 ### 例
+#### 選択ボックスを生成
     select_tag "people", options_from_collection_for_select(@people, "id", "name")
     # <select id="people" name="people"><option value="1">David</option></select>
 
+#### 選択済みオプションあり
     select_tag "people", options_from_collection_for_select(@people, "id", "name", "1")
     # <select id="people" name="people"><option value="1" selected="selected">David</option></select>
 
+#### rawで直接指定
     select_tag "people", raw("<option>David</option>")
     # <select id="people" name="people"><option>David</option></select>
 
-    select_tag "count", raw("<option>1</option><option>2</option><option>3</option><option>4</option>")
-    # <select id="count" name="count"><option>1</option><option>2</option>
-    # <option>3</option><option>4</option></select>
-
+#### 複数選択を有効
     select_tag "colors", raw("<option>Red</option><option>Green</option><option>Blue</option>"), multiple: true
     # <select id="colors" multiple="multiple" name="colors[]"><option>Red</option>
     # <option>Green</option><option>Blue</option></select>
 
-    select_tag "locations", raw("<option>Home</option><option selected='selected'>Work</option><option>Out</option>")
-    # <select id="locations" name="locations"><option>Home</option><option selected='selected'>Work</option>
-    # <option>Out</option></select>
-
+#### class属性など指定
     select_tag "access", raw("<option>Read</option><option>Write</option>"), multiple: true, class: 'form_input', id: 'unique_id'
     # <select class="form_input" id="unique_id" multiple="multiple" name="access[]"><option>Read</option>
     # <option>Write</option></select>
 
+#### 先頭に空の要素を追加
     select_tag "people", options_from_collection_for_select(@people, "id", "name"), include_blank: true
     # <select id="people" name="people"><option value="" label=" "></option><option value="1">David</option></select>
 
+#### 先頭に指定した文字列を追加
     select_tag "people", options_from_collection_for_select(@people, "id", "name"), include_blank: "All"
     # <select id="people" name="people"><option value="">All</option><option value="1">David</option></select>
 
+#### 指定したオプションを先頭に追加
     select_tag "people", options_from_collection_for_select(@people, "id", "name"), prompt: "Select something"
     # <select id="people" name="people"><option value="">Select something</option><option value="1">David</option></select>
 
+#### 無効化
     select_tag "destination", raw("<option>NYC</option><option>Paris</option><option>Rome</option>"), disabled: true
     # <select disabled="disabled" id="destination" name="destination"><option>NYC</option>
     # <option>Paris</option><option>Rome</option></select>
-
-    select_tag "credit_card", options_for_select([ "VISA", "MasterCard" ], "MasterCard")
-    # <select id="credit_card" name="credit_card"><option>VISA</option>
-    # <option selected="selected">MasterCard</option></select>
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L135)

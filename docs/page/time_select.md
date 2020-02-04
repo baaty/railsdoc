@@ -6,12 +6,15 @@ layout: page
 時間の入力に特化した選択ボックスを生成
 
 #### 使い方
-    time_select(オブジェクト名 メソッド名 [, オプション])
+    time_select(オブジェクト名 メソッド名 [, オプション or HTML属性 or イベント属性])
 
 #### オプション
 
-オプション         | 説明
----------------- | ---------------
+オプション            | 説明
+-----------------|-------------
+:include_seconds | 秒数選択ボックス
+:ampm            | AM/PM形式
+:ignore_date     | 未入力の場合に送信されない
 :order           | 並び順を指定
 :include_blank   | 空を含めて表示
 :include_seconds | 秒数選択ボックスを表示
@@ -23,31 +26,51 @@ layout: page
 :prefix          | 名前の接頭辞を設定
 :size            | フィールドの高さ
 :multiple        | 複数選択可能
-:tabindex        | Tabキーによる入力欄の移動順
-:id              | 要素固有の識別子
-:class           | 要素を分類するクラス名
-:title           | 要素の補足情報
-:style           | 要素の補足情報
-:dir             | 表記方向
-:lang            | 基本言語
+
+#### HTML属性
+
+HTML属性   | 説明
+-----------|-------------------
+:accept    | フォームで受付可能なMIMEタイプ
+:readonly  | フォームの内容変更禁止
+:tabindex  | Tabキーによる入力欄の移動順
+:accesskey | フォームに移動するショートカットキー
+:id        | 要素固有の識別子
+:class     | 要素を分類するクラス名
+:title     | 要素の補足情報
+:style     | 要素の補足情報
+:dir       | 表記方向
+:lang      | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
-    # Creates a time select tag that, when POSTed, will be stored in the article variable in the sunrise attribute.
+##### 時間の入力に特化した選択ボックスを生成
     time_select("article", "sunrise")
 
-    # Creates a time select tag with a seconds field that, when POSTed, will be stored in the article variables in
-    # the sunrise attribute.
+##### 秒数選択ボックスを表示
     time_select("article", "start_time", include_seconds: true)
 
-    # You can set the <tt>:minute_step</tt> to 15 which will give you: 00, 15, 30 and 45.
+##### 00, 15, 30, and 45を取得
     time_select 'game', 'game_time', {minute_step: 15}
 
-    # Creates a time select tag with a custom prompt. Use <tt>prompt: true</tt> for generic prompts.
-    time_select("article", "written_on", prompt: {hour: 'Choose hour', minute: 'Choose minute', second: 'Choose seconds'})
-    time_select("article", "written_on", prompt: {hour: true}) # generic prompt for hours
-    time_select("article", "written_on", prompt: true) # generic prompts for all
-
-    # You can set :ampm option to true which will show the hours as: 12 PM, 01 AM .. 11 PM.
+##### AM/PM形式
     time_select 'game', 'game_time', {ampm: true}
 
 #### ソースコード
@@ -63,7 +86,10 @@ layout: page
 #### オプション
 
 オプション            | 説明
----------------- | ---------------
+-----------------|-------------
+:include_seconds | 秒数選択ボックス
+:ampm            | AM/PM形式
+:ignore_date     | 未入力の場合に送信されない
 :order           | 並び順を指定
 :include_blank   | 空を含めて表示
 :include_seconds | 秒数選択ボックスを表示
@@ -75,19 +101,43 @@ layout: page
 :prefix          | 名前の接頭辞を設定
 :size            | フィールドの高さ
 :multiple        | 複数選択可能
-:tabindex        | Tabキーによる入力欄の移動順
-:id              | 要素固有の識別子
-:class           | 要素を分類するクラス名
-:title           | 要素の補足情報
-:style           | 要素の補足情報
-:dir             | 表記方向
-:lang            | 基本言語
+
+#### HTML属性
+
+HTML属性   | 説明
+-----------|-------------------
+:accept    | フォームで受付可能なMIMEタイプ
+:readonly  | フォームの内容変更禁止
+:tabindex  | Tabキーによる入力欄の移動順
+:accesskey | フォームに移動するショートカットキー
+:id        | 要素固有の識別子
+:class     | 要素を分類するクラス名
+:title     | 要素の補足情報
+:style     | 要素の補足情報
+:dir       | 表記方向
+:lang      | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
+:onchange    | フォーカスを失う際に値が変化していた時
 
 #### 例
-    <%= form_for @race do |f| %>
-      <%= f.time_select :average_lap %>
-      <%= f.submit %>
-    <% end %>
+##### 時間の入力に特化した選択ボックスを生成
+    f.time_select :average_lap
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/date_helper.rb#L1183)

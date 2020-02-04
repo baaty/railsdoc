@@ -12,8 +12,8 @@ layout: page
 
 オプション   | 説明
 ---------- | ------------------
-:min       | 最少許容値
-:max       | 最大許容値
+:min       | 最少値
+:max       | 最大値
 :step      | 許容値の粒度
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
@@ -30,9 +30,11 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 時間の入力欄を生成
     time_field("task", "started_at")
     # <input id="task_started_at" name="task[started_at]" type="time" />
 
+##### 最小値を指定
     time_field("task", "started_at", min: Time.now)
     # <input id="task_started_at" name="task[started_at]" type="time" min="01:00:00.000" />
 
@@ -50,8 +52,8 @@ layout: page
 
 オプション      | 説明
 ---------- | ------------------
-:min       | 最少許容値
-:max       | 最大許容値
+:min       | 最少値
+:max       | 最大値
 :step      | 許容値の粒度
 :size      | フォームの幅
 :maxlength | 入力フィールドに入力可能な最大文字数
@@ -68,6 +70,9 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 時間の入力欄を生成
+    time_field :started_at
+    # <input id="task_started_at" name="task[started_at]" type="time" />
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1800)

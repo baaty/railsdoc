@@ -8,6 +8,7 @@ layout: page
     モデル.to_sql()
 
 ### 例
+#### 取得する時のSQLを表示
     User.where(name: 'Oscar').to_sql
     # SELECT "users".* FROM "users"  WHERE "users"."name" = 'Oscar'
 

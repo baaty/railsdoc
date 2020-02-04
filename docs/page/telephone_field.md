@@ -27,6 +27,7 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 電話番号入力ボックスを生成
     telephone_field("user", "phone")
     # <input id="user_phone" name="user[phone]" type="tel" />
 
@@ -59,5 +60,8 @@ layout: page
 :lang      | 基本言語
 
 #### 例
+##### 電話番号入力ボックスを生成
+    f.telephone_field("phone")
+
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1761)

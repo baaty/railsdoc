@@ -26,15 +26,19 @@ layout: page
 :lang      | 基本言語
 
 ### 例
+#### 検索ボックスを生成
     search_field_tag 'name'
     # <input id="name" name="name" type="search" />
 
+#### value値を設定
     search_field_tag 'search', 'Enter your search query here'
     # <input id="search" name="search" type="search" value="Enter your search query here" />
 
+#### class属性を付与
     search_field_tag 'search', nil, class: 'special_input'
     # <input class="special_input" id="search" name="search" type="search" />
 
+#### 無効化
     search_field_tag 'search', 'Enter your search query here', class: 'special_input', disabled: true
     # <input disabled="disabled" class="special_input" id="search" name="search" type="search" value="Enter your search query here" />
 

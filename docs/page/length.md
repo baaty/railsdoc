@@ -17,7 +17,7 @@ layout: page
 :format       | 正規表現と一致するか
 :inclusion    | 含まれていることを検証
 :length       | 長さを検証
-:numericality | 数値のみかどうか
+:numericality | 数値のみか
 :presence     | 空で無いこと
 :absence      | 空であること
 :uniqueness   | 重複していないこと
@@ -38,10 +38,10 @@ layout: page
 
 オプション         | 説明
 --------------|--------------
-:minimum      | この値より小さな値かどうか
-:maximum:     | この値より大きな値がどうか
-:inまたは:within | 区間以内かどうか
-:is           | 値と等かどうか
+:minimum      | この値より小さな値か
+:maximum:     | この値より大きな値が
+:inまたは:within | 区間以内か
+:is           | 値と等か？
 
 ### numericalityのオプション
 
@@ -52,7 +52,7 @@ layout: page
 :equal_to                 | 指定した値と等しいか
 :less_than                | 指定した値よりも小さいか
 :less_than_or_equal_to    | 指定した値と等しいか、それよりも小さいか
-:other_than               | 指定した値以外の値かどうか
+:other_than               | 指定した値以外の値か
 :odd                      | 奇数か
 :even                     | 偶数か
 
@@ -88,7 +88,7 @@ layout: page
     validates :name, length: {minimum: 2}
 
 #### numericality
-##### 数値のみかどうか
+##### 数値のみか
     validates :points, numericality: true
 
 #### presence

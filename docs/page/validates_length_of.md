@@ -9,22 +9,27 @@ layout: page
 
 ### オプション
 
-オプション      | 説明
-------------- | -------------------------
-:minimum      | 最小の文字列長
-:maximum      | 最大の文字列長
-:is           | 長さが同じこと
-:within       | 文字列長の範囲
-:in           | 文字列長の範囲
-:allow_nil    | trueならば、nilの検証はスキップ
-:allow_blank  | trueならば、空の検証はスキップ
-:too_long     | :maximumに違反したときの、エラーメッセージ
-:too_short    | :minimumに違反したときの、エラーメッセージ
-:wrong_length | :isに違反したときの、エラーメッセージ
-:message      | 検証が失敗したときに表示するメッセージ
-:tokenizer    | 文字列の分割方法
+オプション         | 説明                        | デフォルト値
+--------------|---------------------------|-------
+:minimum      | 最小の文字列長               |
+:maximum      | 最大の文字列長               |
+:is           | 長さが同じこと                   |
+:within       | 文字列長の範囲               |
+:in           | 文字列長の範囲               |
+:too_long     | :maximumに違反したときの、エラーメッセージ |
+:too_short    | :minimumに違反したときの、エラーメッセージ |
+:wrong_length | :isに違反したときの、エラーメッセージ      |
+:message      | 検証が失敗したときに表示するメッセージ   |
+:tokenizer    | 文字列の分割方法             |
+:on           | 保存されるタイミングを設定           |
+:allow_nil    | trueならば、nilの検証はスキップ       | false
+:allow_blank  | trueならば、空の検証はスキップ        | false
+:if           | 検証する条件を指定             |
+:unless       | 検証しない条件を指定            |
+:strict       | 検証に失敗した場合に例外を発生   |
 
 ### 例
+#### 文字列の長さをチェック
     class Person < ActiveRecord::Base
       validates_length_of :first_name, maximum: 30
       validates_length_of :last_name, maximum: 30, message: "less than 30 if you don't mind"

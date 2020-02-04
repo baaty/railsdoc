@@ -27,6 +27,7 @@ URL入力ボックスを生成
 :lang      | 基本言語
 
 #### 例
+##### URL入力ボックスを生成
     url_field("user", "homepage")
     # <input id="user_homepage" name="user[homepage]" type="url" />
 
@@ -59,6 +60,7 @@ URL入力ボックスを生成
 :lang      | 基本言語
 
 #### 例
+##### URL入力ボックスを生成
     f.url_field("user", "homepage")
     # <input id="user_homepage" name="user[homepage]" type="url" />
 

@@ -7,12 +7,12 @@ layout: page
 ### 使い方
     week_field_tag(要素名 [, 値, オプション])
 
-#### オプション
+### オプション
 
 オプション        | 説明
 -------------|--------------------
-:min         | 最少許容値
-:max         | 最大許容値
+:min         | 最少値
+:max         | 最大値
 :step        | 許容値の粒度
 :size        | フォームの幅
 :maxlength   | 入力フィールドに入力可能な最大文字数
@@ -28,7 +28,9 @@ layout: page
 :dir         | 表記方向
 :lang        | 基本言語
 
-#### 例
+### 例
+#### 週の入力欄を生成
+    week_field_tag :wk
 
 #### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L715)

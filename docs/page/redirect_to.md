@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-指定されたページにリダイレクト
+指定したページにリダイレクト
 
 ### 使い方
     redirect_to(リダイレクト先のパス [, status: ステイタスコード, オプション])
@@ -32,34 +32,28 @@ layout: page
 :flash        | パラメータを使って、一時的に値を保存
 
 ### 例
+#### 指定したページにリダイレクト
     redirect_to action: "show", id: 5
 
+#### インスタンス変数
     redirect_to @post
 
+#### URL
     redirect_to "http://www.rubyonrails.org"
 
+#### 相対パス
     redirect_to "/images/screenshot.jpg"
 
-    redirect_to posts_url
-
-    redirect_to proc { edit_post_url(@post) }
-
-    redirect_to post_url(@post), status: :found
-
-    redirect_to action: 'atom', status: :moved_permanently
-
+#### ステータスコード指定
     redirect_to post_url(@post), status: 301
 
-    redirect_to action: 'atom', status: 302
-
-    redirect_to posts_url, status: :see_other
-
-    redirect_to action: 'index', status: 303
-
+#### エラ〜メッセージを表示
     redirect_to post_url(@post), alert: "Watch it, mister!"
 
+#### 通知メッセージを表示
     redirect_to post_url(@post), status: :found, notice: "Pay attention to the road"
 
+#### flash指定
     redirect_to post_url(@post), status: 301, flash: { updated_post_id: @post.id }
 
 ### ソースコード

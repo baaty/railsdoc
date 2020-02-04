@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-例外が発生するか？
+例外が発生するかチェック
 
 ### 使い方
     モデル.instance_method_already_implemented?(属性)

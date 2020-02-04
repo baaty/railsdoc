@@ -28,15 +28,19 @@ edit_XXX_path | edit_XXX_url | /XXX/edit
 
 ### オプション
 
-オプション        | 説明
------------- | -------------
-:as          | ルート名に利用する別名
-:controller  | コントローラを指定
-:path        | URLを書き換える
-:only        | 生成されるURLを絞り込む
-:except      | 指定したURLは生成しない
-:module      | namespaceを付与
-:constraints | 制限を付ける
+オプション           | 説明
+----------------|-----------------------------
+:as             | ルート名に利用する別名
+:controller     | コントローラを指定
+:path_names     | 指定したアクションのみ名前の変更
+:path           | URLを書き換える
+:only           | 生成されるURLを絞り込む
+:except         | 指定したURLは生成しない
+:shallow        | ルーティングを複雑化しない
+:shallow_path   | 指定したパラメータを先頭に追加
+:shallow_prefix | 指定したパラメータを名前付きルーティングとして先頭に追加
+:format         | フォーマット指定
+:param          | パラメータを上書き
 
 ### 例
 #### 単一のリソースを定義

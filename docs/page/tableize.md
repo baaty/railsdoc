@@ -6,7 +6,7 @@ layout: page
 「config/initializers/inflections.rb」に定義を追加することによって追加
 
 ### 使い方
-    モデル.tableize
+    モデル.tableize()
 
 ### 例
 #### 「Page」を変換

@@ -2,10 +2,10 @@
 layout: page
 ---
 ### 説明
-指定したレコードが存在するか?
+指定したレコードの属性が存在するか?
 
 ### 使い方
-    モデル.attribute_method?(カラム名)
+    モデル.attribute_method?(属性)
 
 ### 例
 #### true

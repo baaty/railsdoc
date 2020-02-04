@@ -5,7 +5,7 @@ layout: page
 ボタンを生成
 
 ### 使い方
-    button_tag([オプション or データ属性 or HTMLオプション]
+    button_tag([オプション or データ属性 or HTML属性 or イベント属性]
 
 ### オプション
 
@@ -21,21 +21,37 @@ layout: page
 :confirm      | 確認ダイアログに表示する文字列
 :disable_with | 送信時にクリック禁止
 
-### HTMLオプション
+### HTML属性
 
-オプション      | 説明
------------|------------------
-:name      | 名称
-:size      | サイズ。ピクセル数で指定
-:readonly  | 内容変更を禁止
-:accesskey | 移動するショートカットキー
-:usemap    | この画像に対応させるイメージマップ
+HTML属性   | 説明
+-----------|-------------------
+:accept    | フォームで受付可能なMIMEタイプ
+:readonly  | フォームの内容変更禁止
+:tabindex  | Tabキーによる入力欄の移動順
+:accesskey | フォームに移動するショートカットキー
 :id        | 要素固有の識別子
 :class     | 要素を分類するクラス名
 :title     | 要素の補足情報
 :style     | 要素の補足情報
 :dir       | 表記方向
 :lang      | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
+:onfocus     | フォーカスされた時
+:onblur      | フォーカスを失った時
 
 ### 例
 #### ボタンを生成

@@ -16,11 +16,11 @@ layout: page
 :foreign_type  | 参照先を参照するための外部キーの型を指定                                | :foreign_type
 :primary_key   | 主キーを指定                                                     | id
 :dependent     | 値を:destroyにすると、参照先が削除される場合に参照元もDBから削除            |
-:counter_cache | カウンタキャッシュを使用するか？                                            |
+:counter_cache | カウンタキャッシュを使用するか                                             |
 :polymorphic   | ポリモーフィック関連を定義                                             |
 :validate      | 関連オブジェクトの検証の有無                                          | false
-:autosave      | 親のオブジェクトが保存されると、ロードされたオブジェクトも保存するか？                      |
-:touch         | updated_atまたはupdated_onが保存または破棄された場合に現在の時刻を設定するか？ |
+:autosave      | 親のオブジェクトが保存されると、ロードされたオブジェクトも保存するか                       |
+:touch         | updated_atまたはupdated_onが保存または破棄された場合に現在の時刻を設定するか  |
 :inverse_of    | モデルを指定                                                      |
 :optional      | 関連付けの確認は行わないか？                                          |
 :required      | 関連付けの確認を行うか？                                            | true

@@ -17,6 +17,3 @@ layout: page
 
 #### user_nameのセッション情報を削除
     session[:user_name] = nil
-
-### ソースコード
-* [GitHub]()

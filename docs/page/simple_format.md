@@ -9,7 +9,7 @@ layout: page
 * 連続した改行は、</p><p>を付与
 
 ### 使い方
-    simple_format(文字列 [, オプション or HTMLオプション])
+    simple_format(文字列 [, オプション or HTML属性 or イベント属性])
 
 ### オプション
 
@@ -18,9 +18,9 @@ layout: page
 :sanitize   | サニタイズ
 :wrapper_tag | 文字列を囲むタグ
 
-### HTMLオプション
+### HTML属性
 
-オプション  | 説明
+HTML属性  | 説明
 ------ | -----------
 :align | 左右の配置
 :id    | 要素固有の識別子
@@ -29,6 +29,21 @@ layout: page
 :style | 要素の補足情報
 :dir   | 表記方向
 :lang  | 基本言語
+
+### イベント属性
+
+イベント属性     | 説明
+-------------|--------------------
+:onclick     | クリックされた時
+:ondblclick  | ダブルクリックされた時
+:onmousedown | マウスのボタンが押し下げられた時
+:onmouseup   | マウスのボタンが離された時
+:onmouseover | カーソルが重なった時
+:onmousemove | カーソルが移動した時
+:onmouseout  | カーソルが離れた時
+:onkeypress  | キーが押されて離された時
+:onkeydown   | キーが押し下げられた時
+:onkeyup     | キーが離された時
 
 ### 例
 #### 基本的な使い方

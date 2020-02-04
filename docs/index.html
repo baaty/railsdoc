@@ -20,7 +20,9 @@
   <h2>メソッド一覧</h2>
   {%- for i in site.data.pages -%}
     {% if i[1].method == "" %}{% continue %}{% endif %}
+    {% if i[1].category_id == 6 or i[1].category_id == 7 or i[1].category_id == 8 or i[1].category_id == 9 %}
     <span class="tag"><a href="/page/{{i[0]}}">{{i[1].method}}</a></span>
+    {% endif %}
   {% endfor %}
   </aside class="xs-hide">
 </main>

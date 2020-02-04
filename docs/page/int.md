@@ -17,7 +17,7 @@ layout: page
 
 ### multiple_of?
 #### 説明
-割り切れるかどうか
+割り切れるか？
 
 #### 使い方
     数字.multiple_of?(数字)
