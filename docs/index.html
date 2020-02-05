@@ -1,6 +1,7 @@
 ---
+description: "Rails6の基本からビュー、モデル、コントローラなどをわかりやすく解説。メソッドごとに使用できるオプションや使用例などを多く記載"
 ---
-{% include header.html %}
+{%- include header.html %}
 <main class="col-12 sm-col-10">
   <h2>Ruby on Railsドキュメント(v6.0.2.1)</h2>
   <ul>
@@ -9,21 +10,21 @@
   </ul>
   <h2>カテゴリ</h2>
   <table class="table-borderless">
-  {% for i in site.data.categories %}
+  {%- for i in site.data.categories %}
   <tr>
     <td><a href="/{{i.english_name}}">{{i.name}}</a></td>
     <td>{{i.description}}</td>
   </tr>
-  {% endfor %}
+  {%- endfor %}
   </table>
   <aside class="xs-hide">
   <h2>メソッド一覧</h2>
   {%- for i in site.data.pages -%}
-    {% if i[1].method == "" %}{% continue %}{% endif %}
-    {% if i[1].category_id == 6 or i[1].category_id == 7 or i[1].category_id == 8 or i[1].category_id == 9 %}
+    {%- if i[1].method == "" %}{%- continue %}{%- endif %}
+    {%- if i[1].category_id == 6 or i[1].category_id == 7 or i[1].category_id == 8 or i[1].category_id == 9 %}
     <span class="tag"><a href="/page/{{i[0]}}">{{i[1].method}}</a></span>
-    {% endif %}
-  {% endfor %}
+    {%- endif %}
+  {%- endfor %}
   </aside class="xs-hide">
 </main>
-{% include footer.html %}
+{%- include footer.html %}

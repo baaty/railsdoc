@@ -1,6 +1,12 @@
-{% capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
-{% assign title = site.data.pages[nameStr].title %}
-{% include header.html title=title %}
+{%- capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
+{%- if site.data.pages[nameStr].method != "" %}
+{%- assign titleStr = site.data.pages[nameStr].method %}
+{%- capture descriptionStr %}{{site.data.pages[nameStr].title}} 。オプションや使い方の例などを多く載せて説明しています。{% endcapture %}
+{%- else %}
+{%- assign titleStr = site.data.pages[nameStr].title %}
+{%- assign descriptionStr = site.data.pages[nameStr].title %}
+{%- endif %}
+{%- include header.html title=titleStr description=descriptionStr %}
 <main class="sm-col-10">
 <article>
 <h2 id="{{ nameStr }}">{{ site.data.pages[nameStr].title }}</h2>

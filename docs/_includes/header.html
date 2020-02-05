@@ -1,10 +1,22 @@
-{% if page.title %}
-{% capture title %}{{page.title}} | Railsドキュメント{% endcapture %}
-{% elsif include.title %}
-{% capture title %}{{include.title}} | Railsドキュメント{% endcapture %}
-{% else %}
-{% assign title = 'Railsドキュメント' %}
-{% endif %}
+{%- if include.title %}
+{%- capture title %}{{include.title}} | Railsドキュメント{% endcapture %}
+{%- elsif page.title %}
+{%- capture title %}{{page.title}} | Railsドキュメント{% endcapture %}
+{%- else %}
+{%- assign title = 'Railsドキュメント' %}
+{%- endif %}
+{%- if include.description %}
+{%- assign description = include.description %}
+{%- elsif page.description %}
+{%- assign description = page.description %}
+{%- else %}
+{%- assign description = "" %}
+{%- endif %}
+{%- if page.ogp %}
+{%- assign ogp = page.ogp %}
+{%- else %}
+{%- assign ogp = "ogp.png" %}
+{%- endif %}
 <!doctype html>
 <html amp lang="jp">
   <head>
@@ -12,6 +24,14 @@
     <title>{{title}}</title>
     <link rel="canonical" href="https://railsdoc.com{{page.url | remove: '.html'}}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@railsdoc">
+    <meta property="og:url" content="https://railsdoc.com{{page.url | remove: '.html'}}">
+    <meta property="og:title" content="{{title}}">
+{%- if description != "" %}
+    <meta property="og:description" content="{{description}}">
+{%- endif %}
+    <meta property="og:image" content="https://railsdoc.com/assets/images/{{ogp}}">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script type="application/ld+json">
       {
@@ -24,8 +44,11 @@
         "headline": "{{title}}",
         "datePublished": "2020-01-29T00:00:00Z",
         "image": [
-          "https://railsdoc.com/assets/images/ogp.png"
+          "https://railsdoc.com/assets/images/{{ogp}}"
         ],
+{%- if description != "" %}
+        "description": "{{description}}",
+{%- endif %}
         "publisher": {
           "@type": "Organization",
           "name": "Railsドキュメント",
@@ -53,16 +76,16 @@
     <h1><a href="/">Railsドキュメント</a></h1></header>
     <amp-sidebar id="sidebar" layout="nodisplay" side="left">
       <ul>
-      {% for i in site.data.categories %}
+      {%- for i in site.data.categories %}
         <li><a href="/{{i.english_name}}">{{i.name}}</a></li>
-      {% endfor %}
+      {%- endfor %}
       </ul>
     </amp-sidebar>
     <nav class="sm-col-2 xs-hide">
       <h3>メニュー</h3>
       <ul>
-      {% for i in site.data.categories %}
+      {%- for i in site.data.categories %}
         <li><a href="/{{i.english_name}}">{{i.name}}</a></li>
-      {% endfor %}
+      {%- endfor %}
       </ul>
     </nav>

@@ -51,13 +51,13 @@
         "english_name": "view",
         "id": 8,
         "name": "ビュー(view)",
-        "description": "ビュー関連の40個のメソッドのオプションや使い方の例など"
+        "description": "ビュー関連の約40個のメソッドのオプションや使い方の例など"
     },
     {
         "english_name": "form",
         "id": 9,
         "name": "フォーム(form)",
-        "description": "フォーム関連の50個のメソッドのオプションや使い方の例など"
+        "description": "フォーム関連の約50個のメソッドのオプションや使い方の例など"
     },
     {
         "english_name": "active_support",
