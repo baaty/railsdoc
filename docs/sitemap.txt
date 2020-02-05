@@ -17,7 +17,7 @@ https://railsdoc.com/page/month_field
 https://railsdoc.com/page/number_field
 https://railsdoc.com/page/password_field
 https://railsdoc.com/page/radio_button
-https://railsdoc.com/[default]
+https://railsdoc.com/
 https://railsdoc.com/page/application_creation_flow
 https://railsdoc.com/rails_base
 https://railsdoc.com/rake
