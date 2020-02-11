@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-複数形の名詞を単数形に変換
+複数形の名詞を単数形に変換  
 「config/initializers/inflections.rb」に定義を追加することによって、不可算名詞の追加が可能
 
 ### 使い方

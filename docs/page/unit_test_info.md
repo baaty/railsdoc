@@ -4,7 +4,6 @@ layout: page
 ### 使い方
     #coding: utf-8
     require 'test_helper'
-
     class ArticleTest < ActiveSupport::TestCase
     test テスト名 do
     テストコード

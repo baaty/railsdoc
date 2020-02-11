@@ -2,11 +2,11 @@
 layout: page
 ---
 ### 説明
-使用するログオブジェクトの種類を指定
+使用するログオブジェクトの種類を指定  
 デフォルトでは、ActiveSupport::Loggerのインスタンスを使用
 
 ### 使い方
-    config.logger = Logger.new(<ログのパス>, <条件>)
+    config.logger = Logger.new(ログのパス, 条件)
 
 ### 例
 #### 毎日ローテート

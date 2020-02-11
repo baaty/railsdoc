@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-テーブル名からモデル名へ変換
+テーブル名からモデル名へ変換  
 「config/initializers/inflections.rb」に定義を追加することによって可能
 
 ### 使い方

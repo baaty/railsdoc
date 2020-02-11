@@ -5,7 +5,7 @@ layout: page
 モデルの変更前と変更後の値をハッシュで取得
 
 ### 使い方
-    モデル.changes
+    モデル.changes()
 
 ### 例
     person.changes # {}

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-クラス名からファイル名へ変換
+クラス名からファイル名へ変換  
 「config/initializers/inflections.rb」に定義を追加することによって追加
 
 ### 使い方

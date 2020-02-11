@@ -60,6 +60,12 @@
         "description": "フォーム関連の約50個のメソッドのオプションや使い方の例など"
     },
     {
+        "english_name": "association",
+        "id": 10,
+        "name": "アソシエーション(関連付け)",
+        "description": "アソシエーション関連のメソッドのオプションや使い方の例など"
+    },
+    {
         "english_name": "callback",
         "id": 3,
         "name": "コールバック",

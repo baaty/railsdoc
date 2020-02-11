@@ -5,7 +5,7 @@ layout: page
 削除済みかチェック
 
 ### 使い方
-    モデル.destroyed?
+    モデル.destroyed?()
 
 ### 例
 #### 基本形(オプションなし)

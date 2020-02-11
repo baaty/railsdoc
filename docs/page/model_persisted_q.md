@@ -5,7 +5,7 @@ layout: page
 保存済みかチェック
 
 ### 使い方
-    モデル.persisted?
+    モデル.persisted?()
 
 ### 例
 #### 保存済みチェック

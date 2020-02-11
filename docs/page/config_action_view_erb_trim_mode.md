@@ -2,8 +2,8 @@
 layout: page
 ---
 ### 説明
-ERBの処理方法
-デフォルトは、「-」
+ERBの処理方法  
+デフォルトは、「-」  
 詳細は、[ERB documentation](http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/)
 
 ### 使い方

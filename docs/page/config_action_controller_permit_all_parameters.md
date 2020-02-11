@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-デフォルトで許可されるmass assignmentのパラメータの設定
+デフォルトで許可されるmass assignmentのパラメータの設定  
 デフォルトは、「false」
 
 ### 使い方

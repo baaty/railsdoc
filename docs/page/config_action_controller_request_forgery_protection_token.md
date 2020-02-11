@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-RequestForgeryのトークンパラメータを設定
+RequestForgeryのトークンパラメータを設定  
 デフォルトは、「:authenticity_token」
 
 ### 使い方

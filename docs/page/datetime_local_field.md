@@ -3,7 +3,7 @@ layout: page
 ---
 ### datetime_local_field
 #### 説明
-ローカル日時の入力欄を生成
+ローカル日時の入力欄を生成  
 datetime_fieldの別名
 
 #### 使い方
@@ -53,7 +53,7 @@ datetime_fieldの別名
 
 ### f.datetime_local_field
 #### 説明
-ローカル日時の入力欄を生成
+ローカル日時の入力欄を生成  
 f.datetime_fieldの別名
 
 #### 使い方

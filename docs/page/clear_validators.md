@@ -5,7 +5,7 @@ layout: page
 全ての検証をクリア
 
 ### 使い方
-    モデル.clear_validators!
+    モデル.clear_validators!()
 
 
 ### 例

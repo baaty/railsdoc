@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-サブディレクトリについて
+サブディレクトリについて  
 デフォルトは、「ENV['RAILS_RELATIVE_URL_ROOT」
 
 ### 使い方

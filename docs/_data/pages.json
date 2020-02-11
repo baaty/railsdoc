@@ -1907,7 +1907,7 @@
   "find_each": {
     "category_id": 6,
     "created_at": "2013-02-14 14:53:55.022168",
-    "title": "データの大きなモデルに対してeachをする場合",
+    "title": "分割してレコードを取得して1件ずつ処理",
     "method": "find_each",
     "updated_at": "2015-05-05 07:04:49.066181",
     "versions": [
@@ -2190,7 +2190,7 @@
   "find_in_batches": {
     "category_id": 6,
     "created_at": "2013-04-20 17:58:48.015728",
-    "title": "データの大きなモデルに対して件数を指定してeachをする場合",
+    "title": "分割してレコードを取得して処理",
     "method": "find_in_batches",
     "updated_at": "2015-05-05 06:42:49.587067",
     "versions": [
@@ -2728,7 +2728,7 @@
   "find_by_sql": {
     "category_id": 6,
     "created_at": "2011-07-23 08:55:45.030525",
-    "title": "SQLを直接指定",
+    "title": "SQLを直接指定して取得",
     "method": "find_by_sql",
     "updated_at": "2015-05-05 07:33:56.784747",
     "versions": [
@@ -2767,7 +2767,7 @@
   "select_all": {
     "category_id": 6,
     "created_at": "2020-02-09 08:55:45.030525",
-    "title": "SQLを直接指定(非モデルオブジェクト)",
+    "title": "SQLを直接指定して取得(非モデルオブジェクト)",
     "method": "select_all",
     "updated_at": "2020-02-09 07:33:56.784747",
     "versions": [
@@ -3679,6 +3679,23 @@
       "3.2.8",
       "3.2.13",
       "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "model_rewhere": {
+    "category_id": 6,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "既存のwhere条件を上書き",
+    "method": "rewhere",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
       "4.1.8",
       "4.2.1",
       "4.2.7",
@@ -8793,7 +8810,7 @@
     "updated_at": "2013-05-18 05:59:34.239651"
   },
   "belongs_to": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 08:59:29.189251",
     "title": "参照元テーブルから参照先テーブルを参照",
     "method": "belongs_to",
@@ -8901,7 +8918,7 @@
     "updated_at": "2013-05-21 12:31:11.429539"
   },
   "has_one": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 08:59:41.677805",
     "title": "1対1の関連を宣言",
     "method": "has_one",
@@ -8986,7 +9003,7 @@
     "updated_at": "2013-05-18 05:34:44.128400"
   },
   "has_many": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 08:59:54.277987",
     "title": "1対多の関連を宣言",
     "method": "has_many",
@@ -9066,7 +9083,7 @@
     "updated_at": "2015-05-02 17:35:38.900847"
   },
   "has_and_belongs_to_many": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 09:00:05.897921",
     "title": "多対多の関連を宣言",
     "method": "has_and_belongs_to_many",
@@ -9163,45 +9180,6 @@
       "6.0.2.1"
     ]
   },
-  "transaction": {
-    "category_id": 6,
-    "created_at": "2011-07-23 09:00:15.987874",
-    "title": "トランザクション",
-    "method": "transaction",
-    "updated_at": "2015-05-05 07:52:43.290373",
-    "versions": [
-      "1.0.0",
-      "1.1.0",
-      "1.1.1",
-      "1.1.6",
-      "1.2.0",
-      "1.2.6",
-      "2.0.0",
-      "2.0.1",
-      "2.0.3",
-      "2.1.0",
-      "2.2.1",
-      "2.3.2",
-      "2.3.8",
-      "3.0.0",
-      "3.0.5",
-      "3.0.7",
-      "3.0.9",
-      "3.1.0",
-      "3.2.3",
-      "3.2.8",
-      "3.2.13",
-      "4.0.2",
-      "4.1.8",
-      "4.2.1",
-      "4.2.7",
-      "4.2.9",
-      "5.0.0.1",
-      "5.1.7",
-      "5.2.3",
-      "6.0.2.1"
-    ]
-  },
   "config_active_record_lock_optimistically": {
     "category_id": 15,
     "created_at": "2013-05-18 04:23:11.313681",
@@ -9210,7 +9188,7 @@
     "updated_at": "2013-05-18 05:39:33.037469"
   },
   "polymorphic": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 09:00:29.858566",
     "title": "ポリモーフィック関連",
     "method": "",
@@ -9223,13 +9201,6 @@
     "method": "config.action_controller.asset_host",
     "updated_at": "2013-05-18 06:14:54.119473"
   },
-  "lock": {
-    "category_id": 6,
-    "created_at": "2011-07-23 09:00:40.563581",
-    "title": "データベースのロック",
-    "method": "",
-    "updated_at": "2013-05-10 13:10:11.446435"
-  },
   "config_action_controller_perform_caching": {
     "category_id": 15,
     "created_at": "2013-05-18 06:06:00.927745",
@@ -9238,7 +9209,7 @@
     "updated_at": "2015-05-02 16:41:56.053305"
   },
   "counter_cache": {
-    "category_id": 6,
+    "category_id": 10,
     "created_at": "2011-07-23 09:01:01.144310",
     "title": "カウンターキャッシュ",
     "method": "counter_cache",
@@ -10124,7 +10095,7 @@
     ]
   },
   "change_column_comment": {
-    "category_id": 6,
+    "category_id": 5,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "カラムのコメントを変更",
     "method": "change_column_comment",
@@ -10137,7 +10108,7 @@
     ]
   },
   "change_column_null": {
-    "category_id": 6,
+    "category_id": 5,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "NULL制約の追加または削除",
     "method": "change_column_null",
@@ -10155,7 +10126,7 @@
     ]
   },
   "change_table_comment": {
-    "category_id": 6,
+    "category_id": 5,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "テーブルのコメントを変更",
     "method": "change_table_comment",
@@ -10382,7 +10353,7 @@
     ]
   },
   "index_name_exists_q": {
-    "category_id": 6,
+    "category_id": 5,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "テーブルに指定した名前のインデックスが存在するかチェック",
     "method": "index_name_exists?",
@@ -11041,23 +11012,6 @@
       "6.0.2.1"
     ]
   },
-  "model_rewhere": {
-    "category_id": 6,
-    "created_at": "2020-01-05 09:14:45.471397",
-    "title": "既存のwhere条件を上書き",
-    "method": "rewhere",
-    "updated_at": "2020-01-05 03:17:22.691495",
-    "versions": [
-      "4.1.8",
-      "4.2.1",
-      "4.2.7",
-      "4.2.9",
-      "5.0.0.1",
-      "5.1.7",
-      "5.2.3",
-      "6.0.2.1"
-    ]
-  },
   "benchmark": {
     "category_id": 8,
     "created_at": "2020-01-05 09:14:45.471397",
@@ -11287,5 +11241,51 @@
     "title": "アクションの前のコールバックをスキップ",
     "method": "skip_before_action",
     "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "transaction": {
+    "category_id": 6,
+    "created_at": "2011-07-23 09:00:15.987874",
+    "title": "トランザクション",
+    "method": "transaction",
+    "updated_at": "2015-05-05 07:52:43.290373",
+    "versions": [
+      "1.0.0",
+      "1.1.0",
+      "1.1.1",
+      "1.1.6",
+      "1.2.0",
+      "1.2.6",
+      "2.0.0",
+      "2.0.1",
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "lock": {
+    "category_id": 6,
+    "created_at": "2011-07-23 09:00:40.563581",
+    "title": "データベースのロック",
+    "method": "",
+    "updated_at": "2013-05-10 13:10:11.446435"
   }
 }

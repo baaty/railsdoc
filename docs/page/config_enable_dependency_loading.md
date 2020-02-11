@@ -2,8 +2,7 @@
 layout: page
 ---
 ### 説明
-
-
+Autoloadをデフォルトでon  
 デフォルト値はfalse
 
 ### 使い方

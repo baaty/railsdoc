@@ -5,7 +5,7 @@ layout: page
 すべての属性名を配列で取得
 
 ### 使い方
-    モデル.attribute_names
+    モデル.attribute_names()
 
 ### 例
 #### すべての属性名を配列で取得

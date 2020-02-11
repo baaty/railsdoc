@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-「ture」の場合、ファイルシステム内のファイルの更新を検知するためのクラス
+「ture」の場合、ファイルシステム内のファイルの更新を検知するためのクラス  
 ActiveSupport::FileUpdateCheckerに準拠する必要
 
 ### 使い方

@@ -5,7 +5,7 @@ layout: page
 変更点を取得
 
 ### 使い方
-    モデル.changed
+    モデル.changed()
 
 ### 例
     person.changed # []

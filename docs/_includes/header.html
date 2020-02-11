@@ -12,7 +12,9 @@
 {%- else %}
 {%- assign description = "" %}
 {%- endif %}
-{%- if page.ogp %}
+{%- if include.ogp %}
+{%- assign ogp = include.ogp %}
+{%- elsif page.ogp %}
 {%- assign ogp = page.ogp %}
 {%- else %}
 {%- assign ogp = "ogp.png" %}

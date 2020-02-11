@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-クラス名から外部キーの名前を生成
+クラス名から外部キーの名前を生成  
 separate_class_name_and_id_with_underscoreがfalseでアンダーバーなし
 
 ### 使い方

@@ -5,7 +5,7 @@ layout: page
 型に変更前のハッシュを取得
 
 ### 使い方
-    モデル.attributes_before_type_cast
+    モデル.attributes_before_type_cast()
 
 ### 例
 #### 型に変更前のハッシュを取得

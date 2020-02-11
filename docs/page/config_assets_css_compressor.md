@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-CSSコンパイラーの設定
+CSSコンパイラーの設定  
 デフォルトは、「sass-rails」
 
 ### 使い方
