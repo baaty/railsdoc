@@ -60,6 +60,12 @@
         "description": "フォーム関連の約50個のメソッドのオプションや使い方の例など"
     },
     {
+        "english_name": "callback",
+        "id": 3,
+        "name": "コールバック",
+        "description": "コールバック関連の約20個のメソッドのオプションや使い方の例など"
+    },
+    {
         "english_name": "active_support",
         "id": 20,
         "name": "アクティブサポート(activesupport)",

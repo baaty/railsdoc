@@ -16,7 +16,7 @@ layout: page
 | :param               | パラメータを指定                                        |
 | :path                | パスを指定                                           |
 | :module              | コントローラの名前空間                                   |
-| :as                  | ルート名を指定                                        |
+| :as                  | ルート名に使用する別名                                        |
 | :via                 | HTTPメソッドを指定                                     |
 | :on                  | 名前付きルートを指定                                   |
 | :constraints         | URLのフォーマットを制限                                   |
@@ -44,7 +44,7 @@ layout: page
 #### HTTPメソッドを複数指定
     match ':controller/:action/:id', via: [:get, :post]
 
-#### ルート名を指定
+#### ルート名に使用する別名を指定
     match "pages/show", as: 'main'
     # main  /pages/show(.:format) pages#show
 

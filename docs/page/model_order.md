@@ -2,10 +2,12 @@
 layout: page
 ---
 ### 説明
-取得した値を特定のキーで並び替える
+取得したレコードを特定のキーで並び替える
 
 ### 使い方
-    モデル.order(ソート式)
+    モデル.order(:キー名 [ :並び順])
+    # または
+    モデル.order("キー名 [並び順]")
 
 ### 並び順
 
@@ -20,6 +22,10 @@ DESC  | 大きい方から小さい方に並ぶ(降順)
     # SELECT "pages".* FROM "pages" ORDER BY category_id
 
 #### 昇順で並び替える
+    Page.order(:category_id :asc)
+    # SELECT "pages".* FROM "pages" ORDER BY category_id ASC
+
+#### 文字列で指定
     Page.order("category_id ASC")
     # SELECT "pages".* FROM "pages" ORDER BY category_id ASC
 

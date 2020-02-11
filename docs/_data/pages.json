@@ -20,13 +20,6 @@
     "method": "",
     "updated_at": "2013-04-21 14:18:13.600189"
   },
-  "active_record_info": {
-    "category_id": 6,
-    "created_at": "2011-12-22 16:12:00.184850",
-    "title": "アクティブレコードについて",
-    "method": "",
-    "updated_at": "2015-05-02 16:34:08.443435"
-  },
   "model_info": {
     "category_id": 6,
     "created_at": "2011-07-23 08:54:56.389643",
@@ -366,7 +359,7 @@
   "model_build": {
     "category_id": 6,
     "created_at": "2011-07-23 08:55:07.756287",
-    "title": "モデルを生成",
+    "title": "モデルを生成(newの別名)",
     "method": "build",
     "updated_at": "2015-05-05 07:40:44.603890",
     "versions": [
@@ -863,7 +856,7 @@
   "find_by": {
     "category_id": 6,
     "created_at": "2013-04-21 11:51:54.409695",
-    "title": "検索条件を指定して最初の1件を取得",
+    "title": "条件を指定して最初の1件を取得",
     "method": "find_by",
     "updated_at": "2015-05-05 07:38:30.644095",
     "versions": [
@@ -959,7 +952,7 @@
   "render": {
     "category_id": 7,
     "created_at": "2011-07-23 09:17:21.180013",
-    "title": "レンダリング",
+    "title": "表示させるviewファイルを指定して表示",
     "method": "render",
     "updated_at": "2015-05-04 16:10:13.064777",
     "versions": [
@@ -1111,7 +1104,7 @@
   "resources": {
     "category_id": 14,
     "created_at": "2011-07-23 15:05:08.762430",
-    "title": "RESTfulなURLを自動生成",
+    "title": "複数形のリソースのルーティング",
     "method": "resources",
     "updated_at": "2015-05-04 17:01:01.608510",
     "versions": [
@@ -1517,7 +1510,7 @@
   "resource": {
     "category_id": 14,
     "created_at": "2011-07-23 15:05:21.694425",
-    "title": "単一のリソースを定義",
+    "title": "単一のリソースのルーティング",
     "method": "resource",
     "updated_at": "2015-05-04 17:02:05.422003",
     "versions": [
@@ -1644,7 +1637,7 @@
   "redirect_to": {
     "category_id": 7,
     "created_at": "2011-07-23 09:17:33.132018",
-    "title": "リダイレクト",
+    "title": "URLを指定して表示",
     "method": "redirect_to",
     "updated_at": "2015-05-04 16:06:10.062007",
     "versions": [
@@ -1757,6 +1750,13 @@
       "5.2.3",
       "6.0.2.1"
     ]
+  },
+  "cache_info": {
+    "category_id": 11,
+    "created_at": "2020-01-05 09:45:57.774624",
+    "title": "キャッシュについて",
+    "method": "",
+    "updated_at": "2020-01-05 06:38:07.562740"
   },
   "cache": {
     "category_id": 11,
@@ -2458,8 +2458,26 @@
   "find_or_create_by": {
     "category_id": 6,
     "created_at": "2013-04-27 07:22:07.139785",
-    "title": "条件を指定して初めの1件を取得し1件もなければ作成",
+    "title": "条件を指定して初めの1件を取得し1件もなければ作成(create)",
     "method": "find_or_create_by",
+    "updated_at": "2015-05-05 07:33:16.230846",
+    "versions": [
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "find_or_initialize_by": {
+    "category_id": 6,
+    "created_at": "2013-04-27 07:22:07.139785",
+    "title": "条件を指定して初めの1件を取得し1件もなければ作成(new)",
+    "method": "find_or_initialize_by",
     "updated_at": "2015-05-05 07:33:16.230846",
     "versions": [
       "4.0.2",
@@ -2746,6 +2764,45 @@
       "6.0.2.1"
     ]
   },
+  "select_all": {
+    "category_id": 6,
+    "created_at": "2020-02-09 08:55:45.030525",
+    "title": "SQLを直接指定(非モデルオブジェクト)",
+    "method": "select_all",
+    "updated_at": "2020-02-09 07:33:56.784747",
+    "versions": [
+      "1.0.0",
+      "1.1.0",
+      "1.1.1",
+      "1.1.6",
+      "1.2.0",
+      "1.2.6",
+      "2.0.0",
+      "2.0.1",
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
   "model_all": {
     "category_id": 6,
     "created_at": "2012-02-18 07:34:44.069244",
@@ -2843,9 +2900,9 @@
     ]
   },
   "select": {
-    "category_id": 6,
+    "category_id": 9,
     "created_at": "2011-07-23 08:56:16.056600",
-    "title": "取得するカラムを指定",
+    "title": "選択ボックスを生成",
     "method": "select",
     "updated_at": "2015-05-05 07:32:03.229320",
     "versions": [
@@ -2881,13 +2938,34 @@
       "6.0.2.1"
     ]
   },
-  "length": {
+  "validates": {
     "category_id": 13,
     "created_at": "2011-07-23 09:53:42.361190",
-    "title": "文字列の長さをチェック",
-    "method": "length",
+    "title": "汎用的な検証",
+    "method": "validates",
     "updated_at": "2015-05-04 09:28:33.761781",
     "versions": [
+      "1.0.0",
+      "1.1.0",
+      "1.1.1",
+      "1.1.6",
+      "1.2.0",
+      "1.2.6",
+      "2.0.0",
+      "2.0.1",
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
       "4.0.2",
       "4.1.8",
       "4.2.1",
@@ -3020,7 +3098,7 @@
   "model_respond_to_q": {
     "category_id": 6,
     "created_at": "2013-04-20 17:17:59.642585",
-    "title": "モデルに対して呼び出せるかチェック",
+    "title": "モデルが指定したメソッドを呼び出せるかチェック",
     "method": "respond_to?",
     "updated_at": "2015-05-05 07:54:41.086925",
     "versions": [
@@ -3214,7 +3292,7 @@
   "last": {
     "category_id": 6,
     "created_at": "2012-02-18 07:52:36.364321",
-    "title": "末尾のレコードを取得",
+    "title": "最後のレコードを取得",
     "method": "last",
     "updated_at": "2015-05-05 07:18:36.648030",
     "versions": [
@@ -3588,7 +3666,7 @@
   "model_where": {
     "category_id": 6,
     "created_at": "2011-07-23 08:55:55.883515",
-    "title": "条件を指定して取得",
+    "title": "条件に当てはまる値を全て取得",
     "method": "where",
     "updated_at": "2015-05-05 07:17:01.892116",
     "versions": [
@@ -4199,7 +4277,7 @@
   "model_reorder": {
     "category_id": 6,
     "created_at": "2011-07-23 08:56:05.827576",
-    "title": "取得した値を並び替え",
+    "title": "既存の並び順を指定した条件に置き換える",
     "method": "reorder",
     "updated_at": "2015-05-05 08:19:34.636408",
     "versions": [
@@ -4473,7 +4551,7 @@
   "limit": {
     "category_id": 6,
     "created_at": "2011-07-23 08:56:27.120155",
-    "title": "特定のレコード件数を取得",
+    "title": "取得するレコード数の上限を指定",
     "method": "limit",
     "updated_at": "2015-05-05 07:30:11.587147",
     "versions": [
@@ -4961,7 +5039,7 @@
   "having": {
     "category_id": 6,
     "created_at": "2011-07-23 08:56:47.831701",
-    "title": "取得したデータを絞り込む",
+    "title": "取得した値を絞り込む",
     "method": "having",
     "updated_at": "2015-05-05 07:29:37.965070",
     "versions": [
@@ -5452,7 +5530,7 @@
   "joins": {
     "category_id": 6,
     "created_at": "2011-08-23 15:17:23.794049",
-    "title": "複数のテーブルを結合して検索",
+    "title": "複数のテーブルを結合して取得",
     "method": "joins",
     "updated_at": "2015-05-05 07:24:08.317498",
     "versions": [
@@ -6280,6 +6358,24 @@
       "6.0.2.1"
     ]
   },
+  "javascript_url": {
+    "category_id": 8,
+    "created_at": "2020-02-09 09:27:20.268621",
+    "title": "JavaScriptファイルへのURLを取得",
+    "method": "javascript_url",
+    "updated_at": "2020-02-09 16:02:02.929988",
+    "versions": [
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
   "field_set_tag": {
     "category_id": 9,
     "created_at": "2011-12-30 17:44:29.796626",
@@ -6373,7 +6469,7 @@
   "count": {
     "category_id": 6,
     "created_at": "2011-07-23 08:57:21.496239",
-    "title": "検索結果の行数を取得",
+    "title": "モデルのレコード数を取得",
     "method": "count",
     "updated_at": "2015-05-05 07:28:21.837182",
     "versions": [
@@ -6625,6 +6721,24 @@
       "6.0.2.1"
     ]
   },
+  "stylesheet_url": {
+    "category_id": 8,
+    "created_at": "2020-02-09 09:28:16.183254",
+    "title": "スタイルシートへのURLを取得",
+    "method": "stylesheet_url",
+    "updated_at": "2020-02-09 06:54:22.118334",
+    "versions": [
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
   "image_submit_tag": {
     "category_id": 9,
     "created_at": "2013-05-01 13:22:42.924513",
@@ -6752,7 +6866,7 @@
   "average": {
     "category_id": 6,
     "created_at": "2011-07-23 08:57:41.361694",
-    "title": "カラムの平均値を求める",
+    "title": "カラムの平均値を計算",
     "method": "average",
     "updated_at": "2015-05-04 16:55:59.258269",
     "versions": [
@@ -6824,7 +6938,7 @@
   "maximum": {
     "category_id": 6,
     "created_at": "2011-07-23 08:57:31.220819",
-    "title": "カラムの最大値を求める",
+    "title": "カラムの最大値を計算",
     "method": "maximum",
     "updated_at": "2015-05-04 16:58:21.455741",
     "versions": [
@@ -6914,7 +7028,7 @@
   "minimum": {
     "category_id": 6,
     "created_at": "2011-07-23 08:57:51.908256",
-    "title": "カラムの最小値を求める",
+    "title": "カラムの最小値を計算",
     "method": "minimum",
     "updated_at": "2015-05-04 16:59:02.820845",
     "versions": [
@@ -6994,7 +7108,7 @@
   "ids": {
     "category_id": 6,
     "created_at": "2013-04-20 18:07:52.811285",
-    "title": "主キーを取得",
+    "title": "主キーを全て取得",
     "method": "ids",
     "updated_at": "2015-05-05 07:57:53.519715",
     "versions": [
@@ -7058,7 +7172,7 @@
   "sum": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:02.350278",
-    "title": "カラムの合計値を求める",
+    "title": "カラムの合計値を計算",
     "method": "sum",
     "updated_at": "2015-05-04 16:37:26.659795",
     "versions": [
@@ -7130,7 +7244,7 @@
   "model_pluck": {
     "category_id": 6,
     "created_at": "2013-04-20 18:15:59.372292",
-    "title": "任意のカラムの配列を取得",
+    "title": "指定したカラムのレコードの配列を取得",
     "method": "pluck",
     "updated_at": "2015-05-05 07:19:58.516732",
     "versions": [
@@ -7491,7 +7605,7 @@
   "model_destroy": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:35.015261",
-    "title": "データベースから削除",
+    "title": "ActiveRecordを使って指定した条件のレコードを削除",
     "method": "destroy",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
@@ -7517,7 +7631,7 @@
   "model_delete": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:35.015261",
-    "title": "データベースから削除",
+    "title": "指定した条件に一致するレコードをSQLを直接実行して削除",
     "method": "delete",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
@@ -7543,7 +7657,7 @@
   "model_delete_all": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:35.015261",
-    "title": "データベースから削除",
+    "title": "指定した条件に一致するレコードをSQLを直接実行して全て削除",
     "method": "delete_all",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
@@ -7569,7 +7683,7 @@
   "model_destroy_all": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:35.015261",
-    "title": "データベースから削除",
+    "title": "ActiveRecordを使って指定した条件の全てのレコードを削除",
     "method": "destroy_all",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
@@ -7951,7 +8065,7 @@
   "column_for_attribute": {
     "category_id": 6,
     "created_at": "2012-02-18 12:21:03.126981",
-    "title": "レコードのフィールド値",
+    "title": "カラム情報の取得",
     "method": "column_for_attribute",
     "updated_at": "2015-05-05 07:20:37.469077",
     "versions": [
@@ -8007,7 +8121,7 @@
   "attribute_names": {
     "category_id": 6,
     "created_at": "2012-02-18 12:27:08.947090",
-    "title": "すべてのカラム名を取得",
+    "title": "すべての属性名を配列で取得",
     "method": "attribute_names",
     "updated_at": "2015-05-05 07:48:03.506851",
     "versions": [
@@ -8068,7 +8182,7 @@
   "attribute_for_inspect": {
     "category_id": 6,
     "created_at": "2013-04-20 15:30:01.508343",
-    "title": "テーブルの属性を取得",
+    "title": "属性の値に似た文字列を取得",
     "method": "attribute_for_inspect",
     "updated_at": "2015-05-05 07:48:35.236745",
     "versions": [
@@ -8135,7 +8249,7 @@
   "attribute_present_q": {
     "category_id": 6,
     "created_at": "2013-04-20 16:08:04.423237",
-    "title": "任意のカラムが存在するかチェック",
+    "title": "指定した属性が存在するかチェック",
     "method": "attribute_present?",
     "updated_at": "2015-05-05 07:49:07.669025",
     "versions": [
@@ -8193,7 +8307,7 @@
   "attributes": {
     "category_id": 6,
     "created_at": "2013-04-20 17:02:16.817741",
-    "title": "全てのカラムと属性を取得",
+    "title": "全てのモデルオブジェクトと属性を取得",
     "method": "attributes",
     "updated_at": "2015-05-05 07:49:38.741356",
     "versions": [
@@ -8318,7 +8432,7 @@
   "has_attribute": {
     "category_id": 6,
     "created_at": "2013-04-20 17:04:06.260607",
-    "title": "任意のカラムが存在するかチェック",
+    "title": "モデルに指定した属性が存在するかチェック",
     "method": "has_attribute?",
     "updated_at": "2015-05-05 07:50:48.104746",
     "versions": [
@@ -8414,7 +8528,7 @@
   "read_attribute_before_type_cast": {
     "category_id": 6,
     "created_at": "2013-04-20 17:27:48.246896",
-    "title": "任意のカラムに対して型に変更前のハッシュを取得",
+    "title": "型に変更前のハッシュを取得",
     "method": "read_attribute_before_type_cast",
     "updated_at": "2015-05-05 07:51:27.674853",
     "versions": [
@@ -8483,7 +8597,7 @@
   "attribute_method_q": {
     "category_id": 6,
     "created_at": "2013-04-20 17:34:11.788650",
-    "title": "レコードの属性が存在するかチェック",
+    "title": "指定したモデルオブジェクトの属性が存在するかチェック",
     "method": "attribute_method?",
     "updated_at": "2015-05-05 07:51:58.748185",
     "versions": [
@@ -8998,7 +9112,7 @@
     "updated_at": "2013-05-18 06:02:31.559884"
   },
   "to_xml": {
-    "category_id": 6,
+    "category_id": 20,
     "created_at": "2011-12-29 11:22:05.258601",
     "title": "XML変換",
     "method": "to_xml",
@@ -9277,7 +9391,7 @@
   "model_any_q": {
     "category_id": 6,
     "created_at": "2013-04-20 13:18:10.956754",
-    "title": "モデルが空であるか",
+    "title": "モデルが空かチェック",
     "method": "any?",
     "updated_at": "2015-05-05 07:53:19.261913",
     "versions": [
@@ -9307,7 +9421,7 @@
     "updated_at": "2013-05-19 04:44:34.342865"
   },
   "concat": {
-    "category_id": 6,
+    "category_id": 8,
     "created_at": "2013-04-20 14:50:41.723093",
     "title": "非出力コード内で出力",
     "method": "concat",
@@ -9454,7 +9568,7 @@
   "create_with": {
     "category_id": 6,
     "created_at": "2013-04-27 04:43:26.015991",
-    "title": "関連オブジェクトから新しいモデルを作成",
+    "title": "関連モデルオブジェクトから新しい属性を作成",
     "method": "create_with",
     "updated_at": "2015-05-05 07:35:15.778004",
     "versions": [
@@ -9723,7 +9837,7 @@
     "updated_at": "2013-05-21 12:36:37.415859"
   },
   "after_action": {
-    "category_id": 7,
+    "category_id": 3,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの後に処理を実行",
     "method": "after_action",
@@ -9737,7 +9851,7 @@
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "around_action": {
-    "category_id": 7,
+    "category_id": 3,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの前後に処理を実行",
     "method": "around_action",
@@ -9939,7 +10053,7 @@
     ]
   },
   "before_action": {
-    "category_id": 7,
+    "category_id": 3,
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの前に処理を実行",
     "method": "before_action",
@@ -10747,5 +10861,431 @@
       "5.2.3",
       "6.0.2.1"
     ]
+  },
+  "try": {
+    "category_id": 20,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "ぼっち演算",
+    "method": "try",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "concern": {
+    "category_id": 14,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "共通のルーティング定義",
+    "method": "concern",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "member": {
+    "category_id": 14,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "メンバールーティングを追加",
+    "method": "member",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "validates_with": {
+    "category_id": 13,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "バリデーションの別クラスにエラーを追加",
+    "method": "validates_with",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "validates_each": {
+    "category_id": 13,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "ブロックに対しての検証",
+    "method": "validates_each",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "model_select": {
+    "category_id": 6,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "カラムを指定して取得",
+    "method": "select",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "model_only": {
+    "category_id": 6,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "指定した条件以外の条件をクエリから削除",
+    "method": "only",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "model_rewhere": {
+    "category_id": 6,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "既存のwhere条件を上書き",
+    "method": "rewhere",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "benchmark": {
+    "category_id": 8,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "ブロック内の実行時間を測定し結果をログに記録",
+    "method": "benchmark",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "collection_radio_buttons": {
+    "category_id": 9,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "モデルからラジオボタンを自動生成",
+    "method": "collection_radio_buttons",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "collection_check_boxes": {
+    "category_id": 9,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "モデルからチェックボックスを自動生成",
+    "method": "collection_check_boxes",
+    "updated_at": "2020-01-05 03:17:22.691495",
+    "versions": [
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "rails_about": {
+    "category_id": 4,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "Railsアプリケーションのバージョン情報や各ディレクトリのライブラリ名などを出力",
+    "method": "rails about",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "rails_assets": {
+    "category_id": 4,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アセット関連の作成処理",
+    "method": "rails assets",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "rails_notes": {
+    "category_id": 4,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "コードからコメントの部分を抽出",
+    "method": "rails notes",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "rails_routes": {
+    "category_id": 4,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "定義されている全ルーティングを出力",
+    "method": "rails routes",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "rails_tmp": {
+    "category_id": 4,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "tmpディレクトリを生成",
+    "method": "rails tmp",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_disable_sandbox": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "rails consoleでsandboxの起動不可",
+    "method": "config.disable_sandbox",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_enable_dependency_loading": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "cache_classesがtrueでも自動読み込みを有効",
+    "method": "config.enable_dependency_loading",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_debug_exception_response_format": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "developmentモードでエラーが発生した場合のレスポンスのフォーマットを定義",
+    "method": "config.debug_exception_response_format",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_log_formatter": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "ロガーのフォーマットを定義",
+    "method": "config.log_formatter",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_credentials_content_path": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "暗号化済みのcredentialのパスを定義",
+    "method": "config.credentials.content_path",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "config_credentials_key_path": {
+    "category_id": 15,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "暗号化キーのパスを定義",
+    "method": "config.credentials.key_path",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "callback_info": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "コールバックについて",
+    "method": "",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "after_initialize": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "モデルが作成される時に実行",
+    "method": "after_initialize",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "after_touch": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "モデルをタッチするたびに実行",
+    "method": "after_touch",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "define_model_callbacks": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "デフォルトのコールバックを上書き",
+    "method": "define_model_callbacks",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "append_after_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの後に処理を追加",
+    "method": "append_after_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "append_around_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの前後に処理を追加",
+    "method": "append_around_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "append_before_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの前に処理を追加",
+    "method": "append_before_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "prepend_after_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの後に処理を追加",
+    "method": "prepend_after_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "prepend_around_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの前後に処理を追加",
+    "method": "prepend_around_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "prepend_before_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの前に処理を追加",
+    "method": "prepend_before_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "skip_after_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの後のコールバックをスキップ",
+    "method": "skip_after_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "skip_around_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションに関するコールバックをスキップ",
+    "method": "skip_around_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
+  },
+  "skip_before_action": {
+    "category_id": 3,
+    "created_at": "2020-01-05 09:14:45.471397",
+    "title": "アクションの前のコールバックをスキップ",
+    "method": "skip_before_action",
+    "updated_at": "2020-01-05 03:17:22.691495"
   }
 }

@@ -2,26 +2,26 @@
 layout: page
 ---
 ### 説明
-RESTfulなURLを自動生成
+単数形のリソースのルーティング
 
 ### 使い方
     resource(リソース名 [, オプション])
 
 ### 生成されるルート
 
-URL                 | アクション   | HTTPメソッド | 説明
-------------------- | ------- | -------- | -------
-/XXX(.:format)      | show    | GET      | 詳細画面を生成
-/XXX/new(.:format)  | new     | GET      | 登録画面を生成
-/XXX(.:format)      | create  | POST     | 登録処理
-/XXX/edit(.:format) | edit    | GET      | 編集画面を生成
-/XXX(.:format)      | update  | PUT      | 更新処理
-/XXX(.:format)      | destroy | DELETE   | 削除処理
+URL       | アクション   | HTTPメソッド | 説明
+----------|---------|----------|--------
+/XXX      | show    | GET      | 詳細画面を生成
+/XXX/new  | new     | GET      | 登録画面を生成
+/XXX      | create  | POST     | 登録処理
+/XXX/edit | edit    | GET      | 編集画面を生成
+/XXX      | update  | PUT      | 更新処理
+/XXX      | destroy | DELETE   | 削除処理
 
 ### 生成されるパス
 
 パス            | URL          | 戻り値
-------------- | ------------ | ---------
+--------------|--------------|----------
 XXX_path      | XXX_url      | /XXX
 new_XXX_path  | new_XXX_url  | /XXX/new
 edit_XXX_path | edit_XXX_url | /XXX/edit

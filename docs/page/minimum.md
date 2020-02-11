@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-カラムの最小値を求める
+カラムの最小値を計算
 
 ### 使い方
     モデル.minimum(カラム名 [, オプション])
@@ -20,7 +20,7 @@ layout: page
 :group      | グルーピング命令
 
 ### 例
-#### usersテーブルのageカラムの最小値を求める
+#### usersテーブルのageカラムの最小値を計算
     User.minimum('age')
     # SELECT MIN("users"."age") AS min_id FROM "users"
 

@@ -5,7 +5,7 @@ layout: page
 カラムのコメントを変更または削除
 
 ### 使い方
-    change_column_comment(table_name, column_name, comment_or_changes)
+    change_column_comment(テーブル名, カラム名, comment_or_changes)
 
 ### 例
 #### カラムのコメントを変更

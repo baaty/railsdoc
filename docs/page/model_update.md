@@ -5,10 +5,10 @@ layout: page
 条件に一致するレコードを更新
 
 ### 使い方
-    モデル.update(ID, カラム)
+    モデル.update(ID, 属性)
 
 ### 例
-#### 条件に一致するレコードを更新
+#### 条件に一致する属性を更新
     Person.update(15, user_name: "Samuel", group: "expert")
 
 #### ハッシュを使って更新

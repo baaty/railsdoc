@@ -15,9 +15,9 @@ layout: page
 :with        | 正規表現パターン              |
 :without     | 正規表現パターン              |
 :multiline   | 行の先頭または、末尾           |
-:on          | 保存されるタイミングを設定         |
-:allow_nil   | trueならば、nilの検証はスキップ     | false
-:allow_blank | trueならば、空の検証はスキップ      | false
+:on          | 検証を実行するタイミング         | 保存時
+:allow_nil   | nilの検証をスキップ     | false
+:allow_blank | nilや空文字の検証をスキップ      | false
 :if          | 検証する条件を指定           |
 :unless      | 検証しない条件を指定          |
 :strict      | 検証に失敗した場合に例外を発生 |

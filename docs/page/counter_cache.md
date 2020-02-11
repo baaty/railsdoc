@@ -9,7 +9,7 @@ layout: page
 * カラム名は、子モデルのテーブル名_countがおすすめ
 
 ### 使い方
-    belongs_to :親モデル, counter_cache: 親モデルのカラム
+    belongs_to(:親モデル, counter_cache: 親モデルのカラム)
 
 ### 例
 #### Commentの登録や削除で、comments_countが自動更新

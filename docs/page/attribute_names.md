@@ -2,13 +2,13 @@
 layout: page
 ---
 ### 説明
-すべてのカラム名を配列で取得
+すべての属性名を配列で取得
 
 ### 使い方
     モデル.attribute_names
 
 ### 例
-#### pagesテーブルのすべてのカラム名を取得
+#### すべての属性名を配列で取得
     Person.attribute_names
     # ["id", "created_at", "updated_at", "name", "age"]
 

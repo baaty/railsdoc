@@ -26,13 +26,13 @@ layout: page
 
 オプション        | 説明
 -------------|----------------
-:on          | 実行のタイミング
-:if          | if文
+:on          | 検証を実行するタイミング
+:if          | 検証する条件を指定
 :unless      | ulness文
-:allow_nil   | nilの場合にスキップ
-:allow_blank | nilや空文字の場合にスキップ
+:allow_nil   | nilの検証をスキップ
+:allow_blank | nilや空文字の検証をスキップ
 :strict      | 例外が発生するか
-:message     | 失敗時のメッセージ
+:message     | 検証が失敗したときに表示するメッセージ
 
 ### lengthのオプション
 

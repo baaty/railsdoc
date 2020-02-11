@@ -2,10 +2,13 @@
 layout: page
 ---
 ### 説明
-Railsに付随しているWEBrickをサーバとして起動
+Railsに標準で付随しているPumaをサーバとして起動
 
 ### 使い方
     $ rails server [オプション]
+
+#### 短縮形
+    $ rails s [オプション]
 
 ### オプション
 
@@ -23,8 +26,8 @@ Railsに付随しているWEBrickをサーバとして起動
 ### 例
 #### 開発用WEBサーバを起動
     $ rails server
-    => Booting WEBrick
-    => Rails 3.0.7 application starting in development on http://0.0.0.0:3000
+    => Booting Puma
+    => Rails 6.0.2.1 application starting in development on http://0.0.0.0:3000
     => Call with -d to detach
     => Ctrl-C to shutdown server
 
@@ -36,3 +39,6 @@ Railsに付随しているWEBrickをサーバとして起動
 
 #### 本番として起動
     $ rails server -e production
+
+#### 短縮形
+    $ rails s

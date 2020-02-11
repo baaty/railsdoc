@@ -2,13 +2,13 @@
 layout: page
 ---
 ### 説明
-複数のテーブルを結合して検索
+複数のテーブルを結合して取得
 
 ### 使い方
     モデル.joins(条件)
 
 ### 例
-#### categoryテーブルにpostテーブルを結合して検索
+#### categoryテーブルにpostテーブルを結合して取得
     Category.joins(:posts)
     # SELECT categories.* FROM categories INNER JOIN posts ON posts.category_id = categories.id
 

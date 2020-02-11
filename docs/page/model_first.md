@@ -2,21 +2,35 @@
 layout: page
 ---
 ### 説明
-テーブルの先頭のレコードを取得
+モデルの先頭のレコードを取得
 
 ### 使い方
     モデル.first([件数])
 
+#### 取得するレコードが存在しない場合に例外が発生
+    モデル.first!([件数])
+
 ### 例
-#### pagesテーブルの先頭のレコードを取得
+#### モデルの先頭のレコードを取得
     Page.first
-    # SELECT "pages".* FROM "pages" LIMIT 1
+    # <Page id: 1, ...>
+    # SQL: SELECT "pages".* FROM "pages" LIMIT 1
 
-#### pagesテーブルの先頭の3つのレコードを取得
+#### 複数件数を取得
     Page.first(3)
-    # SELECT "pages".* FROM "pages" LIMIT 3
+    # [
+    #   <Page id: 1, ...>,
+    #   <Page id: 2, ...>,
+    #   <Page id: 3, ...>
+    # ]
+    # SQL: SELECT "pages".* FROM "pages" LIMIT 3
 
-#### pagesテーブルが空の場合
+#### orderで並び替え後のレコードを取得
+    Page.order(:title).first
+    # <Page title: a, ...>
+    # SQL: SELECT * FROM pages ORDER BY pages.title ASC LIMIT 1
+
+#### モデルが空の場合
     Page.first
     # nil
 

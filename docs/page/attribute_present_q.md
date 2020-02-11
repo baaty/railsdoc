@@ -2,10 +2,10 @@
 layout: page
 ---
 ### 説明
-指定したカラムが存在するかチェック
+指定した属性が存在するかチェック
 
 ### 使い方
-    モデル.attribute_present?(カラム名)
+    モデル.attribute_present?(属性名)
 
 ### 例
     person.attribute_present?(:title)

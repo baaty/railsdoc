@@ -14,7 +14,7 @@ PATCHリクエスト
 :controller, :action | コントローラとアクションを指定。必ずセットで指定
 :to                  | :controller, :actionの短縮形。\#でコントローラとアクションを区切る
 :via                 | HTTPメソッドを指定
-:as                  | ルート名を指定
+:as                  | ルート名に指定する別名
 
 ### 例
 #### PATCHリクエスト

@@ -14,13 +14,13 @@ DELETEリクエスト
 |:controller, :action | コントローラとアクションを指定。必ずセットで指定
 |:to                  | :controller, :actionの短縮形。\#でコントローラとアクションを区切る
 |:via                 | HTTPメソッドを指定
-|:as                  | ルート名を指定
+|:as                  | ルート名に使用する別名
 
 ### 例
 #### DELETEリクエスト
     delete 'broccoli', to: 'food#broccoli'
 
-#### ルート名を指定
+#### ルート名に使用する別名を指定
     delete '/delete/:id', action: 'destroy', as: 'destroy_user'
 
 ### ソースコード

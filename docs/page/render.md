@@ -2,8 +2,7 @@
 layout: page
 ---
 ### 説明
-* 指定したRHTML
-* 対応しているテンプレートを呼ぶ際は、このメソッドを呼ぶ必要はない
+表示させるviewファイルを指定して表示
 
 ### 注意点
 * 同じアクション内でrenderメソッドを複数呼び出すと、エラーになるので、and returnを付ける
@@ -22,7 +21,6 @@ layout: page
 :xml      | 指定したテキストを表示し、コンテンツタイプをapplication/xmlに設定
 :json     | 指定したテキストを表示し、コンテンツタイプをtext/x-jsonに設定
 :update   | ブロックで処理を行い表示
-:nothing  | 何も表示しない
 :file     | ファイルを指定して表示
 :inline   | ビューとするソースコードを直接指定
 :plain    | 平文テキストを表示
@@ -160,13 +158,6 @@ layout: page
 ##### pagesテーブルの内容をJSON形式で出力
     @pages = Page.all
     render json: @pages
-
-### render :nothing
-#### 説明
-何も出力しない。:statusオプションと組み合わせて、エラーコードを返す時などに使う
-
-#### 使い方
-    render nothing: true
 
 #### 例
 ##### 404コード

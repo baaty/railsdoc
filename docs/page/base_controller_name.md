@@ -8,7 +8,7 @@ layout: page
     ActionController::Base.controller_name
 
 ### 例
-#### 基本形(オプションなし)
+#### コントローラのクラス名を取得
     EntriesController.controller_name
     # "entries"
 

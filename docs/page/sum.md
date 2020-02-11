@@ -8,7 +8,7 @@ layout: page
     モデル.sum(カラム名)
 
 ### 例
-#### Ratingsテーブルのscoreカラムの合計を求める
+#### Ratingsテーブルのscoreカラムの合計を計算
     Rating.sum(:score)
     #  SELECT SUM("Ratings"."score") AS sum_id FROM "Ratings"
 

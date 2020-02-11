@@ -10,15 +10,23 @@ layout: page
 ### オプション
 
 オプション   | 説明
---------|-----------
+--------|------------
 :only   | 実行するアクション
 :except | 実行しないアクション
+:if     | 実行する条件を指定
+:unless | 実行されない条件を指定
 
 ### 例
+#### アクションの前に処理を実行
     before_action :render_form, only: [:new :edit]
     def render_form
       render 'form'
     end
+
+#### 複数指定
+    before_action :user1
+    before_action :user2
+
 
 
 ### ソースコード

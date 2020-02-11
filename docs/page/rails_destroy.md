@@ -5,9 +5,12 @@ layout: page
 rails generateで自動生成したファイルを削除
 
 ### 使い方
-    $ rails destroy 生成したファイルの種類 [削除するファイル名] [オプション]
+    $ rails destroy ファイルの種類 [削除するファイル名 オプション]
 
-### 生成したファイルの種類
+#### 短縮形
+     $ rails d ファイルの種類 [削除するファイル名 オプション]
+
+### ファイルの種類
 * controller
 * generator
 * helper

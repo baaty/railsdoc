@@ -13,7 +13,7 @@ layout: page
 ------------ | -------------------
 :class_name  | クラス名
 :mapping     | マッピング
-:allow_nil   | trueならば、nilの検証はスキップ
+:allow_nil   | nilの検証をスキップ
 :constructor | 条件
 :converter   | 新しい値が値オブジェクトに割り当てられたときに呼び出される
 

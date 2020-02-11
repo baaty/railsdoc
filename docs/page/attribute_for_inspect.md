@@ -2,15 +2,15 @@
 layout: page
 ---
 ### 説明
-テーブルのレコードを取得
-50文字以降は省略
+属性の値に似た文字列を取得  
+50文字以降は省略  
 日時などは:db形式で返却
 
 ### 使い方
-    モデル.attribute_for_inspect(カラム名)
+    モデル.attribute_for_inspect(属性名)
 
 ### 例
-#### テーブルのレコードを取得
+#### モデルのオブジェクトを取得
     person.attribute_for_inspect(:name)
     # "\"David Heinemeier Hansson David Heinemeier Hansson D...\""
 

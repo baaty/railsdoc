@@ -8,6 +8,7 @@ layout: page
     コントローラ名.controller_path
 
 ### 例
+#### コントローラのパスを取得
     MyApp::MyPostsController.controller_path
     # "my_app/my_posts"
 

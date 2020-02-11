@@ -1,19 +1,24 @@
 ---
 layout: page
 ---
+### 説明
+モデルオブジェクトを生成
+
+newの別名
+
 ### 使い方
     モデル.build([属性])
 
 ### 例
-#### 引数なし
+#### モデルを生成
     person.pets.build
     # <Pet id: nil, name: nil, person_id: 1>
 
-#### 属性
+#### 属性を指定
     person.pets.build(name: 'Fancy-Fancy')
     # <Pet id: nil, name: "Fancy-Fancy", person_id: 1>
 
-#### ブロック
+#### ブロックを指定
     person.pets.build([{name: 'Spook'}, {name: 'Choo-Choo'}, {name: 'Brain'}])
     # [
     #   <Pet id: nil, name: "Spook", person_id: 1>,

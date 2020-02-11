@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-カラムの最大値を求める
+カラムの最大値を計算
 
 ### 使い方
     モデル.maximum(カラム名 [, オプション])
@@ -20,7 +20,7 @@ layout: page
 :group      | グルーピング命令
 
 ### 例
-#### usersテーブルのageカラムの最大値を求める
+#### usersテーブルのageカラムの最大値を計算
     User.maximum('age')
     # SELECT MAX("users"."age") AS max_id FROM "users"
 

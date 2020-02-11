@@ -3,6 +3,7 @@ layout: page
 ---
 ### 説明
 条件に一致するレコードをSQLを直接実行して全て更新
+
 updated_atとupdated_onは更新されない
 
 ### 使い方

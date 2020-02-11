@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-ActiveRecordを使って指定した条件の全てのレコードを削除
+ActiveRecordを使って指定した条件の全てのレコードを削除  
 dependentが設定されている場合は関連付けられたモデルも削除
 
 ### 使い方

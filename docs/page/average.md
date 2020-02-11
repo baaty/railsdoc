@@ -2,13 +2,13 @@
 layout: page
 ---
 ### 説明
-カラムの平均値を求める
+カラムの平均値を計算
 
 ### 使い方
     モデル.average(カラム名)
 
 ### 例
-#### 平均を求める
+#### 平均を計算
     Page.average(:count)
     # SELECT AVG("pages"."count") AS avg_id FROM "pages"
 

@@ -2,14 +2,18 @@
 layout: page
 ---
 ### 説明
-モデルに対して呼び出せるかチェック
+モデルが指定したメソッドを呼び出せるかチェック
 
 ### 使い方
-    モデル.respond_to?(名前 [, include_private=false])
+    モデル.respond_to?(メソッド名 [, include_private=false])
 
 ### 例
-#### モデルに対して呼び出せるかチェック
+#### Personモデルがname属性を呼び出せるかチェック
     person.respond_to?(:name)
+    # true
+
+#### プライベートメソッドを呼び出せるかチェック
+    person.respond_to?(:private_name, true)
     # true
 
 ### ソースコード

@@ -32,7 +32,7 @@ HTML属性     | 説明
 :dir         | 表記方向
 :lang        | 基本言語
 
-### イベント属性
+#### イベント属性
 
 イベント属性     | 説明
 -------------|--------------------
@@ -60,7 +60,7 @@ HTML属性     | 説明
     #   <option value="3">Rafael</option>
     # </select>
 
-### ソースコード
+#### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_options_helper.rb#L164)
 
 ### f.select
@@ -94,7 +94,7 @@ HTML属性     | 説明
 :dir         | 表記方向
 :lang        | 基本言語
 
-### イベント属性
+#### イベント属性
 
 イベント属性     | 説明
 -------------|--------------------
@@ -117,5 +117,5 @@ HTML属性     | 説明
 ##### 選択ボックスを生成
     f.select :person_id, Person.all.collect { |p| [ p.name, p.id ] }, include_blank: true
 
-### ソースコード
+#### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_options_helper.rb#L831)

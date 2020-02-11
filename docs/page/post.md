@@ -14,7 +14,7 @@ POSTリクエスト
 :controller, :action | コントローラとアクションを指定。必ずセットで指定
 :to                  | :controller, :actionの短縮形。\#でコントローラとアクションを区切る
 :via                 | HTTPメソッドを指定
-:as                  | ルート名を指定
+:as                  | ルート名に使用する別名
 
 ### 例
 #### POSTリクエスト

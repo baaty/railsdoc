@@ -9,11 +9,12 @@ layout: page
 * 英数字のみ
 * 単語の区切りでは、先頭文字を大文字
 * 単数形の名詞
-        Entry
-        UserComment
+  * Entry
+  * UserComment
 * ファイルはapp/modelsディレクトリに格納
 * ファイル名は、モデル名の単語区切りを「_」にし、すべて小文字にしたもの
-        app/models/entry.rb<br />app/models/user_comment.rb
+  * app/models/entry.rb
+  * app/models/user_comment.rb
 
 ### 命名規則
 

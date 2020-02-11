@@ -3,10 +3,12 @@ layout: page
 ---
 ### 説明
 分割してレコードを取得して処理
+
 デフォルトでは1000件ずつ処理
 
 ### 使い方
     モデル.find_each([オプション]) do |i|
+      処理内容
     end
 
 ### オプション
@@ -31,6 +33,9 @@ layout: page
 #### 開始位置を指定
     Person.find_each(start: 2000, batch_size: 2000) do |person|
     end
+
+### 補足
+* find_in_batchesとの違いは1件ずつ処理を行うこと
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/relation/batches.rb#L67)

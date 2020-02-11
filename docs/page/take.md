@@ -2,19 +2,28 @@
 layout: page
 ---
 ### 説明
-引数で指定した件数のレコードを取得
+引数で指定した件数のレコードを取得  
+取得するレコードをIDなどで指定することはできない
 
 ### 使い方
     モデル.take([件数])
 
+#### 取得するレコードが存在しない場合に例外が発生
+    モデル.take!([件数])
+
 ### 例
 #### 1件のレコードを取得
     Person.take
-    # returns an object fetched by SELECT * FROM people LIMIT 1
+    # <Person id: 1, ...>
+    # SQL: SELECT * FROM people LIMIT 1
 
-#### 5件のレコードを取得
-    Person.take(5)
-    # returns 5 objects fetched by SELECT * FROM people LIMIT 5
+#### 2件のレコードを取得
+    Person.take(2)
+    # [
+    #   <Client id: 1, ...>,
+    #   <Client id: 220, ...>
+    # ]
+    # SQL: SELECT * FROM people LIMIT 5
 
 #### whereの後に使用
     Person.where(["name LIKE '%?'", name]).take
