@@ -8,7 +8,7 @@ description: "ルーティング関連のメソッド。rake routes／match／re
   {% if i[1].category_id != 14 %}{% continue %}{% endif %}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <article>
-  <h2 id="{{i[0]}}">{{i[1].title}}</h2>
+  <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
   {% if i[1].versions %}
   <aside class="xs-hide">
   <h3>適応バージョン</h3>
