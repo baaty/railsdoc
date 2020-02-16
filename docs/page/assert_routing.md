@@ -2,22 +2,22 @@
 layout: page
 ---
 ### 説明
-ルーティングとオプションの検証
+ルーティングとオプションのバリデーション
 
 ### 使い方
     assert_routing(パス, オプション, nil, 追加パラメータ, メッセージ)
 
 ### 例
-#### ルーティングとオプションの検証
+#### ルーティングとオプションのバリデーション
     assert_routing '/home', controller: 'home', action: 'index'
 
 #### コントローラとアクションとパラメータで生成されたルーティング
     assert_routing '/entries/show/23', controller: 'entries', action: 'show', id: 23
 
-#### エラ〜メッセージを検証
+#### エラ〜メッセージをバリデーション
     assert_routing '/store', { controller: 'store', action: 'index' }, {}, {}, 'Route for store index not generated properly'
 
-#### デフォルト値を検証
+#### デフォルト値をバリデーション
     assert_routing 'controller/action/9', {id: "9", item: "square"}, {controller: "controller", action: "action"}, {}, {item: "square"}
 
 #### HTTPメソッドを指定

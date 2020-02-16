@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-RSSフィードやAtomフィードを自動検出させるlinkタグを生成
+モデルと関連のないRSSフィードやAtomフィードを自動検出させるlinkタグを生成
 
 ### 使い方
     auto_discovery_link_tag(フォードの種類, [URLオプション,  オプション])

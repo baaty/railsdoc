@@ -1,14 +1,16 @@
 ---
 layout: page
 ---
-### search_field
-#### 説明
+### 説明
 検索ボックスを生成
 
-#### 使い方
+### 使い方
     search_field(オブジェクト名, メソッド名 [, オプション])
 
-#### オプション
+#### f.object
+    f.search_field(メソッド名 [, オプション])
+
+### オプション
 
 オプション      | 説明
 -----------|-------------------
@@ -29,7 +31,8 @@ layout: page
 :dir       | 表記方向
 :lang      | 基本言語
 
-#### 例
+### 例
+#### search_field
 ##### 検索ボックスを生成
     search_field(:user, :name)
     # <input id="user_name" name="user[name]" type="search" />
@@ -46,37 +49,10 @@ layout: page
     search_field(:user, :name, onsearch: true)
     # <input id="user_name" incremental="true" name="user[name]" onsearch="true" type="search" />
 
-#### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1353)
-
-### f.search_field
-#### 説明
-検索ボックスを生成
-
-#### 使い方
-    f.search_field(メソッド名 [, オプション])
-
-#### オプション
-
-オプション      | 説明
------------|-------------------
-:size      | フォームの幅
-:maxlength | 入力フィールドに入力可能な最大文字数
-:accept    | フォームで受付可能なMIMEタイプ
-:readonly  | フォームの内容変更禁止
-:disabled  | 無効化
-:tabindex  | Tabキーによる入力欄の移動順
-:accesskey | フォームに移動するショートカットキー
-:id        | 要素固有の識別子
-:class     | 要素を分類するクラス名
-:title     | 要素の補足情報
-:style     | 要素の補足情報
-:dir       | 表記方向
-:lang      | 基本言語
-
-#### 例
+#### f.search_field
 ##### 検索ボックスを生成
     f.search_field :name
 
-#### ソースコード
+### ソースコード
+* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1353)
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1748)

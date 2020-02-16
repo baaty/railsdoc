@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-チェックボックスを生成
+モデルと関連のないチェックボックスを生成
 
 ### 使い方
     check_box_tag(要素名 [, value値, checked = false, オプション or HTML属性 or イベント属性])
@@ -51,23 +51,23 @@ layout: page
 
 ### 例
 #### チェックボックスOFF
-    <%= check_box_tag 'page[freezeflag]', true, false, {} %>
+    check_box_tag 'page[freezeflag]', true, false, {}
     # <input id="page_freezeflag" name="page[freezeflag]" type="checkbox" value="true" />
 
 #### チェックボックスON
-    <%= check_box_tag 'page[freezeflag]', true, true, {} %>
+    check_box_tag 'page[freezeflag]', true, true, {}
     # <input checked="checked" id="page_freezeflag" name="page[freezeflag]" type="checkbox" value="true" />
 
 #### 利用禁止
-    <%= check_box_tag 'page[freezeflag]', true, false, {disabled: true} %>
+    check_box_tag 'page[freezeflag]', true, false, {disabled: true}
     # <input disabled="disabled" id="page_freezeflag" name="page[freezeflag]" type="checkbox" value="true" />
 
 #### Tabキーによる入力欄の移動順
-    <%= check_box_tag 'page[freezeflag]', true, false, {tabindex: 1} %>
+    check_box_tag 'page[freezeflag]', true, false, {tabindex: 1}
     # <input id="page_freezeflag" name="page[freezeflag]" tabindex="1" type="checkbox" value="true" />
 
 #### フォームに移動するショートカットキー
-    <%= check_box_tag 'page[freezeflag]', true, false, {accesskey: 'k'} %>
+    check_box_tag 'page[freezeflag]', true, false, {accesskey: 'k'}
     # <input accesskey="k" id="page_freezeflag" name="page[freezeflag]" type="checkbox" value="true" />
 
 ### ソースコード

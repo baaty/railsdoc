@@ -2,12 +2,12 @@
 layout: page
 ---
 ### 説明
-数値入力ボックスを生成
+モデルと関連のない数値入力ボックスを生成
 
 ### 使い方
     number_field_tag(要素名 [, value値, オプション])
 
-#### オプション
+### オプション
 
 オプション      | 説明
 ---------- | ------------------
@@ -29,26 +29,26 @@ layout: page
 :dir       | 表記方向
 :lang      | 基本言語
 
-#### 例
-##### 数値入力ボックスを生成
+### 例
+#### 数値入力ボックスを生成
     number_field_tag 'quantity'
     # <input id="quantity" name="quantity" type="number" />
 
-##### 値を指定
+#### 値を指定
     number_field_tag 'quantity', '1'
     # <input id="quantity" name="quantity" type="number" value="1" />
 
-##### class属性を付与
+#### class属性を付与
     number_field_tag 'quantity', nil, class: 'special_input'
     # <input class="special_input" id="quantity" name="quantity" type="number" />
 
-##### 最小値を指定
+#### 最小値を指定
     number_field_tag 'quantity', nil, min: 1
     # <input id="quantity" name="quantity" min="1" type="number" />
 
-##### 最大値を指定
+#### 最大値を指定
     number_field_tag 'quantity', nil, max: 9
     # <input id="quantity" name="quantity" max="9" type="number" />
 
-#### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L802)

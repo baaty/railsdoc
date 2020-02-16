@@ -27,12 +27,20 @@ URL、スコープ、モデルなどからフォームタグを生成
 :html                | id、class、data以外のHTMLタグ              |
 
 ### 例
-#### URLからフォームを生成
+#### URLからフォームを生成(form_tag的な使い方)
     <%= form_with url: posts_path do |form| %>
       <%= form.text_field :title %>
     <% end %>
     # <form action="/posts" method="post" data-remote="true">
     #  <input type="text" name="title">
+    # </form>
+
+#### モデルを指定してフォームを生成(form_for的な使い方)
+    <%= form_with model: Post.new do |form| %>
+      <%= form.text_field :title %>
+    <% end %>
+    # <form action="/posts" method="post" data-remote="true">
+    # <input type="text" name="post[title]">
     # </form>
 
 #### スコープを指定してフォームを生成
@@ -43,16 +51,13 @@ URL、スコープ、モデルなどからフォームタグを生成
     # <input type="text" name="post[title]">
     # </form>
 
-##### モデルを指定してフォームを生成
-    <%= form_with model: Post.new do |form| %>
-      <%= form.text_field :title %>
-    <% end %>
-    # <form action="/posts" method="post" data-remote="true">
-    # <input type="text" name="post[title]">
-    # </form>
-
 #### 開始タグのみ生成
     form_with(model: @post, url: super_posts_path)
+
+### form_forやform_tagとの違い
+* デフォルトではid属性やclass属性は付与されない
+* デフォルトでremote: trueが付与
+* モデルの属性にない値も指定が可能
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L742)

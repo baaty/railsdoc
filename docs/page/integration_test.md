@@ -2,14 +2,14 @@
 layout: page
 ---
 ### 説明
-複数のアクションやコントローラにまたがる挙動を検証するためのテスト
+複数のアクションやコントローラにまたがる挙動をバリデーションするためのテスト
 
 ### テストを生成
     $ rails generate integration_test テスト名
 
 ### 流れ
 1.  テスト環境をセットアップ
-2.  リクエストとその検証、というペアを複数回記述
+2.  リクエストとそのバリデーション、というペアを複数回記述
 
 ### テストを記述
 * /shops/listに店の一覧がある
@@ -18,7 +18,7 @@ layout: page
     * フォームのアクションは/shops/createである
     * shopの店名を入力するためのフォームがある
 * shop[name]を指定し、/shops/createにPOSTリクエストを送る
-* shopの件数が増えていることを検証
+* shopの件数が増えていることをバリデーション
     class CreateNewShopFinallyShowThemAllTest < AxtionController::IntegrationTest
       fixtures :users, :shops
 

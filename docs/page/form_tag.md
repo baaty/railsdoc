@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-汎用的なフォームを生成
+汎用的なフォームを生成  
+form_withの利用を推奨(Rails5.1以降はform_forとform_tagはform_withに統合されたため)
 
 ### 使い方
     form_tag(リンク先 [オプション or HTML属性 or イベント属性]) do

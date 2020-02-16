@@ -10,25 +10,23 @@ URLから送られてきた値やフォームで入力した値
 ### 特徴
 * リンクによるパラメータの受け渡し
 * フォームによるパラメータの受け渡し
-* 日本語も自動的にデコードされるので仕様可能
-* 文字コードはUTF-8
 
 ### 例
 #### リンクによるパラメータの受け渡し
-* ビュー
+##### ビュー
         link_to 'ユーザ名', controller: 'users', action: 'show', id: =1
-* コントローラ
+##### コントローラ
         def show
           id = params[:id] # id = 1
         end
 
 #### フォームによるパラメータの受け渡し
-* ビュー
+##### ビュー
         <% form_for @user do |f| -%>
           名前：<%= f.text_field :name %>
           説明：<%= f.text_area :body %>
         <% end -%>
-* コントローラ
+##### コントローラ
         def create
           name = params[:name]
           body =  params[:body]

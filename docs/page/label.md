@@ -1,14 +1,16 @@
 ---
 layout: page
 ---
-### label
-#### 説明
+### 説明
 labelタグを生成
 
-#### 使い方
+### 使い方
     label(オブジェクト名, メソッド名 [, ラベル配下のコンテンツ] [, オプション])
 
-#### オプション
+#### f.object
+    f.label(メソッド名 [, ラベル配下のコンテンツ] [, オプション])
+
+### オプション
 
 オプション      | 説明
 ---------- | ------------------
@@ -20,7 +22,8 @@ labelタグを生成
 :dir       | 表記方向
 :lang      | 基本言語
 
-#### 例
+### 例
+#### label
 ##### labelタグを生成
     label(:post, :cost)
     # <label for="post_cost">Total cost</label>
@@ -39,29 +42,7 @@ labelタグを生成
     end
     # <label for="post_terms">Accept <a href="/terms">Terms</a>.</label>
 
-#### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1117)
-
-### f.label
-#### 説明
-labelタグを生成
-
-#### 使い方
-    f.label(メソッド名 [, ラベル配下のコンテンツ] [, オプション])
-
-#### オプション
-
-オプション      | 説明
----------- | ------------------
-:accesskey | フォームに移動するショートカットキー
-:id        | 要素固有の識別子
-:class     | 要素を分類するクラス名
-:title     | 要素の補足情報
-:style     | 要素の補足情報
-:dir       | 表記方向
-:lang      | 基本言語
-
-#### 例
+#### f.label
 ##### ラベル配下のコンテンツなし
     f.label :name
     # <label for="page_name">Name</label>
@@ -74,5 +55,6 @@ labelタグを生成
     f.label :name, '', class: 'page_name'
     # <label class="page_name" for="page_name">Name</label>
 
-#### ソースコード
+### ソースコード
+* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1117)
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L2252)

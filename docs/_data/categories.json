@@ -98,7 +98,7 @@
     {
         "english_name": "validation",
         "id": 13,
-        "name": "検証(validation)",
+        "name": "バリデーション(validation)",
         "description": "バリデーション関連のメソッド"
     },
     {

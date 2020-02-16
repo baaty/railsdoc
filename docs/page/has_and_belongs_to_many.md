@@ -15,7 +15,7 @@ layout: page
 :join_table              | 結合テーブルの名前を指定
 :foreign_key             | 多対多の関連で使用する外部キーの名前を指定
 :association_foreign_key | 多対多の関係で関連先への外部キーを指定
-:validate                | 現在のモデルを保存する場合、関連先の検証を実行
+:validate                | 現在のモデルを保存する場合、関連先のバリデーションを実行
 :autosave                | 親モデルに合わせて、保存や削除を行うか
 
 ### 使えるようになるメソッド

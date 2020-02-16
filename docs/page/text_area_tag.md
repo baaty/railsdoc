@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-テキストエリアを生成
+モデルと関連のないテキストエリアを生成
 
 ### 使い方
     text_area_tag(要素名 [, エリア配下のテキスト, オプション or HTML属性 or イベント属性])
@@ -72,5 +72,5 @@ HTML属性   | 説明
     text_area_tag 'comment', nil, class: 'comment_input'
     # <textarea class="comment_input" id="comment" name="comment"></textarea>
 
-#### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L347)

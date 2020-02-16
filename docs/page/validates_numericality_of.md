@@ -2,17 +2,17 @@
 layout: page
 ---
 ### 説明
-数値の大小、型を検証
+数値の大小、型をバリデーション
 
 ### 使い方
-    validates_numericality_of(検証するフィールド名 [, ...])
+    validates_numericality_of(フィールド名 [, ...])
 
 ### オプション
 
 オプション                     | 説明                      |
 --------------------------|-------------------------|----
-:message                  | 検証が失敗したときに表示するメッセージ |
-:only_integer             | 整数であるかを検証             |
+:message                  | 失敗したときに表示するメッセージ |
+:only_integer             | 整数であるか             |
 :greater_than             | 指定値より大きいか             |
 :greater_than_or_equal_to | 指定値以上か               |
 :equal_to                 | 指定値と等しいか              |
@@ -20,15 +20,15 @@ layout: page
 :less_than_or_equal_to    | 指定値以下か               |
 :odd                      | 奇数か                     |
 :even                     | 偶数か                     |
-:on                       | 検証を実行するタイミング         | 保存時
-:allow_nil                | nilの検証をスキップ     | false
-:allow_blank              | nilや空文字の検証をスキップ      | false
-:if                       | 検証する条件を指定           |
-:unless                   | 検証しない条件を指定          |
-:strict                   | 検証に失敗した場合に例外を発生 |
+:on                       | 実行するタイミング         | 保存時
+:allow_nil                | nilをスキップ     | false
+:allow_blank              | nilや空文字をスキップ      | false
+:if                       | バリデーションする条件を指定           |
+:unless                   | バリデーションしない条件を指定          |
+:strict                   | 失敗した場合に例外を発生 |
 
 ### 例
-#### 数値の大小、型を検証
+#### 数値の大小、型をバリデーション
     validates_numericality_of :value, on: :create
 
 ### ソースコード

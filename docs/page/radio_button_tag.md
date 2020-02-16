@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-#### 説明
-ラジオボタンを生成
+### 説明
+モデルと関連のないラジオボタンを生成
 
 ### 使い方
     radio_button_tag(要素名, value値 [, checked = false, オプション or HTML属性 or イベント属性])

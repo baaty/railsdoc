@@ -9,7 +9,7 @@
   "rails_new": {
     "category_id": 4,
     "created_at": "2011-07-23 08:45:26.430808",
-    "title": "アプリケーションの作成",
+    "title": "新しいRailsのアプリケーションを作成",
     "method": "rails new",
     "updated_at": "2015-05-04 15:16:28.646913"
   },
@@ -37,7 +37,7 @@
   "form_for": {
     "category_id": 9,
     "created_at": "2011-07-23 09:37:56.278089",
-    "title": "フォームを生成",
+    "title": "特定のモデルに特化したフォームを生成",
     "method": "form_for",
     "updated_at": "2015-05-04 17:18:11.487545",
     "versions": [
@@ -73,7 +73,7 @@
   "form_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:37:56.278089",
-    "title": "フォームを生成",
+    "title": "汎用的なフォームを生成",
     "method": "form_tag",
     "updated_at": "2015-05-04 17:18:11.487545",
     "versions": [
@@ -104,6 +104,18 @@
       "4.2.7",
       "4.2.9",
       "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "form_with": {
+    "category_id": 9,
+    "created_at": "2011-07-23 09:14:45.471397",
+    "title": "モデルなどからフォームタグを生成",
+    "method": "form_with",
+    "updated_at": "2015-04-04 03:17:22.691495",
+    "versions": [
       "5.1.7",
       "5.2.3",
       "6.0.2.1"
@@ -221,7 +233,7 @@
   "check_box_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:06.860453",
-    "title": "チェックボックス",
+    "title": "汎用的なチェックボックスを生成",
     "method": "check_box_tag",
     "updated_at": "2015-05-05 06:37:11.607183",
     "versions": [
@@ -281,7 +293,7 @@
   "database_up": {
     "category_id": 5,
     "created_at": "2012-02-08 15:13:53.006081",
-    "title": "データベースのカラムをバージョンアップ",
+    "title": "カラムをバージョンアップ",
     "method": "up",
     "updated_at": "2015-05-04 09:50:27.582470",
     "versions": [
@@ -391,7 +403,7 @@
   "validates_uniqueness_of": {
     "category_id": 13,
     "created_at": "2011-07-23 09:52:08.972161",
-    "title": "属性の値が一意であることを検証",
+    "title": "属性の値が一意であることをバリデーション",
     "method": "validates_uniqueness_of",
     "updated_at": "2015-05-05 06:45:27.381768",
     "versions": [
@@ -500,7 +512,7 @@
   "rails_generate_migration": {
     "category_id": 4,
     "created_at": "2011-07-23 08:46:50.914840",
-    "title": "マイグレーションの生成",
+    "title": "マイグレーションファイルの生成",
     "method": "rails generate migration",
     "updated_at": "2015-05-04 09:27:31.396520"
   },
@@ -514,7 +526,7 @@
   "database_down": {
     "category_id": 5,
     "created_at": "2012-02-08 15:43:22.915088",
-    "title": "データベースのカラムをバージョンダウン",
+    "title": "カラムをバージョンダウン",
     "method": "down",
     "updated_at": "2015-05-04 09:50:33.823319",
     "versions": [
@@ -638,7 +650,7 @@
   "radio_button_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:18.714701",
-    "title": "ラジオボックスを生成",
+    "title": "汎用的なラジオボックスを生成",
     "method": "radio_button_tag",
     "updated_at": "2015-05-04 16:29:41.457021",
     "versions": [
@@ -677,7 +689,7 @@
   "validates_associated": {
     "category_id": 13,
     "created_at": "2011-07-23 09:52:22.084335",
-    "title": "関連付けられているオブジェクトを検証",
+    "title": "関連付けられているオブジェクトをバリデーション",
     "method": "validates_associated",
     "updated_at": "2015-05-05 06:46:33.953175",
     "versions": [
@@ -830,7 +842,7 @@
   "database_change": {
     "category_id": 5,
     "created_at": "2012-02-08 15:44:19.086457",
-    "title": "データベースのカラムを変更",
+    "title": "カラムを変更",
     "method": "change",
     "updated_at": "2015-05-05 08:20:45.450922",
     "versions": [
@@ -1030,7 +1042,7 @@
   "text_area_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:31.405197",
-    "title": "テキストエリア",
+    "title": "汎用的なテキストエリアを生成",
     "method": "text_area_tag",
     "updated_at": "2015-05-05 06:18:33.305432",
     "versions": [
@@ -1069,7 +1081,7 @@
   "verify": {
     "category_id": 99,
     "created_at": "2011-07-23 09:52:32.930975",
-    "title": "実行前にリクエストの検証",
+    "title": "実行前にリクエストのバリデーション",
     "method": "verify",
     "updated_at": "2015-05-04 09:05:23.056590",
     "versions": [
@@ -1216,7 +1228,7 @@
   "camelize": {
     "category_id": 20,
     "created_at": "2011-12-27 03:42:22.030091",
-    "title": "ファイル名からクラス名へ変換",
+    "title": "文字列をキャメルケースに変換",
     "method": "camelize",
     "updated_at": "2015-05-04 09:45:21.794233",
     "versions": [
@@ -1471,7 +1483,7 @@
   "password_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:41.438423",
-    "title": "パスワード入力ボックス",
+    "title": "汎用的なパスワード入力ボックス",
     "method": "password_field_tag",
     "updated_at": "2015-05-05 06:16:44.732476",
     "versions": [
@@ -1715,7 +1727,7 @@
   "hidden_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:38:54.262849",
-    "title": "隠しフィールドを生成",
+    "title": "汎用的な隠しフィールドを生成",
     "method": "hidden_field_tag",
     "updated_at": "2015-05-04 17:16:32.929984",
     "versions": [
@@ -1861,7 +1873,7 @@
   "rails_dbconsole": {
     "category_id": 4,
     "created_at": "2011-10-18 03:24:51.209570",
-    "title": "データベースクライアントを起動",
+    "title": "コンソールを起動",
     "method": "rails dbconsole",
     "updated_at": "2015-05-04 09:50:49.157229"
   },
@@ -1935,7 +1947,7 @@
   "send_data": {
     "category_id": 7,
     "created_at": "2011-07-23 09:17:55.938839",
-    "title": "動的に生成されたデータを出力",
+    "title": "バイナリデータを出力",
     "method": "send_data",
     "updated_at": "2015-05-04 15:55:30.652318",
     "versions": [
@@ -2053,7 +2065,7 @@
   "label_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:06.224433",
-    "title": "ラベルタグを生成",
+    "title": "汎用的なラベルタグを生成",
     "method": "label_tag",
     "updated_at": "2015-05-05 06:14:40.240140",
     "versions": [
@@ -2216,7 +2228,7 @@
   "request": {
     "category_id": 7,
     "created_at": "2011-07-23 09:18:05.765558",
-    "title": "アクセスしたユーザの情報を取得",
+    "title": "リクエストを送ってきたユーザのヘッダー情報や環境変数を取得",
     "method": "request",
     "updated_at": "2015-05-04 09:10:07.614267"
   },
@@ -2301,7 +2313,7 @@
   "text_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:16.563140",
-    "title": "テキストボックスを生成",
+    "title": "汎用的なテキストボックスを生成",
     "method": "text_field_tag",
     "updated_at": "2015-05-04 16:25:50.697901",
     "versions": [
@@ -2473,6 +2485,16 @@
       "6.0.2.1"
     ]
   },
+  "create_or_find_by": {
+    "category_id": 6,
+    "created_at": "2020-02-16 07:22:07.139785",
+    "title": "データベースのユニーク制約を使って作成、できなければ初めの1件を取得",
+    "method": "create_or_find_by",
+    "updated_at": "2020-02-16 07:33:16.230846",
+    "versions": [
+      "6.0.2.1"
+    ]
+  },
   "find_or_initialize_by": {
     "category_id": 6,
     "created_at": "2013-04-27 07:22:07.139785",
@@ -2494,7 +2516,7 @@
   "head": {
     "category_id": 7,
     "created_at": "2012-01-28 13:30:08.592841",
-    "title": "空のコンテンツを表示",
+    "title": "応答ステータスとヘッダ情報のみを表示",
     "method": "head",
     "updated_at": "2015-05-05 07:00:51.986213",
     "versions": [
@@ -2593,7 +2615,7 @@
   "file_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:39:27.415929",
-    "title": "ファイル選択ボックスを生成",
+    "title": "汎用的なファイル選択ボックスを生成",
     "method": "file_field_tag",
     "updated_at": "2015-05-04 17:19:54.913696",
     "versions": [
@@ -2941,7 +2963,7 @@
   "validates": {
     "category_id": 13,
     "created_at": "2011-07-23 09:53:42.361190",
-    "title": "汎用的な検証",
+    "title": "汎用的なバリデーション",
     "method": "validates",
     "updated_at": "2015-05-04 09:28:33.761781",
     "versions": [
@@ -3627,7 +3649,7 @@
   "change_column": {
     "category_id": 5,
     "created_at": "2011-07-23 08:51:57.290090",
-    "title": "カラムを変更",
+    "title": "カラムの定義を変更",
     "method": "change_column",
     "updated_at": "2015-05-05 07:02:56.489443",
     "versions": [
@@ -3748,7 +3770,7 @@
   "options_from_collection_for_select": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:12.463261",
-    "title": "データベースから動的に選択肢を生成",
+    "title": "選択ボックスを生成",
     "method": "options_from_collection_for_select",
     "updated_at": "2015-05-05 06:29:48.048645",
     "versions": [
@@ -3955,7 +3977,7 @@
   "collection_select": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:24.159915",
-    "title": "モデルの情報を元に選択しを生成",
+    "title": "選択ボックスをモデルの情報を元に生成",
     "method": "collection_select",
     "updated_at": "2015-05-04 16:13:49.180195",
     "versions": [
@@ -4001,7 +4023,7 @@
   "validate": {
     "category_id": 13,
     "created_at": "2013-05-06 09:55:29.739851",
-    "title": "モデルの検証を定義",
+    "title": "モデルのバリデーションを定義",
     "method": "validate",
     "updated_at": "2015-05-04 09:27:58.431951",
     "versions": [
@@ -4114,13 +4136,6 @@
       "6.0.2.1"
     ]
   },
-  "convert_objects": {
-    "category_id": 7,
-    "created_at": "2011-07-23 09:18:57.888690",
-    "title": "オブジェクトを相互変換",
-    "method": "",
-    "updated_at": "2015-05-02 18:36:42.738915"
-  },
   "image_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:27:08.183538",
@@ -4190,7 +4205,7 @@
   "validates_absence_of": {
     "category_id": 13,
     "created_at": "2013-05-06 10:27:14.617051",
-    "title": "空白であることを検証",
+    "title": "空白であることをバリデーション",
     "method": "validates_absence_of",
     "updated_at": "2015-05-04 16:40:23.315015",
     "versions": [
@@ -4437,7 +4452,7 @@
   "email_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:40:51.592975",
-    "title": "メールアドレス入力ボックスを生成",
+    "title": "汎用的なメールアドレス入力ボックスを生成",
     "method": "email_field_tag",
     "updated_at": "2015-05-05 06:00:37.290470",
     "versions": [
@@ -4463,7 +4478,7 @@
   "validates_acceptance_of": {
     "category_id": 13,
     "created_at": "2013-05-06 10:31:43.558068",
-    "title": "チェックボックスにチェックが入っているか検証",
+    "title": "チェックボックスにチェックが入っているかバリデーション",
     "method": "validates_acceptance_of",
     "updated_at": "2015-05-05 06:35:39.030873",
     "versions": [
@@ -4605,17 +4620,10 @@
     "method": "controller_name",
     "updated_at": "2015-05-02 18:38:51.319031"
   },
-  "action_name": {
-    "category_id": 7,
-    "created_at": "2011-07-23 09:19:14.067720",
-    "title": "アクション名を取得",
-    "method": "",
-    "updated_at": "2015-05-02 18:38:51.319031"
-  },
   "mail_to": {
     "category_id": 8,
     "created_at": "2011-07-23 09:24:09.197476",
-    "title": "メールアドレスへのリンクを生成",
+    "title": "メールアドレス用のタグを生成",
     "method": "mail_to",
     "updated_at": "2015-05-05 06:47:52.554886",
     "versions": [
@@ -4680,7 +4688,7 @@
   "number_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:04.901018",
-    "title": "数値入力ボックスを生成",
+    "title": "汎用的な数値入力ボックスを生成",
     "method": "number_field_tag",
     "updated_at": "2015-05-04 17:12:44.743236",
     "versions": [
@@ -4706,7 +4714,7 @@
   "validates_confirmation_of": {
     "category_id": 13,
     "created_at": "2013-05-06 10:37:30.414089",
-    "title": "2つのフィールドが等しいか検証",
+    "title": "2つのフィールドが等しいかバリデーション",
     "method": "validates_confirmation_of",
     "updated_at": "2015-05-05 06:35:01.371524",
     "versions": [
@@ -4897,7 +4905,7 @@
   "audio_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:24:57.014006",
-    "title": "音声を再生タグを生成",
+    "title": "audioを生成",
     "method": "audio_tag",
     "updated_at": "2015-05-05 06:59:27.639812",
     "versions": [
@@ -4949,7 +4957,7 @@
   "range_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:43:11.988118",
-    "title": "範囲選択バーを生成",
+    "title": "汎用的な範囲選択バーを生成",
     "method": "range_field_tag",
     "updated_at": "2015-05-05 06:10:32.776500",
     "versions": [
@@ -4975,7 +4983,7 @@
   "validates_exclusion_of": {
     "category_id": 13,
     "created_at": "2013-05-06 10:43:58.437409",
-    "title": "値が配列・範囲に含まれていないか検証",
+    "title": "値が配列・範囲に含まれていないかバリデーション",
     "method": "validates_exclusion_of",
     "updated_at": "2015-05-05 06:34:08.500386",
     "versions": [
@@ -5165,7 +5173,7 @@
   "search_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:15.942136",
-    "title": "検索ボックスを生成",
+    "title": "汎用的な検索ボックスを生成",
     "method": "search_field_tag",
     "updated_at": "2015-05-04 16:49:15.877474",
     "versions": [
@@ -5191,7 +5199,7 @@
   "validates_format_of": {
     "category_id": 13,
     "created_at": "2013-05-06 12:22:01.471568",
-    "title": "正規表現パターンに一致しているか検証",
+    "title": "正規表現パターンに一致しているかバリデーション",
     "method": "validates_format_of",
     "updated_at": "2015-05-05 06:33:30.205837",
     "versions": [
@@ -5406,7 +5414,7 @@
   "telephone_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:31.634346",
-    "title": "電話番号入力ボックスを生成",
+    "title": "汎用的な電話番号入力ボックスを生成",
     "method": "telephone_field_tag",
     "updated_at": "2015-05-04 16:33:27.046402",
     "versions": [
@@ -5432,7 +5440,7 @@
   "validates_inclusion_of": {
     "category_id": 13,
     "created_at": "2013-05-06 12:27:30.717660",
-    "title": "値が配列・範囲に含まれているか検証",
+    "title": "値が配列・範囲に含まれているかバリデーション",
     "method": "validates_inclusion_of",
     "updated_at": "2015-05-05 06:32:55.442389",
     "versions": [
@@ -5599,7 +5607,7 @@
   "video_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:28:43.924624",
-    "title": "動画を再生タグを生成",
+    "title": "videoタグを生成",
     "method": "video_tag",
     "updated_at": "2015-05-05 06:55:58.134055",
     "versions": [
@@ -5651,7 +5659,7 @@
   "url_field_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:44.132808",
-    "title": "URL入力ボックスを生成",
+    "title": "汎用的なURL入力ボックスを生成",
     "method": "url_field_tag",
     "updated_at": "2015-05-04 17:09:15.469843",
     "versions": [
@@ -5879,7 +5887,7 @@
   "submit_tag": {
     "category_id": 9,
     "created_at": "2011-07-23 09:41:54.568814",
-    "title": "サブミットボタンを生成",
+    "title": "汎用的なサブミットボタンを生成",
     "method": "submit_tag",
     "updated_at": "2015-05-05 06:19:54.341889",
     "versions": [
@@ -5994,7 +6002,7 @@
   "add_timestamps": {
     "category_id": 5,
     "created_at": "2013-04-21 09:54:58.608817",
-    "title": "created_atとupdated_atを追加",
+    "title": "タイムスタンプを追加",
     "method": "add_timestamps",
     "updated_at": "2015-05-05 07:58:27.439401",
     "versions": [
@@ -6089,7 +6097,7 @@
   "favicon_link_tag": {
     "category_id": 8,
     "created_at": "2011-07-23 09:26:43.401925",
-    "title": "ファビコンを設定",
+    "title": "ファビコンのタグを生成",
     "method": "favicon_link_tag",
     "updated_at": "2015-05-05 06:58:14.306194",
     "versions": [
@@ -6637,7 +6645,7 @@
   "button_tag": {
     "category_id": 9,
     "created_at": "2013-05-01 12:36:32.731672",
-    "title": "ボタンを生成",
+    "title": "汎用的なボタンを生成",
     "method": "button_tag",
     "updated_at": "2015-05-04 16:18:09.464804",
     "versions": [
@@ -7279,6 +7287,16 @@
       "6.0.2.1"
     ]
   },
+  "pick": {
+    "category_id": 6,
+    "created_at": "2020-02-16 18:15:59.372292",
+    "title": "取得済みのモデルから先頭のレコードの値を1件取得",
+    "method": "pick",
+    "updated_at": "2020-02-16 07:19:58.516732",
+    "versions": [
+      "6.0.2.1"
+    ]
+  },
   "simple_format": {
     "category_id": 8,
     "created_at": "2011-07-23 09:29:17.546470",
@@ -7573,6 +7591,16 @@
       "6.0.2.1"
     ]
   },
+  "insert_all": {
+    "category_id": 6,
+    "created_at": "2020-02-16 08:58:24.675927",
+    "title": "複数レコードを一括登録",
+    "method": "insert_all",
+    "updated_at": "2020-02-16 16:22:05.174169",
+    "versions": [
+      "6.0.2.1"
+    ]
+  },
   "highlight": {
     "category_id": 8,
     "created_at": "2011-07-23 09:30:05.706748",
@@ -7773,7 +7801,7 @@
   "calculate": {
     "category_id": 6,
     "created_at": "2011-07-23 08:58:45.565852",
-    "title": "カラムを処理",
+    "title": "汎用的なカラム処理",
     "method": "calculate",
     "updated_at": "2015-05-04 16:53:31.015473",
     "versions": [
@@ -8220,7 +8248,7 @@
   "current_page_q": {
     "category_id": 8,
     "created_at": "2011-07-23 09:23:13.268559",
-    "title": "リクエストが指定したオプションで生成されたものかチェック",
+    "title": "指定したURLが現在表示されているかチェック",
     "method": "current_page?",
     "updated_at": "2015-05-05 08:04:31.527539",
     "versions": [
@@ -8520,7 +8548,7 @@
   "color_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 06:38:45.894597",
-    "title": "色の入力欄を生成",
+    "title": "汎用的な色の入力欄を生成",
     "method": "color_field_tag",
     "updated_at": "2015-05-05 06:03:23.774854",
     "versions": [
@@ -8589,7 +8617,7 @@
   "date_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 06:41:40.272554",
-    "title": "日付の入力欄を生成",
+    "title": "汎用的な日付の入力欄を生成",
     "method": "date_field_tag",
     "updated_at": "2015-05-05 06:02:11.175585",
     "versions": [
@@ -8658,7 +8686,7 @@
   "datetime_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:09:54.229890",
-    "title": "日時の入力欄を生成",
+    "title": "汎用的な日時の入力欄を生成",
     "method": "datetime_field_tag",
     "updated_at": "2015-05-04 17:14:25.522914",
     "versions": [
@@ -8701,7 +8729,7 @@
   "datetime_local_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:18:40.248076",
-    "title": "ローカル日時の入力欄を生成",
+    "title": "汎用的なローカル日時の入力欄を生成",
     "method": "datetime_local_field_tag",
     "updated_at": "2015-05-04 16:39:28.774416",
     "versions": [
@@ -8744,7 +8772,7 @@
   "month_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:37:44.686928",
-    "title": "月の入力欄を生成",
+    "title": "汎用的な月の入力欄を生成",
     "method": "month_field_tag",
     "updated_at": "2015-05-04 17:07:29.416011",
     "versions": [
@@ -8787,7 +8815,7 @@
   "time_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:45:50.758981",
-    "title": "時間の入力欄を生成",
+    "title": "汎用的な時間の入力欄を生成",
     "method": "time_field_tag",
     "updated_at": "2015-05-04 17:10:41.803740",
     "versions": [
@@ -8895,7 +8923,7 @@
   "week_field_tag": {
     "category_id": 9,
     "created_at": "2013-05-06 07:49:30.467564",
-    "title": "週の入力欄を生成",
+    "title": "モデルと関連のない週の入力欄を生成",
     "method": "week_field_tag",
     "updated_at": "2015-05-04 17:05:54.745034",
     "versions": [
@@ -9785,7 +9813,7 @@
   "add_flash_types": {
     "category_id": 7,
     "created_at": "2014-04-28 08:51:54.782089",
-    "title": "フラッシュタイプの指定",
+    "title": "フラッシュメッセージのタイプを指定",
     "method": "add_flash_types",
     "updated_at": "2015-05-04 15:23:20.525707",
     "versions": [
@@ -9817,7 +9845,7 @@
   "after_validation": {
     "category_id": 15,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "検証の直後に呼び出されるメソッド",
+    "title": "バリデーションの直後に呼び出されるメソッド",
     "method": "after_validation",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
@@ -9838,7 +9866,7 @@
   "as_json": {
     "category_id": 6,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "モデルをハッシュに変換",
+    "title": "モデルをハッシュ形式のJSONに変換",
     "method": "as_json",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -9852,6 +9880,22 @@
       "3.2.13",
       "4.0.2",
       "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "active_job_info": {
+    "category_id": 21,
+    "created_at": "2020-02-15 09:14:45.471397",
+    "title": "Rails標準のジョブを処理する仕組み",
+    "method": "",
+    "updated_at": "2020-02-15 03:17:22.691495",
+    "versions": [
       "4.2.1",
       "4.2.7",
       "4.2.9",
@@ -9896,7 +9940,7 @@
   "assert_generates": {
     "category_id": 14,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "指定したパスが生成できるか検証",
+    "title": "指定したパスが生成できるかバリデーション",
     "method": "assert_generates",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -9922,7 +9966,7 @@
   "assert_recognizes": {
     "category_id": 14,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "ルーティングやオプションの検証",
+    "title": "ルーティングやオプションのバリデーション",
     "method": "assert_recognizes",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -9948,7 +9992,7 @@
   "assert_redirected_to": {
     "category_id": 14,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "リダイレクト先がどうなっているか検証",
+    "title": "リダイレクト先がどうなっているかバリデーション",
     "method": "assert_redirected_to",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -9974,7 +10018,7 @@
   "assert_response": {
     "category_id": 14,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "ステータスコードの検証",
+    "title": "ステータスコードのバリデーション",
     "method": "assert_response",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10000,7 +10044,7 @@
   "assert_routing": {
     "category_id": 14,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "ルーティングとオプションの検証",
+    "title": "ルーティングとオプションのバリデーション",
     "method": "assert_routing",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10033,14 +10077,14 @@
   "before_validation": {
     "category_id": 15,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "検証の直前に呼び出されるメソッド",
+    "title": "バリデーションの直前に呼び出されるメソッドを設定",
     "method": "before_validation",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "cache_if": {
     "category_id": 8,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "フラグメントキャッシュを有効にするか",
+    "title": "フラグメントキャッシュが有効かチェック",
     "method": "cache_if",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10167,7 +10211,7 @@
   "clear_validators": {
     "category_id": 6,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "全ての検証をクリア",
+    "title": "全てのバリデーションをクリア",
     "method": "clear_validators!",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
@@ -10251,18 +10295,6 @@
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
-      "5.1.7",
-      "5.2.3",
-      "6.0.2.1"
-    ]
-  },
-  "form_with": {
-    "category_id": 9,
-    "created_at": "2011-07-23 09:14:45.471397",
-    "title": "モデルなどからフォームタグを生成",
-    "method": "form_with",
-    "updated_at": "2015-04-04 03:17:22.691495",
-    "versions": [
       "5.1.7",
       "5.2.3",
       "6.0.2.1"
@@ -10933,7 +10965,7 @@
   "validates_each": {
     "category_id": 13,
     "created_at": "2020-01-05 09:14:45.471397",
-    "title": "ブロックに対しての検証",
+    "title": "ブロックに対してのバリデーション",
     "method": "validates_each",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
@@ -11287,5 +11319,82 @@
     "title": "データベースのロック",
     "method": "",
     "updated_at": "2013-05-10 13:10:11.446435"
+  },
+  "direct": {
+    "category_id": 14,
+    "created_at": "2020-02-15 09:00:15.987874",
+    "title": "カスタムURLヘルパーを定義 ",
+    "method": "direct",
+    "updated_at": "2020-02-15 07:52:43.290373",
+    "versions": [
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "resolve": {
+    "category_id": 14,
+    "created_at": "2020-02-15 09:00:15.987874",
+    "title": "モデルのURLマッピングを定義 ",
+    "method": "resolve",
+    "updated_at": "2020-02-15 07:52:43.290373",
+    "versions": [
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "http_basic_authenticate_with": {
+    "category_id": 7,
+    "created_at": "2020-02-15 09:00:15.987874",
+    "title": "Basic認証 ",
+    "method": "http_basic_authenticate_with",
+    "updated_at": "2020-02-15 07:52:43.290373",
+    "versions": [
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
+  },
+  "protect_from_forgery": {
+    "category_id": 7,
+    "created_at": "2020-02-15 09:00:15.987874",
+    "title": "CSRF対策の設定",
+    "method": "protect_from_forgery",
+    "updated_at": "2020-02-15 07:52:43.290373",
+    "versions": [
+      "2.0.3",
+      "2.1.0",
+      "2.2.1",
+      "2.3.2",
+      "2.3.8",
+      "3.0.0",
+      "3.0.5",
+      "3.0.7",
+      "3.0.9",
+      "3.1.0",
+      "3.2.3",
+      "3.2.8",
+      "3.2.13",
+      "4.0.2",
+      "4.1.8",
+      "4.2.1",
+      "4.2.7",
+      "4.2.9",
+      "5.0.0.1",
+      "5.1.7",
+      "5.2.3",
+      "6.0.2.1"
+    ]
   }
 }

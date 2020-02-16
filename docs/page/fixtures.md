@@ -7,7 +7,7 @@ layout: page
 ### フィクスチャを用意
     test/fixtures/テーブル名.yml
 
-#### 例
+### 例
     rubyonrails:
       id: 1
       name: Ruby on Rails
@@ -43,7 +43,7 @@ layout: page
         # findメソッドなどでDBからロードして使用
         google = Site.find(2)
 
-        # フィクスチャ名で取得したものと同じであることを検証
+        # フィクスチャ名で取得したものと同じであることをバリデーション
         assert_equal sites(:google), google.url
       end
     end

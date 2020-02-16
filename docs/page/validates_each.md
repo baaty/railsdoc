@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-ブロックに対しての検証
+ブロックに対してのバリデーション
 
 ### 使い方
     validates_each(キー名, [,  オプション]
@@ -11,11 +11,11 @@ layout: page
 
 オプション        | 説明
 -------------|-----
-:on          | 検証を実行するタイミング
-:allow_nil   | nilの検証をスキップ
-:allow_blank | nilや空文字の検証をスキップ
-:if          | 検証を行う条件
-:unless      | 検証を行わない条件
+:on          | 実行するタイミング
+:allow_nil   | nilをスキップ
+:allow_blank | nilや空文字をスキップ
+:if          | バリデーションする条件
+:unless      | バリデーションしない条件
 
 ### 例
     validates_each :first_name, :last_name, allow_blank: true do |record, attr, value|

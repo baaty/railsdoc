@@ -2,12 +2,13 @@
 layout: page
 ---
 ### 説明
-検証の直前に呼び出されるメソッド
+バリデーションの直前に呼び出されるメソッドを設定
 
 ### 使い方
     before_validation(引数 [, ...])
 
 ### 例
+#### バリデーションの直前に呼び出されるメソッドを設定
     before_validation :remove_whitespaces
     private
     def remove_whitespaces

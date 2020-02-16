@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+### 説明
+モデルと関連のない隠しフィールドの生成
+
 ### 使い方
     hidden_field_tag(要素名 [, value値, HTML属性 or イベント属性])
 

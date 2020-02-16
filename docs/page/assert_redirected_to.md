@@ -2,13 +2,13 @@
 layout: page
 ---
 ### 説明
-リダイレクト先がどうなっているか検証
+リダイレクト先がどうなっているかバリデーション
 
 ### 使い方
     assert_redirected_to([オプション, メッセージ])
 
 ### 例
-#### リダイレクト先がどうなっているか検証
+#### リダイレクト先がどうなっているかバリデーション
     assert_redirected_to controller: "weblog", action: "index"
 
 #### 名前付きルーティング

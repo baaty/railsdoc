@@ -67,5 +67,5 @@ HTML属性      | 説明
     image_submit_tag("save.png", data: { confirm: "Are you sure?" })
     # <input alt="Save" src="/images/save.png" data-confirm="Are you sure?" type="image" />
 
-##### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L555)

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-既存のテーブルにcreated_atとupdated_atを追加
+既存のテーブルにタイムスタンプ(created_atとupdated_at)を追加
 
 ### 使い方
     add_timestamps(テーブル名)
@@ -23,7 +23,7 @@ layout: page
 #### usersテーブルにcreated_atとupdated_atを追加
     add_timestamps :users
 
-#### NULLを許可する
+#### NULLを許可
     add_timestamps :suppliers, null: true
 
 ### ソースコード

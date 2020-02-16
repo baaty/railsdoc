@@ -14,13 +14,13 @@ JavaScriptやCSSを結合したり圧縮して連結するためのフレーム�
 
 ### URLとファイルパス
 
-|URL                           | パス
-|----------------------------- | --------------------------------------------
-|/assets/application.js<ファイル名> | app/assets/javascripts/application.js
-|/assets/models/test.js<ファイル名> | app/assets/javascripts/models/test.js.coffee
-|/assets/style.js<ファイル名>       | app/assets/stylesheets/style.js
-|/assets/lib_test.js           | /lib/assets/lib.js
-|/assets/vendort.js            | /vendor/assets/vendort.js
+| URL                            | パス                                           |
+|--------------------------------|----------------------------------------------|
+| /assets/application.js<ファイル名> | app/assets/javascripts/application.js        |
+| /assets/models/test.js<ファイル名> | app/assets/javascripts/models/test.js.coffee |
+| /assets/style.js<ファイル名>       | app/assets/stylesheets/style.js              |
+| /assets/lib_test.js            | /lib/assets/lib.js                           |
+| /assets/vendort.js             | /vendor/assets/vendort.js                    |
 
 ### その他
 #### Asset Pipelineのパスの確認法法

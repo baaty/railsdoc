@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-HTML5で追加されたaudioを生成
+モデルと関連のないHTML5で追加されたaudioを生成
 
 ### 使い方
     audio_tag(音声ファイルへのパス, [オプション])

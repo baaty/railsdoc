@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-指定したURLが、現在表示されているか？
+指定したURLが、現在表示されているかチェック
 
 ### 使い方
     current_page?(オプション [, check_parameters: false])

@@ -32,18 +32,3 @@ layout: page
 
 #### ファイル本体の取得
     params[:file].read
-
-#### 基本的な使い方
-    def upload
-      file = params[:file]
-      name = file.original_filename
-      if !['.jpg', '.png', '.gif'].include?(File.extname(name).downcase)
-        msg = "JPG, PNG, GIFのみアップロードできます。"
-      elsif file.size > 10.megabyte
-        meg = "10MBまでアップロードできます。"
-      else
-        File.open("tmp/#{name}", "wb") {|f|f.write(file.read)}
-       meg = "アップロードに成功しました。"
-      end
-      render text: mssg
-    end

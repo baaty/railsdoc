@@ -2,7 +2,8 @@
 layout: page
 ---
 ### 説明
-特定のモデルに特化したフォームを生成
+特定のモデルに特化したフォームを生成  
+form_withの利用を推奨(Rails5.1以降はform_forとform_tagはform_withに統合されたため)
 
 ### 使い方
     form_for(モデルオブジェクト [, オプション]) do |f|

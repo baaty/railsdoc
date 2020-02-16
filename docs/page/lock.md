@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 楽観的ロック
-あらかじめカラムのロックバージョンを記録しておき、更新時にロックバージョンが変わっていないことを検証して保存
+あらかじめカラムのロックバージョンを記録しておき、更新時にロックバージョンが変わっていないことをバリデーションして保存
 
     class CreateAddLockColumnToEntries < ActiveRecord::Migration
       def self.up

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-labelタグを生成
+モデルと関連のないlabelタグを生成
 
 ### 使い方
     label_tag(要素名 [, ラベル配下のコンテンツ] [, HTML属性 or イベント属性])
@@ -52,5 +52,5 @@ HTML属性      | 説明
     label_tag 'page[name]', '', class: 'page_name'
     # <label class="page_name" for="page_name">Name</label>
 
-#### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L215)

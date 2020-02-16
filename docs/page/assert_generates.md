@@ -2,13 +2,14 @@
 layout: page
 ---
 ### 説明
-指定したパスが生成できるか検証
+指定したパスが生成できるかバリデーション  
+assert_recognizesの逆の役割
 
 ### 使い方
     assert_generates(パス, オプション [, nil, 追加のパラメータ, メッセージ])
 
 ### 例
-#### 指定したパスが生成できるか検証
+#### 指定したパスが生成できるかバリデーション
     assert_generates "/items", controller: "items", action: "index"
 
 #### itemsコントローラにlistアクションがあるか

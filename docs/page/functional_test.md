@@ -33,13 +33,13 @@ layout: page
     end
 
 #### アクションの実行結果を確認
-##### レスポンスが成功したかを検証
+##### レスポンスが成功したかをバリデーション
     assert_response :success
 
-##### アクション内で設定されたインスタンス変数を検証
+##### アクション内で設定されたインスタンス変数をバリデーション
     assigns
 
-##### 出力結果のHTMLを検証
+##### 出力結果のHTMLをバリデーション
     assert_select
 
 ### テストメソッド
@@ -59,11 +59,11 @@ assigns(key = nil) | アクションを実行した結果、インスタンス�
 session            | ファンクショナルテストで使用されるセッションへのアクセサ
 flash              | コントローラ内で使用するflashへのアクセサ
 
-#### 検証のためのメソッド
+#### バリデーションのためのメソッド
 
 メソッド                                              | 説明
 ------------------------------------------------- | ---------------------------------------
-assert_response(type, message = nil)              | アクション実行結果のレスポンスコードを検証
-assert_redirected_to(options = {}, message = nil) | リダイレクトを返すアクションに対して、そのリダイレクト先がどうなっているか検証
-assert_template(expected, message = nil)          | そのアクションで指定されたテンプレートが描写されているかを検証
-assert_select(selector, equality?, message?)      | アクション実行の結果として描写されるHTMLの内容を検証
+assert_response(type, message = nil)              | アクション実行結果のレスポンスコードをバリデーション
+assert_redirected_to(options = {}, message = nil) | リダイレクトを返すアクションに対して、そのリダイレクト先がどうなっているかバリデーション
+assert_template(expected, message = nil)          | そのアクションで指定されたテンプレートが描写されているかをバリデーション
+assert_select(selector, equality?, message?)      | アクション実行の結果として描写されるHTMLの内容をバリデーション

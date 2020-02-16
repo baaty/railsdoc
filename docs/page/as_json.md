@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-モデルをハッシュに変換
+モデルをハッシュ形式のJSONに変換
 
 ### 使い方
     モデル.as_json([オプション])
@@ -18,7 +18,7 @@ layout: page
 :include | 関連付け |
 
 ### 例
-#### モデルを配列に変換
+#### モデルをハッシュ形式のJSONに変換
     user.as_json
     # {id: 1, name: "Konata Izumi", age: 16, created_at: "2006-08-01T17:27:133.000Z", awesome: true}
 

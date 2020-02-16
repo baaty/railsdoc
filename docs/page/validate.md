@@ -2,24 +2,24 @@
 layout: page
 ---
 ### 説明
-検証を定義
+バリデーションを定義
 
 ### 使い方
-    validate(検証メソッド名 [, ...])
+    validate(バリデーションメソッド名 [, ...])
 
 ### オプション
 
 オプション        | 説明                      | デフォルト値
 -------------|-------------------------|-------
-:on          | 検証を実行するタイミング         | 保存時
-:allow_nil   | nilの検証をスキップ     | false
-:allow_blank | nilや空文字の検証をスキップ      | false
-:if          | 検証する条件を指定           |
-:unless      | 検証しない条件を指定          |
-:strict      | 検証に失敗した場合に例外を発生 |
+:on          | 実行するタイミング         | 保存時
+:allow_nil   | nilをスキップ     | false
+:allow_blank | nilや空文字をスキップ      | false
+:if          | バリデーションする条件を指定           |
+:unless      | バリデーションしない条件を指定          |
+:strict      | 失敗した場合に例外を発生 |
 
 ### 例
-#### 検証を定義
+#### バリデーションを定義
     class Comment
       include ActiveModel::Validations
 

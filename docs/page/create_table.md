@@ -7,6 +7,7 @@ layout: page
 ### 使い方
     create_table(テーブル名 [, オプション])
 
+#### ブロック
     create_table テーブル名  [, オプション] do |t|
       t.型 カラム名 [, カラムオプション]
     end

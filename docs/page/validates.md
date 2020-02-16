@@ -2,21 +2,21 @@
 layout: page
 ---
 ### 説明
-汎用的な検証
+汎用的なバリデーション
 
 ### 使い方
-    validates(検証するフィールド名, 検証の種類 [, オプション])
+    validates(フィールド名, 種類 [, オプション])
 
-### 検証の種類
+### 種類
 
 種類          | 説明
 --------------|-------------------
 :acceptance   | チェックボックスがオンになっているか
 :confirmation | テキストフィールドが完全に一致するか
-:exclusion    | 含まれていないことを検証
+:exclusion    | 含まれていないことをバリデーション
 :format       | 正規表現と一致するか
-:inclusion    | 含まれていることを検証
-:length       | 長さを検証
+:inclusion    | 含まれていることをバリデーション
+:length       | 長さをバリデーション
 :numericality | 数値のみか
 :presence     | 空で無いこと
 :absence      | 空であること
@@ -26,13 +26,13 @@ layout: page
 
 オプション        | 説明
 -------------|----------------
-:on          | 検証を実行するタイミング
-:if          | 検証する条件を指定
-:unless      | ulness文
-:allow_nil   | nilの検証をスキップ
-:allow_blank | nilや空文字の検証をスキップ
+:on          | 実行するタイミング
+:if          | バリデーションする条件を指定
+:unless      | バリデーションしない条件を指定
+:allow_nil   | nilをスキップ
+:allow_blank | nilや空文字をスキップ
 :strict      | 例外が発生するか
-:message     | 検証が失敗したときに表示するメッセージ
+:message     | 失敗したときに表示するメッセージ
 
 ### lengthのオプション
 
@@ -80,11 +80,11 @@ layout: page
     validates :legacy_code, format: {with: /\A[a-zA-Z]+\z/}
 
 #### inclusion
-##### 含まれていることを検証
+##### 含まれていることをバリデーション
     validates :size, inclusion: {in: %w(small medium large)}
 
 #### length
-##### 長さを検証
+##### 長さをバリデーション
     validates :name, length: {minimum: 2}
 
 #### numericality

@@ -17,5 +17,15 @@ after_actionより後に処理を行う
 :if     | 実行する条件を指定
 :unless | 実行されない条件を指定
 
+### 例
+#### アクションの後に処理を追加
+    append_after_action :verify_same_origin_request
+    def verify_same_origin_request
+      if marked_for_same_origin_verification? && non_xhr_javascript_response?
+        logger.warn CROSS_ORIGIN_JAVASCRIPT_WARNING if logger
+        raise ActionController::InvalidCrossOriginRequest, CROSS_ORIGIN_JAVASCRIPT_WARNING
+      end
+    end
+
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/abstract_controller/callbacks.rb#L168)

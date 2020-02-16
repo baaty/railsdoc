@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-週の入力欄を生成
+モデルと関連のない週の入力欄を生成
 
 ### 使い方
     week_field_tag(要素名 [, 値, オプション])
@@ -32,5 +32,5 @@ layout: page
 #### 週の入力欄を生成
     week_field_tag :wk
 
-#### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_tag_helper.rb#L715)

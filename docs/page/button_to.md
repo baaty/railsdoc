@@ -5,7 +5,7 @@ layout: page
 ボタンでリンクを生成
 
 ### 使い方
-    button_to(文字列 [, オプション, データ属性 or HTML属性 or イベント属性]
+    button_to(文字列 [, オプション, データ属性 or HTML属性 or イベント属性])
 
 ### オプション
 

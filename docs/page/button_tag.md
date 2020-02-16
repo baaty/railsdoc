@@ -2,10 +2,10 @@
 layout: page
 ---
 ### 説明
-ボタンを生成
+モデルと関連のないボタンを生成
 
 ### 使い方
-    button_tag([オプション or データ属性 or HTML属性 or イベント属性]
+    button_tag([オプション or データ属性 or HTML属性 or イベント属性])
 
 ### オプション
 

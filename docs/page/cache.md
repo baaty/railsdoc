@@ -16,6 +16,7 @@ layout: page
 :skip_digest | digestの付与をスキップ
 
 ### 例
+#### ページの一部をキャッシュ
     <% cache [ project, current_user ] do %>
       <b>All the topics on this project</b>
       <%= render project.topics %>

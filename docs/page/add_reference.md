@@ -18,10 +18,10 @@ layout: page
 :null        | NULLを許可するか     | true
 
 ### 例
-#### オプションなし
+#### 既存のテーブルにリファレンスを追加
     add_reference(:products, :user)
 
-#### userカラムを文字列で作成
+#### 文字列で作成
     add_reference(:products, :user, type: :string)
 
 #### ユニークなインデックス

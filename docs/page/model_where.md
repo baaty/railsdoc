@@ -55,6 +55,10 @@ layout: page
 #### 1日
     User.where(created_at: '2020-1-5'.in_time_zone.all_day)
 
+#### 終端なしの範囲指定
+    User.where(age: 20..)
+    # SELECT * FROM users WHERE (users.age >= 20)
+
 ### 補足
 * 文字列で指定する場合は、SQLインジェクションの脆弱性が発生する可能性があるので、外部入力されるキーに関しては配列やプレースホルダを使用してください
 

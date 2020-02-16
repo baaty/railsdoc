@@ -1,14 +1,13 @@
 ---
 layout: page
 ---
-### f.submit
-#### 説明
+### 説明
 サブミットボタンを生成
 
-#### 使い方
+### 使い方
     f.submit([ボタンの名前 , オプション])
 
-#### オプション
+### オプション
 
 オプション         | 説明
 ------------- | -------------------
@@ -28,12 +27,12 @@ layout: page
 :dir          | 表記方向
 :lang         | 基本言語
 
-#### 例
-##### サブミットボタンを生成
+### 例
+#### サブミットボタンを生成
     f.submit
 
-##### class属性を付与
+#### class属性を付与
     f.submit :button, class: "btn"
 
-#### ソースコード
+### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L2427)

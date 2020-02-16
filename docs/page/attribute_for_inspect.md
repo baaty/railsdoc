@@ -10,7 +10,7 @@ layout: page
     モデル.attribute_for_inspect(属性名)
 
 ### 例
-#### モデルのオブジェクトを取得
+#### 属性の値に似た文字列を取得
     person.attribute_for_inspect(:name)
     # "\"David Heinemeier Hansson David Heinemeier Hansson D...\""
 

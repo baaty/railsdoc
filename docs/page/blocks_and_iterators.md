@@ -10,8 +10,10 @@ layout: page
 ### each
 配列やハッシュの要素数だけ繰り返す
 
+#### 配列
     配列.each do |i|
     end
 
+#### ハッシュ
     ハッシュ.each do |key, value|
     end

@@ -18,7 +18,7 @@ layout: page
 :dependent     | 値を:destroyにすると、参照先が削除される場合に参照元もDBから削除            |
 :counter_cache | カウンタキャッシュを使用するか                                             |
 :polymorphic   | ポリモーフィック関連を定義                                             |
-:validate      | 関連オブジェクトの検証の有無                                          | false
+:validate      | 関連オブジェクトのバリデーションの有無                                       | false
 :autosave      | 親のオブジェクトが保存されると、ロードされたオブジェクトも保存するか                       |
 :touch         | updated_atまたはupdated_onが保存または破棄された場合に現在の時刻を設定するか  |
 :inverse_of    | モデルを指定                                                      |

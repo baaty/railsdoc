@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-URL入力ボックスを生成
+モデルと関連のないURL入力ボックスを生成
 
 ### 使い方
     url_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])

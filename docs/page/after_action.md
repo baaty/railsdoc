@@ -5,7 +5,7 @@ layout: page
 アクションの後に処理を実行
 
 ### 使い方
-    after_action アクション名 [, オプション]
+    after_action(アクション名 [, オプション])
 
 ### オプション
 
@@ -18,6 +18,14 @@ layout: page
 
 ### 例
 #### アクションの後に処理を実行
+    after_action :store_location
+    def store_location
+      if request.fullpath !~ Regexp.new('\\A/users/.*\\z') && !request.xhr?
+        session[:previous_url] = request.fullpath
+      end
+    end
+
+#### 実行するアクションを指定
     after_action :render_form, only: [:new :edit]
     def render_form
       render 'form'

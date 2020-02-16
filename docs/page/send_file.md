@@ -12,7 +12,7 @@ layout: page
 オプション               | 説明                                        | デフォルト値
 --------------------|---------------------------------------------|-------------------------
 :filename           | ダウンロードするときに使用するファイル名を指定                | ファイル名
-:type               | コンテントタイプ                                    | application/octet^stream
+:type               | コンテントタイプ                                    | application/octet-stream
 :disposition        | ファイルをインラインで表示するか、ダウンロードして保存するかブラウザに通知 | attachment
 :status             | ステータスコード                                    | 200(:ok)
 :url_based_filename | Content-Dispositionヘッダ内のファイルのベース名を使わなくする | false
