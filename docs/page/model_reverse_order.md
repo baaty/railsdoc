@@ -5,7 +5,7 @@ layout: page
 取得した値を特定のキーで逆順に並び替える
 
 ### 使い方
-    モデル.reverse_order
+    モデル.reverse_order()
 
 ### 例
 #### pagesテーブルをcategory_idを逆順で並び替える

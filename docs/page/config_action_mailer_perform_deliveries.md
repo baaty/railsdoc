@@ -6,7 +6,7 @@ layout: page
 デフォルトは、「ture」
 
 ### 使い方
-    config.action_mailer.perform_deliveries
+    config.action_mailer.perform_deliveries = Bool値
 
 ### 例
     config.action_mailer.perform_deliveries = false

@@ -4,39 +4,41 @@ description: "Railsで使える便利メソッド。singularize／underscore／c
 ---
 {% include header.html %}
 <main class="col-12 sm-col-8">
+<article>
 {%- for i in site.data.pages -%}
   {% if i[1].category_id != 20 %}{% continue %}{% endif %}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
-<article>
+<section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
   {% if i[1].versions %}
   <aside class="xs-hide">
   <h3>適応バージョン</h3>
   <ul class="versions">
-  {% for i2 in i[1].versions %}
+  {% for i2 in i[1].versions -%}
     <li>{{i2}}</li>
-  {% endfor %}
+  {% endfor -%}
   </ul>
   </aside>
   {% endif %}
   {{ markdownStr | remove_first: "layout: page" | remove_first: "---" | remove_first: "---" | markdownify }}
-</article>
+</section>
 {% endfor %}
+</article>
 </main>
 <aside class="xs-hide sm-col-2">
   <h3>目次</h3>
   <h4>メソッド一覧</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {% if i[1].category_id != 20 %}{% continue %}{% endif %}
-      {% if i[1].method == "" %}{% continue %}{% endif %}
+      {%- if i[1].category_id != 20 -%}{% continue %}{%- endif -%}
+      {%- if i[1].method == "" -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].method}}</a></li>
     {% endfor %}
   </ol>
   <h4>逆引き</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {% if i[1].category_id != 20 %}{% continue %}{% endif %}
+      {%- if i[1].category_id != 20 -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
     {% endfor %}
   </ol>

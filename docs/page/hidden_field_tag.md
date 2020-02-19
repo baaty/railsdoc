@@ -50,7 +50,6 @@ HTML属性      | 説明
     # <input id="page_set" name="page[set]" type="hidden" />
 
 #### 初期値あり
-    @page.set = "abc"
     hidden_field_tag 'page[set]', @page.set
     # <input id="page_set" name="page[set]" type="hidden" value="abc" />
 

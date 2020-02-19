@@ -6,7 +6,7 @@ JSONのシリアル化でHTMLエンティティのエスケープ処理を有効
 デフォルトは、「false」
 
 ### 使い方
-    config.active_support.escape_html_entities_in_json
+    config.active_support.escape_html_entities_in_json = Bool値
 
 ### 例
     config.active_support.escape_html_entities_in_json = true

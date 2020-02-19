@@ -4,6 +4,7 @@
     "created_at": "2011-07-23 08:38:49.304582",
     "title": "Ruby on Railsとは",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-03 16:53:47.832609"
   },
   "rails_new": {
@@ -11,6 +12,7 @@
     "created_at": "2011-07-23 08:45:26.430808",
     "title": "新しいRailsのアプリケーションを作成",
     "method": "rails new",
+    "use": "$ rails new アプリケーション名 [オプション]",
     "updated_at": "2015-05-04 15:16:28.646913"
   },
   "migration_info": {
@@ -18,6 +20,7 @@
     "created_at": "2011-07-23 08:50:48.686461",
     "title": "マイグレーションとは",
     "method": "",
+    "use": "",
     "updated_at": "2013-04-21 14:18:13.600189"
   },
   "model_info": {
@@ -25,6 +28,7 @@
     "created_at": "2011-07-23 08:54:56.389643",
     "title": "モデルについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:29:38.429660"
   },
   "controller_info": {
@@ -32,6 +36,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "コントローラについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "form_for": {
@@ -39,6 +44,7 @@
     "created_at": "2011-07-23 09:37:56.278089",
     "title": "特定のモデルに特化したフォームを生成",
     "method": "form_for",
+    "use": "form_for(モデルオブジェクト [, オプション])",
     "updated_at": "2015-05-04 17:18:11.487545",
     "versions": [
       "1.1.6",
@@ -75,6 +81,7 @@
     "created_at": "2011-07-23 09:37:56.278089",
     "title": "汎用的なフォームを生成",
     "method": "form_tag",
+    "use": "form_tag(リンク先 [オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:18:11.487545",
     "versions": [
       "1.0.0",
@@ -114,6 +121,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "モデルなどからフォームタグを生成",
     "method": "form_with",
+    "use": "form_with(モデル or スコープ or URL [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.1.7",
@@ -126,6 +134,7 @@
     "created_at": "2011-12-19 15:09:13.528319",
     "title": "設定ファイルについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:33:52.113138"
   },
   "test_info": {
@@ -133,6 +142,7 @@
     "created_at": "2011-07-23 15:07:32.223987",
     "title": "テストとは",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:02:02.537358"
   },
   "asset_pipeline_info": {
@@ -140,6 +150,7 @@
     "created_at": "2011-12-29 12:04:01.291191",
     "title": "アセットパイプラインについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:33:21.125074"
   },
   "gemfile_info": {
@@ -147,6 +158,7 @@
     "created_at": "2012-01-28 02:11:52.397442",
     "title": "Gemfile",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:35:35.266442"
   },
   "rake_info": {
@@ -154,6 +166,7 @@
     "created_at": "2012-01-28 07:21:11.477174",
     "title": "Rakeとは",
     "method": "",
+    "use": "",
     "updated_at": "2012-12-29 13:07:47.821593"
   },
   "ruby_info": {
@@ -161,6 +174,7 @@
     "created_at": "2011-07-23 08:40:31.005080",
     "title": "Rubyとは",
     "method": "",
+    "use": "",
     "updated_at": "2011-07-23 08:40:31.005080"
   },
   "view_info": {
@@ -168,6 +182,7 @@
     "created_at": "2011-07-23 09:22:07.229791",
     "title": "ビューについて",
     "method": "",
+    "use": "",
     "updated_at": "2011-12-22 16:13:56.296613"
   },
   "route_info": {
@@ -175,6 +190,7 @@
     "created_at": "2011-07-23 15:04:56.302462",
     "title": "ルーティング定義",
     "method": "",
+    "use": "",
     "updated_at": "2012-02-26 09:23:10.255685"
   },
   "active_support_info": {
@@ -182,6 +198,7 @@
     "created_at": "2011-12-22 16:15:56.211884",
     "title": "アクティブサポートとは",
     "method": "",
+    "use": "",
     "updated_at": "2011-12-22 16:17:26.013173"
   },
   "application_controller_helpers": {
@@ -189,6 +206,7 @@
     "created_at": "2012-01-23 13:12:18.344080",
     "title": "ビュー以外でヘルパーを呼び出す",
     "method": "",
+    "use": "",
     "updated_at": "2012-01-23 13:12:18.344080"
   },
   "check_box": {
@@ -196,6 +214,7 @@
     "created_at": "2011-07-23 09:38:06.860453",
     "title": "チェックボックスを生成",
     "method": "check_box",
+    "use": "check_box(オブジェクト名, メソッド名 [, オプション, checked_value, unchecked_value])",
     "updated_at": "2015-05-05 06:37:11.607183",
     "versions": [
       "1.0.0",
@@ -235,6 +254,7 @@
     "created_at": "2011-07-23 09:38:06.860453",
     "title": "汎用的なチェックボックスを生成",
     "method": "check_box_tag",
+    "use": "check_box_tag(要素名 [, value値, checked = false, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:37:11.607183",
     "versions": [
       "1.0.0",
@@ -274,6 +294,7 @@
     "created_at": "2011-07-23 08:39:13.080946",
     "title": "規約",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:14:47.017567"
   },
   "variable_info": {
@@ -281,6 +302,7 @@
     "created_at": "2011-07-23 08:40:41.253956",
     "title": "変数",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:28:24.046637"
   },
   "rails_scaffold": {
@@ -288,6 +310,7 @@
     "created_at": "2011-07-23 08:48:56.044688",
     "title": "アプリケーションに必要なファイルをまとめて生成",
     "method": "rails generate scaffold",
+    "use": "$ rails generate scaffold 名前 [カラム名:型]",
     "updated_at": "2015-05-04 09:06:35.513238"
   },
   "database_up": {
@@ -295,6 +318,7 @@
     "created_at": "2012-02-08 15:13:53.006081",
     "title": "カラムをバージョンアップ",
     "method": "up",
+    "use": "",
     "updated_at": "2015-05-04 09:50:27.582470",
     "versions": [
       "1.0.0",
@@ -334,6 +358,7 @@
     "created_at": "2011-07-23 08:55:07.756287",
     "title": "モデルを生成",
     "method": "new",
+    "use": "モデル.new([属性])",
     "updated_at": "2015-05-05 07:40:44.603890",
     "versions": [
       "1.0.0",
@@ -373,6 +398,7 @@
     "created_at": "2011-07-23 08:55:07.756287",
     "title": "モデルを生成(newの別名)",
     "method": "build",
+    "use": "モデル.build([属性])",
     "updated_at": "2015-05-05 07:40:44.603890",
     "versions": [
       "4.0.2",
@@ -391,6 +417,7 @@
     "created_at": "2011-07-23 09:15:44.664465",
     "title": "パラメータの取得",
     "method": "params",
+    "use": "params[:パラメータ名]",
     "updated_at": "2015-05-03 17:07:03.865010"
   },
   "params_original_filename": {
@@ -398,6 +425,7 @@
     "created_at": "2012-01-28 09:19:45.095460",
     "title": "アップロードされたファイルを取得",
     "method": "params_original_filename",
+    "use": "params[:パラメータ名].original_filename",
     "updated_at": "2015-05-03 17:08:04.617140"
   },
   "validates_uniqueness_of": {
@@ -405,6 +433,7 @@
     "created_at": "2011-07-23 09:52:08.972161",
     "title": "属性の値が一意であることをバリデーション",
     "method": "validates_uniqueness_of",
+    "use": "validates_uniqueness_of(フィールド名 [, オプション])",
     "updated_at": "2015-05-05 06:45:27.381768",
     "versions": [
       "1.0.0",
@@ -444,6 +473,7 @@
     "created_at": "2012-01-21 03:04:33.588265",
     "title": "ルーティングの内容を確認",
     "method": "rake routes",
+    "use": "$ rake routes",
     "updated_at": "2015-05-04 14:59:23.950509"
   },
   "database_yml": {
@@ -451,6 +481,7 @@
     "created_at": "2011-07-23 15:06:46.900151",
     "title": "データベースの設定ファイル",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:38:56.481974"
   },
   "empty": {
@@ -458,6 +489,7 @@
     "created_at": "2011-12-18 14:58:46.589958",
     "title": "真偽判定",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:31:33.100042"
   },
   "fingerprinting": {
@@ -465,6 +497,7 @@
     "created_at": "2011-12-29 12:55:24.478004",
     "title": "フィンガープリンティング(Fingerprinting)",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-03 16:56:59.489671"
   },
   "rake": {
@@ -472,6 +505,7 @@
     "created_at": "2012-01-28 07:31:40.545548",
     "title": "Rakeコマンド一覧",
     "method": "rake -T",
+    "use": "$ rake -T",
     "updated_at": "2015-05-04 15:00:01.364534"
   },
   "execution_environment": {
@@ -479,6 +513,7 @@
     "created_at": "2011-07-23 15:09:13.990715",
     "title": "Railsの実行環境",
     "method": "",
+    "use": "",
     "updated_at": "2012-02-01 12:58:13.555118"
   },
   "erb": {
@@ -486,6 +521,7 @@
     "created_at": "2011-07-23 09:22:18.903930",
     "title": "ERBとは",
     "method": "",
+    "use": "",
     "updated_at": "2012-02-18 15:55:39.139316"
   },
   "folder_structure": {
@@ -493,6 +529,7 @@
     "created_at": "2011-07-23 08:39:30.594278",
     "title": "フォルダ構造",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 17:33:27.318751"
   },
   "numbers_and_strings": {
@@ -500,6 +537,7 @@
     "created_at": "2011-07-23 08:41:16.264695",
     "title": "数値と文字列",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:37:05.404583"
   },
   "rails_generate_controller": {
@@ -507,6 +545,7 @@
     "created_at": "2011-07-23 08:49:43.796148",
     "title": "コントローラとビューの生成",
     "method": "rails generate controller",
+    "use": "$ rails generate controller 名前 [アクション名...]",
     "updated_at": "2015-05-04 15:21:09.833672"
   },
   "rails_generate_migration": {
@@ -514,6 +553,7 @@
     "created_at": "2011-07-23 08:46:50.914840",
     "title": "マイグレーションファイルの生成",
     "method": "rails generate migration",
+    "use": "$ rails generate migration 名前 [カラム名:型] [オプション]",
     "updated_at": "2015-05-04 09:27:31.396520"
   },
   "rails_generate_model": {
@@ -521,6 +561,7 @@
     "created_at": "2011-07-23 08:46:29.509216",
     "title": "モデルの生成",
     "method": "rails generate model",
+    "use": "$ rails generate model 名前 [カラム名:型] [オプション]",
     "updated_at": "2015-05-04 09:27:42.925353"
   },
   "database_down": {
@@ -528,6 +569,7 @@
     "created_at": "2012-02-08 15:43:22.915088",
     "title": "カラムをバージョンダウン",
     "method": "down",
+    "use": "def down",
     "updated_at": "2015-05-04 09:50:33.823319",
     "versions": [
       "1.0.0",
@@ -567,6 +609,7 @@
     "created_at": "2013-04-20 13:34:27.650765",
     "title": "モデルを生成して保存",
     "method": "create",
+    "use": "モデル.create([属性])",
     "updated_at": "2015-05-05 07:39:07.781716",
     "versions": [
       "1.0.0",
@@ -606,6 +649,7 @@
     "created_at": "2011-07-23 09:22:30.271716",
     "title": "ビューの変数",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:37:03.099236"
   },
   "radio_button": {
@@ -613,6 +657,7 @@
     "created_at": "2011-07-23 09:38:18.714701",
     "title": "ラジオボタンを生成",
     "method": "radio_button",
+    "use": "radio_button(オブジェクト名, メソッド名, value値 [, オプション])",
     "updated_at": "2015-05-04 16:29:41.457021",
     "versions": [
       "1.0.0",
@@ -652,6 +697,7 @@
     "created_at": "2011-07-23 09:38:18.714701",
     "title": "汎用的なラジオボックスを生成",
     "method": "radio_button_tag",
+    "use": "radio_button_tag(要素名, value値 [, checked = false, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:29:41.457021",
     "versions": [
       "1.0.0",
@@ -691,6 +737,7 @@
     "created_at": "2011-07-23 09:52:22.084335",
     "title": "関連付けられているオブジェクトをバリデーション",
     "method": "validates_associated",
+    "use": "validates_associated(バリデーション対象 [, ...])",
     "updated_at": "2015-05-05 06:46:33.953175",
     "versions": [
       "1.0.0",
@@ -730,6 +777,7 @@
     "created_at": "2011-07-23 15:05:34.768048",
     "title": "ルートを定義",
     "method": "match",
+    "use": "match(URLパターン [, オプション])",
     "updated_at": "2015-05-04 16:36:29.751969",
     "versions": [
       "3.0.0",
@@ -756,6 +804,7 @@
     "created_at": "2012-01-04 15:02:02.262952",
     "title": "タイムゾーン一覧",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:33:04.928547"
   },
   "pluralize": {
@@ -763,6 +812,7 @@
     "created_at": "2011-12-27 03:12:15.803826",
     "title": "複数形へ変換",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:40:04.293801"
   },
   "singularize": {
@@ -770,6 +820,7 @@
     "created_at": "2011-12-27 03:12:15.803826",
     "title": "単数形へ変換",
     "method": "singularize",
+    "use": "文字列.singularize([ロケーション])",
     "updated_at": "2015-05-04 09:40:04.293801",
     "versions": [
       "1.0.0",
@@ -809,6 +860,7 @@
     "created_at": "2013-05-16 13:49:31.542990",
     "title": "アセットパイプラインを有効にするかの設定",
     "method": "config.assets.enabled",
+    "use": "config.assets.enabled",
     "updated_at": "2013-05-21 12:30:23.208644"
   },
   "rake_about": {
@@ -816,6 +868,7 @@
     "created_at": "2012-01-28 07:35:43.228474",
     "title": "使用しているライブラリのバージョンを確認",
     "method": "rake about",
+    "use": "$ rake about",
     "updated_at": "2015-05-04 14:58:58.111632"
   },
   "application_creation_flow": {
@@ -823,6 +876,7 @@
     "created_at": "2011-07-23 08:39:47.690351",
     "title": "アプリケーション作成の流れ",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-03 16:54:16.984838"
   },
   "array_info": {
@@ -830,6 +884,7 @@
     "created_at": "2011-07-23 08:41:30.395899",
     "title": "配列について",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-03 16:57:40.672269"
   },
   "rails_server": {
@@ -837,6 +892,7 @@
     "created_at": "2011-07-23 08:47:02.072020",
     "title": "ローカルでサーバを起動",
     "method": "rails server",
+    "use": "$ rails server [オプション]",
     "updated_at": "2015-05-04 09:29:19.395901"
   },
   "database_change": {
@@ -844,6 +900,7 @@
     "created_at": "2012-02-08 15:44:19.086457",
     "title": "カラムを変更",
     "method": "change",
+    "use": "change_table(テーブル名 [, オプション])",
     "updated_at": "2015-05-05 08:20:45.450922",
     "versions": [
       "3.0.0",
@@ -870,6 +927,7 @@
     "created_at": "2013-04-21 11:51:54.409695",
     "title": "条件を指定して最初の1件を取得",
     "method": "find_by",
+    "use": "モデル.find_by(条件)",
     "updated_at": "2015-05-05 07:38:30.644095",
     "versions": [
       "4.0.2",
@@ -888,6 +946,7 @@
     "created_at": "2011-07-23 08:55:19.127194",
     "title": "IDを指定してレコードを取得",
     "method": "find",
+    "use": "モデル.find(件数)",
     "updated_at": "2015-05-04 16:15:35.244558",
     "versions": [
       "1.0.0",
@@ -927,6 +986,7 @@
     "created_at": "2011-07-23 09:17:10.674392",
     "title": "ページのレイアウトを設定",
     "method": "layout",
+    "use": "layout レイアウト名",
     "updated_at": "2015-05-03 17:07:09.808161",
     "versions": [
       "1.0.0",
@@ -966,6 +1026,7 @@
     "created_at": "2011-07-23 09:17:21.180013",
     "title": "表示させるviewファイルを指定して表示",
     "method": "render",
+    "use": "render(表示方法 [, オプション])",
     "updated_at": "2015-05-04 16:10:13.064777",
     "versions": [
       "1.0.0",
@@ -1005,6 +1066,7 @@
     "created_at": "2011-07-23 09:38:31.405197",
     "title": "テキストエリアを生成",
     "method": "text_area",
+    "use": "text_area(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:18:33.305432",
     "versions": [
       "1.0.0",
@@ -1044,6 +1106,7 @@
     "created_at": "2011-07-23 09:38:31.405197",
     "title": "汎用的なテキストエリアを生成",
     "method": "text_area_tag",
+    "use": "text_area_tag(要素名 [, エリア配下のテキスト, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:18:33.305432",
     "versions": [
       "1.0.0",
@@ -1083,6 +1146,7 @@
     "created_at": "2011-07-23 09:52:32.930975",
     "title": "実行前にリクエストのバリデーション",
     "method": "verify",
+    "use": "verify(オプション)",
     "updated_at": "2015-05-04 09:05:23.056590",
     "versions": [
       "1.0.0",
@@ -1118,6 +1182,7 @@
     "created_at": "2011-07-23 15:05:08.762430",
     "title": "複数形のリソースのルーティング",
     "method": "resources",
+    "use": "resources(:リソース名 [, オプション])",
     "updated_at": "2015-05-04 17:01:01.608510",
     "versions": [
       "1.2.6",
@@ -1151,7 +1216,8 @@
     "category_id": 16,
     "created_at": "2011-07-23 15:08:05.715030",
     "title": "テストデータ",
-    "method": "fixtures",
+    "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:42:27.008407",
     "versions": [
       "1.0.0",
@@ -1191,6 +1257,7 @@
     "created_at": "2011-12-27 03:42:22.030091",
     "title": "クラス名からファイル名へ変換",
     "method": "underscore",
+    "use": "クラス名.underscore",
     "updated_at": "2015-05-04 09:45:21.794233",
     "versions": [
       "1.0.0",
@@ -1230,6 +1297,7 @@
     "created_at": "2011-12-27 03:42:22.030091",
     "title": "文字列をキャメルケースに変換",
     "method": "camelize",
+    "use": "文字列.camelize([オプション])",
     "updated_at": "2015-05-04 09:45:21.794233",
     "versions": [
       "1.0.0",
@@ -1269,6 +1337,7 @@
     "created_at": "2011-12-27 03:42:22.030091",
     "title": "モデルクラス名からテーブル名へ変換",
     "method": "tableize",
+    "use": "モデル.tableize()",
     "updated_at": "2015-05-04 09:45:21.794233",
     "versions": [
       "1.0.0",
@@ -1308,6 +1377,7 @@
     "created_at": "2011-12-27 03:42:22.030091",
     "title": "テーブル名からモデルクラス名へ変換",
     "method": "classify",
+    "use": "テーブル名.classify",
     "updated_at": "2015-05-04 09:45:21.794233",
     "versions": [
       "1.0.0",
@@ -1347,6 +1417,7 @@
     "created_at": "2011-07-23 08:41:41.181608",
     "title": "ハッシュについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-03 16:50:26.556697"
   },
   "rails_destroy": {
@@ -1354,6 +1425,7 @@
     "created_at": "2011-07-23 08:47:45.730481",
     "title": "自動生成したファイルの削除",
     "method": "rails destroy",
+    "use": "$ rails destroy ファイルの種類 [削除するファイル名 オプション]",
     "updated_at": "2015-05-04 09:27:37.208270"
   },
   "rails_plugin_install": {
@@ -1361,6 +1433,7 @@
     "created_at": "2011-07-23 08:47:20.302905",
     "title": "プラグインをインストール",
     "method": "rails plugin install",
+    "use": "$ rails plugin install [プラグイン名/githubのURL] [オプション]",
     "updated_at": "2015-05-04 09:27:52.081191"
   },
   "create_table": {
@@ -1368,6 +1441,7 @@
     "created_at": "2011-07-23 08:51:02.304847",
     "title": "テーブルを作成",
     "method": "create_table",
+    "use": "create_table(テーブル名 [, オプション])",
     "updated_at": "2015-05-05 07:12:38.996310",
     "versions": [
       "1.0.0",
@@ -1407,6 +1481,7 @@
     "created_at": "2012-01-29 14:47:55.065893",
     "title": "表示結果を文字列として取得",
     "method": "render_to_string",
+    "use": "render_to_string(リクエスト)",
     "updated_at": "2015-05-05 08:05:46.009314",
     "versions": [
       "1.0.0",
@@ -1446,6 +1521,7 @@
     "created_at": "2011-07-23 09:38:41.438423",
     "title": "パスワード入力ボックスを生成",
     "method": "password_field",
+    "use": "password_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-05 06:16:44.732476",
     "versions": [
       "1.0.0",
@@ -1485,6 +1561,7 @@
     "created_at": "2011-07-23 09:38:41.438423",
     "title": "汎用的なパスワード入力ボックス",
     "method": "password_field_tag",
+    "use": "password_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:16:44.732476",
     "versions": [
       "1.0.0",
@@ -1524,6 +1601,7 @@
     "created_at": "2011-07-23 15:05:21.694425",
     "title": "単一のリソースのルーティング",
     "method": "resource",
+    "use": "resource(リソース名 [, オプション])",
     "updated_at": "2015-05-04 17:02:05.422003",
     "versions": [
       "1.0.0",
@@ -1563,6 +1641,7 @@
     "created_at": "2011-07-23 09:22:52.998619",
     "title": "コメント構文",
     "method": "",
+    "use": "",
     "updated_at": "2011-12-19 14:42:34.558367"
   },
   "common_variables": {
@@ -1570,6 +1649,7 @@
     "created_at": "2011-12-22 17:09:01.484073",
     "title": "アプリケーションで共通の変数を設定",
     "method": "",
+    "use": "",
     "updated_at": "2012-02-28 14:19:06.113665"
   },
   "unit_test_info": {
@@ -1577,6 +1657,7 @@
     "created_at": "2011-07-23 15:08:19.123465",
     "title": "ユニットテストについて",
     "method": "",
+    "use": "",
     "updated_at": "2012-11-25 11:59:04.170943"
   },
   "rake_doc_rails": {
@@ -1584,6 +1665,7 @@
     "created_at": "2012-01-28 08:02:25.339850",
     "title": "Railsのドキュメントを生成",
     "method": "rake doc:rails",
+    "use": "$ rake doc.rails",
     "updated_at": "2012-10-31 16:00:42.683973"
   },
   "rake_doc_app": {
@@ -1591,6 +1673,7 @@
     "created_at": "2012-01-28 07:52:45.392628",
     "title": "ソースコードからドキュメントを生成",
     "method": "rake doc:app",
+    "use": "$ rake doc:app",
     "updated_at": "2012-04-21 10:07:34.491704"
   },
   "conditional_branch": {
@@ -1598,6 +1681,7 @@
     "created_at": "2011-07-23 08:41:57.841705",
     "title": "条件分岐",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:31:13.541978"
   },
   "rails_console": {
@@ -1605,6 +1689,7 @@
     "created_at": "2011-10-18 03:14:20.134501",
     "title": "コンソールを起動",
     "method": "rails console",
+    "use": "$ rails console [環境 オプション]",
     "updated_at": "2015-05-04 09:06:25.071042"
   },
   "rename_table": {
@@ -1612,6 +1697,7 @@
     "created_at": "2011-07-23 08:51:13.671074",
     "title": "テーブル名を変更",
     "method": "rename_table",
+    "use": "rename_table(現在のテーブル名, 新しいテーブル名)",
     "updated_at": "2015-05-05 08:23:40.762641",
     "versions": [
       "1.0.0",
@@ -1651,6 +1737,7 @@
     "created_at": "2011-07-23 09:17:33.132018",
     "title": "URLを指定して表示",
     "method": "redirect_to",
+    "use": "redirect_to(リダイレクト先のパス [, status: ステイタスコード, オプション])",
     "updated_at": "2015-05-04 16:06:10.062007",
     "versions": [
       "1.0.0",
@@ -1690,6 +1777,7 @@
     "created_at": "2011-07-23 09:38:54.262849",
     "title": "隠しフィールドを生成",
     "method": "hidden_field",
+    "use": "hidden_field(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:16:32.929984",
     "versions": [
       "1.0.0",
@@ -1729,6 +1817,7 @@
     "created_at": "2011-07-23 09:38:54.262849",
     "title": "汎用的な隠しフィールドを生成",
     "method": "hidden_field_tag",
+    "use": "hidden_field_tag(要素名 [, value値, HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:16:32.929984",
     "versions": [
       "1.0.0",
@@ -1768,6 +1857,7 @@
     "created_at": "2020-01-05 09:45:57.774624",
     "title": "キャッシュについて",
     "method": "",
+    "use": "",
     "updated_at": "2020-01-05 06:38:07.562740"
   },
   "cache": {
@@ -1775,6 +1865,7 @@
     "created_at": "2011-07-23 09:45:57.774624",
     "title": "フラグメントキャッシュ",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-05 06:38:07.562740",
     "versions": [
       "1.0.0",
@@ -1814,6 +1905,7 @@
     "created_at": "2011-07-23 15:05:45.724819",
     "title": "ルートのURLを指定",
     "method": "root",
+    "use": "root(パス, [オプション])",
     "updated_at": "2015-05-05 06:28:15.849681",
     "versions": [
       "3.0.0",
@@ -1840,6 +1932,7 @@
     "created_at": "2013-05-16 13:09:37.637555",
     "title": "初期化の最後に実行する処理の設定",
     "method": "config.after_initialize",
+    "use": "config.after_initialize",
     "updated_at": "2013-05-21 12:17:25.024014"
   },
   "method_unit_test": {
@@ -1847,6 +1940,7 @@
     "created_at": "2012-02-25 02:27:32.134701",
     "title": "ユニットテストで使うメソッド",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:35:04.409889"
   },
   "bundle": {
@@ -1854,6 +1948,7 @@
     "created_at": "2011-07-26 14:45:45.217691",
     "title": "必要なライブラリをインストール",
     "method": "bundle",
+    "use": "bundle オプション",
     "updated_at": "2015-05-04 09:30:17.319936"
   },
   "rake_notes": {
@@ -1861,6 +1956,7 @@
     "created_at": "2012-01-28 08:08:03.996093",
     "title": "ソースコードにTODOを記入",
     "method": "rake notes",
+    "use": "$ rake notes",
     "updated_at": "2012-12-29 12:47:57.621404"
   },
   "rake_db_drop": {
@@ -1868,6 +1964,7 @@
     "created_at": "2012-02-06 15:02:36.744231",
     "title": "データベースを削除",
     "method": "rake db:drop",
+    "use": "$ rake db:drop",
     "updated_at": "2012-10-30 10:00:35.142864"
   },
   "rails_dbconsole": {
@@ -1875,6 +1972,7 @@
     "created_at": "2011-10-18 03:24:51.209570",
     "title": "コンソールを起動",
     "method": "rails dbconsole",
+    "use": "$ rails dbconsole [環境]",
     "updated_at": "2015-05-04 09:50:49.157229"
   },
   "drop_table": {
@@ -1882,6 +1980,7 @@
     "created_at": "2011-07-23 08:51:23.772418",
     "title": "テーブルを削除",
     "method": "drop_table",
+    "use": "drop_table(:テーブル名 [, オプション])",
     "updated_at": "2015-05-05 07:11:40.513602",
     "versions": [
       "1.0.0",
@@ -1921,6 +2020,7 @@
     "created_at": "2013-02-14 14:53:55.022168",
     "title": "分割してレコードを取得して1件ずつ処理",
     "method": "find_each",
+    "use": "モデル.find_each([オプション])",
     "updated_at": "2015-05-05 07:04:49.066181",
     "versions": [
       "2.3.2",
@@ -1949,6 +2049,7 @@
     "created_at": "2011-07-23 09:17:55.938839",
     "title": "バイナリデータを出力",
     "method": "send_data",
+    "use": "send_data(送るデータ [, オプション])",
     "updated_at": "2015-05-04 15:55:30.652318",
     "versions": [
       "1.0.0",
@@ -1988,6 +2089,7 @@
     "created_at": "2011-07-23 09:17:45.186923",
     "title": "画像やファイルのダウンロード",
     "method": "send_file",
+    "use": "send_file(ファイルのパス [, オプション])",
     "updated_at": "2015-05-04 16:00:31.645813",
     "versions": [
       "1.0.0",
@@ -2027,6 +2129,7 @@
     "created_at": "2011-07-23 09:34:43.969663",
     "title": "コントローラで処理された内容を埋め込む先",
     "method": "yield",
+    "use": "yield",
     "updated_at": "2015-04-04 03:21:38.110197"
   },
   "label": {
@@ -2034,6 +2137,7 @@
     "created_at": "2011-07-23 09:39:06.224433",
     "title": "ラベルタグを生成",
     "method": "label",
+    "use": "label(オブジェクト名, メソッド名 [, ラベル配下のコンテンツ, オプション])",
     "updated_at": "2015-05-05 06:14:40.240140",
     "versions": [
       "2.0.0",
@@ -2067,6 +2171,7 @@
     "created_at": "2011-07-23 09:39:06.224433",
     "title": "汎用的なラベルタグを生成",
     "method": "label_tag",
+    "use": "label_tag(要素名 [, ラベル配下のコンテンツ] [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:14:40.240140",
     "versions": [
       "2.0.0",
@@ -2100,6 +2205,7 @@
     "created_at": "2011-07-23 15:05:57.606402",
     "title": "URLにnamespaceを付与",
     "method": "scope",
+    "use": "scope(スコープ名, 条件式)",
     "updated_at": "2015-05-05 06:27:28.733509",
     "versions": [
       "3.0.0",
@@ -2126,6 +2232,7 @@
     "created_at": "2013-05-16 13:17:21.695453",
     "title": "アセットのホスト設定",
     "method": "config.asset_host",
+    "use": "config.asset_host",
     "updated_at": "2013-05-16 13:18:30.917728"
   },
   "functional_test": {
@@ -2133,6 +2240,7 @@
     "created_at": "2011-07-23 15:08:29.566898",
     "title": "ファンクショナルテスト",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:09:00.372664"
   },
   "rake_db_migrate": {
@@ -2140,6 +2248,7 @@
     "created_at": "2011-07-23 08:53:02.417395",
     "title": "マイグレーションの実行",
     "method": "rake db:migrate",
+    "use": "$ rake db:migrate [VERSION=バージョン番号 オプション]",
     "updated_at": "2015-05-02 16:36:44.942227"
   },
   "blocks_and_iterators": {
@@ -2147,6 +2256,7 @@
     "created_at": "2011-07-23 08:42:11.052365",
     "title": "ブロックとイテレータ",
     "method": "",
+    "use": "",
     "updated_at": "2011-08-27 05:42:15.003451"
   },
   "expire_fragment": {
@@ -2154,6 +2264,7 @@
     "created_at": "2012-02-25 04:01:54.876959",
     "title": "フラグメントキャッシュを破棄",
     "method": "expire_fragment",
+    "use": "expire_fragment(キャッシュキー [,  オプション])",
     "updated_at": "2012-02-25 04:03:20.990529",
     "versions": [
       "5.0.0.1",
@@ -2167,6 +2278,7 @@
     "created_at": "2012-01-28 06:25:13.733191",
     "title": "Rails環境で動かすバッチ処理",
     "method": "rails runner",
+    "use": "$ rails runner 実行するコード [オプション]",
     "updated_at": "2015-05-04 09:22:13.646687"
   },
   "change_table": {
@@ -2174,6 +2286,7 @@
     "created_at": "2012-02-18 07:31:59.152084",
     "title": "テーブル定義を変更",
     "method": "change_table",
+    "use": "change_table(テーブル名 [, オプション])",
     "updated_at": "2015-05-05 07:14:00.887908",
     "versions": [
       "2.1.0",
@@ -2204,6 +2317,7 @@
     "created_at": "2013-04-20 17:58:48.015728",
     "title": "分割してレコードを取得して処理",
     "method": "find_in_batches",
+    "use": "モデル.find_in_batches([オプション])",
     "updated_at": "2015-05-05 06:42:49.587067",
     "versions": [
       "3.0.0",
@@ -2230,6 +2344,7 @@
     "created_at": "2011-07-23 09:18:05.765558",
     "title": "リクエストを送ってきたユーザのヘッダー情報や環境変数を取得",
     "method": "request",
+    "use": "request.メソッド",
     "updated_at": "2015-05-04 09:10:07.614267"
   },
   "content_for": {
@@ -2237,6 +2352,7 @@
     "created_at": "2011-07-23 09:33:44.370957",
     "title": "レイアウトに複数のコンテンツを設定",
     "method": "content_for",
+    "use": "content_for コンテンツ名 [, コンテンツ, オプション]",
     "updated_at": "2015-05-05 08:13:50.221566",
     "versions": [
       "1.0.0",
@@ -2276,6 +2392,7 @@
     "created_at": "2011-07-23 09:39:16.563140",
     "title": "テキストボックスを生成",
     "method": "text_field",
+    "use": "text_field(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:25:50.697901",
     "versions": [
       "1.0.0",
@@ -2315,6 +2432,7 @@
     "created_at": "2011-07-23 09:39:16.563140",
     "title": "汎用的なテキストボックスを生成",
     "method": "text_field_tag",
+    "use": "text_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:25:50.697901",
     "versions": [
       "1.0.0",
@@ -2354,6 +2472,7 @@
     "created_at": "2011-07-23 09:45:06.773038",
     "title": "クッキーを保存",
     "method": "cookies",
+    "use": "cookies[:クッキー名]",
     "updated_at": "2015-05-02 18:26:15.979243",
     "versions": [
       "1.0.0",
@@ -2393,6 +2512,7 @@
     "created_at": "2011-07-23 15:06:09.174909",
     "title": "名前空間を付与",
     "method": "namespace",
+    "use": "namespace モジュール名 [, オプション]",
     "updated_at": "2015-05-04 17:03:08.513234",
     "versions": [
       "3.0.0",
@@ -2419,6 +2539,7 @@
     "created_at": "2013-05-16 13:22:36.089181",
     "title": "起動時のみロードする設定ファイルを追加",
     "method": "config.autoload_once_paths",
+    "use": "config.autoload_once_paths",
     "updated_at": "2013-05-17 12:47:51.674181"
   },
   "integration_test": {
@@ -2426,6 +2547,7 @@
     "created_at": "2011-07-23 15:08:41.158381",
     "title": "インテグレーションテスト",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 15:18:59.247820"
   },
   "rake_db_version": {
@@ -2433,6 +2555,7 @@
     "created_at": "2012-02-18 05:05:06.039520",
     "title": "マイグレーションのバージョンを確認",
     "method": "rake db:version",
+    "use": "$ rake db:version [RAILS_ENV=環境(development, text, production)]",
     "updated_at": "2012-10-31 16:01:13.148599"
   },
   "rake_db_migrate_status": {
@@ -2440,6 +2563,7 @@
     "created_at": "2012-02-18 04:40:50.064645",
     "title": "マイグレーションの履歴",
     "method": "rake db:migrate:status",
+    "use": "$ rake db:migrate:status [RAILS_ENV=環境(development, text, production)]",
     "updated_at": "2012-10-31 16:01:22.414642"
   },
   "object_info": {
@@ -2447,6 +2571,7 @@
     "created_at": "2011-07-23 08:42:33.677700",
     "title": "オブジェクトについて",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:29:17.095511"
   },
   "create_join_table": {
@@ -2454,6 +2579,7 @@
     "created_at": "2013-04-21 10:21:05.735255",
     "title": "テーブルを結合して作成",
     "method": "create_join_table",
+    "use": "create_join_table(テーブル名1, テーブル名2 [, オプション])",
     "updated_at": "2015-05-05 07:13:24.886639",
     "versions": [
       "4.0.2",
@@ -2472,6 +2598,7 @@
     "created_at": "2013-04-27 07:22:07.139785",
     "title": "条件を指定して初めの1件を取得し1件もなければ作成(create)",
     "method": "find_or_create_by",
+    "use": "モデル.find_or_create_by(条件)",
     "updated_at": "2015-05-05 07:33:16.230846",
     "versions": [
       "4.0.2",
@@ -2490,6 +2617,7 @@
     "created_at": "2020-02-16 07:22:07.139785",
     "title": "データベースのユニーク制約を使って作成、できなければ初めの1件を取得",
     "method": "create_or_find_by",
+    "use": "create_or_find_by(属性)",
     "updated_at": "2020-02-16 07:33:16.230846",
     "versions": [
       "6.0.2.1"
@@ -2500,6 +2628,7 @@
     "created_at": "2013-04-27 07:22:07.139785",
     "title": "条件を指定して初めの1件を取得し1件もなければ作成(new)",
     "method": "find_or_initialize_by",
+    "use": "モデル.find_or_initialize_by(条件)",
     "updated_at": "2015-05-05 07:33:16.230846",
     "versions": [
       "4.0.2",
@@ -2518,6 +2647,7 @@
     "created_at": "2012-01-28 13:30:08.592841",
     "title": "応答ステータスとヘッダ情報のみを表示",
     "method": "head",
+    "use": "head(ステータスコード [, 応答ヘッダ])",
     "updated_at": "2015-05-05 07:00:51.986213",
     "versions": [
       "1.2.6",
@@ -2551,7 +2681,8 @@
     "category_id": 8,
     "created_at": "2011-07-23 09:34:30.922789",
     "title": "レイアウトテンプレート",
-    "method": "layouts",
+    "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:50:21.509956",
     "versions": [
       "3.0.0",
@@ -2578,6 +2709,7 @@
     "created_at": "2011-07-23 09:39:27.415929",
     "title": "ファイル選択ボックスを生成",
     "method": "file_field",
+    "use": "file_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-04 17:19:54.913696",
     "versions": [
       "1.0.0",
@@ -2617,6 +2749,7 @@
     "created_at": "2011-07-23 09:39:27.415929",
     "title": "汎用的なファイル選択ボックスを生成",
     "method": "file_field_tag",
+    "use": "file_field_tag(要素名 [, オプション])",
     "updated_at": "2015-05-04 17:19:54.913696",
     "versions": [
       "1.0.0",
@@ -2656,6 +2789,7 @@
     "created_at": "2012-02-01 14:54:18.893185",
     "title": "永続化クッキー",
     "method": "cookies.permanent",
+    "use": "cookies.permanent",
     "updated_at": "2015-05-02 18:37:22.569031"
   },
   "get": {
@@ -2663,6 +2797,7 @@
     "created_at": "2013-05-07 14:53:00.965043",
     "title": "GETリクエスト",
     "method": "get",
+    "use": "get(URLパターン [, オプション])",
     "updated_at": "2015-05-05 06:26:41.949550",
     "versions": [
       "1.1.6",
@@ -2699,6 +2834,7 @@
     "created_at": "2013-05-16 13:24:37.639970",
     "title": "アプリケーションクラスのリロードをするかの設定",
     "method": "config.cache_classes",
+    "use": "config.cache_classes",
     "updated_at": "2015-05-02 16:41:19.914874"
   },
   "rake_db_schema_load": {
@@ -2706,6 +2842,7 @@
     "created_at": "2012-02-18 05:15:17.742251",
     "title": "スキーマファイルでデータベースを作成",
     "method": "rake db:schema:load",
+    "use": "$ rake db:schema:load [RAILS_ENV=環境(development, text, production)]",
     "updated_at": "2012-10-31 16:01:03.314849"
   },
   "table_exists_q": {
@@ -2713,6 +2850,7 @@
     "created_at": "2013-04-21 11:00:03.413377",
     "title": "テーブルが存在するかチェック",
     "method": "table_exists?",
+    "use": "table_exists?(テーブル名)",
     "updated_at": "2015-05-05 08:21:27.646708",
     "versions": [
       "1.0.0",
@@ -2752,6 +2890,7 @@
     "created_at": "2011-07-23 08:55:45.030525",
     "title": "SQLを直接指定して取得",
     "method": "find_by_sql",
+    "use": "モデル.find_by_sql(SQL文)",
     "updated_at": "2015-05-05 07:33:56.784747",
     "versions": [
       "1.0.0",
@@ -2791,6 +2930,7 @@
     "created_at": "2020-02-09 08:55:45.030525",
     "title": "SQLを直接指定して取得(非モデルオブジェクト)",
     "method": "select_all",
+    "use": "select_all(SQL文, [名前, binds, preparable])",
     "updated_at": "2020-02-09 07:33:56.784747",
     "versions": [
       "1.0.0",
@@ -2830,6 +2970,7 @@
     "created_at": "2012-02-18 07:34:44.069244",
     "title": "すべてのレコードを取得",
     "method": "all",
+    "use": "モデル.all",
     "updated_at": "2015-05-05 08:18:45.465956",
     "versions": [
       "4.0.2",
@@ -2848,6 +2989,7 @@
     "created_at": "2011-07-23 09:18:26.357183",
     "title": "簡単なメッセージを画面に表示",
     "method": "flash",
+    "use": "flash[キー]",
     "updated_at": "2015-05-03 17:07:15.770835",
     "versions": [
       "1.0.0",
@@ -2887,6 +3029,7 @@
     "created_at": "2011-07-23 09:24:23.113958",
     "title": "URLを生成",
     "method": "url_for",
+    "use": "url_for([オプション])",
     "updated_at": "2015-05-05 06:47:14.010234",
     "versions": [
       "1.0.0",
@@ -2926,6 +3069,7 @@
     "created_at": "2011-07-23 08:56:16.056600",
     "title": "選択ボックスを生成",
     "method": "select",
+    "use": "select(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 07:32:03.229320",
     "versions": [
       "1.0.0",
@@ -2965,6 +3109,7 @@
     "created_at": "2011-07-23 09:53:42.361190",
     "title": "汎用的なバリデーション",
     "method": "validates",
+    "use": "validates(フィールド名, 種類 [, オプション])",
     "updated_at": "2015-05-04 09:28:33.761781",
     "versions": [
       "1.0.0",
@@ -3004,6 +3149,7 @@
     "created_at": "2013-05-07 14:55:53.779650",
     "title": "POSTリクエスト",
     "method": "post",
+    "use": "post(URLパターン [, オプション])",
     "updated_at": "2015-05-05 06:26:08.441276",
     "versions": [
       "3.0.0",
@@ -3030,6 +3176,7 @@
     "created_at": "2013-05-16 13:25:23.303819",
     "title": "テンプレートのレンダリングのキャッシュするかの設定",
     "method": "config.action_view.cache_template_loading",
+    "use": "config.action_view.cache_template_loading",
     "updated_at": "2013-05-21 12:14:55.530255"
   },
   "symbol_info": {
@@ -3037,6 +3184,7 @@
     "created_at": "2011-07-23 08:42:48.427700",
     "title": "シンボルについて",
     "method": "",
+    "use": "",
     "updated_at": "2011-08-27 05:43:10.546037"
   },
   "cookies_signed": {
@@ -3044,6 +3192,7 @@
     "created_at": "2012-02-01 14:55:53.472074",
     "title": "署名付きクッキー",
     "method": "cookies.signed",
+    "use": "cookies.signed",
     "updated_at": "2012-02-25 04:05:22.338986"
   },
   "rake_db_schema_dump": {
@@ -3051,6 +3200,7 @@
     "created_at": "2012-02-18 05:27:42.436759",
     "title": "現在のデータベースからスキーマファイルを生成",
     "method": "rake db:schema:dump",
+    "use": "$ rake db:schema:dump [RAILS_ENV=環境(development, text, production)]",
     "updated_at": "2012-10-31 16:00:51.743735"
   },
   "regular_info": {
@@ -3058,6 +3208,7 @@
     "created_at": "2011-07-23 08:42:59.278747",
     "title": "正規表現",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 16:29:27.980708"
   },
   "drop_join_table": {
@@ -3065,6 +3216,7 @@
     "created_at": "2013-04-21 10:28:26.003969",
     "title": "結合テーブルを削除",
     "method": "drop_join_table",
+    "use": "drop_join_table(テーブル1, テーブル2 [, オプション])",
     "updated_at": "2015-05-05 07:03:30.345289",
     "versions": [
       "4.0.2",
@@ -3083,6 +3235,7 @@
     "created_at": "2012-02-18 07:51:43.161884",
     "title": "先頭のレコードを取得",
     "method": "first",
+    "use": "モデル.first([件数])",
     "updated_at": "2015-05-05 07:19:20.306682",
     "versions": [
       "1.0.0",
@@ -3122,6 +3275,7 @@
     "created_at": "2013-04-20 17:17:59.642585",
     "title": "モデルが指定したメソッドを呼び出せるかチェック",
     "method": "respond_to?",
+    "use": "モデル.respond_to?(メソッド名 [, include_private=false])",
     "updated_at": "2015-05-05 07:54:41.086925",
     "versions": [
       "2.0.3",
@@ -3153,6 +3307,7 @@
     "created_at": "2011-07-23 09:23:47.273453",
     "title": "リンクを生成",
     "method": "link_to",
+    "use": "link_to(リンクテキスト, パス [, オプション, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:50:35.864743",
     "versions": [
       "1.0.0",
@@ -3192,6 +3347,7 @@
     "created_at": "2011-07-23 09:39:49.037629",
     "title": "配列・ハッシュから選択肢を生成",
     "method": "options_for_select",
+    "use": "options_for_select(要素の配列 or ハッシュ [, 選択された要素])",
     "updated_at": "2015-05-05 06:29:02.707622",
     "versions": [
       "1.0.0",
@@ -3231,6 +3387,7 @@
     "created_at": "2011-07-23 09:45:20.186746",
     "title": "クッキーを削除",
     "method": "cookies.delete",
+    "use": "cookies.delete(:クッキー名 [, 対象のドメイン、またはパス])",
     "updated_at": "2015-05-02 18:37:52.853484"
   },
   "patch": {
@@ -3238,6 +3395,7 @@
     "created_at": "2013-05-07 14:58:05.561316",
     "title": "PATCHリクエスト",
     "method": "patch",
+    "use": "patch(URLパターン [, オプション])",
     "updated_at": "2015-05-05 06:25:36.508746",
     "versions": [
       "4.0.2",
@@ -3256,6 +3414,7 @@
     "created_at": "2013-05-16 13:26:12.038926",
     "title": "キャッシュストアの設定",
     "method": "config.cache_store",
+    "use": "config.cache_store",
     "updated_at": "2015-05-02 16:39:14.893189"
   },
   "rake_db_seed": {
@@ -3263,6 +3422,7 @@
     "created_at": "2012-01-14 03:33:57.847342",
     "title": "データベースに初期データを投入",
     "method": "rake db:seed",
+    "use": "$ rake db:seed",
     "updated_at": "2013-04-20 04:21:09.501371"
   },
   "ruby_convenience_methods": {
@@ -3270,6 +3430,7 @@
     "created_at": "2011-07-23 08:41:02.497440",
     "title": "Rubyの便利なメソッド",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-02 18:35:47.918834"
   },
   "add_column": {
@@ -3277,6 +3438,7 @@
     "created_at": "2011-07-23 08:51:34.683824",
     "title": "カラムを追加",
     "method": "add_column",
+    "use": "add_column(テーブル名 カラム名, タイプ [, オプション])",
     "updated_at": "2015-05-05 06:22:28.917389",
     "versions": [
       "1.0.0",
@@ -3316,6 +3478,7 @@
     "created_at": "2012-02-18 07:52:36.364321",
     "title": "最後のレコードを取得",
     "method": "last",
+    "use": "モデル.last([件数])",
     "updated_at": "2015-05-05 07:18:36.648030",
     "versions": [
       "3.0.0",
@@ -3342,6 +3505,7 @@
     "created_at": "2011-07-23 09:23:23.515300",
     "title": "条件に一致したらリンクを生成",
     "method": "link_to_if",
+    "use": "link_to_if(条件式, リンクテキスト, url [, オプション, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:49:49.534830",
     "versions": [
       "1.0.0",
@@ -3381,6 +3545,7 @@
     "created_at": "2011-08-10 13:56:17.165045",
     "title": "配列・ハッシュから作成した選択肢をグループ化",
     "method": "grouped_options_for_select",
+    "use": "grouped_options_for_select(タグの配列 or ハッシュ [, オプション, 選択オプションの先頭に表示される文字列])",
     "updated_at": "2015-05-05 08:08:44.570523",
     "versions": [
       "2.3.2",
@@ -3409,6 +3574,7 @@
     "created_at": "2013-05-07 15:01:00.709375",
     "title": "PUTリクエスト",
     "method": "put",
+    "use": "put(URLパターン [, オプション])",
     "updated_at": "2015-05-05 06:25:04.056733",
     "versions": [
       "3.0.0",
@@ -3435,6 +3601,7 @@
     "created_at": "2013-05-16 13:27:23.493273",
     "title": "エラー情報をブラウザに表示をするかの設定",
     "method": "config.consider_all_requests_local",
+    "use": "config.consider_all_requests_local",
     "updated_at": "2015-05-02 16:41:31.788125"
   },
   "rake_db_fixtures_load": {
@@ -3442,6 +3609,7 @@
     "created_at": "2012-02-18 06:05:07.575497",
     "title": "データベースにテストデータを挿入",
     "method": "rake db:fixtures:load",
+    "use": "$ rake db:fixtures:load [FIXTURES=フィクスチャファイル名 RAILS_ENV=環境]",
     "updated_at": "2012-10-31 15:58:28.279528"
   },
   "rename_column": {
@@ -3449,6 +3617,7 @@
     "created_at": "2011-07-23 08:51:47.052366",
     "title": "カラム名を変更",
     "method": "rename_column",
+    "use": "rename_column(テーブル名, 変更するカラム名, 新しいカラム名)",
     "updated_at": "2015-05-05 08:22:00.994062",
     "versions": [
       "1.0.0",
@@ -3488,6 +3657,7 @@
     "created_at": "2013-04-21 12:06:15.520880",
     "title": "指定した数のレコードを取得",
     "method": "take",
+    "use": "モデル.take([件数])",
     "updated_at": "2015-05-05 07:32:39.226721",
     "versions": [
       "4.0.2",
@@ -3506,6 +3676,7 @@
     "created_at": "2011-07-23 09:23:33.959525",
     "title": "条件に一致しなかったらリンクを生成",
     "method": "link_to_unless",
+    "use": "link_to_unless(条件式, リンクテキスト, url [, オプション, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:49:08.815179",
     "versions": [
       "1.0.0",
@@ -3545,6 +3716,7 @@
     "created_at": "2011-07-23 09:40:01.117342",
     "title": "グループ分けされた選択肢を生成",
     "method": "option_groups_from_collection_for_select",
+    "use": "option_groups_from_collection_for_select(要素の配列 or ハッシュ, グループメソッド, グループのラベル属性の項目, value属性の項目, textの項目 [, 選択された要素])",
     "updated_at": "2015-05-05 08:02:42.599360",
     "versions": [
       "1.0.0",
@@ -3584,6 +3756,7 @@
     "created_at": "2012-02-01 15:05:17.405536",
     "title": "セッションに保存",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:50:39.112110"
   },
   "delete": {
@@ -3591,6 +3764,7 @@
     "created_at": "2013-05-07 15:03:09.504151",
     "title": "DELETEリクエスト",
     "method": "delete",
+    "use": "delete(パス [, オプション])",
     "updated_at": "2015-05-05 06:24:16.519767",
     "versions": [
       "1.0.0",
@@ -3630,6 +3804,7 @@
     "created_at": "2013-05-16 13:28:04.759606",
     "title": "使用するコンソールを設定",
     "method": "config.console",
+    "use": "config.console",
     "updated_at": "2013-05-18 07:39:41.818846"
   },
   "date_related": {
@@ -3637,6 +3812,7 @@
     "created_at": "2011-07-23 09:18:46.861370",
     "title": "日付関連",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:52:42.616856"
   },
   "rake_db_create": {
@@ -3644,6 +3820,7 @@
     "created_at": "2012-02-06 13:32:18.779115",
     "title": "データベースを作製",
     "method": "rake db:create",
+    "use": "$ rake db:create [RAILS_ENV=環境(development, text, production)]",
     "updated_at": "2012-10-31 15:59:19.785764"
   },
   "change_column": {
@@ -3651,6 +3828,7 @@
     "created_at": "2011-07-23 08:51:57.290090",
     "title": "カラムの定義を変更",
     "method": "change_column",
+    "use": "change_column(テーブル名,  カラム名, データ型 [, オプション])",
     "updated_at": "2015-05-05 07:02:56.489443",
     "versions": [
       "1.0.0",
@@ -3690,6 +3868,7 @@
     "created_at": "2011-07-23 08:55:55.883515",
     "title": "条件に当てはまる値を全て取得",
     "method": "where",
+    "use": "モデル.where(条件)",
     "updated_at": "2015-05-05 07:17:01.892116",
     "versions": [
       "3.0.0",
@@ -3716,6 +3895,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "既存のwhere条件を上書き",
     "method": "rewhere",
+    "use": "モデル.rewhere(条件)",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "4.1.8",
@@ -3733,6 +3913,7 @@
     "created_at": "2011-07-23 09:23:58.230374",
     "title": "現在のURLと一致しなかったらリンクを生成",
     "method": "link_to_unless_current",
+    "use": "link_to_unless_current(リンクテキスト, url [, オプション, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:48:28.543261",
     "versions": [
       "1.0.0",
@@ -3772,6 +3953,7 @@
     "created_at": "2011-07-23 09:40:12.463261",
     "title": "選択ボックスを生成",
     "method": "options_from_collection_for_select",
+    "use": "options_from_collection_for_select(要素の配列, value属性の項目, textの項目 [, 選択された要素])",
     "updated_at": "2015-05-05 06:29:48.048645",
     "versions": [
       "1.0.0",
@@ -3811,6 +3993,7 @@
     "created_at": "2012-02-01 15:09:52.679251",
     "title": "セッション情報を削除",
     "method": "reset_session",
+    "use": "reset_session",
     "updated_at": "2015-05-04 09:50:44.477814",
     "versions": [
       "1.0.0",
@@ -3850,6 +4033,7 @@
     "created_at": "2013-05-05 11:36:25.197758",
     "title": "値が空でないか",
     "method": "validates_presence_of",
+    "use": "validates_presence_of(バリデーション対象 [, ...])",
     "updated_at": "2015-05-05 06:46:00.383241",
     "versions": [
       "2.1.0",
@@ -3880,6 +4064,7 @@
     "created_at": "2013-05-16 13:28:44.265006",
     "title": "設定のオートロードをするかの設定",
     "method": "config.dependency_loading",
+    "use": "config.dependency_loading",
     "updated_at": "2015-05-02 16:41:43.810356"
   },
   "datetime": {
@@ -3887,6 +4072,7 @@
     "created_at": "2011-12-28 15:15:37.781654",
     "title": "日時関連",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:50:14.972344"
   },
   "rake_log_clear": {
@@ -3894,6 +4080,7 @@
     "created_at": "2012-02-04 05:20:22.300185",
     "title": "ログファイルを削除",
     "method": "rake log:clear",
+    "use": "$ rake log:clear",
     "updated_at": "2012-10-31 15:58:20.553784"
   },
   "remove_column": {
@@ -3901,6 +4088,7 @@
     "created_at": "2011-07-23 08:52:08.557684",
     "title": "カラムを削除",
     "method": "remove_column",
+    "use": "remove_column(テーブル名, カラム名 [, 型, オプション])",
     "updated_at": "2015-05-05 07:02:14.460657",
     "versions": [
       "1.0.0",
@@ -3940,6 +4128,7 @@
     "created_at": "2011-07-23 09:23:02.962924",
     "title": "ボタンでリンクを生成",
     "method": "button_to",
+    "use": "button_to(文字列 [, オプション, データ属性 or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:23:02.466684",
     "versions": [
       "1.0.0",
@@ -3979,6 +4168,7 @@
     "created_at": "2011-07-23 09:40:24.159915",
     "title": "選択ボックスをモデルの情報を元に生成",
     "method": "collection_select",
+    "use": "collection_select(オブジェクト名, メソッド名, 要素の配列, value属性の項目, テキストの項目 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:13:49.180195",
     "versions": [
       "1.0.0",
@@ -4018,6 +4208,7 @@
     "created_at": "2012-02-01 15:11:30.947929",
     "title": "現在のセッション情報を取得",
     "method": "session.session_id",
+    "use": "session.session_id",
     "updated_at": "2015-05-03 17:06:55.304398"
   },
   "validate": {
@@ -4025,6 +4216,7 @@
     "created_at": "2013-05-06 09:55:29.739851",
     "title": "モデルのバリデーションを定義",
     "method": "validate",
+    "use": "validate(バリデーションメソッド名 [, ...])",
     "updated_at": "2015-05-04 09:27:58.431951",
     "versions": [
       "1.0.0",
@@ -4064,6 +4256,7 @@
     "created_at": "2013-05-16 13:29:20.512472",
     "title": "Eager Loadingの設定",
     "method": "config.eager_load",
+    "use": "config.eager_load",
     "updated_at": "2013-05-18 15:24:53.404569"
   },
   "time": {
@@ -4071,6 +4264,7 @@
     "created_at": "2011-12-29 08:42:25.956425",
     "title": "時間関連",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:48:34.270854"
   },
   "rake_rails_update": {
@@ -4078,6 +4272,7 @@
     "created_at": "2012-01-28 08:23:09.809582",
     "title": "Railsのバージョンアップ",
     "method": "rake rails:update",
+    "use": "$ rake rails:update",
     "updated_at": "2012-10-31 15:59:31.822445"
   },
   "remove_columns": {
@@ -4085,6 +4280,7 @@
     "created_at": "2013-04-21 10:36:49.733386",
     "title": "複数のカラムを削除",
     "method": "remove_columns",
+    "use": "remove_columns(テーブル名, カラム名 [, ...])",
     "updated_at": "2015-05-05 07:01:34.194920",
     "versions": [
       "2.1.0",
@@ -4115,6 +4311,7 @@
     "created_at": "2011-07-23 08:56:36.846672",
     "title": "取得した値をグループ化",
     "method": "group",
+    "use": "モデル.group(グループ化キー)",
     "updated_at": "2015-05-05 07:31:27.420673",
     "versions": [
       "3.0.0",
@@ -4141,6 +4338,7 @@
     "created_at": "2011-07-23 09:27:08.183538",
     "title": "イメージタグを生成",
     "method": "image_tag",
+    "use": "image_tag(画像ファイルへのパス, [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:57:39.504006",
     "versions": [
       "1.0.0",
@@ -4180,6 +4378,7 @@
     "created_at": "2011-07-23 09:40:35.462542",
     "title": "選択ボックスをグループ化",
     "method": "grouped_collection_select",
+    "use": "grouped_collection_select(オブジェクト名, メソッド名, オブジェクトの配列, タグを取得するメソッド, タグのラベル, valueの項目, テキストの項目 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:31:01.940712",
     "versions": [
       "2.3.8",
@@ -4207,6 +4406,7 @@
     "created_at": "2013-05-06 10:27:14.617051",
     "title": "空白であることをバリデーション",
     "method": "validates_absence_of",
+    "use": "validates_absence_of(フィールド名 [, ...])",
     "updated_at": "2015-05-04 16:40:23.315015",
     "versions": [
       "4.0.2",
@@ -4225,6 +4425,7 @@
     "created_at": "2013-05-16 13:30:01.978485",
     "title": "Eager Loadingで使用するネームスペースの設定",
     "method": "config.eager_load_namespaces",
+    "use": "config.eager_load_namespaces",
     "updated_at": "2013-05-19 06:52:35.974175"
   },
   "calculate_units": {
@@ -4232,6 +4433,7 @@
     "created_at": "2011-12-29 11:04:13.695618",
     "title": "単位を計算",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 09:52:48.635244"
   },
   "rake_rails_templates_cop": {
@@ -4239,6 +4441,7 @@
     "created_at": "2012-01-28 08:26:18.225998",
     "title": "自動生成されるテンプレートをカスタマイズ",
     "method": "rake rails:templates:copy",
+    "use": "$ rake rails:templates:copy",
     "updated_at": "2012-10-31 15:59:41.857007"
   },
   "change_column_default": {
@@ -4246,6 +4449,7 @@
     "created_at": "2013-04-21 10:02:59.379397",
     "title": "カラムの初期値を設定",
     "method": "change_column_default",
+    "use": "change_column_default(テーブル名, カラム名, 初期値)",
     "updated_at": "2015-05-05 08:22:32.805357",
     "versions": [
       "1.0.0",
@@ -4285,6 +4489,7 @@
     "created_at": "2011-07-23 08:56:05.827576",
     "title": "取得した値を並び替え",
     "method": "order",
+    "use": "モデル.order(:キー名 [ :並び順])",
     "updated_at": "2015-05-05 08:19:34.636408",
     "versions": [
       "3.0.0",
@@ -4311,6 +4516,7 @@
     "created_at": "2011-07-23 08:56:05.827576",
     "title": "既存の並び順を指定した条件に置き換える",
     "method": "reorder",
+    "use": "モデル.reorder(ソート式)",
     "updated_at": "2015-05-05 08:19:34.636408",
     "versions": [
       "3.0.0",
@@ -4337,6 +4543,7 @@
     "created_at": "2012-02-25 12:53:05.756929",
     "title": "取得した値を逆順に並び替え",
     "method": "reverse_order",
+    "use": "モデル.reverse_order()",
     "updated_at": "2015-05-05 07:30:42.981167",
     "versions": [
       "3.0.0",
@@ -4363,6 +4570,7 @@
     "created_at": "2012-01-28 13:23:08.377399",
     "title": "XML形式のデータをハッシュに変換",
     "method": "from_xml",
+    "use": "Hash.from_xml(XMLデータ)",
     "updated_at": "2015-05-05 08:09:17.384638",
     "versions": [
       "3.0.0",
@@ -4389,6 +4597,7 @@
     "created_at": "2011-07-23 09:26:57.232498",
     "title": "画像へのパスを取得",
     "method": "image_path",
+    "use": "image_path(ファイルへのパス [, オプション])",
     "updated_at": "2015-05-05 06:54:52.151879",
     "versions": [
       "1.0.0",
@@ -4428,6 +4637,7 @@
     "created_at": "2011-07-23 09:40:51.592975",
     "title": "メールアドレス入力ボックスを生成",
     "method": "email_field",
+    "use": "email_field(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:00:37.290470",
     "versions": [
       "3.0.0",
@@ -4454,6 +4664,7 @@
     "created_at": "2011-07-23 09:40:51.592975",
     "title": "汎用的なメールアドレス入力ボックスを生成",
     "method": "email_field_tag",
+    "use": "email_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:00:37.290470",
     "versions": [
       "3.0.0",
@@ -4480,6 +4691,7 @@
     "created_at": "2013-05-06 10:31:43.558068",
     "title": "チェックボックスにチェックが入っているかバリデーション",
     "method": "validates_acceptance_of",
+    "use": "validates_acceptance_of(フィールド名 [, ...])",
     "updated_at": "2015-05-05 06:35:39.030873",
     "versions": [
       "3.0.0",
@@ -4506,6 +4718,7 @@
     "created_at": "2013-05-16 13:30:37.806415",
     "title": "eager_loadのパスを設定",
     "method": "config.eager_load_paths",
+    "use": "config.eager_load_paths",
     "updated_at": "2015-05-02 16:40:36.903783"
   },
   "constantize": {
@@ -4513,6 +4726,7 @@
     "created_at": "2013-04-27 08:09:18.822028",
     "title": "引数の文字列で指定した名前で定数を探す",
     "method": "constantize",
+    "use": "文字列.constantize()",
     "updated_at": "2015-05-05 08:18:04.787995",
     "versions": [
       "1.0.0",
@@ -4552,6 +4766,7 @@
     "created_at": "2011-07-23 08:53:14.919436",
     "title": "マイグレーションをロールバック",
     "method": "rake db:rollback",
+    "use": "$ rake db:rollback",
     "updated_at": "2013-02-02 07:11:58.785185"
   },
   "column_exists_q": {
@@ -4559,6 +4774,7 @@
     "created_at": "2012-02-18 07:16:40.973003",
     "title": "カラムが存在するかチェック",
     "method": "column_exists?",
+    "use": "column_exists?(テーブル名, カラム名 [, 型, オプション])",
     "updated_at": "2015-05-05 07:04:09.494484",
     "versions": [
       "3.0.0",
@@ -4585,6 +4801,7 @@
     "created_at": "2011-07-23 08:56:27.120155",
     "title": "取得するレコード数の上限を指定",
     "method": "limit",
+    "use": "モデル.limit(最大取得行数)",
     "updated_at": "2015-05-05 07:30:11.587147",
     "versions": [
       "3.0.0",
@@ -4611,6 +4828,7 @@
     "created_at": "2011-07-23 09:19:14.067720",
     "title": "コントローラのパスを取得",
     "method": "controller_path",
+    "use": "コントローラ名.controller_path",
     "updated_at": "2015-05-02 18:38:51.319031"
   },
   "base_controller_name": {
@@ -4618,6 +4836,7 @@
     "created_at": "2011-07-23 09:19:14.067720",
     "title": "コントローラのクラス名を取得",
     "method": "controller_name",
+    "use": "ActionController::Base.controller_name",
     "updated_at": "2015-05-02 18:38:51.319031"
   },
   "mail_to": {
@@ -4625,6 +4844,7 @@
     "created_at": "2011-07-23 09:24:09.197476",
     "title": "メールアドレス用のタグを生成",
     "method": "mail_to",
+    "use": "mail_to(メールアドレス, [リンクテキスト, オプション])",
     "updated_at": "2015-05-05 06:47:52.554886",
     "versions": [
       "1.0.0",
@@ -4664,6 +4884,7 @@
     "created_at": "2011-07-23 09:41:04.901018",
     "title": "数値入力ボックスを生成",
     "method": "number_field",
+    "use": "number_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-04 17:12:44.743236",
     "versions": [
       "3.0.0",
@@ -4690,6 +4911,7 @@
     "created_at": "2011-07-23 09:41:04.901018",
     "title": "汎用的な数値入力ボックスを生成",
     "method": "number_field_tag",
+    "use": "number_field_tag(要素名 [, value値, オプション])",
     "updated_at": "2015-05-04 17:12:44.743236",
     "versions": [
       "3.0.0",
@@ -4716,6 +4938,7 @@
     "created_at": "2013-05-06 10:37:30.414089",
     "title": "2つのフィールドが等しいかバリデーション",
     "method": "validates_confirmation_of",
+    "use": "validates_confirmation_of(フィールド名 [, ...])",
     "updated_at": "2015-05-05 06:35:01.371524",
     "versions": [
       "1.0.0",
@@ -4755,6 +4978,7 @@
     "created_at": "2013-05-16 13:31:26.335663",
     "title": "アプリケーション全体のエンコーディングを設定",
     "method": "config.encoding",
+    "use": "config.encoding",
     "updated_at": "2013-05-18 15:26:26.685999"
   },
   "dasherize": {
@@ -4762,6 +4986,7 @@
     "created_at": "2013-04-27 08:11:48.057707",
     "title": "アンダーバーをハイフンに変換",
     "method": "dasherize",
+    "use": "文字列.dasherize()",
     "updated_at": "2015-05-05 08:15:26.528866",
     "versions": [
       "1.1.6",
@@ -4798,6 +5023,7 @@
     "created_at": "2011-07-23 08:52:19.412296",
     "title": "インデックスを追加",
     "method": "add_index",
+    "use": "add_index(テーブル名, インデックスを付与するカラム名 [, オプション])",
     "updated_at": "2015-05-05 07:07:21.683807",
     "versions": [
       "1.0.0",
@@ -4837,6 +5063,7 @@
     "created_at": "2013-04-27 06:20:49.500673",
     "title": "空のモデルを取得",
     "method": "none",
+    "use": "モデル.none()",
     "updated_at": "2015-05-05 07:26:30.806053",
     "versions": [
       "4.0.2",
@@ -4855,6 +5082,7 @@
     "created_at": "2011-07-23 09:00:50.287396",
     "title": "特定のレコード位置から取得",
     "method": "offset",
+    "use": "モデル.offset(取得開始位置)",
     "updated_at": "2015-05-05 07:25:23.258227",
     "versions": [
       "3.0.0",
@@ -4881,6 +5109,7 @@
     "created_at": "2013-04-27 06:30:52.924052",
     "title": "読み込み専用で取得",
     "method": "readonly",
+    "use": "モデル.readonly(値)",
     "updated_at": "2015-05-05 07:25:57.189007",
     "versions": [
       "3.0.0",
@@ -4907,6 +5136,7 @@
     "created_at": "2011-07-23 09:24:57.014006",
     "title": "audioを生成",
     "method": "audio_tag",
+    "use": "audio_tag(音声ファイルへのパス, [オプション])",
     "updated_at": "2015-05-05 06:59:27.639812",
     "versions": [
       "3.0.0",
@@ -4933,6 +5163,7 @@
     "created_at": "2011-07-23 09:43:11.988118",
     "title": "範囲選択バーを生成",
     "method": "range_field",
+    "use": "range_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-05 06:10:32.776500",
     "versions": [
       "3.0.0",
@@ -4959,6 +5190,7 @@
     "created_at": "2011-07-23 09:43:11.988118",
     "title": "汎用的な範囲選択バーを生成",
     "method": "range_field_tag",
+    "use": "range_field_tag(要素名 [, 値, オプション])",
     "updated_at": "2015-05-05 06:10:32.776500",
     "versions": [
       "3.0.0",
@@ -4985,6 +5217,7 @@
     "created_at": "2013-05-06 10:43:58.437409",
     "title": "値が配列・範囲に含まれていないかバリデーション",
     "method": "validates_exclusion_of",
+    "use": "validates_exclusion_of(フィールド名 [, ...])",
     "updated_at": "2015-05-05 06:34:08.500386",
     "versions": [
       "3.0.0",
@@ -5011,6 +5244,7 @@
     "created_at": "2013-05-16 13:31:58.072690",
     "title": "例外処理アプリケーションを設定",
     "method": "config.exceptions_app",
+    "use": "config.exceptions_app",
     "updated_at": "2013-05-19 06:58:40.643231"
   },
   "deconstantize": {
@@ -5018,6 +5252,7 @@
     "created_at": "2013-04-27 08:16:46.564838",
     "title": "文字列から右端のセグメントを削除",
     "method": "deconstantize",
+    "use": "文字列.deconstantize()",
     "updated_at": "2015-05-05 08:17:29.581919",
     "versions": [
       "3.2.3",
@@ -5039,6 +5274,7 @@
     "created_at": "2013-04-21 10:54:46.016013",
     "title": "インデックスを変更",
     "method": "rename_index",
+    "use": "rename_index(テーブル名, 変更前の名前, 変更後の名前)",
     "updated_at": "2015-05-05 08:23:08.188718",
     "versions": [
       "2.3.8",
@@ -5066,6 +5302,7 @@
     "created_at": "2011-07-23 08:56:47.831701",
     "title": "取得した値を絞り込む",
     "method": "having",
+    "use": "モデル.having(条件式)",
     "updated_at": "2015-05-05 07:29:37.965070",
     "versions": [
       "3.0.0",
@@ -5092,6 +5329,7 @@
     "created_at": "2012-02-01 14:00:58.027313",
     "title": "Atomフィードを生成",
     "method": "atom_feed",
+    "use": "atom_feed([オプション])",
     "updated_at": "2015-05-05 06:53:17.749224",
     "versions": [
       "2.0.3",
@@ -5123,6 +5361,7 @@
     "created_at": "2011-07-23 09:24:44.615785",
     "title": "音声ファイルへのパス取得",
     "method": "audio_path",
+    "use": "audio_path(音声ファイルへのパス [, オプション])",
     "updated_at": "2015-05-05 08:14:53.771731",
     "versions": [
       "3.0.0",
@@ -5149,6 +5388,7 @@
     "created_at": "2011-07-23 09:41:15.942136",
     "title": "検索ボックスを生成",
     "method": "search_field",
+    "use": "search_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-04 16:49:15.877474",
     "versions": [
       "3.0.0",
@@ -5175,6 +5415,7 @@
     "created_at": "2011-07-23 09:41:15.942136",
     "title": "汎用的な検索ボックスを生成",
     "method": "search_field_tag",
+    "use": "search_field_tag(要素名 [, value値, オプション])",
     "updated_at": "2015-05-04 16:49:15.877474",
     "versions": [
       "3.0.0",
@@ -5201,6 +5442,7 @@
     "created_at": "2013-05-06 12:22:01.471568",
     "title": "正規表現パターンに一致しているかバリデーション",
     "method": "validates_format_of",
+    "use": "validates_format_of(フィールド名 [, ...])",
     "updated_at": "2015-05-05 06:33:30.205837",
     "versions": [
       "1.0.0",
@@ -5240,6 +5482,7 @@
     "created_at": "2013-05-16 13:32:34.521145",
     "title": "ファイルシステム内の変更を検知するための設定",
     "method": "config.file_watcher",
+    "use": "config.file_watcher",
     "updated_at": "2015-04-04 03:42:04.270949"
   },
   "demodulize": {
@@ -5247,6 +5490,7 @@
     "created_at": "2013-04-27 08:21:34.514976",
     "title": "文字列からモジュールの一部を削除",
     "method": "demodulize",
+    "use": "文字列.demodulize()",
     "updated_at": "2015-05-05 08:17:00.104551",
     "versions": [
       "1.0.0",
@@ -5286,6 +5530,7 @@
     "created_at": "2011-07-23 08:52:31.598153",
     "title": "インデックスを削除",
     "method": "remove_index",
+    "use": "remove_index(テーブル名 [, オプション])",
     "updated_at": "2015-05-05 07:08:00.476709",
     "versions": [
       "1.0.0",
@@ -5325,6 +5570,7 @@
     "created_at": "2012-02-18 15:45:14.927672",
     "title": "関連するテーブルをまとめて取得",
     "method": "includes",
+    "use": "モデル.includes(:モデル [, ...])",
     "updated_at": "2015-05-05 07:23:21.826584",
     "versions": [
       "3.0.0",
@@ -5351,6 +5597,7 @@
     "created_at": "2011-07-23 09:26:32.035884",
     "title": "フィード検出機能を有効",
     "method": "auto_discovery_link_tag",
+    "use": "auto_discovery_link_tag(フォードの種類, [URLオプション,  オプション])",
     "updated_at": "2015-05-05 06:58:50.582290",
     "versions": [
       "1.0.0",
@@ -5390,6 +5637,7 @@
     "created_at": "2011-07-23 09:41:31.634346",
     "title": "電話番号入力ボックスを生成",
     "method": "telephone_field",
+    "use": "telephone_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-04 16:33:27.046402",
     "versions": [
       "3.0.0",
@@ -5416,6 +5664,7 @@
     "created_at": "2011-07-23 09:41:31.634346",
     "title": "汎用的な電話番号入力ボックスを生成",
     "method": "telephone_field_tag",
+    "use": "telephone_field_tag(要素名 [, value値, オプション])",
     "updated_at": "2015-05-04 16:33:27.046402",
     "versions": [
       "3.0.0",
@@ -5442,6 +5691,7 @@
     "created_at": "2013-05-06 12:27:30.717660",
     "title": "値が配列・範囲に含まれているかバリデーション",
     "method": "validates_inclusion_of",
+    "use": "validates_inclusion_of(フィールド名 [, ...])",
     "updated_at": "2015-05-05 06:32:55.442389",
     "versions": [
       "3.0.0",
@@ -5468,6 +5718,7 @@
     "created_at": "2013-05-16 13:33:04.208715",
     "title": "ログファイルにパラメータ情報を出力しない",
     "method": "config.filter_parameters",
+    "use": "config.filter_parameters",
     "updated_at": "2013-05-18 04:15:25.367162"
   },
   "foreign_key": {
@@ -5475,6 +5726,7 @@
     "created_at": "2013-04-27 08:49:37.918804",
     "title": "クラス名から外部キーの名前を作成",
     "method": "foreign_key",
+    "use": "文字列.foreign_key([名前とidの間にアンダーバーを入れるか = true])",
     "updated_at": "2015-05-05 08:16:29.565896",
     "versions": [
       "1.0.0",
@@ -5514,6 +5766,7 @@
     "created_at": "2013-04-27 08:49:37.918804",
     "title": "外部キー制約を追加",
     "method": "add_foreign_key",
+    "use": "add_foreign_key(テーブル名, 参照先テーブル名 [, オプション])",
     "updated_at": "2015-05-05 08:16:29.565896",
     "versions": [
       "4.2.1",
@@ -5530,6 +5783,7 @@
     "created_at": "2012-02-18 07:19:02.590238",
     "title": "インデックスが存在するかチェック",
     "method": "index_exists?",
+    "use": "index_exists?(テーブル名, カラム名 [, オプション])",
     "updated_at": "2015-05-05 07:06:39.497845",
     "versions": [
       "2.3.8",
@@ -5557,6 +5811,7 @@
     "created_at": "2011-08-23 15:17:23.794049",
     "title": "複数のテーブルを結合して取得",
     "method": "joins",
+    "use": "モデル.joins(条件)",
     "updated_at": "2015-05-05 07:24:08.317498",
     "versions": [
       "3.0.0",
@@ -5583,6 +5838,7 @@
     "created_at": "2012-02-01 13:39:41.041442",
     "title": "キャッシュのポリシーを設定",
     "method": "expires_in",
+    "use": "expires_in(有効期限 [, オプション])",
     "updated_at": "2015-05-05 06:23:06.879829",
     "versions": [
       "3.0.0",
@@ -5609,6 +5865,7 @@
     "created_at": "2011-07-23 09:28:43.924624",
     "title": "videoタグを生成",
     "method": "video_tag",
+    "use": "video_tag(動画ファイルへのパス, [, オプション])",
     "updated_at": "2015-05-05 06:55:58.134055",
     "versions": [
       "3.0.0",
@@ -5635,6 +5892,7 @@
     "created_at": "2011-07-23 09:41:44.132808",
     "title": "URL入力ボックスを生成",
     "method": "url_field",
+    "use": "url_field(オブジェクト名, メソッド名 [, オプション])",
     "updated_at": "2015-05-04 17:09:15.469843",
     "versions": [
       "3.0.0",
@@ -5661,6 +5919,7 @@
     "created_at": "2011-07-23 09:41:44.132808",
     "title": "汎用的なURL入力ボックスを生成",
     "method": "url_field_tag",
+    "use": "url_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:09:15.469843",
     "versions": [
       "3.0.0",
@@ -5687,6 +5946,7 @@
     "created_at": "2013-05-06 12:32:33.353663",
     "title": "文字列の長さをチェック",
     "method": "validates_length_of",
+    "use": "validates_length_of(するフィールド名 [, ...])",
     "updated_at": "2015-05-04 16:50:34.624369",
     "versions": [
       "3.0.0",
@@ -5713,6 +5973,7 @@
     "created_at": "2013-05-16 13:33:38.608170",
     "title": "強制的にHTTPSプロトコルを使用するかの設定",
     "method": "config.force_ssl",
+    "use": "config.force_ssl",
     "updated_at": "2013-05-21 12:29:21.406067"
   },
   "humanize": {
@@ -5720,6 +5981,7 @@
     "created_at": "2013-04-27 15:07:36.840800",
     "title": "最初の単語を大文字にしてアンダーバーをスペースへ変換し末尾の_idを削除",
     "method": "humanize",
+    "use": "文字列.humanize([オプション])",
     "updated_at": "2015-05-05 08:16:00.541816",
     "versions": [
       "2.1.0",
@@ -5750,6 +6012,7 @@
     "created_at": "2011-07-23 08:52:42.072637",
     "title": "created_atとupdated_atを生成",
     "method": "timestamps",
+    "use": "timestamps",
     "updated_at": "2015-05-05 07:59:06.856227",
     "versions": [
       "2.0.3",
@@ -5781,6 +6044,7 @@
     "created_at": "2012-02-18 08:02:03.886174",
     "title": "適応した条件式を除外",
     "method": "except",
+    "use": "モデル.except(条件式)",
     "updated_at": "2015-05-05 07:29:04.671417",
     "versions": [
       "3.0.0",
@@ -5807,6 +6071,7 @@
     "created_at": "2012-02-01 13:46:15.110405",
     "title": "キャッシュの無効化",
     "method": "expires_now",
+    "use": "expires_now",
     "updated_at": "2015-05-05 08:06:20.691155",
     "versions": [
       "3.0.0",
@@ -5832,7 +6097,8 @@
     "category_id": 8,
     "created_at": "2011-07-23 09:28:30.561196",
     "title": "動画ファイルへのパスを取得",
-    "method": "expires_now",
+    "method": "video_path",
+    "use": "video_path(ファイルへのパス [, オプション])",
     "updated_at": "2015-05-05 06:53:50.965484",
     "versions": [
       "3.0.0",
@@ -5859,6 +6125,7 @@
     "created_at": "2011-07-23 09:41:54.568814",
     "title": "サブミットボタンを生成",
     "method": "submit",
+    "use": "f.submit([ボタンの名前 , オプション])",
     "updated_at": "2015-05-05 06:19:54.341889",
     "versions": [
       "2.1.0",
@@ -5889,6 +6156,7 @@
     "created_at": "2011-07-23 09:41:54.568814",
     "title": "汎用的なサブミットボタンを生成",
     "method": "submit_tag",
+    "use": "submit_tag([ボタンの名前 , オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:19:54.341889",
     "versions": [
       "1.0.0",
@@ -5928,6 +6196,7 @@
     "created_at": "2013-05-06 13:05:04.071540",
     "title": "数値の大小、型をチェック",
     "method": "validates_numericality_of",
+    "use": "validates_numericality_of(フィールド名 [, ...])",
     "updated_at": "2015-05-04 17:03:58.278998",
     "versions": [
       "2.1.0",
@@ -5958,6 +6227,7 @@
     "created_at": "2013-05-16 13:34:08.813155",
     "title": "ログレベルの指定",
     "method": "config.log_level",
+    "use": "config.log_level",
     "updated_at": "2015-05-02 16:39:25.061387"
   },
   "number_to_currency": {
@@ -5965,6 +6235,7 @@
     "created_at": "2013-05-05 12:03:43.648932",
     "title": "数値を通貨のフォーマットに変換",
     "method": "number_to_currency",
+    "use": "number_to_currency(数値 [, オプション])",
     "updated_at": "2015-05-05 06:44:49.381239",
     "versions": [
       "1.0.0",
@@ -6004,6 +6275,7 @@
     "created_at": "2013-04-21 09:54:58.608817",
     "title": "タイムスタンプを追加",
     "method": "add_timestamps",
+    "use": "add_timestamps(テーブル名)",
     "updated_at": "2015-05-05 07:58:27.439401",
     "versions": [
       "2.1.0",
@@ -6034,6 +6306,7 @@
     "created_at": "2013-04-27 05:43:48.305251",
     "title": "レコードが参照されるテーブルを指定",
     "method": "from",
+    "use": "モデル.from(値 [, サブクエリ])",
     "updated_at": "2015-05-05 07:22:47.756967",
     "versions": [
       "3.0.0",
@@ -6060,6 +6333,7 @@
     "created_at": "2012-02-04 05:13:20.039909",
     "title": "ログを出力",
     "method": "logger",
+    "use": "logger.ログレベル(値)",
     "updated_at": "2015-05-04 09:30:22.641828",
     "versions": [
       "1.0.0",
@@ -6099,6 +6373,7 @@
     "created_at": "2011-07-23 09:26:43.401925",
     "title": "ファビコンのタグを生成",
     "method": "favicon_link_tag",
+    "use": "favicon_link_tag(画像へのパス [, オプション])",
     "updated_at": "2015-05-05 06:58:14.306194",
     "versions": [
       "3.0.0",
@@ -6125,6 +6400,7 @@
     "created_at": "2011-07-23 09:42:28.782944",
     "title": "日時選択ボックスを生成",
     "method": "datetime_select",
+    "use": "datetime_select(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:09:06.756595",
     "versions": [
       "1.0.0",
@@ -6164,6 +6440,7 @@
     "created_at": "2013-05-16 13:34:38.398458",
     "title": "タグ付きログの設定",
     "method": "config.log_tags",
+    "use": "config.log_tags",
     "updated_at": "2013-05-18 08:06:29.558082"
   },
   "number_to_human": {
@@ -6171,6 +6448,7 @@
     "created_at": "2013-05-05 12:06:49.775399",
     "title": "数値を単位のフォーマットに変換",
     "method": "number_to_human",
+    "use": "number_to_human(数値 [, オプション])",
     "updated_at": "2015-05-05 06:41:16.151223",
     "versions": [
       "3.0.0",
@@ -6197,6 +6475,7 @@
     "created_at": "2013-04-21 10:50:26.143206",
     "title": "created_atとupdated_atの削除",
     "method": "remove_timestamps",
+    "use": "remove_timestamps(テーブル名)",
     "updated_at": "2015-05-05 08:00:36.515917",
     "versions": [
       "2.1.0",
@@ -6227,6 +6506,7 @@
     "created_at": "2011-12-30 17:29:42.177993",
     "title": "モデルを固定してフォームを生成",
     "method": "fields_for",
+    "use": "fields_for(モデル)",
     "updated_at": "2015-05-05 08:13:10.636819",
     "versions": [
       "1.1.6",
@@ -6263,6 +6543,7 @@
     "created_at": "2013-05-16 13:35:10.962048",
     "title": "使用するログオブジェクトの種類",
     "method": "config.logger",
+    "use": "config.logger",
     "updated_at": "2013-05-19 05:35:38.439232"
   },
   "number_to_human_size": {
@@ -6270,6 +6551,7 @@
     "created_at": "2013-05-05 12:08:52.829028",
     "title": "バイト単位の数値を変換",
     "method": "number_to_human_size",
+    "use": "number_to_human_size(数値 [, オプション])",
     "updated_at": "2015-05-05 06:40:31.400327",
     "versions": [
       "1.0.0",
@@ -6309,6 +6591,7 @@
     "created_at": "2011-07-23 08:52:52.519738",
     "title": "リファレンスを生成",
     "method": "references",
+    "use": "references(カラム名 [, オプション])",
     "updated_at": "2015-05-05 07:17:38.786610",
     "versions": [
       "2.0.0",
@@ -6342,6 +6625,7 @@
     "created_at": "2011-07-23 08:57:09.027093",
     "title": "デフォルトのスコープを定義",
     "method": "default_scope",
+    "use": "default_scope(条件式 [, ブロック])",
     "updated_at": "2015-05-04 15:45:33.337271",
     "versions": [
       "2.3.2",
@@ -6370,6 +6654,7 @@
     "created_at": "2011-07-23 09:27:20.268621",
     "title": "JavaScriptファイルへのパスを取得",
     "method": "javascript_path",
+    "use": "javascript_path(ファイルへのパス [, オプション])",
     "updated_at": "2015-05-04 16:02:02.929988",
     "versions": [
       "4.0.2",
@@ -6388,6 +6673,7 @@
     "created_at": "2020-02-09 09:27:20.268621",
     "title": "JavaScriptファイルへのURLを取得",
     "method": "javascript_url",
+    "use": "javascript_url(ファイルへのパス [, オプション])",
     "updated_at": "2020-02-09 16:02:02.929988",
     "versions": [
       "4.0.2",
@@ -6406,6 +6692,7 @@
     "created_at": "2011-12-30 17:44:29.796626",
     "title": "フォームの要素をグループ化",
     "method": "field_set_tag",
+    "use": "field_set_tag(サブフォームのタイトル [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 08:08:07.813978",
     "versions": [
       "2.0.0",
@@ -6439,6 +6726,7 @@
     "created_at": "2013-05-05 12:11:30.777078",
     "title": "数値をパーセントに変換",
     "method": "number_to_percentage",
+    "use": "number_to_percentage(数値 [, オプション])",
     "updated_at": "2015-05-05 06:39:56.247189",
     "versions": [
       "1.0.0",
@@ -6478,6 +6766,7 @@
     "created_at": "2013-04-21 09:46:46.326071",
     "title": "リファレンスを追加",
     "method": "add_reference",
+    "use": "add_reference(テーブル名, リファレンス名 [, オプション])",
     "updated_at": "2015-05-05 07:08:34.359220",
     "versions": [
       "4.0.2",
@@ -6496,6 +6785,7 @@
     "created_at": "2011-07-23 08:57:21.496239",
     "title": "モデルのレコード数を取得",
     "method": "count",
+    "use": "モデル.count(カラム名)",
     "updated_at": "2015-05-05 07:28:21.837182",
     "versions": [
       "3.0.0",
@@ -6522,6 +6812,7 @@
     "created_at": "2011-07-23 09:35:42.131347",
     "title": "デフォルトのURLにマッピング",
     "method": "url_options",
+    "use": "url_options",
     "updated_at": "2015-05-05 08:05:12.528357",
     "versions": [
       "3.0.0",
@@ -6548,6 +6839,7 @@
     "created_at": "2011-07-23 09:27:45.050765",
     "title": "外部スタイルシートを指定するリンクタグを生成",
     "method": "stylesheet_link_tag",
+    "use": "stylesheet_link_tag(スタイルシートへのパス [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:56:30.244669",
     "versions": [
       "1.0.0",
@@ -6587,6 +6879,7 @@
     "created_at": "2011-07-23 09:27:30.846134",
     "title": "JavaScriptをインクルード",
     "method": "javascript_include_tag",
+    "use": "javascript_include_tag(JavaScriptファイルへのパス [, オプション])",
     "updated_at": "2015-05-05 06:32:18.721274",
     "versions": [
       "1.0.0",
@@ -6626,6 +6919,7 @@
     "created_at": "2013-05-01 12:36:32.731672",
     "title": "ボタンを生成",
     "method": "button",
+    "use": "button(文字列 [, オプション or データ属性 or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:18:09.464804",
     "versions": [
       "3.2.3",
@@ -6647,6 +6941,7 @@
     "created_at": "2013-05-01 12:36:32.731672",
     "title": "汎用的なボタンを生成",
     "method": "button_tag",
+    "use": "button_tag([オプション or データ属性 or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:18:09.464804",
     "versions": [
       "3.1.0",
@@ -6669,6 +6964,7 @@
     "created_at": "2013-05-16 13:36:18.216389",
     "title": "ファイルの変更検知の設定",
     "method": "config.reload_classes_only_on_change",
+    "use": "config.reload_classes_only_on_change",
     "updated_at": "2013-05-19 06:42:42.795700"
   },
   "number_with_delimiter": {
@@ -6676,6 +6972,7 @@
     "created_at": "2013-05-05 12:13:32.935373",
     "title": "桁区切り文字を追加",
     "method": "number_with_delimiter",
+    "use": "number_with_delimiter(数値 [, オプション])",
     "updated_at": "2015-05-05 06:44:06.810429",
     "versions": [
       "1.0.0",
@@ -6715,6 +7012,7 @@
     "created_at": "2013-04-21 10:46:00.979977",
     "title": "リファレンスを削除",
     "method": "remove_reference",
+    "use": "remove_reference(テーブル名, リファレンス名 [, オプション])",
     "updated_at": "2015-05-05 07:09:26.947115",
     "versions": [
       "4.0.2",
@@ -6733,6 +7031,7 @@
     "created_at": "2011-07-23 09:28:16.183254",
     "title": "スタイルシートへのパスを取得",
     "method": "stylesheet_path",
+    "use": "stylesheet_path(ファイルへのパス [, HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:54:22.118334",
     "versions": [
       "4.0.2",
@@ -6751,6 +7050,7 @@
     "created_at": "2020-02-09 09:28:16.183254",
     "title": "スタイルシートへのURLを取得",
     "method": "stylesheet_url",
+    "use": "stylesheet_url(ファイルへのパス [, オプション])",
     "updated_at": "2020-02-09 06:54:22.118334",
     "versions": [
       "4.0.2",
@@ -6769,6 +7069,7 @@
     "created_at": "2013-05-01 13:22:42.924513",
     "title": "画像サブミットボタンを生成",
     "method": "image_submit_tag",
+    "use": "image_submit_tag(値 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:20:50.443446",
     "versions": [
       "1.0.0",
@@ -6808,6 +7109,7 @@
     "created_at": "2013-05-16 13:36:49.952924",
     "title": "シークレットキーの設定",
     "method": "config.secret_key_base",
+    "use": "config.secret_key_base",
     "updated_at": "2013-05-19 07:38:28.098380"
   },
   "number_with_precision": {
@@ -6815,6 +7117,7 @@
     "created_at": "2013-05-05 12:15:39.126746",
     "title": "数値を特定の桁で丸める",
     "method": "number_with_precision",
+    "use": "number_with_precision(数値 [, オプション])",
     "updated_at": "2015-05-05 06:43:30.399527",
     "versions": [
       "1.0.0",
@@ -6854,6 +7157,7 @@
     "created_at": "2012-02-18 07:06:48.639747",
     "title": "マイグレーションファイルでSQLを実行",
     "method": "execute",
+    "use": "execute(SQL文)",
     "updated_at": "2015-05-05 07:59:54.878421",
     "versions": [
       "1.0.0",
@@ -6893,6 +7197,7 @@
     "created_at": "2011-07-23 08:57:41.361694",
     "title": "カラムの平均値を計算",
     "method": "average",
+    "use": "モデル.average(カラム名)",
     "updated_at": "2015-05-04 16:55:59.258269",
     "versions": [
       "3.0.0",
@@ -6919,6 +7224,7 @@
     "created_at": "2013-05-16 13:37:22.207113",
     "title": "assetsの静的ファイルの設定",
     "method": "config.serve_static_assets",
+    "use": "config.serve_static_assets",
     "updated_at": "2013-05-18 08:16:38.595588"
   },
   "number_to_phone": {
@@ -6926,6 +7232,7 @@
     "created_at": "2013-05-05 12:17:43.996998",
     "title": "USの電話番号フォーマット",
     "method": "number_to_phone",
+    "use": "number_to_phone(数値 [, オプション])",
     "updated_at": "2015-05-05 06:39:19.856840",
     "versions": [
       "1.0.0",
@@ -6965,6 +7272,7 @@
     "created_at": "2011-07-23 08:57:31.220819",
     "title": "カラムの最大値を計算",
     "method": "maximum",
+    "use": "モデル.maximum(カラム名 [, オプション])",
     "updated_at": "2015-05-04 16:58:21.455741",
     "versions": [
       "3.0.0",
@@ -6991,6 +7299,7 @@
     "created_at": "2011-07-23 09:28:54.986833",
     "title": "奇数偶数で処理を変える",
     "method": "cycle",
+    "use": "cycle(値 [, ..])",
     "updated_at": "2015-05-05 08:10:56.560500",
     "versions": [
       "1.0.0",
@@ -7030,6 +7339,7 @@
     "created_at": "2013-05-16 13:44:25.334392",
     "title": "ログを出力するときにカラーにするか",
     "method": "config.colorize_logging",
+    "use": "config.colorize_logging",
     "updated_at": "2013-05-18 05:30:50.695213"
   },
   "number_to_delimited": {
@@ -7037,6 +7347,7 @@
     "created_at": "2013-05-05 13:05:04.586431",
     "title": "数字を区切り文字を使用してグループ化",
     "method": "number_to_delimited",
+    "use": "number_to_delimited(数値 [, オプション])",
     "updated_at": "2015-05-05 06:41:52.186350",
     "versions": [
       "4.0.2",
@@ -7055,6 +7366,7 @@
     "created_at": "2011-07-23 08:57:51.908256",
     "title": "カラムの最小値を計算",
     "method": "minimum",
+    "use": "モデル.minimum(カラム名 [, オプション])",
     "updated_at": "2015-05-04 16:59:02.820845",
     "versions": [
       "3.0.0",
@@ -7081,6 +7393,7 @@
     "created_at": "2011-12-31 16:49:54.310013",
     "title": "奇数偶数で処理を変える",
     "method": "current_cycle",
+    "use": "current_cycle(名前)",
     "updated_at": "2015-05-05 08:11:31.276956",
     "versions": [
       "2.2.1",
@@ -7110,6 +7423,7 @@
     "created_at": "2013-05-16 13:46:52.654930",
     "title": "セッションストアの設定",
     "method": "config.session_store",
+    "use": "config.session_store",
     "updated_at": "2013-05-19 07:39:56.454505"
   },
   "number_to_rounded": {
@@ -7117,6 +7431,7 @@
     "created_at": "2013-05-05 13:27:47.756089",
     "title": "フォーマットの指定されたレベル",
     "method": "number_to_rounded",
+    "use": "number_to_rounded(数値 [, オプション])",
     "updated_at": "2015-05-05 06:38:42.259405",
     "versions": [
       "4.0.2",
@@ -7135,6 +7450,7 @@
     "created_at": "2013-04-20 18:07:52.811285",
     "title": "主キーを全て取得",
     "method": "ids",
+    "use": "モデル.ids()",
     "updated_at": "2015-05-05 07:57:53.519715",
     "versions": [
       "4.0.2",
@@ -7153,6 +7469,7 @@
     "created_at": "2011-12-31 17:04:49.108183",
     "title": "cycleで返す値を初期化",
     "method": "reset_cycle",
+    "use": "reset_cycle([名前])",
     "updated_at": "2015-05-05 08:09:50.511968",
     "versions": [
       "1.0.0",
@@ -7192,6 +7509,7 @@
     "created_at": "2013-05-16 13:47:28.082070",
     "title": "タイムゾーンの設定",
     "method": "config.time_zone",
+    "use": "config.time_zone",
     "updated_at": "2013-05-19 13:41:56.062989"
   },
   "sum": {
@@ -7199,6 +7517,7 @@
     "created_at": "2011-07-23 08:58:02.350278",
     "title": "カラムの合計値を計算",
     "method": "sum",
+    "use": "モデル.sum(カラム名)",
     "updated_at": "2015-05-04 16:37:26.659795",
     "versions": [
       "3.0.0",
@@ -7225,6 +7544,7 @@
     "created_at": "2011-07-23 09:29:06.663343",
     "title": "デバッグを出力",
     "method": "debug",
+    "use": "debug(オブジェクト)",
     "updated_at": "2015-05-05 08:20:07.507623",
     "versions": [
       "1.0.0",
@@ -7264,6 +7584,7 @@
     "created_at": "2013-05-16 13:48:28.790705",
     "title": "週の始まりの曜日の設定",
     "method": "config.beginning_of_week",
+    "use": "config.beginning_of_week",
     "updated_at": "2013-05-18 08:21:03.806180"
   },
   "model_pluck": {
@@ -7271,6 +7592,7 @@
     "created_at": "2013-04-20 18:15:59.372292",
     "title": "指定したカラムのレコードの配列を取得",
     "method": "pluck",
+    "use": "モデル.pluck(カラム名 [, ...])",
     "updated_at": "2015-05-05 07:19:58.516732",
     "versions": [
       "3.2.3",
@@ -7292,6 +7614,7 @@
     "created_at": "2020-02-16 18:15:59.372292",
     "title": "取得済みのモデルから先頭のレコードの値を1件取得",
     "method": "pick",
+    "use": "pick(カラム名 [, ...])",
     "updated_at": "2020-02-16 07:19:58.516732",
     "versions": [
       "6.0.2.1"
@@ -7302,6 +7625,7 @@
     "created_at": "2011-07-23 09:29:17.546470",
     "title": "文字列加工",
     "method": "simple_format",
+    "use": "simple_format(文字列 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:51:54.079098",
     "versions": [
       "1.0.0",
@@ -7341,6 +7665,7 @@
     "created_at": "2013-05-16 13:48:57.974070",
     "title": "初期化されていないオブジェクトの警告",
     "method": "config.whiny_nils",
+    "use": "config.whiny_nils = true",
     "updated_at": "2013-05-18 08:21:32.826144"
   },
   "excerpt": {
@@ -7348,6 +7673,7 @@
     "created_at": "2011-07-23 09:29:40.968805",
     "title": "文字列から特定の部分のみ抽出",
     "method": "excerpt",
+    "use": "excerpt(対象の文字列, 検索する文字列 [, オプション])",
     "updated_at": "2015-05-05 06:52:36.806679",
     "versions": [
       "1.0.0",
@@ -7387,6 +7713,7 @@
     "created_at": "2012-02-18 08:09:20.139470",
     "title": "モデルを再取得",
     "method": "reload",
+    "use": "モデル.reload()",
     "updated_at": "2015-05-05 07:21:09.113376",
     "versions": [
       "3.0.0",
@@ -7413,6 +7740,7 @@
     "created_at": "2011-07-23 09:29:29.495708",
     "title": "文字列を切り捨てる",
     "method": "truncate",
+    "use": "truncate(文字列 [, オプション])",
     "updated_at": "2015-05-05 06:51:14.674981",
     "versions": [
       "1.0.0",
@@ -7452,6 +7780,7 @@
     "created_at": "2013-05-16 13:49:57.447824",
     "title": "assetsでコンパイルする設定",
     "method": "config.assets.compress",
+    "use": "config.assets.compress = true",
     "updated_at": "2013-05-18 08:24:50.224355"
   },
   "save": {
@@ -7459,6 +7788,7 @@
     "created_at": "2011-07-23 08:58:13.093929",
     "title": "データベースに保存",
     "method": "save",
+    "use": "モデル.save()",
     "updated_at": "2015-05-04 09:28:05.300475",
     "versions": [
       "3.0.0",
@@ -7485,6 +7815,7 @@
     "created_at": "2013-05-16 13:50:28.578273",
     "title": "CSSコンパイラーの設定",
     "method": "config.assets.css_compressor",
+    "use": "config.assets.css_compressor",
     "updated_at": "2013-05-19 07:40:42.218659"
   },
   "model_update": {
@@ -7492,6 +7823,7 @@
     "created_at": "2011-07-23 08:58:24.675927",
     "title": "データベースを更新",
     "method": "update",
+    "use": "モデル.update(ID, 属性)",
     "updated_at": "2015-05-04 16:22:05.174169",
     "versions": [
       "3.0.0",
@@ -7518,6 +7850,7 @@
     "created_at": "2011-07-23 08:58:24.675927",
     "title": "条件に一致するレコードをすべて更新",
     "method": "update_all",
+    "use": "モデル.update_all(カラム名: 値 [, オプション])",
     "updated_at": "2015-05-04 16:22:05.174169",
     "versions": [
       "3.0.0",
@@ -7544,6 +7877,7 @@
     "created_at": "2011-07-23 08:58:24.675927",
     "title": "属性ハッシュを指定して更新",
     "method": "update_attributes",
+    "use": "モデル.update_attributes(属性名, 値)",
     "updated_at": "2015-05-04 16:22:05.174169",
     "versions": [
       "3.0.0",
@@ -7570,6 +7904,7 @@
     "created_at": "2011-07-23 08:58:24.675927",
     "title": "属性ハッシュを指定して更新",
     "method": "update_attribute",
+    "use": "モデル.update_attribute(属性名, 値)",
     "updated_at": "2015-05-04 16:22:05.174169",
     "versions": [
       "3.0.0",
@@ -7596,6 +7931,7 @@
     "created_at": "2020-02-16 08:58:24.675927",
     "title": "複数レコードを一括登録",
     "method": "insert_all",
+    "use": "insert_all(属性 [, オプション])",
     "updated_at": "2020-02-16 16:22:05.174169",
     "versions": [
       "6.0.2.1"
@@ -7606,6 +7942,7 @@
     "created_at": "2011-07-23 09:30:05.706748",
     "title": "ハイライト表示",
     "method": "highlight",
+    "use": "highlight(文字列, ハイライトする文字列 [, highighter: ハイライトする文字列を置き換える形式)",
     "updated_at": "2015-05-05 08:10:23.700051",
     "versions": [
       "1.0.0",
@@ -7645,6 +7982,7 @@
     "created_at": "2013-05-16 14:13:21.056723",
     "title": "JavaScriptのコンパイラーの設定",
     "method": "config.assets.js_compressor",
+    "use": "config.assets.js_compressor",
     "updated_at": "2013-05-19 07:41:00.110978"
   },
   "model_destroy": {
@@ -7652,6 +7990,7 @@
     "created_at": "2011-07-23 08:58:35.015261",
     "title": "ActiveRecordを使って指定した条件のレコードを削除",
     "method": "destroy",
+    "use": "モデル.destroy([条件])",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
       "3.0.0",
@@ -7678,6 +8017,7 @@
     "created_at": "2011-07-23 08:58:35.015261",
     "title": "指定した条件に一致するレコードをSQLを直接実行して削除",
     "method": "delete",
+    "use": "モデル.delete(条件)",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
       "3.0.0",
@@ -7704,6 +8044,7 @@
     "created_at": "2011-07-23 08:58:35.015261",
     "title": "指定した条件に一致するレコードをSQLを直接実行して全て削除",
     "method": "delete_all",
+    "use": "モデル.delete_all([検索条件])",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
       "3.0.0",
@@ -7730,6 +8071,7 @@
     "created_at": "2011-07-23 08:58:35.015261",
     "title": "ActiveRecordを使って指定した条件の全てのレコードを削除",
     "method": "destroy_all",
+    "use": "モデル.destroy_all([検索条件])",
     "updated_at": "2015-05-05 07:43:57.975529",
     "versions": [
       "3.0.0",
@@ -7756,6 +8098,7 @@
     "created_at": "2013-04-27 07:09:50.321507",
     "title": "条件式に一致しないものを取得",
     "method": "not",
+    "use": "モデル.where.not(条件)",
     "updated_at": "2015-05-05 07:41:28.383574",
     "versions": [
       "4.0.2",
@@ -7774,6 +8117,7 @@
     "created_at": "2011-07-23 09:32:00.137859",
     "title": "エスケープしない",
     "method": "raw",
+    "use": "raw(文字列)",
     "updated_at": "2015-05-05 06:21:40.259095",
     "versions": [
       "3.1.0",
@@ -7796,6 +8140,7 @@
     "created_at": "2013-05-16 14:13:58.632285",
     "title": "assetsへのパス",
     "method": "config.assets.paths",
+    "use": "config.assets.paths",
     "updated_at": "2013-05-19 07:41:43.654605"
   },
   "calculate": {
@@ -7803,6 +8148,7 @@
     "created_at": "2011-07-23 08:58:45.565852",
     "title": "汎用的なカラム処理",
     "method": "calculate",
+    "use": "モデル.calculate(処理方法, カラム名)",
     "updated_at": "2015-05-04 16:53:31.015473",
     "versions": [
       "3.0.0",
@@ -7829,6 +8175,7 @@
     "created_at": "2011-07-23 09:32:28.393069",
     "title": "出力結果を変数に格納",
     "method": "capture",
+    "use": "capture",
     "updated_at": "2015-05-05 08:14:22.699210",
     "versions": [
       "1.0.0",
@@ -7868,6 +8215,7 @@
     "created_at": "2013-05-16 14:14:37.840660",
     "title": "assetでプリコンパイルする設定",
     "method": "config.assets.precompile",
+    "use": "config.assets.precompile",
     "updated_at": "2013-05-19 07:42:24.071878"
   },
   "clone": {
@@ -7875,6 +8223,7 @@
     "created_at": "2013-04-21 11:18:11.103515",
     "title": "コピーを生成",
     "method": "clone",
+    "use": "モデル.clone()",
     "updated_at": "2015-05-05 07:45:59.524086",
     "versions": [
       "4.0.2",
@@ -7893,6 +8242,7 @@
     "created_at": "2011-07-23 09:32:46.003265",
     "title": "本体を持たない任意のタグを生成",
     "method": "tag",
+    "use": "tag.タグ名([, オプション or HTML属性 or イベント属性, HTML4互換, エスケープするか])",
     "updated_at": "2015-05-05 08:03:17.965475",
     "versions": [
       "1.0.0",
@@ -7932,6 +8282,7 @@
     "created_at": "2013-05-16 14:15:36.303849",
     "title": "アセットパイプラインでprefix",
     "method": "config.assets.prefix",
+    "use": "config.assets.prefix",
     "updated_at": "2013-05-19 07:43:34.412265"
   },
   "increment": {
@@ -7939,6 +8290,7 @@
     "created_at": "2012-01-25 15:21:20.294242",
     "title": "特定のレコードをインクリメント",
     "method": "increment",
+    "use": "モデル.increment(レコード, インクリメントする値)",
     "updated_at": "2015-05-05 07:46:36.082951",
     "versions": [
       "2.1.0",
@@ -7969,6 +8321,7 @@
     "created_at": "2011-07-23 09:33:31.884445",
     "title": "本体を持つ任意のタグを生成",
     "method": "content_tag",
+    "use": "content_tag(タグの名前 [, コンテンツ or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 15:26:07.754162",
     "versions": [
       "1.0.0",
@@ -8008,6 +8361,7 @@
     "created_at": "2013-05-16 14:16:16.337356",
     "title": "assetにMD5フィンガープリントを使用",
     "method": "config.assets.digest",
+    "use": "config.assets.digest = true",
     "updated_at": "2015-05-02 18:24:23.492273"
   },
   "model_changed": {
@@ -8015,6 +8369,7 @@
     "created_at": "2011-07-24 08:20:24.848274",
     "title": "属性変更を取得",
     "method": "changed",
+    "use": "モデル.changed()",
     "updated_at": "2015-05-05 07:47:29.358937",
     "versions": [
       "3.0.0",
@@ -8041,6 +8396,7 @@
     "created_at": "2012-02-18 13:23:26.678532",
     "title": "保存していないレコードがあるかチェック",
     "method": "changed?",
+    "use": "モデル.changed?()",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
       "3.0.0",
@@ -8067,6 +8423,7 @@
     "created_at": "2011-07-23 09:33:56.454641",
     "title": "タグを取り除く",
     "method": "strip_tags",
+    "use": "strip_tags(html)",
     "updated_at": "2015-05-05 08:01:31.457684",
     "versions": [
       "2.0.3",
@@ -8098,6 +8455,7 @@
     "created_at": "2013-05-16 14:16:56.984160",
     "title": "Assetの結合と圧縮の設定",
     "method": "config.assets.debug",
+    "use": "config.assets.debug = true",
     "updated_at": "2015-05-02 16:39:57.676299"
   },
   "config_autoload_paths": {
@@ -8105,6 +8463,7 @@
     "created_at": "2011-12-22 16:59:14.995654",
     "title": "オートロード対象となるパスの追加",
     "method": "config.autoload_paths",
+    "use": "config.autoload_paths",
     "updated_at": "2013-05-19 13:41:11.364458"
   },
   "column_for_attribute": {
@@ -8112,6 +8471,7 @@
     "created_at": "2012-02-18 12:21:03.126981",
     "title": "カラム情報の取得",
     "method": "column_for_attribute",
+    "use": "モデル.column_for_attribute([カラム名])",
     "updated_at": "2015-05-05 07:20:37.469077",
     "versions": [
       "4.2.1",
@@ -8128,6 +8488,7 @@
     "created_at": "2011-07-23 09:34:07.107823",
     "title": "リンクのみ取り除く",
     "method": "strip_links",
+    "use": "strip_links(html)",
     "updated_at": "2015-05-05 08:03:52.943057",
     "versions": [
       "2.0.0",
@@ -8161,6 +8522,7 @@
     "created_at": "2013-05-16 14:17:39.561869",
     "title": "キャッシュストアの設定",
     "method": "config.assets.cache_store",
+    "use": "config.assets.cache_store",
     "updated_at": "2013-05-19 07:45:08.610761"
   },
   "attribute_names": {
@@ -8168,6 +8530,7 @@
     "created_at": "2012-02-18 12:27:08.947090",
     "title": "すべての属性名を配列で取得",
     "method": "attribute_names",
+    "use": "モデル.attribute_names()",
     "updated_at": "2015-05-05 07:48:03.506851",
     "versions": [
       "3.2.3",
@@ -8189,6 +8552,7 @@
     "created_at": "2011-07-23 09:34:17.650989",
     "title": "サニタイズ",
     "method": "sanitize",
+    "use": "sanitize(文字列 [,  オプション])",
     "updated_at": "2015-05-05 08:12:06.165104",
     "versions": [
       "2.0.0",
@@ -8222,6 +8586,7 @@
     "created_at": "2013-05-16 14:18:12.528803",
     "title": "Assetのバージョンを指定",
     "method": "config.assets.version",
+    "use": "config.assets.version = バージョン",
     "updated_at": "2013-05-18 08:51:05.778056"
   },
   "attribute_for_inspect": {
@@ -8229,6 +8594,7 @@
     "created_at": "2013-04-20 15:30:01.508343",
     "title": "属性の値に似た文字列を取得",
     "method": "attribute_for_inspect",
+    "use": "モデル.attribute_for_inspect(属性名)",
     "updated_at": "2015-05-05 07:48:35.236745",
     "versions": [
       "3.2.3",
@@ -8250,6 +8616,7 @@
     "created_at": "2011-07-23 09:23:13.268559",
     "title": "指定したURLが現在表示されているかチェック",
     "method": "current_page?",
+    "use": "current_page?(オプション [, check_parameters: false])",
     "updated_at": "2015-05-05 08:04:31.527539",
     "versions": [
       "1.0.0",
@@ -8289,6 +8656,7 @@
     "created_at": "2013-05-16 14:18:48.056898",
     "title": "ファイルがないときにファイルを探して自動コンパイル",
     "method": "config.assets.compile",
+    "use": "config.assets.compile = true",
     "updated_at": "2015-05-02 16:40:13.915563"
   },
   "attribute_present_q": {
@@ -8296,6 +8664,7 @@
     "created_at": "2013-04-20 16:08:04.423237",
     "title": "指定した属性が存在するかチェック",
     "method": "attribute_present?",
+    "use": "モデル.attribute_present?(属性名)",
     "updated_at": "2015-05-05 07:49:07.669025",
     "versions": [
       "3.2.3",
@@ -8317,6 +8686,7 @@
     "created_at": "2012-01-24 14:00:22.579722",
     "title": "日付データをフォーマット",
     "method": "strftime",
+    "use": "strftime(フォーマット)",
     "updated_at": "2015-05-02 18:25:29.639834",
     "versions": [
       "2.1.0",
@@ -8347,6 +8717,7 @@
     "created_at": "2013-05-16 14:19:23.579441",
     "title": "Assetロガーの設定",
     "method": "config.assets.logger",
+    "use": "config.assets.logger = false",
     "updated_at": "2014-04-28 07:51:19.669285"
   },
   "attributes": {
@@ -8354,6 +8725,7 @@
     "created_at": "2013-04-20 17:02:16.817741",
     "title": "全てのモデルオブジェクトと属性を取得",
     "method": "attributes",
+    "use": "モデル.attributes()",
     "updated_at": "2015-05-05 07:49:38.741356",
     "versions": [
       "1.0.0",
@@ -8393,6 +8765,7 @@
     "created_at": "2013-05-01 11:02:44.176069",
     "title": "assetファイルへのパスを取得",
     "method": "asset_path",
+    "use": "asset_path(ファイルへのパス [, オプション])",
     "updated_at": "2015-05-05 06:55:25.755217",
     "versions": [
       "4.0.2",
@@ -8411,6 +8784,7 @@
     "created_at": "2013-05-16 13:35:43.198264",
     "title": "アプリケーションのミドルウェアの設定",
     "method": "config.middleware",
+    "use": "config.middleware",
     "updated_at": "2013-05-18 08:58:42.179735"
   },
   "config_middleware_use": {
@@ -8418,6 +8792,7 @@
     "created_at": "2013-05-16 14:26:12.384545",
     "title": "ミドルウェアを独自に追加",
     "method": "config.middleware.use",
+    "use": "config.middleware.use",
     "updated_at": "2015-05-04 15:04:31.535433"
   },
   "attributes_before_type_cast": {
@@ -8425,6 +8800,7 @@
     "created_at": "2013-04-20 17:24:31.602797",
     "title": "型に変更前のハッシュを取得",
     "method": "attributes_before_type_cast",
+    "use": "モデル.attributes_before_type_cast()",
     "updated_at": "2015-05-05 07:50:11.842340",
     "versions": [
       "3.0.0",
@@ -8451,6 +8827,7 @@
     "created_at": "2013-05-16 14:27:27.939723",
     "title": "ミドルウェアスタックを入れ替える",
     "method": "config.middleware.swap",
+    "use": "config.middleware.swap",
     "updated_at": "2013-05-18 15:17:17.615550"
   },
   "config_middleware_delete": {
@@ -8458,6 +8835,7 @@
     "created_at": "2013-05-16 14:28:08.686776",
     "title": "ミドルウェアスタックを削除",
     "method": "config.middleware.delete",
+    "use": "config.middleware.delete",
     "updated_at": "2015-05-04 15:06:37.708581"
   },
   "config_middleware_insert_after": {
@@ -8465,6 +8843,7 @@
     "created_at": "2013-05-16 14:26:58.859464",
     "title": "既存のミドルウェアの後に新しいミドルウェアを追加",
     "method": "config.middleware.insert_after",
+    "use": "config.middleware.insert_after",
     "updated_at": "2015-05-04 15:06:03.077887"
   },
   "record_timestamps": {
@@ -8472,6 +8851,7 @@
     "created_at": "2011-07-23 15:06:57.407656",
     "title": "タイムスタンプの自動保存を停止",
     "method": "record_timestamps",
+    "use": "ActiveRecord::Base.record_timestamps = false",
     "updated_at": "2013-05-17 12:53:09.729258"
   },
   "has_attribute": {
@@ -8479,6 +8859,7 @@
     "created_at": "2013-04-20 17:04:06.260607",
     "title": "モデルに指定した属性が存在するかチェック",
     "method": "has_attribute?",
+    "use": "モデル.has_attribute?(属性)",
     "updated_at": "2015-05-05 07:50:48.104746",
     "versions": [
       "3.2.3",
@@ -8500,6 +8881,7 @@
     "created_at": "2013-05-06 09:12:25.425197",
     "title": "モデルから本体を持つ任意のタグを生成",
     "method": "content_tag_for",
+    "use": "content_tag_for(タグの名前, モデル [, オプション])",
     "updated_at": "2015-05-05 08:07:25.094588",
     "versions": [
       "2.0.0",
@@ -8532,6 +8914,7 @@
     "created_at": "2013-05-06 06:38:45.894597",
     "title": "色の入力欄を生成",
     "method": "color_field",
+    "use": "color_field(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:03:23.774854",
     "versions": [
       "4.0.2",
@@ -8550,6 +8933,7 @@
     "created_at": "2013-05-06 06:38:45.894597",
     "title": "汎用的な色の入力欄を生成",
     "method": "color_field_tag",
+    "use": "color_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:03:23.774854",
     "versions": [
       "4.0.2",
@@ -8568,6 +8952,7 @@
     "created_at": "2013-05-16 14:28:49.955342",
     "title": "国際化対応のためのデフォルトのロケール",
     "method": "config.i18n.default_locale",
+    "use": "config.i18n.default_locale",
     "updated_at": "2013-05-17 13:56:48.649773"
   },
   "read_attribute_before_type_cast": {
@@ -8575,6 +8960,7 @@
     "created_at": "2013-04-20 17:27:48.246896",
     "title": "型に変更前のハッシュを取得",
     "method": "read_attribute_before_type_cast",
+    "use": "モデル.read_attribute_before_type_cast(カラム名)",
     "updated_at": "2015-05-05 07:51:27.674853",
     "versions": [
       "3.0.0",
@@ -8601,6 +8987,7 @@
     "created_at": "2013-05-06 06:41:40.272554",
     "title": "日付の入力欄を生成",
     "method": "date_field",
+    "use": "date_field(要素名 [, 値, オプション])",
     "updated_at": "2015-05-05 06:02:11.175585",
     "versions": [
       "4.0.2",
@@ -8619,6 +9006,7 @@
     "created_at": "2013-05-06 06:41:40.272554",
     "title": "汎用的な日付の入力欄を生成",
     "method": "date_field_tag",
+    "use": "date_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-05 06:02:11.175585",
     "versions": [
       "4.0.2",
@@ -8637,6 +9025,7 @@
     "created_at": "2013-05-16 14:29:25.262257",
     "title": "ロケールファイルへのパス",
     "method": "config.i18n.load_path",
+    "use": "config.i18n.load_path",
     "updated_at": "2013-05-19 10:06:47.079079"
   },
   "attribute_method_q": {
@@ -8644,6 +9033,7 @@
     "created_at": "2013-04-20 17:34:11.788650",
     "title": "指定したモデルオブジェクトの属性が存在するかチェック",
     "method": "attribute_method?",
+    "use": "モデル.attribute_method?(属性)",
     "updated_at": "2015-05-05 07:51:58.748185",
     "versions": [
       "3.0.0",
@@ -8670,6 +9060,7 @@
     "created_at": "2013-05-06 07:09:54.229890",
     "title": "日時の入力欄を生成",
     "method": "datetime_field",
+    "use": "datetime_field(要素名 [, value値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:14:25.522914",
     "versions": [
       "4.0.2",
@@ -8688,6 +9079,7 @@
     "created_at": "2013-05-06 07:09:54.229890",
     "title": "汎用的な日時の入力欄を生成",
     "method": "datetime_field_tag",
+    "use": "datetime_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:14:25.522914",
     "versions": [
       "4.0.2",
@@ -8706,6 +9098,7 @@
     "created_at": "2013-05-18 04:18:02.106436",
     "title": "ログオブジェクト",
     "method": "config.active_record.logger",
+    "use": "config.active_record.logger",
     "updated_at": "2013-05-19 10:07:45.029738"
   },
   "datetime_local_field": {
@@ -8713,6 +9106,7 @@
     "created_at": "2013-05-06 07:18:40.248076",
     "title": "ローカル日時の入力欄を生成",
     "method": "datetime_local_field",
+    "use": "datetime_local_field(要素名 [, 値, オプション])",
     "updated_at": "2015-05-04 16:39:28.774416",
     "versions": [
       "4.0.2",
@@ -8731,6 +9125,7 @@
     "created_at": "2013-05-06 07:18:40.248076",
     "title": "汎用的なローカル日時の入力欄を生成",
     "method": "datetime_local_field_tag",
+    "use": "datetime_local_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:39:28.774416",
     "versions": [
       "4.0.2",
@@ -8749,6 +9144,7 @@
     "created_at": "2013-05-18 04:19:04.867054",
     "title": "テーブルの主キーの設定",
     "method": "config.active_record.primary_key_prefix_type",
+    "use": "config.active_record.primary_key_prefix_type = 主キー名",
     "updated_at": "2013-05-19 10:10:00.172026"
   },
   "month_field": {
@@ -8756,6 +9152,7 @@
     "created_at": "2013-05-06 07:37:44.686928",
     "title": "月の入力欄を生成",
     "method": "month_field",
+    "use": "month_field(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:07:29.416011",
     "versions": [
       "4.0.2",
@@ -8774,6 +9171,7 @@
     "created_at": "2013-05-06 07:37:44.686928",
     "title": "汎用的な月の入力欄を生成",
     "method": "month_field_tag",
+    "use": "month_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:07:29.416011",
     "versions": [
       "4.0.2",
@@ -8792,6 +9190,7 @@
     "created_at": "2013-05-18 04:19:44.998992",
     "title": "テーブルを生成するときに指定した文字列を先頭に追加",
     "method": "config.active_record.table_name_prefix",
+    "use": "config.active_record.table_name_prefix = プレフィックス",
     "updated_at": "2013-05-18 05:59:42.934491"
   },
   "time_field": {
@@ -8799,6 +9198,7 @@
     "created_at": "2013-05-06 07:45:50.758981",
     "title": "時間の入力欄を生成",
     "method": "time_field",
+    "use": "time_field(要素名 [, 値, オプション])",
     "updated_at": "2015-05-04 17:10:41.803740",
     "versions": [
       "4.0.2",
@@ -8817,6 +9217,7 @@
     "created_at": "2013-05-06 07:45:50.758981",
     "title": "汎用的な時間の入力欄を生成",
     "method": "time_field_tag",
+    "use": "time_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 17:10:41.803740",
     "versions": [
       "4.0.2",
@@ -8835,6 +9236,7 @@
     "created_at": "2013-05-18 04:20:18.575551",
     "title": "テーブルを生成するときに指定した文字列を最後に追加",
     "method": "config.active_record.table_name_suffix",
+    "use": "config.active_record.table_name_suffix = suffix",
     "updated_at": "2013-05-18 05:59:34.239651"
   },
   "belongs_to": {
@@ -8842,6 +9244,7 @@
     "created_at": "2011-07-23 08:59:29.189251",
     "title": "参照元テーブルから参照先テーブルを参照",
     "method": "belongs_to",
+    "use": "belongs_to(関連モデル名 [, scope, オプション])",
     "updated_at": "2015-05-04 15:30:28.156335",
     "versions": [
       "1.0.0",
@@ -8881,6 +9284,7 @@
     "created_at": "2011-07-23 09:18:15.373700",
     "title": "レコードの存在を確認",
     "method": "exists?",
+    "use": "モデル.exists?([条件])",
     "updated_at": "2015-05-05 07:44:50.983377",
     "versions": [
       "3.0.0",
@@ -8907,6 +9311,7 @@
     "created_at": "2013-05-06 07:49:30.467564",
     "title": "週の入力欄を生成",
     "method": "week_field",
+    "use": "week_field(要素名 [, 値, オプション])",
     "updated_at": "2015-05-04 17:05:54.745034",
     "versions": [
       "4.0.2",
@@ -8925,6 +9330,7 @@
     "created_at": "2013-05-06 07:49:30.467564",
     "title": "モデルと関連のない週の入力欄を生成",
     "method": "week_field_tag",
+    "use": "week_field_tag(要素名 [, 値, オプション])",
     "updated_at": "2015-05-04 17:05:54.745034",
     "versions": [
       "4.0.2",
@@ -8943,6 +9349,7 @@
     "created_at": "2013-05-18 04:20:46.830085",
     "title": "テーブル名を生成するときに複数形への変換をするかの設定",
     "method": "config.active_record.pluralize_table_names",
+    "use": "config.active_record.pluralize_table_names = false",
     "updated_at": "2013-05-21 12:31:11.429539"
   },
   "has_one": {
@@ -8950,6 +9357,7 @@
     "created_at": "2011-07-23 08:59:41.677805",
     "title": "1対1の関連を宣言",
     "method": "has_one",
+    "use": "has_one(関連モデル名 [, scope ,オプション])",
     "updated_at": "2015-05-03 17:09:27.496704",
     "versions": [
       "1.0.0",
@@ -8989,6 +9397,7 @@
     "created_at": "2013-05-10 11:53:09.021924",
     "title": "日付選択ボックスを生成",
     "method": "date_select",
+    "use": "date_select(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:45:10.577300",
     "versions": [
       "1.0.0",
@@ -9028,6 +9437,7 @@
     "created_at": "2013-05-18 04:21:39.043647",
     "title": "データベースの処理の際に使うタイムゾーン",
     "method": "config.active_record.default_timezone",
+    "use": "config.active_record.default_timezone",
     "updated_at": "2013-05-18 05:34:44.128400"
   },
   "has_many": {
@@ -9035,6 +9445,7 @@
     "created_at": "2011-07-23 08:59:54.277987",
     "title": "1対多の関連を宣言",
     "method": "has_many",
+    "use": "has_many(関連モデル名 [, scope, オプション])",
     "updated_at": "2015-05-04 16:30:52.254211",
     "versions": [
       "1.0.0",
@@ -9074,6 +9485,7 @@
     "created_at": "2013-05-10 11:56:01.593762",
     "title": "時間選択ボックスを生成",
     "method": "time_select",
+    "use": "time_select(オブジェクト名 メソッド名 [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-05-04 16:47:34.388347",
     "versions": [
       "1.2.6",
@@ -9108,6 +9520,7 @@
     "created_at": "2013-05-18 04:22:08.836141",
     "title": "スキーマの形式を変更",
     "method": "config.active_record.schema_format",
+    "use": "config.active_record.schema_format = 形式",
     "updated_at": "2015-05-02 17:35:38.900847"
   },
   "has_and_belongs_to_many": {
@@ -9115,6 +9528,7 @@
     "created_at": "2011-07-23 09:00:05.897921",
     "title": "多対多の関連を宣言",
     "method": "has_and_belongs_to_many",
+    "use": "has_and_belongs_to_many(関連モデル名 [, scope, オプション])",
     "updated_at": "2015-05-04 16:57:10.632986",
     "versions": [
       "1.0.0",
@@ -9154,6 +9568,7 @@
     "created_at": "2013-05-18 04:22:40.988394",
     "title": "マイグレーションファイルの識別子を設定",
     "method": "config.active_record.timestamped_migrations",
+    "use": "config.active_record.timestamped_migrations = false",
     "updated_at": "2013-05-18 06:02:31.559884"
   },
   "to_xml": {
@@ -9161,6 +9576,7 @@
     "created_at": "2011-12-29 11:22:05.258601",
     "title": "XML変換",
     "method": "to_xml",
+    "use": "配列.to_xml([オプション])",
     "updated_at": "2015-05-05 07:27:40.449052",
     "versions": [
       "3.0.0",
@@ -9187,6 +9603,7 @@
     "created_at": "2013-04-27 07:28:35.054189",
     "title": "取得する時のSQLを表示",
     "method": "to_sql",
+    "use": "モデル.to_sql()",
     "updated_at": "2015-05-05 07:24:48.159264",
     "versions": [
       "3.0.0",
@@ -9213,6 +9630,7 @@
     "created_at": "2013-05-18 04:23:11.313681",
     "title": "楽観的ロックの設定",
     "method": "config.active_record.lock_optimistically",
+    "use": "config.active_record.lock_optimistically = bool値",
     "updated_at": "2013-05-18 05:39:33.037469"
   },
   "polymorphic": {
@@ -9220,6 +9638,7 @@
     "created_at": "2011-07-23 09:00:29.858566",
     "title": "ポリモーフィック関連",
     "method": "",
+    "use": "",
     "updated_at": "2015-05-04 15:02:24.518926"
   },
   "config_action_controller_asset_host": {
@@ -9227,6 +9646,7 @@
     "created_at": "2013-05-18 06:05:28.779142",
     "title": "アセットファイルへのホストの設定",
     "method": "config.action_controller.asset_host",
+    "use": "config.action_controller.asset_host = URL",
     "updated_at": "2013-05-18 06:14:54.119473"
   },
   "config_action_controller_perform_caching": {
@@ -9234,13 +9654,15 @@
     "created_at": "2013-05-18 06:06:00.927745",
     "title": "コントローラのキャッシュ設定をするかの設定",
     "method": "config.action_controller.perform_caching",
+    "use": "config.action_controller.perform_caching = Bool値",
     "updated_at": "2015-05-02 16:41:56.053305"
   },
   "counter_cache": {
     "category_id": 10,
     "created_at": "2011-07-23 09:01:01.144310",
     "title": "カウンターキャッシュ",
-    "method": "counter_cache",
+    "method": "",
+    "use": "",
     "updated_at": "2015-05-05 08:25:32.787079"
   },
   "config_action_controller_default_static_extension": {
@@ -9248,6 +9670,7 @@
     "created_at": "2013-05-18 06:06:28.876979",
     "title": "キャッシュされたページに使用される拡張子の設定",
     "method": "config.action_controller.default_static_extension",
+    "use": "config.action_controller.default_static_extension = 拡張子",
     "updated_at": "2013-05-19 10:13:15.409312"
   },
   "config_action_controller_default_charset": {
@@ -9255,6 +9678,7 @@
     "created_at": "2013-05-18 06:06:59.482592",
     "title": "コントローラのデフォルト文字コード",
     "method": "config.action_controller.default_charset",
+    "use": "config.action_controller.default_charset = 文字コード",
     "updated_at": "2013-05-18 06:20:34.831074"
   },
   "model_new_record_q": {
@@ -9262,6 +9686,7 @@
     "created_at": "2012-02-18 13:23:26.678532",
     "title": "新しいレコードかチェック",
     "method": "new_record?",
+    "use": "モデル.new_record?()",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
       "3.0.0",
@@ -9288,6 +9713,7 @@
     "created_at": "2012-02-18 13:23:26.678532",
     "title": "保存済みかチェック",
     "method": "persisted?",
+    "use": "モデル.persisted?()",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
       "4.0.2",
@@ -9306,6 +9732,7 @@
     "created_at": "2012-02-18 13:23:26.678532",
     "title": "削除済みかチェック",
     "method": "destroyed?",
+    "use": "モデル.destroyed?()",
     "updated_at": "2015-05-05 07:37:55.398368",
     "versions": [
       "3.0.0",
@@ -9332,6 +9759,7 @@
     "created_at": "2013-05-18 06:08:09.923982",
     "title": "RequestForgeryのトークンパラメータを設定",
     "method": "config.action_controller.request_forgery_protection_token",
+    "use": "config.action_controller.request_forgery_protection_token",
     "updated_at": "2013-05-19 10:17:24.653557"
   },
   "config_action_controller_allow_forgery_protectio": {
@@ -9339,6 +9767,7 @@
     "created_at": "2013-05-18 06:08:40.534828",
     "title": "CSRF保護をするかの設定",
     "method": "config.action_controller.allow_forgery_protection",
+    "use": "config.action_controller.allow_forgery_protection = Bool値",
     "updated_at": "2013-05-21 12:33:22.997090"
   },
   "composed_of": {
@@ -9346,6 +9775,7 @@
     "created_at": "2013-04-20 08:31:22.180833",
     "title": "複数カラムをまとめる",
     "method": "composed_of",
+    "use": "モデル.composed_of(条件 [, オプション])",
     "updated_at": "2015-05-04 16:52:22.252266",
     "versions": [
       "1.0.0",
@@ -9385,6 +9815,7 @@
     "created_at": "2013-05-18 06:09:09.819448",
     "title": "サブディレクトリ",
     "method": "config.action_controller.relative_url_root",
+    "use": "config.action_controller.relative_url_root",
     "updated_at": "2013-05-19 10:19:27.000174"
   },
   "model_any_q": {
@@ -9392,6 +9823,7 @@
     "created_at": "2013-04-20 13:18:10.956754",
     "title": "モデルが空かチェック",
     "method": "any?",
+    "use": "モデル.any?([ブロック])",
     "updated_at": "2015-05-05 07:53:19.261913",
     "versions": [
       "4.0.2",
@@ -9410,6 +9842,7 @@
     "created_at": "2013-05-18 06:09:38.068906",
     "title": "デフォルトで許可されるmass assignmentのパラメータの設定",
     "method": "config.action_controller.permit_all_parameters",
+    "use": "config.action_controller.permit_all_parameters = Bool値",
     "updated_at": "2013-05-18 14:17:18.508666"
   },
   "config_action_controller_logger": {
@@ -9417,6 +9850,7 @@
     "created_at": "2013-05-18 06:07:32.147991",
     "title": "アクションコントローラのロガー",
     "method": "config.action_controller.logger",
+    "use": "config.action_controller.logger",
     "updated_at": "2013-05-19 04:44:34.342865"
   },
   "concat": {
@@ -9424,6 +9858,7 @@
     "created_at": "2013-04-20 14:50:41.723093",
     "title": "非出力コード内で出力",
     "method": "concat",
+    "use": "concat(文字列)",
     "updated_at": "2015-05-05 07:53:55.139616",
     "versions": [
       "2.1.0",
@@ -9454,6 +9889,7 @@
     "created_at": "2013-05-18 06:10:10.830435",
     "title": "許可されていないパラメータの例外処理について",
     "method": "config.action_controller.action_on_unpermitted_params",
+    "use": "config.action_controller.action_on_unpermitted_params",
     "updated_at": "2015-05-04 09:53:17.667595"
   },
   "config_action_view_field_error_proc": {
@@ -9461,6 +9897,7 @@
     "created_at": "2013-05-18 06:31:18.595029",
     "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定",
     "method": "config.action_view.field_error_proc",
+    "use": "config.action_view.field_error_proc",
     "updated_at": "2013-05-19 10:22:19.328589"
   },
   "instance_method_already_implemented": {
@@ -9468,6 +9905,7 @@
     "created_at": "2013-04-20 17:38:24.611383",
     "title": "例外が発生するかチェック",
     "method": "instance_method_already_implemented?",
+    "use": "モデル.instance_method_already_implemented?(属性)",
     "updated_at": "2015-05-05 07:55:19.226214",
     "versions": [
       "2.0.0",
@@ -9501,6 +9939,7 @@
     "created_at": "2013-05-18 06:31:46.539244",
     "title": "デフォルトで使用するビルダー形式",
     "method": "config.action_view.default_form_builder",
+    "use": "config.action_view.default_form_builder",
     "updated_at": "2013-05-19 10:24:16.725010"
   },
   "to_param": {
@@ -9508,6 +9947,7 @@
     "created_at": "2013-04-21 12:17:56.292424",
     "title": "URLのidの部分にid以外のものを指定",
     "method": "to_param",
+    "use": "to_param",
     "updated_at": "2015-05-05 07:56:10.868364",
     "versions": [
       "3.2.3",
@@ -9529,6 +9969,7 @@
     "created_at": "2013-05-18 06:32:45.820968",
     "title": "ERBの処理方法",
     "method": "config.action_view.erb_trim_mode",
+    "use": "config.action_view.erb_trim_mode = 区切り文字",
     "updated_at": "2013-05-18 07:01:32.441859"
   },
   "touch": {
@@ -9536,6 +9977,7 @@
     "created_at": "2013-04-21 15:08:41.116220",
     "title": "update_atを更新",
     "method": "touch",
+    "use": "モデル.touch([名前])",
     "updated_at": "2015-05-05 07:56:47.202176",
     "versions": [
       "3.0.0",
@@ -9562,6 +10004,7 @@
     "created_at": "2013-05-18 06:33:10.387666",
     "title": "Fromでのauthenticity_tokenの付与について",
     "method": "config.action_view.embed_authenticity_token_in_remote_forms",
+    "use": "config.action_view.embed_authenticity_token_in_remote_forms = Bool値",
     "updated_at": "2013-05-19 04:56:16.982839"
   },
   "create_with": {
@@ -9569,6 +10012,7 @@
     "created_at": "2013-04-27 04:43:26.015991",
     "title": "関連モデルオブジェクトから新しい属性を作成",
     "method": "create_with",
+    "use": "モデル.create_with(属性)",
     "updated_at": "2015-05-05 07:35:15.778004",
     "versions": [
       "3.0.0",
@@ -9595,6 +10039,7 @@
     "created_at": "2013-05-18 06:33:45.735154",
     "title": "サブディレクトリの名前空間について",
     "method": "config.action_view.prefix_partial_path_with_controller_namespace",
+    "use": "config.action_view.prefix_partial_path_with_controller_namespace = Bool値",
     "updated_at": "2013-05-19 05:01:20.933912"
   },
   "eager_load": {
@@ -9602,6 +10047,7 @@
     "created_at": "2013-04-27 04:50:00.441700",
     "title": "左外部結合を使ってすべてのレコードを取得",
     "method": "eager_load",
+    "use": "モデル.eager_load(属性)",
     "updated_at": "2015-05-05 07:34:37.160096",
     "versions": [
       "3.0.0",
@@ -9628,6 +10074,7 @@
     "created_at": "2013-05-18 06:32:18.895801",
     "title": "ビューのロガーの設定",
     "method": "config.action_view.logger",
+    "use": "config.action_view.logger = ロガー名",
     "updated_at": "2013-05-19 10:25:27.979013"
   },
   "extending": {
@@ -9635,6 +10082,7 @@
     "created_at": "2013-04-27 05:26:54.625059",
     "title": "scopeを使ってモデルを拡張",
     "method": "extending",
+    "use": "モデル.extending(モジュール)",
     "updated_at": "2015-05-05 07:57:20.339743",
     "versions": [
       "3.0.0",
@@ -9661,6 +10109,7 @@
     "created_at": "2013-05-18 06:42:17.253810",
     "title": "電子メールで使用するデフォルトのロガーの設定",
     "method": "config.action_mailer.logger",
+    "use": "config.action_mailer.logger",
     "updated_at": "2013-05-19 10:26:11.701906"
   },
   "config_action_mailer_smtp_settings": {
@@ -9668,6 +10117,7 @@
     "created_at": "2013-05-18 06:42:47.056514",
     "title": "SMTPの設定",
     "method": "config.action_mailer.smtp_settings",
+    "use": "config.action_mailer.smtp_settings",
     "updated_at": "2015-05-02 16:40:55.105615"
   },
   "config_action_mailer_sendmail_settings": {
@@ -9675,6 +10125,7 @@
     "created_at": "2013-05-18 06:43:20.471280",
     "title": "センドメールの設定",
     "method": "config.action_mailer.sendmail_settings",
+    "use": "config.action_mailer.sendmail_settings = sendmailの設定",
     "updated_at": "2015-05-02 16:41:05.674195"
   },
   "config_action_mailer_raise_delivery_errors": {
@@ -9682,6 +10133,7 @@
     "created_at": "2013-05-18 06:43:50.154670",
     "title": "電子メールが配信完了できない場合にエラーを発生させるかの設定",
     "method": "config.action_mailer.raise_delivery_errors",
+    "use": "config.action_mailer.raise_delivery_errors = Bool値",
     "updated_at": "2013-05-21 12:34:16.426614"
   },
   "config_action_mailer_delivery_method": {
@@ -9689,6 +10141,7 @@
     "created_at": "2013-05-18 06:44:18.405142",
     "title": "電子メールの配信方法を設定",
     "method": "config.action_mailer.delivery_method",
+    "use": "config.action_mailer.delivery_method = 配信方法",
     "updated_at": "2013-05-18 07:05:34.569543"
   },
   "config_action_mailer_perform_deliveries": {
@@ -9696,6 +10149,7 @@
     "created_at": "2013-05-18 06:44:44.618982",
     "title": "電子メールの使用をするかの設定",
     "method": "config.action_mailer.perform_deliveries",
+    "use": "config.action_mailer.perform_deliveries = Bool値",
     "updated_at": "2013-05-21 12:34:39.210375"
   },
   "config_action_mailer_default_options": {
@@ -9703,6 +10157,7 @@
     "created_at": "2013-05-18 06:45:11.131690",
     "title": "電子メールのデフォルトオプション",
     "method": "config.action_mailer.default_options",
+    "use": "config.action_mailer.default_options = デフォルトのオプション",
     "updated_at": "2013-05-19 10:32:08.095718"
   },
   "config_action_mailer_observers": {
@@ -9710,6 +10165,7 @@
     "created_at": "2013-05-18 06:45:37.649257",
     "title": "メールが配信されたときに通知されオブザーバーを登録",
     "method": "config.action_mailer.observers",
+    "use": "config.action_mailer.observers = オブザーバー",
     "updated_at": "2013-05-19 10:33:20.465589"
   },
   "config_action_mailer_interceptors": {
@@ -9717,6 +10173,7 @@
     "created_at": "2013-05-18 06:47:12.578801",
     "title": "電子メールが送信される前に呼び出させるインタープリタを登録",
     "method": "config.action_mailer.interceptors",
+    "use": "config.action_mailer.interceptors = インタープリタ",
     "updated_at": "2013-05-18 14:52:17.442992"
   },
   "config_action_dispatch_session_store": {
@@ -9724,6 +10181,7 @@
     "created_at": "2013-05-18 06:48:58.619417",
     "title": "セッションストアの名前の設定",
     "method": "config.action_dispatch.session_store",
+    "use": "config.action_dispatch.session_store = セッションストア名",
     "updated_at": "2013-05-19 10:33:55.511589"
   },
   "config_action_dispatch_default_headers": {
@@ -9731,6 +10189,7 @@
     "created_at": "2013-05-18 06:49:31.998271",
     "title": "デフォルトで設定されたHTMLヘッダを持つハッシュ",
     "method": "config.action_dispatch.default_headers",
+    "use": "config.action_dispatch.default_headers = ハッシュ",
     "updated_at": "2013-05-19 10:34:39.199677"
   },
   "config_action_dispatch_tld_length": {
@@ -9738,6 +10197,7 @@
     "created_at": "2013-05-18 06:49:57.383829",
     "title": "アプリケーションのトップドメインの長さを設定",
     "method": "config.action_dispatch.tld_length",
+    "use": "config.action_dispatch.tld_length = 数値",
     "updated_at": "2013-05-19 10:48:36.755404"
   },
   "callbacks_before": {
@@ -9745,6 +10205,7 @@
     "created_at": "2013-05-18 06:50:29.323329",
     "title": "リクエストの前に実行する処理",
     "method": "ActionDispatch::Callbacks.before",
+    "use": "ActionDispatch::Callbacks.before",
     "updated_at": "2013-05-19 13:29:12.728877"
   },
   "callbacks_to_prepare": {
@@ -9752,6 +10213,7 @@
     "created_at": "2013-05-18 06:51:05.897239",
     "title": "ActionDispatch::Callbacks.beforeの後に実行する処理",
     "method": "ActionDispatch::Callbacks.to_prepare",
+    "use": "ActionDispatch::Callbacks.to_prepare",
     "updated_at": "2013-05-19 05:11:21.389712"
   },
   "callbacks_after": {
@@ -9759,6 +10221,7 @@
     "created_at": "2013-05-18 06:51:36.382986",
     "title": "リクエストの後に実行する処理",
     "method": "ActionDispatch::Callbacks.after",
+    "use": "ActionDispatch::Callbacks.after",
     "updated_at": "2013-05-19 13:30:43.875116"
   },
   "config_active_support_bare": {
@@ -9766,6 +10229,7 @@
     "created_at": "2013-05-18 06:52:52.855235",
     "title": "アクティブサポートのロードの設定",
     "method": "config.active_support.bare",
+    "use": "config.active_support.bare = Bool値",
     "updated_at": "2013-05-19 13:31:55.762797"
   },
   "config_active_support_escape_html_entities_in_json": {
@@ -9773,6 +10237,7 @@
     "created_at": "2013-05-18 06:53:25.825997",
     "title": "JSONのシリアル化でHTMLエンティティのエスケープ処理をするかの設定",
     "method": "config.active_support.escape_html_entities_in_json",
+    "use": "config.active_support.escape_html_entities_in_json = Bool値",
     "updated_at": "2013-05-21 12:35:18.263089"
   },
   "config_active_support_use_standard_json_time_format": {
@@ -9780,6 +10245,7 @@
     "created_at": "2013-05-18 06:53:53.569624",
     "title": "ISO8601形式に日時をシリアライズ",
     "method": "config.active_support.use_standard_json_time_format",
+    "use": "config.active_support.use_standard_json_time_format = Bool値",
     "updated_at": "2013-05-18 15:12:09.164488"
   },
   "cache_store_logger": {
@@ -9787,6 +10253,7 @@
     "created_at": "2013-05-18 06:55:07.997818",
     "title": "キャッシュストアで使用するロガーの設定",
     "method": "ActiveSupport::Cache::Store.logger",
+    "use": "ActiveSupport::Cache::Store.logger",
     "updated_at": "2013-05-19 13:32:58.399965"
   },
   "deprecation_behavior": {
@@ -9794,6 +10261,7 @@
     "created_at": "2013-05-18 06:55:41.066132",
     "title": "非推奨の警告の動作を設定",
     "method": "ActiveSupport::Deprecation.behavior",
+    "use": "ActiveSupport::Deprecation.behavior",
     "updated_at": "2013-05-19 05:24:46.283460"
   },
   "deprecation_silence": {
@@ -9801,6 +10269,7 @@
     "created_at": "2013-05-18 06:56:04.511414",
     "title": "指定されたブロックで警告が表示されるか",
     "method": "ActiveSupport::Deprecation.silence",
+    "use": "ActiveSupport::Deprecation.silence",
     "updated_at": "2013-05-19 13:34:40.688524"
   },
   "deprecation_silenced": {
@@ -9808,6 +10277,7 @@
     "created_at": "2013-05-18 06:56:29.189197",
     "title": "非推奨の警告を標示するかの設定",
     "method": "ActiveSupport::Deprecation.silenced",
+    "use": "ActiveSupport::Deprecation.silenced",
     "updated_at": "2013-05-21 12:35:58.811074"
   },
   "add_flash_types": {
@@ -9815,6 +10285,7 @@
     "created_at": "2014-04-28 08:51:54.782089",
     "title": "フラッシュメッセージのタイプを指定",
     "method": "add_flash_types",
+    "use": "add_flash_types(:タイプ名 [, ...])",
     "updated_at": "2015-05-04 15:23:20.525707",
     "versions": [
       "4.0.2",
@@ -9833,6 +10304,7 @@
     "created_at": "2013-05-18 06:54:18.349205",
     "title": "サイレンサーのブロックをするかの設定",
     "method": "ActiveSupport::Logger.silencer",
+    "use": "ActiveSupport::Logger.silencer",
     "updated_at": "2013-05-21 12:36:37.415859"
   },
   "after_action": {
@@ -9840,6 +10312,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの後に処理を実行",
     "method": "after_action",
+    "use": "after_action(アクション名 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "after_validation": {
@@ -9847,6 +10320,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "バリデーションの直後に呼び出されるメソッド",
     "method": "after_validation",
+    "use": "after_validation(メソッド名 [, ...])",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "around_action": {
@@ -9854,6 +10328,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの前後に処理を実行",
     "method": "around_action",
+    "use": "around_action(アクション名 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "array": {
@@ -9861,6 +10336,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "配列関係の便利関数",
     "method": "",
+    "use": "",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "as_json": {
@@ -9868,6 +10344,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "モデルをハッシュ形式のJSONに変換",
     "method": "as_json",
+    "use": "モデル.as_json([オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -9894,6 +10371,7 @@
     "created_at": "2020-02-15 09:14:45.471397",
     "title": "Rails標準のジョブを処理する仕組み",
     "method": "",
+    "use": "",
     "updated_at": "2020-02-15 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -9910,6 +10388,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定した個数のジョブが登録さているか確認",
     "method": "assert_enqueued_jobs",
+    "use": "assert_enqueued_jobs(個数 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -9926,6 +10405,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定した引数でジョブを登録",
     "method": "assert_enqueued_with",
+    "use": "assert_enqueued_with([オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -9942,6 +10422,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定したパスが生成できるかバリデーション",
     "method": "assert_generates",
+    "use": "assert_generates(パス, オプション [, nil, 追加のパラメータ, メッセージ])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -9968,6 +10449,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "ルーティングやオプションのバリデーション",
     "method": "assert_recognizes",
+    "use": "assert_recognizes(バリデーションするオプション, パス, 追加パラメータ, メッセージ)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -9994,6 +10476,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "リダイレクト先がどうなっているかバリデーション",
     "method": "assert_redirected_to",
+    "use": "assert_redirected_to([オプション, メッセージ])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10020,6 +10503,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "ステータスコードのバリデーション",
     "method": "assert_response",
+    "use": "assert_response(タイプ [, メッセージ])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10046,6 +10530,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "ルーティングとオプションのバリデーション",
     "method": "assert_routing",
+    "use": "assert_routing(パス, オプション, nil, 追加パラメータ, メッセージ)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10072,6 +10557,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "アクションの前に処理を実行",
     "method": "before_action",
+    "use": "before_action(アクション名 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "before_validation": {
@@ -10079,6 +10565,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "バリデーションの直前に呼び出されるメソッドを設定",
     "method": "before_validation",
+    "use": "before_validation(引数 [, ...])",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "cache_if": {
@@ -10086,6 +10573,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "フラグメントキャッシュが有効かチェック",
     "method": "cache_if",
+    "use": "cache_if(条件式 [, キー名, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10104,6 +10592,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定された文字列からCDATAセクションを出力",
     "method": "cdata_section",
+    "use": "cdata_section(文字列)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.0.0",
@@ -10143,6 +10632,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "カラムのコメントを変更",
     "method": "change_column_comment",
+    "use": "change_column_comment(テーブル名, カラム名, comment_or_changes)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10156,6 +10646,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "NULL制約の追加または削除",
     "method": "change_column_null",
+    "use": "change_column_null(table_name, column_name, null, default = nil)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10174,6 +10665,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "テーブルのコメントを変更",
     "method": "change_table_comment",
+    "use": "change_table_comment(テーブル名, コメント)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10187,6 +10679,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "モデルの変更前と変更後の値をハッシュで取得",
     "method": "changes",
+    "use": "モデル.changes()",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10213,6 +10706,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "全てのバリデーションをクリア",
     "method": "clear_validators!",
+    "use": "モデル.clear_validators!()",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10231,6 +10725,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "フラグメントキャッシュの参照",
     "method": "combined_fragment_cache_key",
+    "use": "combined_fragment_cache_key(キー名)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.2.3",
@@ -10242,6 +10737,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "SQL文を使って件数を取得",
     "method": "count_by_sql",
+    "use": "count_by_sql(SQL文)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.2.3",
@@ -10263,6 +10759,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "複製可能かチェック",
     "method": "duplicable?",
+    "use": "duplicable?",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "2.2.1",
@@ -10292,6 +10789,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "テーブルに外部キー制約が存在するかチェック",
     "method": "foreign_key_exists?",
+    "use": "foreign_key_exists?(from_table [, to_table = nil, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10305,6 +10803,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "フラグメントキャッシュが存在するか確認",
     "method": "fragment_exist?",
+    "use": "fragment_exist?(キー名 [,  オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10318,6 +10817,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "ハッシュ関係の便利関数",
     "method": "",
+    "use": "",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "html_escape": {
@@ -10325,6 +10825,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "HTMLタグをエスケープ",
     "method": "html_escape",
+    "use": "html_escape(文字列)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "2.0.0",
@@ -10358,6 +10859,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "既にエスケープされた文字列はそのままで、HTMLタグをエスケープ",
     "method": "html_escape_once",
+    "use": "html_escape_once(文字列)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10376,6 +10878,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "分割してレコードを取得して処理",
     "method": "in_batches",
+    "use": "モデル.in_batches([オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10389,6 +10892,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "テーブルに指定した名前のインデックスが存在するかチェック",
     "method": "index_name_exists?",
+    "use": "index_name_exists?(テーブル名, インデックス名)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10415,6 +10919,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定されたテーブルのインデックスを配列で取得",
     "method": "indexes",
+    "use": "indexes(テーブル名)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "2.1.0",
@@ -10445,6 +10950,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "数値関係の便利関数",
     "method": "",
+    "use": "",
     "updated_at": "2015-04-04 03:17:22.691495"
   },
   "json_escape": {
@@ -10452,6 +10958,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "JSONエスケープ",
     "method": "json_escape",
+    "use": "json_escape(文字列)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "2.1.0",
@@ -10482,6 +10989,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "関連するモデルの左外部結合",
     "method": "left_outer_joins",
+    "use": "モデル.left_outer_joins(モデル名)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10495,6 +11003,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "主キーを設定して複数のレコードを追加",
     "method": "concat",
+    "use": "モデル.concat(モデル)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.0.0",
@@ -10534,6 +11043,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "重複のない値を取得",
     "method": "distinct",
+    "use": "モデル.distinct([重複を削除するか])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10552,6 +11062,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "OR条件式",
     "method": "or",
+    "use": "モデル.or(条件式)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10570,6 +11081,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "条件式を削除",
     "method": "unscope",
+    "use": "モデル.unscope(条件式)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -10588,6 +11100,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "モデルが保存される前に変更された値をハッシュで取得",
     "method": "previous_changes",
+    "use": "モデル.previous_changes()",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10614,6 +11127,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "直前のページにリダイレクト",
     "method": "redirect_back",
+    "use": "redirect_back(HTTP_REFERERが設定されていない場合のリダイレクト先 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10627,6 +11141,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "例外処理をまとめる",
     "method": "rescue_from",
+    "use": "rescue_from(例外 , with: メソッド)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "2.2.1",
@@ -10656,6 +11171,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "選択ボックスを生成",
     "method": "select_tag",
+    "use": "select_tag(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTML属性 or イベント属性])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.0.0",
@@ -10695,6 +11211,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "日時を表示",
     "method": "time_ago_in_words",
+    "use": "time_ago_in_words(時間 [, オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.0.0",
@@ -10734,6 +11251,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "Digest::MD5を使ったUUID",
     "method": "uuid_v3",
+    "use": "Digest::UUID.uuid_v3(UUIDの名前空間, 名前)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -10750,6 +11268,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "UUID",
     "method": "uuid_v4",
+    "use": "Digest::UUID.uuid_v4",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -10766,6 +11285,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "Digest::SHA1を使ったUUID",
     "method": "uuid_v5",
+    "use": "Digest::UUID.uuid_v5(UUIDの名前空間, 名前)",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "4.2.1",
@@ -10782,6 +11302,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "指定された長さ以降の空白に改行を入れて出力",
     "method": "word_wrap",
+    "use": "word_wrap(text, [オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.0.0",
@@ -10821,6 +11342,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "フラグメントキャッシュの保存",
     "method": "write_fragment",
+    "use": "write_fragment(キー名, 保存場所 [,  オプション])",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "5.0.0.1",
@@ -10834,6 +11356,7 @@
     "created_at": "2011-07-23 09:14:45.471397",
     "title": "リクエストで指定されたフォーマットに合わせて出力",
     "method": "respond_to",
+    "use": "respond_to do |format| end",
     "updated_at": "2015-04-04 03:17:22.691495",
     "versions": [
       "1.1.6",
@@ -10870,6 +11393,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "ぼっち演算",
     "method": "try",
+    "use": "オブジェクト.try(メソッド)",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "2.3.2",
@@ -10898,6 +11422,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "共通のルーティング定義",
     "method": "concern",
+    "use": "concern(名前, [コールバック])",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10924,6 +11449,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "メンバールーティングを追加",
     "method": "member",
+    "use": "member",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "4.1.8",
@@ -10941,6 +11467,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "バリデーションの別クラスにエラーを追加",
     "method": "validates_with",
+    "use": "validates_with(引数)",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -10967,6 +11494,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "ブロックに対してのバリデーション",
     "method": "validates_each",
+    "use": "validates_each(キー名, [,  オプション])",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "2.1.0",
@@ -10997,6 +11525,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "カラムを指定して取得",
     "method": "select",
+    "use": "モデル.select(カラム名)",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -11023,6 +11552,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "指定した条件以外の条件をクエリから削除",
     "method": "only",
+    "use": "モデル.only(条件)",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -11049,6 +11579,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "ブロック内の実行時間を測定し結果をログに記録",
     "method": "benchmark",
+    "use": "benchmark([メッセージ, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "3.0.0",
@@ -11075,6 +11606,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "モデルからラジオボタンを自動生成",
     "method": "collection_radio_buttons",
+    "use": "collection_radio_buttons(オブジェクト名, コレクション名, メソッド名, value値 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -11093,6 +11625,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "モデルからチェックボックスを自動生成",
     "method": "collection_check_boxes",
+    "use": "collection_check_boxes(オブジェクト名, メソッド名, コレクション名 [, オプション, checked_value, unchecked_value])",
     "updated_at": "2020-01-05 03:17:22.691495",
     "versions": [
       "4.0.2",
@@ -11111,6 +11644,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "Railsアプリケーションのバージョン情報や各ディレクトリのライブラリ名などを出力",
     "method": "rails about",
+    "use": "$ rails about",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "rails_assets": {
@@ -11118,6 +11652,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アセット関連の作成処理",
     "method": "rails assets",
+    "use": "$ rails assets",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "rails_notes": {
@@ -11125,6 +11660,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "コードからコメントの部分を抽出",
     "method": "rails notes",
+    "use": "$ ails notes",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "rails_routes": {
@@ -11132,6 +11668,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "定義されている全ルーティングを出力",
     "method": "rails routes",
+    "use": "$ rails routes",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "rails_tmp": {
@@ -11139,6 +11676,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "tmpディレクトリを生成",
     "method": "rails tmp",
+    "use": "$ rails tmp",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_disable_sandbox": {
@@ -11146,6 +11684,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "rails consoleでsandboxの起動不可",
     "method": "config.disable_sandbox",
+    "use": "config.disable_sandbox = Bool値",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_enable_dependency_loading": {
@@ -11153,6 +11692,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "cache_classesがtrueでも自動読み込みを有効",
     "method": "config.enable_dependency_loading",
+    "use": "config.enable_dependency_loading = Bool値",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_debug_exception_response_format": {
@@ -11160,6 +11700,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "developmentモードでエラーが発生した場合のレスポンスのフォーマットを定義",
     "method": "config.debug_exception_response_format",
+    "use": "config.debug_exception_response_format",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_log_formatter": {
@@ -11167,6 +11708,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "ロガーのフォーマットを定義",
     "method": "config.log_formatter",
+    "use": "config.log_formatter",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_credentials_content_path": {
@@ -11174,6 +11716,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "暗号化済みのcredentialのパスを定義",
     "method": "config.credentials.content_path",
+    "use": "config.credentials.content_path",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "config_credentials_key_path": {
@@ -11181,6 +11724,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "暗号化キーのパスを定義",
     "method": "config.credentials.key_path",
+    "use": "config.credentials.key_path",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "callback_info": {
@@ -11188,6 +11732,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "コールバックについて",
     "method": "",
+    "use": "",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "after_initialize": {
@@ -11195,6 +11740,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "モデルが作成される時に実行",
     "method": "after_initialize",
+    "use": "after_initializedo |x| end",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "after_touch": {
@@ -11202,6 +11748,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "モデルをタッチするたびに実行",
     "method": "after_touch",
+    "use": "after_touch |x| end",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "define_model_callbacks": {
@@ -11209,6 +11756,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "デフォルトのコールバックを上書き",
     "method": "define_model_callbacks",
+    "use": "define_model_callbacks(メソッド名 [, only: タイプ])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "append_after_action": {
@@ -11216,6 +11764,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの後に処理を追加",
     "method": "append_after_action",
+    "use": "append_after_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "append_around_action": {
@@ -11223,6 +11772,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの前後に処理を追加",
     "method": "append_around_action",
+    "use": "append_around_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "append_before_action": {
@@ -11230,6 +11780,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの前に処理を追加",
     "method": "append_before_action",
+    "use": "append_before_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "prepend_after_action": {
@@ -11237,6 +11788,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの後に処理を追加",
     "method": "prepend_after_action",
+    "use": "prepend_after_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "prepend_around_action": {
@@ -11244,6 +11796,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの前後に処理を追加",
     "method": "prepend_around_action",
+    "use": "prepend_around_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "prepend_before_action": {
@@ -11251,6 +11804,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの前に処理を追加",
     "method": "prepend_before_action",
+    "use": "prepend_before_action(コールバック名 [, オプション])",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "skip_after_action": {
@@ -11258,6 +11812,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの後のコールバックをスキップ",
     "method": "skip_after_action",
+    "use": "",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "skip_around_action": {
@@ -11265,6 +11820,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションに関するコールバックをスキップ",
     "method": "skip_around_action",
+    "use": "skip_after_action(コールバック名)",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "skip_before_action": {
@@ -11272,6 +11828,7 @@
     "created_at": "2020-01-05 09:14:45.471397",
     "title": "アクションの前のコールバックをスキップ",
     "method": "skip_before_action",
+    "use": "skip_before_action(コールバック名)",
     "updated_at": "2020-01-05 03:17:22.691495"
   },
   "transaction": {
@@ -11279,6 +11836,7 @@
     "created_at": "2011-07-23 09:00:15.987874",
     "title": "トランザクション",
     "method": "transaction",
+    "use": "モデル.transaction do",
     "updated_at": "2015-05-05 07:52:43.290373",
     "versions": [
       "1.0.0",
@@ -11318,6 +11876,7 @@
     "created_at": "2011-07-23 09:00:40.563581",
     "title": "データベースのロック",
     "method": "",
+    "use": "",
     "updated_at": "2013-05-10 13:10:11.446435"
   },
   "direct": {
@@ -11325,6 +11884,7 @@
     "created_at": "2020-02-15 09:00:15.987874",
     "title": "カスタムURLヘルパーを定義 ",
     "method": "direct",
+    "use": "direct(名前 [, オプション])",
     "updated_at": "2020-02-15 07:52:43.290373",
     "versions": [
       "5.1.7",
@@ -11337,6 +11897,7 @@
     "created_at": "2020-02-15 09:00:15.987874",
     "title": "モデルのURLマッピングを定義 ",
     "method": "resolve",
+    "use": "resolve(名前)",
     "updated_at": "2020-02-15 07:52:43.290373",
     "versions": [
       "5.1.7",
@@ -11349,6 +11910,7 @@
     "created_at": "2020-02-15 09:00:15.987874",
     "title": "Basic認証 ",
     "method": "http_basic_authenticate_with",
+    "use": "http_basic_authenticate_with(name: 名前, password: パスワード [, realm: 認証が必要がエリア名, オプション])",
     "updated_at": "2020-02-15 07:52:43.290373",
     "versions": [
       "3.1.0",
@@ -11371,6 +11933,7 @@
     "created_at": "2020-02-15 09:00:15.987874",
     "title": "CSRF対策の設定",
     "method": "protect_from_forgery",
+    "use": "protect_from_forgery([オプション])",
     "updated_at": "2020-02-15 07:52:43.290373",
     "versions": [
       "2.0.3",

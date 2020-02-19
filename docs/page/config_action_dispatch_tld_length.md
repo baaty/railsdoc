@@ -6,7 +6,7 @@ layout: page
 デフォルトは、「1」
 
 ### 使い方
-    config.action_dispatch.tld_length
+    config.action_dispatch.tld_length = 数値
 
 ### 例
     config.action_dispatch.tld_length = 2

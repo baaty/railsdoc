@@ -11,7 +11,7 @@ layout: page
 * クラス名をすべて小文字にしたものが、ファイル名アンダースコア(_)以降と一致する必要がある
 
 ### 使い方
-    $ rails generate migration 名前 [カラム名:型]  [オプション]
+    $ rails generate migration 名前 [カラム名:型] [オプション]
 
 ### オプション
 

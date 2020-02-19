@@ -6,7 +6,7 @@ layout: page
 デフォルトは、「true」
 
 ### 使い方
-    config.action_mailer.raise_delivery_errors
+    config.action_mailer.raise_delivery_errors = Bool値
 
 ### 例
     config.action_mailer.raise_delivery_errors = false

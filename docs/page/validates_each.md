@@ -5,7 +5,7 @@ layout: page
 ブロックに対してのバリデーション
 
 ### 使い方
-    validates_each(キー名, [,  オプション]
+    validates_each(キー名, [,  オプション])
 
 ### オプション
 

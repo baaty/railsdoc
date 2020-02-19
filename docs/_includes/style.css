@@ -12,9 +12,11 @@ body {
 header {
   width: 100%;
   background-color:#cc0000;
-  color: #fff;
   padding: 4px 12px;
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 header a {
   text-decoration: none;
@@ -24,6 +26,7 @@ header h1 {
   margin-top: 4px;
   margin-bottom: 4px;
   display: inline-block;
+  color: #fff;
 }
 header .block {
   margin-top: 16px;
@@ -138,7 +141,23 @@ main .tag a {
   margin: 0 4px 4px 0;
   font-size: 80%;
 }
-
+.search {
+  margin: 12px;
+}
+.search .i-amphtml-autocomplete-results {
+  width: 80vw;
+}
+.search h3 {
+  border-bottom: solid #cc0000 2px;
+}
+.search a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.row {
+  display: flex;
+}
 .col-1 {
   width: 8.33333%;
   display: inline-block;

@@ -16,22 +16,22 @@ layout: page
 
 ### 例
 #### タグの情報を配列で指定
-    <%= select_tag 'page[name]', grouped_options_for_select([["基礎", [["Railsの基礎", "rails_base"], ["Rubyの基礎", "ruby_base"]]]]) %>
+    select_tag 'page[name]', grouped_options_for_select([["基礎", [["Railsの基礎", "rails_base"], ["Rubyの基礎", "ruby_base"]]]])
     # <select id="page_name" name="page[name]"><optgroup label="基礎"><option value="rails_base">Railsの基礎</option>
     # <option value="ruby_base">Rubyの基礎</option></optgroup></select>
 
 #### タグの情報をハッシュで指定
-    <%= select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]}) %>
+    select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]})
     # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
     # <option value="ruby_base">Rubyの基礎</option></select>
 
 #### 選択されたオプション
-    <%= select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]}, "rails_base") %>
+    select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]}, "rails_base")
     # <select id="page_name" name="page[name]"><option value="rails_base">Railsの基礎</option>
     # <option value="ruby_base">Rubyの基礎</option></select>
 
 #### 選択オプションの先頭に表示される文字列
-    <%= select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]}, "", "選択してください") %>
+    select_tag 'page[name]', grouped_options_for_select({基礎: [["Railsの基礎" ,"rails_base"], ["Rubyの基礎", "ruby_base"]]}, "", "選択してください")
     # <select id="page_name" name="page[name]"><option value="">選択してください</option><option value="rails_base">Railsの基礎</option>
     # <option value="ruby_base">Rubyの基礎</option></select>
 

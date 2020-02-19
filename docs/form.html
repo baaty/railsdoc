@@ -2,41 +2,49 @@
 title: "フォーム(form)"
 description: "フォーム関連の約50個のメソッドのオプションや使い方の例など。form_for／form_tag／check_box／check_box_tag／radio_button／radio_button_tag／text_area／text_area_tag／password_field／password_field_tag／hidden_field／hidden_field_tag／label／label_tag／text_field／text_field_tag／file_field／file_field_tag／options_for_select／grouped_options_for_select／option_groups_from_collection_for_select／options_from_collection_for_select／collection_select／grouped_collection_select／email_field／email_field_tag／number_field／number_field_tag／range_field／range_field_tag／search_field／search_field_tag／telephone_field／telephone_field_tag／url_field／url_field_tag／submit／submit_tag／datetime_select／fields_for／field_set_tag／button／button_tag／image_submit_tag／color_field／color_field_tag／date_field／date_field_tag／datetime_field／datetime_field_tag／datetime_local_field／datetime_local_field_tag／month_field／month_field_tag／time_field／time_field_tag／week_field／week_field_tag／date_select／time_select／form_with／select_tag"
 ---
-{% include header.html %}
+{% include header.html ogp="form.png" %}
 <main class="col-12 sm-col-8">
+<article>
 {%- for i in site.data.pages -%}
   {% if i[1].category_id != 9 %}{% continue %}{% endif %}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
-<article>
+<section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
   {% if i[1].versions %}
   <aside class="xs-hide">
   <h3>適応バージョン</h3>
   <ul class="versions">
-  {% for i2 in i[1].versions %}
+  {% for i2 in i[1].versions -%}
     <li>{{i2}}</li>
-  {% endfor %}
+  {% endfor -%}
   </ul>
   </aside>
   {% endif %}
   {{ markdownStr | remove: "layout: page" | remove: "---" | markdownify }}
-</article>
+</section>
 {% endfor %}
+<section>
+  <h2>おまけ</h2>
+  <p>Rails6のForm関連のメソッドの説明とバージョン情報を一枚の画像にまとめました</p>
+  <amp-img src="assets/images/form.png" alt="Rails6のForm関連メソッド一覧" width="144" height="80" role="button" tabindex="0" on="tap:ogp"></amp-img>
+  <amp-image-lightbox id="ogp" layout="nodisplay"></amp-image-lightbox>
+</section>
+</article>
 </main>
 <aside class="xs-hide sm-col-2">
   <h3>目次</h3>
   <h4>メソッド一覧</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {% if i[1].category_id != 9 %}{% continue %}{% endif %}
-      {% if i[1].method == "" %}{% continue %}{% endif %}
+      {%- if i[1].category_id != 9 -%}{% continue %}{%- endif -%}
+      {%- if i[1].method == "" -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].method}}</a></li>
     {% endfor %}
   </ol>
   <h4>逆引き</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {% if i[1].category_id != 9 %}{% continue %}{% endif %}
+      {%- if i[1].category_id != 9 -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
     {% endfor %}
   </ol>

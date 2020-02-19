@@ -42,11 +42,11 @@ layout: page
 
 #### f.file_field
 ##### ファイル選択ボックスを生成
-    <%= f.file_field :fine_name %>
+    f.file_field :fine_name
     # <input id="page_fine_name" name="page[fine_name]" size="30" type="file" />
 
 ##### class属性を指定
-    <%= f.file_field :fine_name, :class = 'page_fine_name' %>
+    f.file_field :fine_name, :class = 'page_fine_name'
     # <input class="page_fine_name" id="page_fine_name" name="page[fine_name]" size="30" type="file" />
 
 ### ソースコード

@@ -5,7 +5,7 @@ layout: page
 未実行のマイグレーションファイルを実行
 
 ### 使い方
-    $ rake db:migrate [VERSION=バージョン番号] [オプション]
+    $ rake db:migrate [VERSION=バージョン番号 オプション]
 
 ### 実行の流れ
 1.  rake db:migrateを実行

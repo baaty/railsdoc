@@ -8,7 +8,6 @@ sendmailの設定
     config.action_mailer.sendmail_settings = オプション
 
 ### オプション
-説明実行可能なsendmailのパス。コマンドラインの引数
 
 オプション      | デフォルト値
 ---------- | ------------------

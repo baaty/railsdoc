@@ -5,7 +5,7 @@ layout: page
 SQL文を直接書いて取得
 
 ### 使い方
-    select_all(arel, name = nil, binds = [], preparable: nil)
+    select_all(SQL文, [名前, binds, preparable])
 
 ### 例
     Client.connection.select_all("SELECT first_name, created_at FROM clients WHERE id = '1'").to_hash

@@ -64,16 +64,15 @@ HTML属性      | 説明
 
 #### f.hidden_field
 ##### 隠しフィールドの生成
-    <%= f.hidden_field :page, :set %>
+    f.hidden_field :page, :set
     # <input id="page_set" name="page[set]" type="hidden" />
 
 ##### 初期値あり
-    # @page.set = "abc"
-    <%= hidden_field :page, :set %>
+    hidden_field :page, :set
     # <input id="page_set" name="page[set]" type="hidden" value="abc" />
 
 ##### class属性を指定
-    <%= hidden_field :page, :set, :class = 'set' %>
+    hidden_field :page, :set, :class = 'set'
     # <input class='set' id="page_set" name="page[set]" type="hidden" />
 
 ### ソースコード

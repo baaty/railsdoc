@@ -5,7 +5,7 @@ layout: page
 ビューのロガーの設定
 
 ### 使い方
-    config.action_view.logger
+    config.action_view.logger = ロガー名
 
 ### 例
 #### ロガーの設定

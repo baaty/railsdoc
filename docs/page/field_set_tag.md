@@ -6,8 +6,8 @@ layout: page
 form_for内で異なるモデルを編集できるようになる
 
 ### 使い方
-    <%= field_set_tag(サブフォームのタイトル [, HTML属性 or イベント属性]) do %>
-    <% end %>
+    field_set_tag(サブフォームのタイトル [, HTML属性 or イベント属性]) do
+    end
 
 ### HTML属性
 

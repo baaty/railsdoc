@@ -6,7 +6,7 @@ Autoloadをデフォルトでon
 デフォルト値はfalse
 
 ### 使い方
-    config.enable_dependency_loading
+    config.enable_dependency_loading = Bool値
 
 ### 例
     config.enable_dependency_loading = true
