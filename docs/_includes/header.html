@@ -89,24 +89,6 @@
       </ul>
     </amp-sidebar>
     <nav class="sm-col-2 xs-hide">
-      <form class="search">
-        <amp-autocomplete submit-on-enter filter="token-prefix" filter-value="method" min-characters="0" src="/search.json">
-          <input type="search">
-          <template type="amp-mustache" id="amp-template-custom">
-            {% assign url = "{{url}}" %}
-            <a href="/{{url}}">
-              <div data-value="/{{url}}"></div>
-                {% assign method = "{{method}}" %}
-                <h3>{{method}}</h3>
-                {% assign title = "{{title}}" %}
-                <p>説明: {{title}}</p>
-                {% assign use = "{{use}}" %}
-                <p>使い方: {{use}}</p>
-              </div>
-            </a>
-          </template>
-        </amp-autocomplete>
-      </form>
       <h3>メニュー</h3>
       <ul>
       {%- for i in site.data.categories %}

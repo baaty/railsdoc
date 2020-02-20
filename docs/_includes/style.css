@@ -155,6 +155,9 @@ main .tag a {
   color: inherit;
   display: block;
 }
+.search_box {
+  width: 100%;
+}
 .row {
   display: flex;
 }
