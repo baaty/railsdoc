@@ -1,0 +1,3033 @@
+{
+  "items" : [
+{
+  "url": "page/rails_new",
+  "method": "rails new",
+  "title": "新しいRailsのアプリケーションを作成",
+  "use": "$ rails new アプリケーション名 [オプション]"
+},
+{
+  "url": "page/form_for",
+  "method": "form_for",
+  "title": "特定のモデルに特化したフォームを生成",
+  "use": "form_for(モデルオブジェクト [, オプション])"
+},
+{
+  "url": "page/form_tag",
+  "method": "form_tag",
+  "title": "汎用的なフォームを生成",
+  "use": "form_tag(リンク先 [オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/form_with",
+  "method": "form_with",
+  "title": "モデルなどからフォームタグを生成",
+  "use": "form_with(モデル or スコープ or URL [, オプション])"
+},
+{
+  "url": "page/check_box",
+  "method": "check_box",
+  "title": "チェックボックスを生成",
+  "use": "check_box(オブジェクト名, メソッド名 [, オプション, checked_value, unchecked_value])"
+},
+{
+  "url": "page/check_box_tag",
+  "method": "check_box_tag",
+  "title": "汎用的なチェックボックスを生成",
+  "use": "check_box_tag(要素名 [, value値, checked = false, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/rails_scaffold",
+  "method": "rails generate scaffold",
+  "title": "アプリケーションに必要なファイルをまとめて生成",
+  "use": "$ rails generate scaffold 名前 [カラム名:型]"
+},
+{
+  "url": "page/database_up",
+  "method": "up",
+  "title": "カラムをバージョンアップ",
+  "use": ""
+},
+{
+  "url": "page/model_new",
+  "method": "new",
+  "title": "モデルを生成",
+  "use": "モデル.new([属性])"
+},
+{
+  "url": "page/model_build",
+  "method": "build",
+  "title": "モデルを生成(newの別名)",
+  "use": "モデル.build([属性])"
+},
+{
+  "url": "page/params",
+  "method": "params",
+  "title": "パラメータの取得",
+  "use": "params[:パラメータ名]"
+},
+{
+  "url": "page/params_original_filename",
+  "method": "params_original_filename",
+  "title": "アップロードされたファイルを取得",
+  "use": "params[:パラメータ名].original_filename"
+},
+{
+  "url": "page/validates_uniqueness_of",
+  "method": "validates_uniqueness_of",
+  "title": "属性の値が一意であることをバリデーション",
+  "use": "validates_uniqueness_of(フィールド名 [, オプション])"
+},
+{
+  "url": "page/rake_routes",
+  "method": "rake routes",
+  "title": "ルーティングの内容を確認",
+  "use": "$ rake routes"
+},
+{
+  "url": "page/rake",
+  "method": "rake -T",
+  "title": "Rakeコマンド一覧",
+  "use": "$ rake -T"
+},
+{
+  "url": "page/rails_generate_controller",
+  "method": "rails generate controller",
+  "title": "コントローラとビューの生成",
+  "use": "$ rails generate controller 名前 [アクション名...]"
+},
+{
+  "url": "page/rails_generate_migration",
+  "method": "rails generate migration",
+  "title": "マイグレーションファイルの生成",
+  "use": "$ rails generate migration 名前 [カラム名:型] [オプション]"
+},
+{
+  "url": "page/rails_generate_model",
+  "method": "rails generate model",
+  "title": "モデルの生成",
+  "use": "$ rails generate model 名前 [カラム名:型] [オプション]"
+},
+{
+  "url": "page/database_down",
+  "method": "down",
+  "title": "カラムをバージョンダウン",
+  "use": "def down"
+},
+{
+  "url": "page/model_create",
+  "method": "create",
+  "title": "モデルを生成して保存",
+  "use": "モデル.create([属性])"
+},
+{
+  "url": "page/radio_button",
+  "method": "radio_button",
+  "title": "ラジオボタンを生成",
+  "use": "radio_button(オブジェクト名, メソッド名, value値 [, オプション])"
+},
+{
+  "url": "page/radio_button_tag",
+  "method": "radio_button_tag",
+  "title": "汎用的なラジオボックスを生成",
+  "use": "radio_button_tag(要素名, value値 [, checked = false, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates_associated",
+  "method": "validates_associated",
+  "title": "関連付けられているオブジェクトをバリデーション",
+  "use": "validates_associated(バリデーション対象 [, ...])"
+},
+{
+  "url": "page/match",
+  "method": "match",
+  "title": "ルートを定義",
+  "use": "match(URLパターン [, オプション])"
+},
+{
+  "url": "page/singularize",
+  "method": "singularize",
+  "title": "単数形へ変換",
+  "use": "文字列.singularize([ロケーション])"
+},
+{
+  "url": "page/config_assets_enabled",
+  "method": "config.assets.enabled",
+  "title": "アセットパイプラインを有効にするかの設定",
+  "use": "config.assets.enabled"
+},
+{
+  "url": "page/rake_about",
+  "method": "rake about",
+  "title": "使用しているライブラリのバージョンを確認",
+  "use": "$ rake about"
+},
+{
+  "url": "page/rails_server",
+  "method": "rails server",
+  "title": "ローカルでサーバを起動",
+  "use": "$ rails server [オプション]"
+},
+{
+  "url": "page/database_change",
+  "method": "change",
+  "title": "カラムを変更",
+  "use": "change_table(テーブル名 [, オプション])"
+},
+{
+  "url": "page/find_by",
+  "method": "find_by",
+  "title": "条件を指定して最初の1件を取得",
+  "use": "モデル.find_by(条件)"
+},
+{
+  "url": "page/find",
+  "method": "find",
+  "title": "IDを指定してレコードを取得",
+  "use": "モデル.find(件数)"
+},
+{
+  "url": "page/layout",
+  "method": "layout",
+  "title": "ページのレイアウトを設定",
+  "use": "layout レイアウト名"
+},
+{
+  "url": "page/render",
+  "method": "render",
+  "title": "表示させるviewファイルを指定して表示",
+  "use": "render(表示方法 [, オプション])"
+},
+{
+  "url": "page/text_area",
+  "method": "text_area",
+  "title": "テキストエリアを生成",
+  "use": "text_area(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/text_area_tag",
+  "method": "text_area_tag",
+  "title": "汎用的なテキストエリアを生成",
+  "use": "text_area_tag(要素名 [, エリア配下のテキスト, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/verify",
+  "method": "verify",
+  "title": "実行前にリクエストのバリデーション",
+  "use": "verify(オプション)"
+},
+{
+  "url": "page/resources",
+  "method": "resources",
+  "title": "複数形のリソースのルーティング",
+  "use": "resources(:リソース名 [, オプション])"
+},
+{
+  "url": "page/underscore",
+  "method": "underscore",
+  "title": "クラス名からファイル名へ変換",
+  "use": "クラス名.underscore"
+},
+{
+  "url": "page/camelize",
+  "method": "camelize",
+  "title": "文字列をキャメルケースに変換",
+  "use": "文字列.camelize([オプション])"
+},
+{
+  "url": "page/tableize",
+  "method": "tableize",
+  "title": "モデルクラス名からテーブル名へ変換",
+  "use": "モデル.tableize()"
+},
+{
+  "url": "page/classify",
+  "method": "classify",
+  "title": "テーブル名からモデルクラス名へ変換",
+  "use": "テーブル名.classify"
+},
+{
+  "url": "page/rails_destroy",
+  "method": "rails destroy",
+  "title": "自動生成したファイルの削除",
+  "use": "$ rails destroy ファイルの種類 [削除するファイル名 オプション]"
+},
+{
+  "url": "page/rails_plugin_install",
+  "method": "rails plugin install",
+  "title": "プラグインをインストール",
+  "use": "$ rails plugin install [プラグイン名/githubのURL] [オプション]"
+},
+{
+  "url": "page/create_table",
+  "method": "create_table",
+  "title": "テーブルを作成",
+  "use": "create_table(テーブル名 [, オプション])"
+},
+{
+  "url": "page/render_to_string",
+  "method": "render_to_string",
+  "title": "表示結果を文字列として取得",
+  "use": "render_to_string(リクエスト)"
+},
+{
+  "url": "page/password_field",
+  "method": "password_field",
+  "title": "パスワード入力ボックスを生成",
+  "use": "password_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/password_field_tag",
+  "method": "password_field_tag",
+  "title": "汎用的なパスワード入力ボックス",
+  "use": "password_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/resource",
+  "method": "resource",
+  "title": "単一のリソースのルーティング",
+  "use": "resource(リソース名 [, オプション])"
+},
+{
+  "url": "page/rake_doc_rails",
+  "method": "rake doc:rails",
+  "title": "Railsのドキュメントを生成",
+  "use": "$ rake doc.rails"
+},
+{
+  "url": "page/rake_doc_app",
+  "method": "rake doc:app",
+  "title": "ソースコードからドキュメントを生成",
+  "use": "$ rake doc:app"
+},
+{
+  "url": "page/rails_console",
+  "method": "rails console",
+  "title": "コンソールを起動",
+  "use": "$ rails console [環境 オプション]"
+},
+{
+  "url": "page/rename_table",
+  "method": "rename_table",
+  "title": "テーブル名を変更",
+  "use": "rename_table(現在のテーブル名, 新しいテーブル名)"
+},
+{
+  "url": "page/redirect_to",
+  "method": "redirect_to",
+  "title": "URLを指定して表示",
+  "use": "redirect_to(リダイレクト先のパス [, status: ステイタスコード, オプション])"
+},
+{
+  "url": "page/hidden_field",
+  "method": "hidden_field",
+  "title": "隠しフィールドを生成",
+  "use": "hidden_field(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/hidden_field_tag",
+  "method": "hidden_field_tag",
+  "title": "汎用的な隠しフィールドを生成",
+  "use": "hidden_field_tag(要素名 [, value値, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/root",
+  "method": "root",
+  "title": "ルートのURLを指定",
+  "use": "root(パス, [オプション])"
+},
+{
+  "url": "page/config_after_initialize",
+  "method": "config.after_initialize",
+  "title": "初期化の最後に実行する処理の設定",
+  "use": "config.after_initialize"
+},
+{
+  "url": "page/bundle",
+  "method": "bundle",
+  "title": "必要なライブラリをインストール",
+  "use": "bundle オプション"
+},
+{
+  "url": "page/rake_notes",
+  "method": "rake notes",
+  "title": "ソースコードにTODOを記入",
+  "use": "$ rake notes"
+},
+{
+  "url": "page/rake_db_drop",
+  "method": "rake db:drop",
+  "title": "データベースを削除",
+  "use": "$ rake db:drop"
+},
+{
+  "url": "page/rails_dbconsole",
+  "method": "rails dbconsole",
+  "title": "コンソールを起動",
+  "use": "$ rails dbconsole [環境]"
+},
+{
+  "url": "page/drop_table",
+  "method": "drop_table",
+  "title": "テーブルを削除",
+  "use": "drop_table(:テーブル名 [, オプション])"
+},
+{
+  "url": "page/find_each",
+  "method": "find_each",
+  "title": "分割してレコードを取得して1件ずつ処理",
+  "use": "モデル.find_each([オプション])"
+},
+{
+  "url": "page/send_data",
+  "method": "send_data",
+  "title": "バイナリデータを出力",
+  "use": "send_data(送るデータ [, オプション])"
+},
+{
+  "url": "page/send_file",
+  "method": "send_file",
+  "title": "画像やファイルのダウンロード",
+  "use": "send_file(ファイルのパス [, オプション])"
+},
+{
+  "url": "page/yield",
+  "method": "yield",
+  "title": "コントローラで処理された内容を埋め込む先",
+  "use": "yield"
+},
+{
+  "url": "page/label",
+  "method": "label",
+  "title": "ラベルタグを生成",
+  "use": "label(オブジェクト名, メソッド名 [, ラベル配下のコンテンツ, オプション])"
+},
+{
+  "url": "page/label_tag",
+  "method": "label_tag",
+  "title": "汎用的なラベルタグを生成",
+  "use": "label_tag(要素名 [, ラベル配下のコンテンツ] [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/scope",
+  "method": "scope",
+  "title": "URLにnamespaceを付与",
+  "use": "scope(スコープ名, 条件式)"
+},
+{
+  "url": "page/config_asset_host",
+  "method": "config.asset_host",
+  "title": "アセットのホスト設定",
+  "use": "config.asset_host"
+},
+{
+  "url": "page/rake_db_migrate",
+  "method": "rake db:migrate",
+  "title": "マイグレーションの実行",
+  "use": "$ rake db:migrate [VERSION=バージョン番号 オプション]"
+},
+{
+  "url": "page/expire_fragment",
+  "method": "expire_fragment",
+  "title": "フラグメントキャッシュを破棄",
+  "use": "expire_fragment(キャッシュキー [,  オプション])"
+},
+{
+  "url": "page/rails_runner",
+  "method": "rails runner",
+  "title": "Rails環境で動かすバッチ処理",
+  "use": "$ rails runner 実行するコード [オプション]"
+},
+{
+  "url": "page/change_table",
+  "method": "change_table",
+  "title": "テーブル定義を変更",
+  "use": "change_table(テーブル名 [, オプション])"
+},
+{
+  "url": "page/find_in_batches",
+  "method": "find_in_batches",
+  "title": "分割してレコードを取得して処理",
+  "use": "モデル.find_in_batches([オプション])"
+},
+{
+  "url": "page/request",
+  "method": "request",
+  "title": "リクエストを送ってきたユーザのヘッダー情報や環境変数を取得",
+  "use": "request.メソッド"
+},
+{
+  "url": "page/content_for",
+  "method": "content_for",
+  "title": "レイアウトに複数のコンテンツを設定",
+  "use": "content_for コンテンツ名 [, コンテンツ, オプション]"
+},
+{
+  "url": "page/text_field",
+  "method": "text_field",
+  "title": "テキストボックスを生成",
+  "use": "text_field(オブジェクト名, メソッド名 [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/text_field_tag",
+  "method": "text_field_tag",
+  "title": "汎用的なテキストボックスを生成",
+  "use": "text_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/cookies",
+  "method": "cookies",
+  "title": "クッキーを保存",
+  "use": "cookies[:クッキー名]"
+},
+{
+  "url": "page/namespace",
+  "method": "namespace",
+  "title": "名前空間を付与",
+  "use": "namespace モジュール名 [, オプション]"
+},
+{
+  "url": "page/config_autoload_once_paths",
+  "method": "config.autoload_once_paths",
+  "title": "起動時のみロードする設定ファイルを追加",
+  "use": "config.autoload_once_paths"
+},
+{
+  "url": "page/rake_db_version",
+  "method": "rake db:version",
+  "title": "マイグレーションのバージョンを確認",
+  "use": "$ rake db:version [RAILS_ENV=環境(development, text, production)]"
+},
+{
+  "url": "page/rake_db_migrate_status",
+  "method": "rake db:migrate:status",
+  "title": "マイグレーションの履歴",
+  "use": "$ rake db:migrate:status [RAILS_ENV=環境(development, text, production)]"
+},
+{
+  "url": "page/create_join_table",
+  "method": "create_join_table",
+  "title": "テーブルを結合して作成",
+  "use": "create_join_table(テーブル名1, テーブル名2 [, オプション])"
+},
+{
+  "url": "page/find_or_create_by",
+  "method": "find_or_create_by",
+  "title": "条件を指定して初めの1件を取得し1件もなければ作成(create)",
+  "use": "モデル.find_or_create_by(条件)"
+},
+{
+  "url": "page/create_or_find_by",
+  "method": "create_or_find_by",
+  "title": "データベースのユニーク制約を使って作成、できなければ初めの1件を取得",
+  "use": "create_or_find_by(属性)"
+},
+{
+  "url": "page/find_or_initialize_by",
+  "method": "find_or_initialize_by",
+  "title": "条件を指定して初めの1件を取得し1件もなければ作成(new)",
+  "use": "モデル.find_or_initialize_by(条件)"
+},
+{
+  "url": "page/head",
+  "method": "head",
+  "title": "応答ステータスとヘッダ情報のみを表示",
+  "use": "head(ステータスコード [, 応答ヘッダ])"
+},
+{
+  "url": "page/file_field",
+  "method": "file_field",
+  "title": "ファイル選択ボックスを生成",
+  "use": "file_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/file_field_tag",
+  "method": "file_field_tag",
+  "title": "汎用的なファイル選択ボックスを生成",
+  "use": "file_field_tag(要素名 [, オプション])"
+},
+{
+  "url": "page/cookies_permanent",
+  "method": "cookies.permanent",
+  "title": "永続化クッキー",
+  "use": "cookies.permanent"
+},
+{
+  "url": "page/get",
+  "method": "get",
+  "title": "GETリクエスト",
+  "use": "get(URLパターン [, オプション])"
+},
+{
+  "url": "page/config_cache_classes",
+  "method": "config.cache_classes",
+  "title": "アプリケーションクラスのリロードをするかの設定",
+  "use": "config.cache_classes"
+},
+{
+  "url": "page/rake_db_schema_load",
+  "method": "rake db:schema:load",
+  "title": "スキーマファイルでデータベースを作成",
+  "use": "$ rake db:schema:load [RAILS_ENV=環境(development, text, production)]"
+},
+{
+  "url": "page/table_exists_q",
+  "method": "table_exists?",
+  "title": "テーブルが存在するかチェック",
+  "use": "table_exists?(テーブル名)"
+},
+{
+  "url": "page/find_by_sql",
+  "method": "find_by_sql",
+  "title": "SQLを直接指定して取得",
+  "use": "モデル.find_by_sql(SQL文)"
+},
+{
+  "url": "page/select_all",
+  "method": "select_all",
+  "title": "SQLを直接指定して取得(非モデルオブジェクト)",
+  "use": "select_all(SQL文, [名前, binds, preparable])"
+},
+{
+  "url": "page/model_all",
+  "method": "all",
+  "title": "すべてのレコードを取得",
+  "use": "モデル.all"
+},
+{
+  "url": "page/flash",
+  "method": "flash",
+  "title": "簡単なメッセージを画面に表示",
+  "use": "flash[キー]"
+},
+{
+  "url": "page/url_for",
+  "method": "url_for",
+  "title": "URLを生成",
+  "use": "url_for([オプション])"
+},
+{
+  "url": "page/select",
+  "method": "select",
+  "title": "選択ボックスを生成",
+  "use": "select(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates",
+  "method": "validates",
+  "title": "汎用的なバリデーション",
+  "use": "validates(フィールド名, 種類 [, オプション])"
+},
+{
+  "url": "page/post",
+  "method": "post",
+  "title": "POSTリクエスト",
+  "use": "post(URLパターン [, オプション])"
+},
+{
+  "url": "page/config_action_view_cache_template_loading",
+  "method": "config.action_view.cache_template_loading",
+  "title": "テンプレートのレンダリングのキャッシュするかの設定",
+  "use": "config.action_view.cache_template_loading"
+},
+{
+  "url": "page/cookies_signed",
+  "method": "cookies.signed",
+  "title": "署名付きクッキー",
+  "use": "cookies.signed"
+},
+{
+  "url": "page/rake_db_schema_dump",
+  "method": "rake db:schema:dump",
+  "title": "現在のデータベースからスキーマファイルを生成",
+  "use": "$ rake db:schema:dump [RAILS_ENV=環境(development, text, production)]"
+},
+{
+  "url": "page/drop_join_table",
+  "method": "drop_join_table",
+  "title": "結合テーブルを削除",
+  "use": "drop_join_table(テーブル1, テーブル2 [, オプション])"
+},
+{
+  "url": "page/model_first",
+  "method": "first",
+  "title": "先頭のレコードを取得",
+  "use": "モデル.first([件数])"
+},
+{
+  "url": "page/model_respond_to_q",
+  "method": "respond_to?",
+  "title": "モデルが指定したメソッドを呼び出せるかチェック",
+  "use": "モデル.respond_to?(メソッド名 [, include_private=false])"
+},
+{
+  "url": "page/link_to",
+  "method": "link_to",
+  "title": "リンクを生成",
+  "use": "link_to(リンクテキスト, パス [, オプション, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/options_for_select",
+  "method": "options_for_select",
+  "title": "配列・ハッシュから選択肢を生成",
+  "use": "options_for_select(要素の配列 or ハッシュ [, 選択された要素])"
+},
+{
+  "url": "page/cookies_delete",
+  "method": "cookies.delete",
+  "title": "クッキーを削除",
+  "use": "cookies.delete(:クッキー名 [, 対象のドメイン、またはパス])"
+},
+{
+  "url": "page/patch",
+  "method": "patch",
+  "title": "PATCHリクエスト",
+  "use": "patch(URLパターン [, オプション])"
+},
+{
+  "url": "page/config_cache_store",
+  "method": "config.cache_store",
+  "title": "キャッシュストアの設定",
+  "use": "config.cache_store"
+},
+{
+  "url": "page/rake_db_seed",
+  "method": "rake db:seed",
+  "title": "データベースに初期データを投入",
+  "use": "$ rake db:seed"
+},
+{
+  "url": "page/add_column",
+  "method": "add_column",
+  "title": "カラムを追加",
+  "use": "add_column(テーブル名 カラム名, タイプ [, オプション])"
+},
+{
+  "url": "page/last",
+  "method": "last",
+  "title": "最後のレコードを取得",
+  "use": "モデル.last([件数])"
+},
+{
+  "url": "page/link_to_if",
+  "method": "link_to_if",
+  "title": "条件に一致したらリンクを生成",
+  "use": "link_to_if(条件式, リンクテキスト, url [, オプション, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/grouped_options_for_select",
+  "method": "grouped_options_for_select",
+  "title": "配列・ハッシュから作成した選択肢をグループ化",
+  "use": "grouped_options_for_select(タグの配列 or ハッシュ [, オプション, 選択オプションの先頭に表示される文字列])"
+},
+{
+  "url": "page/put",
+  "method": "put",
+  "title": "PUTリクエスト",
+  "use": "put(URLパターン [, オプション])"
+},
+{
+  "url": "page/config_consider_all_requests_local",
+  "method": "config.consider_all_requests_local",
+  "title": "エラー情報をブラウザに表示をするかの設定",
+  "use": "config.consider_all_requests_local"
+},
+{
+  "url": "page/rake_db_fixtures_load",
+  "method": "rake db:fixtures:load",
+  "title": "データベースにテストデータを挿入",
+  "use": "$ rake db:fixtures:load [FIXTURES=フィクスチャファイル名 RAILS_ENV=環境]"
+},
+{
+  "url": "page/rename_column",
+  "method": "rename_column",
+  "title": "カラム名を変更",
+  "use": "rename_column(テーブル名, 変更するカラム名, 新しいカラム名)"
+},
+{
+  "url": "page/take",
+  "method": "take",
+  "title": "指定した数のレコードを取得",
+  "use": "モデル.take([件数])"
+},
+{
+  "url": "page/link_to_unless",
+  "method": "link_to_unless",
+  "title": "条件に一致しなかったらリンクを生成",
+  "use": "link_to_unless(条件式, リンクテキスト, url [, オプション, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/option_groups_from_collection_for_select",
+  "method": "option_groups_from_collection_for_select",
+  "title": "グループ分けされた選択肢を生成",
+  "use": "option_groups_from_collection_for_select(要素の配列 or ハッシュ, グループメソッド, グループのラベル属性の項目, value属性の項目, textの項目 [, 選択された要素])"
+},
+{
+  "url": "page/delete",
+  "method": "delete",
+  "title": "DELETEリクエスト",
+  "use": "delete(パス [, オプション])"
+},
+{
+  "url": "page/config_console",
+  "method": "config.console",
+  "title": "使用するコンソールを設定",
+  "use": "config.console"
+},
+{
+  "url": "page/rake_db_create",
+  "method": "rake db:create",
+  "title": "データベースを作製",
+  "use": "$ rake db:create [RAILS_ENV=環境(development, text, production)]"
+},
+{
+  "url": "page/change_column",
+  "method": "change_column",
+  "title": "カラムの定義を変更",
+  "use": "change_column(テーブル名,  カラム名, データ型 [, オプション])"
+},
+{
+  "url": "page/model_where",
+  "method": "where",
+  "title": "条件に当てはまる値を全て取得",
+  "use": "モデル.where(条件)"
+},
+{
+  "url": "page/model_rewhere",
+  "method": "rewhere",
+  "title": "既存のwhere条件を上書き",
+  "use": "モデル.rewhere(条件)"
+},
+{
+  "url": "page/link_to_unless_current",
+  "method": "link_to_unless_current",
+  "title": "現在のURLと一致しなかったらリンクを生成",
+  "use": "link_to_unless_current(リンクテキスト, url [, オプション, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/options_from_collection_for_select",
+  "method": "options_from_collection_for_select",
+  "title": "選択ボックスを生成",
+  "use": "options_from_collection_for_select(要素の配列, value属性の項目, textの項目 [, 選択された要素])"
+},
+{
+  "url": "page/reset_session",
+  "method": "reset_session",
+  "title": "セッション情報を削除",
+  "use": "reset_session"
+},
+{
+  "url": "page/validates_presence_of",
+  "method": "validates_presence_of",
+  "title": "値が空でないか",
+  "use": "validates_presence_of(バリデーション対象 [, ...])"
+},
+{
+  "url": "page/config_dependency_loading",
+  "method": "config.dependency_loading",
+  "title": "設定のオートロードをするかの設定",
+  "use": "config.dependency_loading"
+},
+{
+  "url": "page/rake_log_clear",
+  "method": "rake log:clear",
+  "title": "ログファイルを削除",
+  "use": "$ rake log:clear"
+},
+{
+  "url": "page/remove_column",
+  "method": "remove_column",
+  "title": "カラムを削除",
+  "use": "remove_column(テーブル名, カラム名 [, 型, オプション])"
+},
+{
+  "url": "page/button_to",
+  "method": "button_to",
+  "title": "ボタンでリンクを生成",
+  "use": "button_to(文字列 [, オプション, データ属性 or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/collection_select",
+  "method": "collection_select",
+  "title": "選択ボックスをモデルの情報を元に生成",
+  "use": "collection_select(オブジェクト名, メソッド名, 要素の配列, value属性の項目, テキストの項目 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/session_session_id",
+  "method": "session.session_id",
+  "title": "現在のセッション情報を取得",
+  "use": "session.session_id"
+},
+{
+  "url": "page/validate",
+  "method": "validate",
+  "title": "モデルのバリデーションを定義",
+  "use": "validate(バリデーションメソッド名 [, ...])"
+},
+{
+  "url": "page/config_eager_load",
+  "method": "config.eager_load",
+  "title": "Eager Loadingの設定",
+  "use": "config.eager_load"
+},
+{
+  "url": "page/rake_rails_update",
+  "method": "rake rails:update",
+  "title": "Railsのバージョンアップ",
+  "use": "$ rake rails:update"
+},
+{
+  "url": "page/remove_columns",
+  "method": "remove_columns",
+  "title": "複数のカラムを削除",
+  "use": "remove_columns(テーブル名, カラム名 [, ...])"
+},
+{
+  "url": "page/group",
+  "method": "group",
+  "title": "取得した値をグループ化",
+  "use": "モデル.group(グループ化キー)"
+},
+{
+  "url": "page/image_tag",
+  "method": "image_tag",
+  "title": "イメージタグを生成",
+  "use": "image_tag(画像ファイルへのパス, [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/grouped_collection_select",
+  "method": "grouped_collection_select",
+  "title": "選択ボックスをグループ化",
+  "use": "grouped_collection_select(オブジェクト名, メソッド名, オブジェクトの配列, タグを取得するメソッド, タグのラベル, valueの項目, テキストの項目 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates_absence_of",
+  "method": "validates_absence_of",
+  "title": "空白であることをバリデーション",
+  "use": "validates_absence_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_eager_load_namespaces",
+  "method": "config.eager_load_namespaces",
+  "title": "Eager Loadingで使用するネームスペースの設定",
+  "use": "config.eager_load_namespaces"
+},
+{
+  "url": "page/rake_rails_templates_cop",
+  "method": "rake rails:templates:copy",
+  "title": "自動生成されるテンプレートをカスタマイズ",
+  "use": "$ rake rails:templates:copy"
+},
+{
+  "url": "page/change_column_default",
+  "method": "change_column_default",
+  "title": "カラムの初期値を設定",
+  "use": "change_column_default(テーブル名, カラム名, 初期値)"
+},
+{
+  "url": "page/model_order",
+  "method": "order",
+  "title": "取得した値を並び替え",
+  "use": "モデル.order(:キー名 [ :並び順])"
+},
+{
+  "url": "page/model_reorder",
+  "method": "reorder",
+  "title": "既存の並び順を指定した条件に置き換える",
+  "use": "モデル.reorder(ソート式)"
+},
+{
+  "url": "page/model_reverse_order",
+  "method": "reverse_order",
+  "title": "取得した値を逆順に並び替え",
+  "use": "モデル.reverse_order()"
+},
+{
+  "url": "page/from_xml",
+  "method": "from_xml",
+  "title": "XML形式のデータをハッシュに変換",
+  "use": "Hash.from_xml(XMLデータ)"
+},
+{
+  "url": "page/image_path",
+  "method": "image_path",
+  "title": "画像へのパスを取得",
+  "use": "image_path(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/email_field",
+  "method": "email_field",
+  "title": "メールアドレス入力ボックスを生成",
+  "use": "email_field(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/email_field_tag",
+  "method": "email_field_tag",
+  "title": "汎用的なメールアドレス入力ボックスを生成",
+  "use": "email_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates_acceptance_of",
+  "method": "validates_acceptance_of",
+  "title": "チェックボックスにチェックが入っているかバリデーション",
+  "use": "validates_acceptance_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_eager_load_paths",
+  "method": "config.eager_load_paths",
+  "title": "eager_loadのパスを設定",
+  "use": "config.eager_load_paths"
+},
+{
+  "url": "page/constantize",
+  "method": "constantize",
+  "title": "引数の文字列で指定した名前で定数を探す",
+  "use": "文字列.constantize()"
+},
+{
+  "url": "page/rake_db_rollback",
+  "method": "rake db:rollback",
+  "title": "マイグレーションをロールバック",
+  "use": "$ rake db:rollback"
+},
+{
+  "url": "page/column_exists_q",
+  "method": "column_exists?",
+  "title": "カラムが存在するかチェック",
+  "use": "column_exists?(テーブル名, カラム名 [, 型, オプション])"
+},
+{
+  "url": "page/limit",
+  "method": "limit",
+  "title": "取得するレコード数の上限を指定",
+  "use": "モデル.limit(最大取得行数)"
+},
+{
+  "url": "page/base_controller_path",
+  "method": "controller_path",
+  "title": "コントローラのパスを取得",
+  "use": "コントローラ名.controller_path"
+},
+{
+  "url": "page/base_controller_name",
+  "method": "controller_name",
+  "title": "コントローラのクラス名を取得",
+  "use": "ActionController::Base.controller_name"
+},
+{
+  "url": "page/mail_to",
+  "method": "mail_to",
+  "title": "メールアドレス用のタグを生成",
+  "use": "mail_to(メールアドレス, [リンクテキスト, オプション])"
+},
+{
+  "url": "page/number_field",
+  "method": "number_field",
+  "title": "数値入力ボックスを生成",
+  "use": "number_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/number_field_tag",
+  "method": "number_field_tag",
+  "title": "汎用的な数値入力ボックスを生成",
+  "use": "number_field_tag(要素名 [, value値, オプション])"
+},
+{
+  "url": "page/validates_confirmation_of",
+  "method": "validates_confirmation_of",
+  "title": "2つのフィールドが等しいかバリデーション",
+  "use": "validates_confirmation_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_encoding",
+  "method": "config.encoding",
+  "title": "アプリケーション全体のエンコーディングを設定",
+  "use": "config.encoding"
+},
+{
+  "url": "page/dasherize",
+  "method": "dasherize",
+  "title": "アンダーバーをハイフンに変換",
+  "use": "文字列.dasherize()"
+},
+{
+  "url": "page/add_index",
+  "method": "add_index",
+  "title": "インデックスを追加",
+  "use": "add_index(テーブル名, インデックスを付与するカラム名 [, オプション])"
+},
+{
+  "url": "page/model_none",
+  "method": "none",
+  "title": "空のモデルを取得",
+  "use": "モデル.none()"
+},
+{
+  "url": "page/model_offset",
+  "method": "offset",
+  "title": "特定のレコード位置から取得",
+  "use": "モデル.offset(取得開始位置)"
+},
+{
+  "url": "page/model_readonly",
+  "method": "readonly",
+  "title": "読み込み専用で取得",
+  "use": "モデル.readonly(値)"
+},
+{
+  "url": "page/audio_tag",
+  "method": "audio_tag",
+  "title": "audioを生成",
+  "use": "audio_tag(音声ファイルへのパス, [オプション])"
+},
+{
+  "url": "page/range_field",
+  "method": "range_field",
+  "title": "範囲選択バーを生成",
+  "use": "range_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/range_field_tag",
+  "method": "range_field_tag",
+  "title": "汎用的な範囲選択バーを生成",
+  "use": "range_field_tag(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/validates_exclusion_of",
+  "method": "validates_exclusion_of",
+  "title": "値が配列・範囲に含まれていないかバリデーション",
+  "use": "validates_exclusion_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_exceptions_app",
+  "method": "config.exceptions_app",
+  "title": "例外処理アプリケーションを設定",
+  "use": "config.exceptions_app"
+},
+{
+  "url": "page/deconstantize",
+  "method": "deconstantize",
+  "title": "文字列から右端のセグメントを削除",
+  "use": "文字列.deconstantize()"
+},
+{
+  "url": "page/rename_index",
+  "method": "rename_index",
+  "title": "インデックスを変更",
+  "use": "rename_index(テーブル名, 変更前の名前, 変更後の名前)"
+},
+{
+  "url": "page/having",
+  "method": "having",
+  "title": "取得した値を絞り込む",
+  "use": "モデル.having(条件式)"
+},
+{
+  "url": "page/atom_feed",
+  "method": "atom_feed",
+  "title": "Atomフィードを生成",
+  "use": "atom_feed([オプション])"
+},
+{
+  "url": "page/audio_path",
+  "method": "audio_path",
+  "title": "音声ファイルへのパス取得",
+  "use": "audio_path(音声ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/search_field",
+  "method": "search_field",
+  "title": "検索ボックスを生成",
+  "use": "search_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/search_field_tag",
+  "method": "search_field_tag",
+  "title": "汎用的な検索ボックスを生成",
+  "use": "search_field_tag(要素名 [, value値, オプション])"
+},
+{
+  "url": "page/validates_format_of",
+  "method": "validates_format_of",
+  "title": "正規表現パターンに一致しているかバリデーション",
+  "use": "validates_format_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_file_watcher",
+  "method": "config.file_watcher",
+  "title": "ファイルシステム内の変更を検知するための設定",
+  "use": "config.file_watcher"
+},
+{
+  "url": "page/demodulize",
+  "method": "demodulize",
+  "title": "文字列からモジュールの一部を削除",
+  "use": "文字列.demodulize()"
+},
+{
+  "url": "page/remove_index",
+  "method": "remove_index",
+  "title": "インデックスを削除",
+  "use": "remove_index(テーブル名 [, オプション])"
+},
+{
+  "url": "page/includes",
+  "method": "includes",
+  "title": "関連するテーブルをまとめて取得",
+  "use": "モデル.includes(:モデル [, ...])"
+},
+{
+  "url": "page/auto_discovery_link_tag",
+  "method": "auto_discovery_link_tag",
+  "title": "フィード検出機能を有効",
+  "use": "auto_discovery_link_tag(フォードの種類, [URLオプション,  オプション])"
+},
+{
+  "url": "page/telephone_field",
+  "method": "telephone_field",
+  "title": "電話番号入力ボックスを生成",
+  "use": "telephone_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/telephone_field_tag",
+  "method": "telephone_field_tag",
+  "title": "汎用的な電話番号入力ボックスを生成",
+  "use": "telephone_field_tag(要素名 [, value値, オプション])"
+},
+{
+  "url": "page/validates_inclusion_of",
+  "method": "validates_inclusion_of",
+  "title": "値が配列・範囲に含まれているかバリデーション",
+  "use": "validates_inclusion_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_filter_parameters",
+  "method": "config.filter_parameters",
+  "title": "ログファイルにパラメータ情報を出力しない",
+  "use": "config.filter_parameters"
+},
+{
+  "url": "page/foreign_key",
+  "method": "foreign_key",
+  "title": "クラス名から外部キーの名前を作成",
+  "use": "文字列.foreign_key([名前とidの間にアンダーバーを入れるか = true])"
+},
+{
+  "url": "page/add_foreign_key",
+  "method": "add_foreign_key",
+  "title": "外部キー制約を追加",
+  "use": "add_foreign_key(テーブル名, 参照先テーブル名 [, オプション])"
+},
+{
+  "url": "page/index_exists_q",
+  "method": "index_exists?",
+  "title": "インデックスが存在するかチェック",
+  "use": "index_exists?(テーブル名, カラム名 [, オプション])"
+},
+{
+  "url": "page/joins",
+  "method": "joins",
+  "title": "複数のテーブルを結合して取得",
+  "use": "モデル.joins(条件)"
+},
+{
+  "url": "page/expires_in",
+  "method": "expires_in",
+  "title": "キャッシュのポリシーを設定",
+  "use": "expires_in(有効期限 [, オプション])"
+},
+{
+  "url": "page/video_tag",
+  "method": "video_tag",
+  "title": "videoタグを生成",
+  "use": "video_tag(動画ファイルへのパス, [, オプション])"
+},
+{
+  "url": "page/url_field",
+  "method": "url_field",
+  "title": "URL入力ボックスを生成",
+  "use": "url_field(オブジェクト名, メソッド名 [, オプション])"
+},
+{
+  "url": "page/url_field_tag",
+  "method": "url_field_tag",
+  "title": "汎用的なURL入力ボックスを生成",
+  "use": "url_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates_length_of",
+  "method": "validates_length_of",
+  "title": "文字列の長さをチェック",
+  "use": "validates_length_of(するフィールド名 [, ...])"
+},
+{
+  "url": "page/config_force_ssl",
+  "method": "config.force_ssl",
+  "title": "強制的にHTTPSプロトコルを使用するかの設定",
+  "use": "config.force_ssl"
+},
+{
+  "url": "page/humanize",
+  "method": "humanize",
+  "title": "最初の単語を大文字にしてアンダーバーをスペースへ変換し末尾の_idを削除",
+  "use": "文字列.humanize([オプション])"
+},
+{
+  "url": "page/timestamps",
+  "method": "timestamps",
+  "title": "created_atとupdated_atを生成",
+  "use": "timestamps"
+},
+{
+  "url": "page/except",
+  "method": "except",
+  "title": "適応した条件式を除外",
+  "use": "モデル.except(条件式)"
+},
+{
+  "url": "page/expires_now",
+  "method": "expires_now",
+  "title": "キャッシュの無効化",
+  "use": "expires_now"
+},
+{
+  "url": "page/video_path",
+  "method": "video_path",
+  "title": "動画ファイルへのパスを取得",
+  "use": "video_path(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/submit",
+  "method": "submit",
+  "title": "サブミットボタンを生成",
+  "use": "f.submit([ボタンの名前 , オプション])"
+},
+{
+  "url": "page/submit_tag",
+  "method": "submit_tag",
+  "title": "汎用的なサブミットボタンを生成",
+  "use": "submit_tag([ボタンの名前 , オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/validates_numericality_of",
+  "method": "validates_numericality_of",
+  "title": "数値の大小、型をチェック",
+  "use": "validates_numericality_of(フィールド名 [, ...])"
+},
+{
+  "url": "page/config_log_level",
+  "method": "config.log_level",
+  "title": "ログレベルの指定",
+  "use": "config.log_level"
+},
+{
+  "url": "page/number_to_currency",
+  "method": "number_to_currency",
+  "title": "数値を通貨のフォーマットに変換",
+  "use": "number_to_currency(数値 [, オプション])"
+},
+{
+  "url": "page/add_timestamps",
+  "method": "add_timestamps",
+  "title": "タイムスタンプを追加",
+  "use": "add_timestamps(テーブル名)"
+},
+{
+  "url": "page/model_from",
+  "method": "from",
+  "title": "レコードが参照されるテーブルを指定",
+  "use": "モデル.from(値 [, サブクエリ])"
+},
+{
+  "url": "page/logger",
+  "method": "logger",
+  "title": "ログを出力",
+  "use": "logger.ログレベル(値)"
+},
+{
+  "url": "page/favicon_link_tag",
+  "method": "favicon_link_tag",
+  "title": "ファビコンのタグを生成",
+  "use": "favicon_link_tag(画像へのパス [, オプション])"
+},
+{
+  "url": "page/datetime_select",
+  "method": "datetime_select",
+  "title": "日時選択ボックスを生成",
+  "use": "datetime_select(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_log_tags",
+  "method": "config.log_tags",
+  "title": "タグ付きログの設定",
+  "use": "config.log_tags"
+},
+{
+  "url": "page/number_to_human",
+  "method": "number_to_human",
+  "title": "数値を単位のフォーマットに変換",
+  "use": "number_to_human(数値 [, オプション])"
+},
+{
+  "url": "page/remove_timestamps",
+  "method": "remove_timestamps",
+  "title": "created_atとupdated_atの削除",
+  "use": "remove_timestamps(テーブル名)"
+},
+{
+  "url": "page/fields_for",
+  "method": "fields_for",
+  "title": "モデルを固定してフォームを生成",
+  "use": "fields_for(モデル)"
+},
+{
+  "url": "page/config_logger",
+  "method": "config.logger",
+  "title": "使用するログオブジェクトの種類",
+  "use": "config.logger"
+},
+{
+  "url": "page/number_to_human_size",
+  "method": "number_to_human_size",
+  "title": "バイト単位の数値を変換",
+  "use": "number_to_human_size(数値 [, オプション])"
+},
+{
+  "url": "page/references",
+  "method": "references",
+  "title": "リファレンスを生成",
+  "use": "references(カラム名 [, オプション])"
+},
+{
+  "url": "page/default_scope",
+  "method": "default_scope",
+  "title": "デフォルトのスコープを定義",
+  "use": "default_scope(条件式 [, ブロック])"
+},
+{
+  "url": "page/javascript_path",
+  "method": "javascript_path",
+  "title": "JavaScriptファイルへのパスを取得",
+  "use": "javascript_path(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/javascript_url",
+  "method": "javascript_url",
+  "title": "JavaScriptファイルへのURLを取得",
+  "use": "javascript_url(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/field_set_tag",
+  "method": "field_set_tag",
+  "title": "フォームの要素をグループ化",
+  "use": "field_set_tag(サブフォームのタイトル [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/number_to_percentage",
+  "method": "number_to_percentage",
+  "title": "数値をパーセントに変換",
+  "use": "number_to_percentage(数値 [, オプション])"
+},
+{
+  "url": "page/add_reference",
+  "method": "add_reference",
+  "title": "リファレンスを追加",
+  "use": "add_reference(テーブル名, リファレンス名 [, オプション])"
+},
+{
+  "url": "page/count",
+  "method": "count",
+  "title": "モデルのレコード数を取得",
+  "use": "モデル.count(カラム名)"
+},
+{
+  "url": "page/url_options",
+  "method": "url_options",
+  "title": "デフォルトのURLにマッピング",
+  "use": "url_options"
+},
+{
+  "url": "page/stylesheet_link_tag",
+  "method": "stylesheet_link_tag",
+  "title": "外部スタイルシートを指定するリンクタグを生成",
+  "use": "stylesheet_link_tag(スタイルシートへのパス [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/javascript_include_tag",
+  "method": "javascript_include_tag",
+  "title": "JavaScriptをインクルード",
+  "use": "javascript_include_tag(JavaScriptファイルへのパス [, オプション])"
+},
+{
+  "url": "page/button",
+  "method": "button",
+  "title": "ボタンを生成",
+  "use": "button(文字列 [, オプション or データ属性 or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/button_tag",
+  "method": "button_tag",
+  "title": "汎用的なボタンを生成",
+  "use": "button_tag([オプション or データ属性 or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_reload_classes_only_on_change",
+  "method": "config.reload_classes_only_on_change",
+  "title": "ファイルの変更検知の設定",
+  "use": "config.reload_classes_only_on_change"
+},
+{
+  "url": "page/number_with_delimiter",
+  "method": "number_with_delimiter",
+  "title": "桁区切り文字を追加",
+  "use": "number_with_delimiter(数値 [, オプション])"
+},
+{
+  "url": "page/remove_reference",
+  "method": "remove_reference",
+  "title": "リファレンスを削除",
+  "use": "remove_reference(テーブル名, リファレンス名 [, オプション])"
+},
+{
+  "url": "page/stylesheet_path",
+  "method": "stylesheet_path",
+  "title": "スタイルシートへのパスを取得",
+  "use": "stylesheet_path(ファイルへのパス [, HTML属性 or イベント属性])"
+},
+{
+  "url": "page/stylesheet_url",
+  "method": "stylesheet_url",
+  "title": "スタイルシートへのURLを取得",
+  "use": "stylesheet_url(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/image_submit_tag",
+  "method": "image_submit_tag",
+  "title": "画像サブミットボタンを生成",
+  "use": "image_submit_tag(値 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_secret_key_base",
+  "method": "config.secret_key_base",
+  "title": "シークレットキーの設定",
+  "use": "config.secret_key_base"
+},
+{
+  "url": "page/number_with_precision",
+  "method": "number_with_precision",
+  "title": "数値を特定の桁で丸める",
+  "use": "number_with_precision(数値 [, オプション])"
+},
+{
+  "url": "page/execute",
+  "method": "execute",
+  "title": "マイグレーションファイルでSQLを実行",
+  "use": "execute(SQL文)"
+},
+{
+  "url": "page/average",
+  "method": "average",
+  "title": "カラムの平均値を計算",
+  "use": "モデル.average(カラム名)"
+},
+{
+  "url": "page/config_serve_static_assets",
+  "method": "config.serve_static_assets",
+  "title": "assetsの静的ファイルの設定",
+  "use": "config.serve_static_assets"
+},
+{
+  "url": "page/number_to_phone",
+  "method": "number_to_phone",
+  "title": "USの電話番号フォーマット",
+  "use": "number_to_phone(数値 [, オプション])"
+},
+{
+  "url": "page/maximum",
+  "method": "maximum",
+  "title": "カラムの最大値を計算",
+  "use": "モデル.maximum(カラム名 [, オプション])"
+},
+{
+  "url": "page/cycle",
+  "method": "cycle",
+  "title": "奇数偶数で処理を変える",
+  "use": "cycle(値 [, ..])"
+},
+{
+  "url": "page/config_colorize_logging",
+  "method": "config.colorize_logging",
+  "title": "ログを出力するときにカラーにするか",
+  "use": "config.colorize_logging"
+},
+{
+  "url": "page/number_to_delimited",
+  "method": "number_to_delimited",
+  "title": "数字を区切り文字を使用してグループ化",
+  "use": "number_to_delimited(数値 [, オプション])"
+},
+{
+  "url": "page/minimum",
+  "method": "minimum",
+  "title": "カラムの最小値を計算",
+  "use": "モデル.minimum(カラム名 [, オプション])"
+},
+{
+  "url": "page/current_cycle",
+  "method": "current_cycle",
+  "title": "奇数偶数で処理を変える",
+  "use": "current_cycle(名前)"
+},
+{
+  "url": "page/config_session_store",
+  "method": "config.session_store",
+  "title": "セッションストアの設定",
+  "use": "config.session_store"
+},
+{
+  "url": "page/number_to_rounded",
+  "method": "number_to_rounded",
+  "title": "フォーマットの指定されたレベル",
+  "use": "number_to_rounded(数値 [, オプション])"
+},
+{
+  "url": "page/ids",
+  "method": "ids",
+  "title": "主キーを全て取得",
+  "use": "モデル.ids()"
+},
+{
+  "url": "page/reset_cycle",
+  "method": "reset_cycle",
+  "title": "cycleで返す値を初期化",
+  "use": "reset_cycle([名前])"
+},
+{
+  "url": "page/config_time_zone",
+  "method": "config.time_zone",
+  "title": "タイムゾーンの設定",
+  "use": "config.time_zone"
+},
+{
+  "url": "page/sum",
+  "method": "sum",
+  "title": "カラムの合計値を計算",
+  "use": "モデル.sum(カラム名)"
+},
+{
+  "url": "page/debug",
+  "method": "debug",
+  "title": "デバッグを出力",
+  "use": "debug(オブジェクト)"
+},
+{
+  "url": "page/config_beginning_of_week",
+  "method": "config.beginning_of_week",
+  "title": "週の始まりの曜日の設定",
+  "use": "config.beginning_of_week"
+},
+{
+  "url": "page/model_pluck",
+  "method": "pluck",
+  "title": "指定したカラムのレコードの配列を取得",
+  "use": "モデル.pluck(カラム名 [, ...])"
+},
+{
+  "url": "page/pick",
+  "method": "pick",
+  "title": "取得済みのモデルから先頭のレコードの値を1件取得",
+  "use": "pick(カラム名 [, ...])"
+},
+{
+  "url": "page/simple_format",
+  "method": "simple_format",
+  "title": "文字列加工",
+  "use": "simple_format(文字列 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_whiny_nils",
+  "method": "config.whiny_nils",
+  "title": "初期化されていないオブジェクトの警告",
+  "use": "config.whiny_nils = true"
+},
+{
+  "url": "page/excerpt",
+  "method": "excerpt",
+  "title": "文字列から特定の部分のみ抽出",
+  "use": "excerpt(対象の文字列, 検索する文字列 [, オプション])"
+},
+{
+  "url": "page/model_reload",
+  "method": "reload",
+  "title": "モデルを再取得",
+  "use": "モデル.reload()"
+},
+{
+  "url": "page/truncate",
+  "method": "truncate",
+  "title": "文字列を切り捨てる",
+  "use": "truncate(文字列 [, オプション])"
+},
+{
+  "url": "page/config_assets_compress",
+  "method": "config.assets.compress",
+  "title": "assetsでコンパイルする設定",
+  "use": "config.assets.compress = true"
+},
+{
+  "url": "page/save",
+  "method": "save",
+  "title": "データベースに保存",
+  "use": "モデル.save()"
+},
+{
+  "url": "page/config_assets_css_compressor",
+  "method": "config.assets.css_compressor",
+  "title": "CSSコンパイラーの設定",
+  "use": "config.assets.css_compressor"
+},
+{
+  "url": "page/model_update",
+  "method": "update",
+  "title": "データベースを更新",
+  "use": "モデル.update(ID, 属性)"
+},
+{
+  "url": "page/model_update_all",
+  "method": "update_all",
+  "title": "条件に一致するレコードをすべて更新",
+  "use": "モデル.update_all(カラム名: 値 [, オプション])"
+},
+{
+  "url": "page/model_update_attributes",
+  "method": "update_attributes",
+  "title": "属性ハッシュを指定して更新",
+  "use": "モデル.update_attributes(属性名, 値)"
+},
+{
+  "url": "page/model_update_attribute",
+  "method": "update_attribute",
+  "title": "属性ハッシュを指定して更新",
+  "use": "モデル.update_attribute(属性名, 値)"
+},
+{
+  "url": "page/insert_all",
+  "method": "insert_all",
+  "title": "複数レコードを一括登録",
+  "use": "insert_all(属性 [, オプション])"
+},
+{
+  "url": "page/highlight",
+  "method": "highlight",
+  "title": "ハイライト表示",
+  "use": "highlight(文字列, ハイライトする文字列 [, highighter: ハイライトする文字列を置き換える形式)"
+},
+{
+  "url": "page/config_assets_js_compressor",
+  "method": "config.assets.js_compressor",
+  "title": "JavaScriptのコンパイラーの設定",
+  "use": "config.assets.js_compressor"
+},
+{
+  "url": "page/model_destroy",
+  "method": "destroy",
+  "title": "ActiveRecordを使って指定した条件のレコードを削除",
+  "use": "モデル.destroy([条件])"
+},
+{
+  "url": "page/model_delete",
+  "method": "delete",
+  "title": "指定した条件に一致するレコードをSQLを直接実行して削除",
+  "use": "モデル.delete(条件)"
+},
+{
+  "url": "page/model_delete_all",
+  "method": "delete_all",
+  "title": "指定した条件に一致するレコードをSQLを直接実行して全て削除",
+  "use": "モデル.delete_all([検索条件])"
+},
+{
+  "url": "page/model_destroy_all",
+  "method": "destroy_all",
+  "title": "ActiveRecordを使って指定した条件の全てのレコードを削除",
+  "use": "モデル.destroy_all([検索条件])"
+},
+{
+  "url": "page/model_not",
+  "method": "not",
+  "title": "条件式に一致しないものを取得",
+  "use": "モデル.where.not(条件)"
+},
+{
+  "url": "page/raw",
+  "method": "raw",
+  "title": "エスケープしない",
+  "use": "raw(文字列)"
+},
+{
+  "url": "page/config_assets_paths",
+  "method": "config.assets.paths",
+  "title": "assetsへのパス",
+  "use": "config.assets.paths"
+},
+{
+  "url": "page/calculate",
+  "method": "calculate",
+  "title": "汎用的なカラム処理",
+  "use": "モデル.calculate(処理方法, カラム名)"
+},
+{
+  "url": "page/capture",
+  "method": "capture",
+  "title": "出力結果を変数に格納",
+  "use": "capture"
+},
+{
+  "url": "page/config_assets_precompile",
+  "method": "config.assets.precompile",
+  "title": "assetでプリコンパイルする設定",
+  "use": "config.assets.precompile"
+},
+{
+  "url": "page/clone",
+  "method": "clone",
+  "title": "コピーを生成",
+  "use": "モデル.clone()"
+},
+{
+  "url": "page/tag",
+  "method": "tag",
+  "title": "本体を持たない任意のタグを生成",
+  "use": "tag.タグ名([, オプション or HTML属性 or イベント属性, HTML4互換, エスケープするか])"
+},
+{
+  "url": "page/config_assets_prefix",
+  "method": "config.assets.prefix",
+  "title": "アセットパイプラインでprefix",
+  "use": "config.assets.prefix"
+},
+{
+  "url": "page/increment",
+  "method": "increment",
+  "title": "特定のレコードをインクリメント",
+  "use": "モデル.increment(レコード, インクリメントする値)"
+},
+{
+  "url": "page/content_tag",
+  "method": "content_tag",
+  "title": "本体を持つ任意のタグを生成",
+  "use": "content_tag(タグの名前 [, コンテンツ or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_assets_digest",
+  "method": "config.assets.digest",
+  "title": "assetにMD5フィンガープリントを使用",
+  "use": "config.assets.digest = true"
+},
+{
+  "url": "page/model_changed",
+  "method": "changed",
+  "title": "属性変更を取得",
+  "use": "モデル.changed()"
+},
+{
+  "url": "page/model_changed_q",
+  "method": "changed?",
+  "title": "保存していないレコードがあるかチェック",
+  "use": "モデル.changed?()"
+},
+{
+  "url": "page/strip_tags",
+  "method": "strip_tags",
+  "title": "タグを取り除く",
+  "use": "strip_tags(html)"
+},
+{
+  "url": "page/config_assets_debug",
+  "method": "config.assets.debug",
+  "title": "Assetの結合と圧縮の設定",
+  "use": "config.assets.debug = true"
+},
+{
+  "url": "page/config_autoload_paths",
+  "method": "config.autoload_paths",
+  "title": "オートロード対象となるパスの追加",
+  "use": "config.autoload_paths"
+},
+{
+  "url": "page/column_for_attribute",
+  "method": "column_for_attribute",
+  "title": "カラム情報の取得",
+  "use": "モデル.column_for_attribute([カラム名])"
+},
+{
+  "url": "page/strip_links",
+  "method": "strip_links",
+  "title": "リンクのみ取り除く",
+  "use": "strip_links(html)"
+},
+{
+  "url": "page/config_assets_cache_store",
+  "method": "config.assets.cache_store",
+  "title": "キャッシュストアの設定",
+  "use": "config.assets.cache_store"
+},
+{
+  "url": "page/attribute_names",
+  "method": "attribute_names",
+  "title": "すべての属性名を配列で取得",
+  "use": "モデル.attribute_names()"
+},
+{
+  "url": "page/sanitize",
+  "method": "sanitize",
+  "title": "サニタイズ",
+  "use": "sanitize(文字列 [,  オプション])"
+},
+{
+  "url": "page/config_assets_version",
+  "method": "config.assets.version",
+  "title": "Assetのバージョンを指定",
+  "use": "config.assets.version = バージョン"
+},
+{
+  "url": "page/attribute_for_inspect",
+  "method": "attribute_for_inspect",
+  "title": "属性の値に似た文字列を取得",
+  "use": "モデル.attribute_for_inspect(属性名)"
+},
+{
+  "url": "page/current_page_q",
+  "method": "current_page?",
+  "title": "指定したURLが現在表示されているかチェック",
+  "use": "current_page?(オプション [, check_parameters: false])"
+},
+{
+  "url": "page/config_assets_compile",
+  "method": "config.assets.compile",
+  "title": "ファイルがないときにファイルを探して自動コンパイル",
+  "use": "config.assets.compile = true"
+},
+{
+  "url": "page/attribute_present_q",
+  "method": "attribute_present?",
+  "title": "指定した属性が存在するかチェック",
+  "use": "モデル.attribute_present?(属性名)"
+},
+{
+  "url": "page/strftime",
+  "method": "strftime",
+  "title": "日付データをフォーマット",
+  "use": "strftime(フォーマット)"
+},
+{
+  "url": "page/config_assets_logger",
+  "method": "config.assets.logger",
+  "title": "Assetロガーの設定",
+  "use": "config.assets.logger = false"
+},
+{
+  "url": "page/attributes",
+  "method": "attributes",
+  "title": "全てのモデルオブジェクトと属性を取得",
+  "use": "モデル.attributes()"
+},
+{
+  "url": "page/asset_path",
+  "method": "asset_path",
+  "title": "assetファイルへのパスを取得",
+  "use": "asset_path(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/config_middleware",
+  "method": "config.middleware",
+  "title": "アプリケーションのミドルウェアの設定",
+  "use": "config.middleware"
+},
+{
+  "url": "page/config_middleware_use",
+  "method": "config.middleware.use",
+  "title": "ミドルウェアを独自に追加",
+  "use": "config.middleware.use"
+},
+{
+  "url": "page/attributes_before_type_cast",
+  "method": "attributes_before_type_cast",
+  "title": "型に変更前のハッシュを取得",
+  "use": "モデル.attributes_before_type_cast()"
+},
+{
+  "url": "page/config_middleware_swap",
+  "method": "config.middleware.swap",
+  "title": "ミドルウェアスタックを入れ替える",
+  "use": "config.middleware.swap"
+},
+{
+  "url": "page/config_middleware_delete",
+  "method": "config.middleware.delete",
+  "title": "ミドルウェアスタックを削除",
+  "use": "config.middleware.delete"
+},
+{
+  "url": "page/config_middleware_insert_after",
+  "method": "config.middleware.insert_after",
+  "title": "既存のミドルウェアの後に新しいミドルウェアを追加",
+  "use": "config.middleware.insert_after"
+},
+{
+  "url": "page/record_timestamps",
+  "method": "record_timestamps",
+  "title": "タイムスタンプの自動保存を停止",
+  "use": "ActiveRecord::Base.record_timestamps = false"
+},
+{
+  "url": "page/has_attribute",
+  "method": "has_attribute?",
+  "title": "モデルに指定した属性が存在するかチェック",
+  "use": "モデル.has_attribute?(属性)"
+},
+{
+  "url": "page/content_tag_for",
+  "method": "content_tag_for",
+  "title": "モデルから本体を持つ任意のタグを生成",
+  "use": "content_tag_for(タグの名前, モデル [, オプション])"
+},
+{
+  "url": "page/color_field",
+  "method": "color_field",
+  "title": "色の入力欄を生成",
+  "use": "color_field(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/color_field_tag",
+  "method": "color_field_tag",
+  "title": "汎用的な色の入力欄を生成",
+  "use": "color_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_i18n_default_locale",
+  "method": "config.i18n.default_locale",
+  "title": "国際化対応のためのデフォルトのロケール",
+  "use": "config.i18n.default_locale"
+},
+{
+  "url": "page/read_attribute_before_type_cast",
+  "method": "read_attribute_before_type_cast",
+  "title": "型に変更前のハッシュを取得",
+  "use": "モデル.read_attribute_before_type_cast(カラム名)"
+},
+{
+  "url": "page/date_field",
+  "method": "date_field",
+  "title": "日付の入力欄を生成",
+  "use": "date_field(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/date_field_tag",
+  "method": "date_field_tag",
+  "title": "汎用的な日付の入力欄を生成",
+  "use": "date_field_tag(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_i18n_load_path",
+  "method": "config.i18n.load_path",
+  "title": "ロケールファイルへのパス",
+  "use": "config.i18n.load_path"
+},
+{
+  "url": "page/attribute_method_q",
+  "method": "attribute_method?",
+  "title": "指定したモデルオブジェクトの属性が存在するかチェック",
+  "use": "モデル.attribute_method?(属性)"
+},
+{
+  "url": "page/datetime_field",
+  "method": "datetime_field",
+  "title": "日時の入力欄を生成",
+  "use": "datetime_field(要素名 [, value値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/datetime_field_tag",
+  "method": "datetime_field_tag",
+  "title": "汎用的な日時の入力欄を生成",
+  "use": "datetime_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_logger",
+  "method": "config.active_record.logger",
+  "title": "ログオブジェクト",
+  "use": "config.active_record.logger"
+},
+{
+  "url": "page/datetime_local_field",
+  "method": "datetime_local_field",
+  "title": "ローカル日時の入力欄を生成",
+  "use": "datetime_local_field(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/datetime_local_field_tag",
+  "method": "datetime_local_field_tag",
+  "title": "汎用的なローカル日時の入力欄を生成",
+  "use": "datetime_local_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_primary_key_prefix_type",
+  "method": "config.active_record.primary_key_prefix_type",
+  "title": "テーブルの主キーの設定",
+  "use": "config.active_record.primary_key_prefix_type = 主キー名"
+},
+{
+  "url": "page/month_field",
+  "method": "month_field",
+  "title": "月の入力欄を生成",
+  "use": "month_field(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/month_field_tag",
+  "method": "month_field_tag",
+  "title": "汎用的な月の入力欄を生成",
+  "use": "month_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_table_name_prefix",
+  "method": "config.active_record.table_name_prefix",
+  "title": "テーブルを生成するときに指定した文字列を先頭に追加",
+  "use": "config.active_record.table_name_prefix = プレフィックス"
+},
+{
+  "url": "page/time_field",
+  "method": "time_field",
+  "title": "時間の入力欄を生成",
+  "use": "time_field(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/time_field_tag",
+  "method": "time_field_tag",
+  "title": "汎用的な時間の入力欄を生成",
+  "use": "time_field_tag(要素名 [, 値, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_table_name_suffix",
+  "method": "config.active_record.table_name_suffix",
+  "title": "テーブルを生成するときに指定した文字列を最後に追加",
+  "use": "config.active_record.table_name_suffix = suffix"
+},
+{
+  "url": "page/belongs_to",
+  "method": "belongs_to",
+  "title": "参照元テーブルから参照先テーブルを参照",
+  "use": "belongs_to(関連モデル名 [, scope, オプション])"
+},
+{
+  "url": "page/exists_q",
+  "method": "exists?",
+  "title": "レコードの存在を確認",
+  "use": "モデル.exists?([条件])"
+},
+{
+  "url": "page/week_field",
+  "method": "week_field",
+  "title": "週の入力欄を生成",
+  "use": "week_field(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/week_field_tag",
+  "method": "week_field_tag",
+  "title": "モデルと関連のない週の入力欄を生成",
+  "use": "week_field_tag(要素名 [, 値, オプション])"
+},
+{
+  "url": "page/config_active_record_pluralize_table_names",
+  "method": "config.active_record.pluralize_table_names",
+  "title": "テーブル名を生成するときに複数形への変換をするかの設定",
+  "use": "config.active_record.pluralize_table_names = false"
+},
+{
+  "url": "page/has_one",
+  "method": "has_one",
+  "title": "1対1の関連を宣言",
+  "use": "has_one(関連モデル名 [, scope ,オプション])"
+},
+{
+  "url": "page/date_select",
+  "method": "date_select",
+  "title": "日付選択ボックスを生成",
+  "use": "date_select(オブジェクト名, メソッド名 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_default_timezone",
+  "method": "config.active_record.default_timezone",
+  "title": "データベースの処理の際に使うタイムゾーン",
+  "use": "config.active_record.default_timezone"
+},
+{
+  "url": "page/has_many",
+  "method": "has_many",
+  "title": "1対多の関連を宣言",
+  "use": "has_many(関連モデル名 [, scope, オプション])"
+},
+{
+  "url": "page/time_select",
+  "method": "time_select",
+  "title": "時間選択ボックスを生成",
+  "use": "time_select(オブジェクト名 メソッド名 [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/config_active_record_schema_format",
+  "method": "config.active_record.schema_format",
+  "title": "スキーマの形式を変更",
+  "use": "config.active_record.schema_format = 形式"
+},
+{
+  "url": "page/has_and_belongs_to_many",
+  "method": "has_and_belongs_to_many",
+  "title": "多対多の関連を宣言",
+  "use": "has_and_belongs_to_many(関連モデル名 [, scope, オプション])"
+},
+{
+  "url": "page/config_active_record_timestamped_migrations",
+  "method": "config.active_record.timestamped_migrations",
+  "title": "マイグレーションファイルの識別子を設定",
+  "use": "config.active_record.timestamped_migrations = false"
+},
+{
+  "url": "page/to_xml",
+  "method": "to_xml",
+  "title": "XML変換",
+  "use": "配列.to_xml([オプション])"
+},
+{
+  "url": "page/to_sql",
+  "method": "to_sql",
+  "title": "取得する時のSQLを表示",
+  "use": "モデル.to_sql()"
+},
+{
+  "url": "page/config_active_record_lock_optimistically",
+  "method": "config.active_record.lock_optimistically",
+  "title": "楽観的ロックの設定",
+  "use": "config.active_record.lock_optimistically = bool値"
+},
+{
+  "url": "page/config_action_controller_asset_host",
+  "method": "config.action_controller.asset_host",
+  "title": "アセットファイルへのホストの設定",
+  "use": "config.action_controller.asset_host = URL"
+},
+{
+  "url": "page/config_action_controller_perform_caching",
+  "method": "config.action_controller.perform_caching",
+  "title": "コントローラのキャッシュ設定をするかの設定",
+  "use": "config.action_controller.perform_caching = Bool値"
+},
+{
+  "url": "page/config_action_controller_default_static_extension",
+  "method": "config.action_controller.default_static_extension",
+  "title": "キャッシュされたページに使用される拡張子の設定",
+  "use": "config.action_controller.default_static_extension = 拡張子"
+},
+{
+  "url": "page/config_action_controller_default_charset",
+  "method": "config.action_controller.default_charset",
+  "title": "コントローラのデフォルト文字コード",
+  "use": "config.action_controller.default_charset = 文字コード"
+},
+{
+  "url": "page/model_new_record_q",
+  "method": "new_record?",
+  "title": "新しいレコードかチェック",
+  "use": "モデル.new_record?()"
+},
+{
+  "url": "page/model_persisted_q",
+  "method": "persisted?",
+  "title": "保存済みかチェック",
+  "use": "モデル.persisted?()"
+},
+{
+  "url": "page/model_destroyed_q",
+  "method": "destroyed?",
+  "title": "削除済みかチェック",
+  "use": "モデル.destroyed?()"
+},
+{
+  "url": "page/config_action_controller_request_forgery_protection_token",
+  "method": "config.action_controller.request_forgery_protection_token",
+  "title": "RequestForgeryのトークンパラメータを設定",
+  "use": "config.action_controller.request_forgery_protection_token"
+},
+{
+  "url": "page/config_action_controller_allow_forgery_protectio",
+  "method": "config.action_controller.allow_forgery_protection",
+  "title": "CSRF保護をするかの設定",
+  "use": "config.action_controller.allow_forgery_protection = Bool値"
+},
+{
+  "url": "page/composed_of",
+  "method": "composed_of",
+  "title": "複数カラムをまとめる",
+  "use": "モデル.composed_of(条件 [, オプション])"
+},
+{
+  "url": "page/config_action_controller_relative_url_root",
+  "method": "config.action_controller.relative_url_root",
+  "title": "サブディレクトリ",
+  "use": "config.action_controller.relative_url_root"
+},
+{
+  "url": "page/model_any_q",
+  "method": "any?",
+  "title": "モデルが空かチェック",
+  "use": "モデル.any?([ブロック])"
+},
+{
+  "url": "page/config_action_controller_permit_all_parameters",
+  "method": "config.action_controller.permit_all_parameters",
+  "title": "デフォルトで許可されるmass assignmentのパラメータの設定",
+  "use": "config.action_controller.permit_all_parameters = Bool値"
+},
+{
+  "url": "page/config_action_controller_logger",
+  "method": "config.action_controller.logger",
+  "title": "アクションコントローラのロガー",
+  "use": "config.action_controller.logger"
+},
+{
+  "url": "page/concat",
+  "method": "concat",
+  "title": "非出力コード内で出力",
+  "use": "concat(文字列)"
+},
+{
+  "url": "page/config_action_controller_action_on_unpermitted_params",
+  "method": "config.action_controller.action_on_unpermitted_params",
+  "title": "許可されていないパラメータの例外処理について",
+  "use": "config.action_controller.action_on_unpermitted_params"
+},
+{
+  "url": "page/config_action_view_field_error_proc",
+  "method": "config.action_view.field_error_proc",
+  "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定",
+  "use": "config.action_view.field_error_proc"
+},
+{
+  "url": "page/instance_method_already_implemented",
+  "method": "instance_method_already_implemented?",
+  "title": "例外が発生するかチェック",
+  "use": "モデル.instance_method_already_implemented?(属性)"
+},
+{
+  "url": "page/config_action_view_default_form_builder",
+  "method": "config.action_view.default_form_builder",
+  "title": "デフォルトで使用するビルダー形式",
+  "use": "config.action_view.default_form_builder"
+},
+{
+  "url": "page/to_param",
+  "method": "to_param",
+  "title": "URLのidの部分にid以外のものを指定",
+  "use": "to_param"
+},
+{
+  "url": "page/config_action_view_erb_trim_mode",
+  "method": "config.action_view.erb_trim_mode",
+  "title": "ERBの処理方法",
+  "use": "config.action_view.erb_trim_mode = 区切り文字"
+},
+{
+  "url": "page/touch",
+  "method": "touch",
+  "title": "update_atを更新",
+  "use": "モデル.touch([名前])"
+},
+{
+  "url": "page/config_action_view_embed_authenticity_token_in_remote_forms",
+  "method": "config.action_view.embed_authenticity_token_in_remote_forms",
+  "title": "Fromでのauthenticity_tokenの付与について",
+  "use": "config.action_view.embed_authenticity_token_in_remote_forms = Bool値"
+},
+{
+  "url": "page/create_with",
+  "method": "create_with",
+  "title": "関連モデルオブジェクトから新しい属性を作成",
+  "use": "モデル.create_with(属性)"
+},
+{
+  "url": "page/config_action_view_prefix_partial_path_with_controller_namespace",
+  "method": "config.action_view.prefix_partial_path_with_controller_namespace",
+  "title": "サブディレクトリの名前空間について",
+  "use": "config.action_view.prefix_partial_path_with_controller_namespace = Bool値"
+},
+{
+  "url": "page/eager_load",
+  "method": "eager_load",
+  "title": "左外部結合を使ってすべてのレコードを取得",
+  "use": "モデル.eager_load(属性)"
+},
+{
+  "url": "page/config_action_view_logger",
+  "method": "config.action_view.logger",
+  "title": "ビューのロガーの設定",
+  "use": "config.action_view.logger = ロガー名"
+},
+{
+  "url": "page/extending",
+  "method": "extending",
+  "title": "scopeを使ってモデルを拡張",
+  "use": "モデル.extending(モジュール)"
+},
+{
+  "url": "page/config_action_mailer_logger",
+  "method": "config.action_mailer.logger",
+  "title": "電子メールで使用するデフォルトのロガーの設定",
+  "use": "config.action_mailer.logger"
+},
+{
+  "url": "page/config_action_mailer_smtp_settings",
+  "method": "config.action_mailer.smtp_settings",
+  "title": "SMTPの設定",
+  "use": "config.action_mailer.smtp_settings"
+},
+{
+  "url": "page/config_action_mailer_sendmail_settings",
+  "method": "config.action_mailer.sendmail_settings",
+  "title": "センドメールの設定",
+  "use": "config.action_mailer.sendmail_settings = sendmailの設定"
+},
+{
+  "url": "page/config_action_mailer_raise_delivery_errors",
+  "method": "config.action_mailer.raise_delivery_errors",
+  "title": "電子メールが配信完了できない場合にエラーを発生させるかの設定",
+  "use": "config.action_mailer.raise_delivery_errors = Bool値"
+},
+{
+  "url": "page/config_action_mailer_delivery_method",
+  "method": "config.action_mailer.delivery_method",
+  "title": "電子メールの配信方法を設定",
+  "use": "config.action_mailer.delivery_method = 配信方法"
+},
+{
+  "url": "page/config_action_mailer_perform_deliveries",
+  "method": "config.action_mailer.perform_deliveries",
+  "title": "電子メールの使用をするかの設定",
+  "use": "config.action_mailer.perform_deliveries = Bool値"
+},
+{
+  "url": "page/config_action_mailer_default_options",
+  "method": "config.action_mailer.default_options",
+  "title": "電子メールのデフォルトオプション",
+  "use": "config.action_mailer.default_options = デフォルトのオプション"
+},
+{
+  "url": "page/config_action_mailer_observers",
+  "method": "config.action_mailer.observers",
+  "title": "メールが配信されたときに通知されオブザーバーを登録",
+  "use": "config.action_mailer.observers = オブザーバー"
+},
+{
+  "url": "page/config_action_mailer_interceptors",
+  "method": "config.action_mailer.interceptors",
+  "title": "電子メールが送信される前に呼び出させるインタープリタを登録",
+  "use": "config.action_mailer.interceptors = インタープリタ"
+},
+{
+  "url": "page/config_action_dispatch_session_store",
+  "method": "config.action_dispatch.session_store",
+  "title": "セッションストアの名前の設定",
+  "use": "config.action_dispatch.session_store = セッションストア名"
+},
+{
+  "url": "page/config_action_dispatch_default_headers",
+  "method": "config.action_dispatch.default_headers",
+  "title": "デフォルトで設定されたHTMLヘッダを持つハッシュ",
+  "use": "config.action_dispatch.default_headers = ハッシュ"
+},
+{
+  "url": "page/config_action_dispatch_tld_length",
+  "method": "config.action_dispatch.tld_length",
+  "title": "アプリケーションのトップドメインの長さを設定",
+  "use": "config.action_dispatch.tld_length = 数値"
+},
+{
+  "url": "page/callbacks_before",
+  "method": "ActionDispatch::Callbacks.before",
+  "title": "リクエストの前に実行する処理",
+  "use": "ActionDispatch::Callbacks.before"
+},
+{
+  "url": "page/callbacks_to_prepare",
+  "method": "ActionDispatch::Callbacks.to_prepare",
+  "title": "ActionDispatch::Callbacks.beforeの後に実行する処理",
+  "use": "ActionDispatch::Callbacks.to_prepare"
+},
+{
+  "url": "page/callbacks_after",
+  "method": "ActionDispatch::Callbacks.after",
+  "title": "リクエストの後に実行する処理",
+  "use": "ActionDispatch::Callbacks.after"
+},
+{
+  "url": "page/config_active_support_bare",
+  "method": "config.active_support.bare",
+  "title": "アクティブサポートのロードの設定",
+  "use": "config.active_support.bare = Bool値"
+},
+{
+  "url": "page/config_active_support_escape_html_entities_in_json",
+  "method": "config.active_support.escape_html_entities_in_json",
+  "title": "JSONのシリアル化でHTMLエンティティのエスケープ処理をするかの設定",
+  "use": "config.active_support.escape_html_entities_in_json = Bool値"
+},
+{
+  "url": "page/config_active_support_use_standard_json_time_format",
+  "method": "config.active_support.use_standard_json_time_format",
+  "title": "ISO8601形式に日時をシリアライズ",
+  "use": "config.active_support.use_standard_json_time_format = Bool値"
+},
+{
+  "url": "page/cache_store_logger",
+  "method": "ActiveSupport::Cache::Store.logger",
+  "title": "キャッシュストアで使用するロガーの設定",
+  "use": "ActiveSupport::Cache::Store.logger"
+},
+{
+  "url": "page/deprecation_behavior",
+  "method": "ActiveSupport::Deprecation.behavior",
+  "title": "非推奨の警告の動作を設定",
+  "use": "ActiveSupport::Deprecation.behavior"
+},
+{
+  "url": "page/deprecation_silence",
+  "method": "ActiveSupport::Deprecation.silence",
+  "title": "指定されたブロックで警告が表示されるか",
+  "use": "ActiveSupport::Deprecation.silence"
+},
+{
+  "url": "page/deprecation_silenced",
+  "method": "ActiveSupport::Deprecation.silenced",
+  "title": "非推奨の警告を標示するかの設定",
+  "use": "ActiveSupport::Deprecation.silenced"
+},
+{
+  "url": "page/add_flash_types",
+  "method": "add_flash_types",
+  "title": "フラッシュメッセージのタイプを指定",
+  "use": "add_flash_types(:タイプ名 [, ...])"
+},
+{
+  "url": "page/logger_silencer",
+  "method": "ActiveSupport::Logger.silencer",
+  "title": "サイレンサーのブロックをするかの設定",
+  "use": "ActiveSupport::Logger.silencer"
+},
+{
+  "url": "page/after_action",
+  "method": "after_action",
+  "title": "アクションの後に処理を実行",
+  "use": "after_action(アクション名 [, オプション])"
+},
+{
+  "url": "page/after_validation",
+  "method": "after_validation",
+  "title": "バリデーションの直後に呼び出されるメソッド",
+  "use": "after_validation(メソッド名 [, ...])"
+},
+{
+  "url": "page/around_action",
+  "method": "around_action",
+  "title": "アクションの前後に処理を実行",
+  "use": "around_action(アクション名 [, オプション])"
+},
+{
+  "url": "page/as_json",
+  "method": "as_json",
+  "title": "モデルをハッシュ形式のJSONに変換",
+  "use": "モデル.as_json([オプション])"
+},
+{
+  "url": "page/assert_enqueued_jobs",
+  "method": "assert_enqueued_jobs",
+  "title": "指定した個数のジョブが登録さているか確認",
+  "use": "assert_enqueued_jobs(個数 [, オプション])"
+},
+{
+  "url": "page/assert_enqueued_with",
+  "method": "assert_enqueued_with",
+  "title": "指定した引数でジョブを登録",
+  "use": "assert_enqueued_with([オプション])"
+},
+{
+  "url": "page/assert_generates",
+  "method": "assert_generates",
+  "title": "指定したパスが生成できるかバリデーション",
+  "use": "assert_generates(パス, オプション [, nil, 追加のパラメータ, メッセージ])"
+},
+{
+  "url": "page/assert_recognizes",
+  "method": "assert_recognizes",
+  "title": "ルーティングやオプションのバリデーション",
+  "use": "assert_recognizes(バリデーションするオプション, パス, 追加パラメータ, メッセージ)"
+},
+{
+  "url": "page/assert_redirected_to",
+  "method": "assert_redirected_to",
+  "title": "リダイレクト先がどうなっているかバリデーション",
+  "use": "assert_redirected_to([オプション, メッセージ])"
+},
+{
+  "url": "page/assert_response",
+  "method": "assert_response",
+  "title": "ステータスコードのバリデーション",
+  "use": "assert_response(タイプ [, メッセージ])"
+},
+{
+  "url": "page/assert_routing",
+  "method": "assert_routing",
+  "title": "ルーティングとオプションのバリデーション",
+  "use": "assert_routing(パス, オプション, nil, 追加パラメータ, メッセージ)"
+},
+{
+  "url": "page/before_action",
+  "method": "before_action",
+  "title": "アクションの前に処理を実行",
+  "use": "before_action(アクション名 [, オプション])"
+},
+{
+  "url": "page/before_validation",
+  "method": "before_validation",
+  "title": "バリデーションの直前に呼び出されるメソッドを設定",
+  "use": "before_validation(引数 [, ...])"
+},
+{
+  "url": "page/cache_if",
+  "method": "cache_if",
+  "title": "フラグメントキャッシュが有効かチェック",
+  "use": "cache_if(条件式 [, キー名, オプション])"
+},
+{
+  "url": "page/cdata_section",
+  "method": "cdata_section",
+  "title": "指定された文字列からCDATAセクションを出力",
+  "use": "cdata_section(文字列)"
+},
+{
+  "url": "page/change_column_comment",
+  "method": "change_column_comment",
+  "title": "カラムのコメントを変更",
+  "use": "change_column_comment(テーブル名, カラム名, comment_or_changes)"
+},
+{
+  "url": "page/change_column_null",
+  "method": "change_column_null",
+  "title": "NULL制約の追加または削除",
+  "use": "change_column_null(table_name, column_name, null, default = nil)"
+},
+{
+  "url": "page/change_table_comment",
+  "method": "change_table_comment",
+  "title": "テーブルのコメントを変更",
+  "use": "change_table_comment(テーブル名, コメント)"
+},
+{
+  "url": "page/changes",
+  "method": "changes",
+  "title": "モデルの変更前と変更後の値をハッシュで取得",
+  "use": "モデル.changes()"
+},
+{
+  "url": "page/clear_validators",
+  "method": "clear_validators!",
+  "title": "全てのバリデーションをクリア",
+  "use": "モデル.clear_validators!()"
+},
+{
+  "url": "page/combined_fragment_cache_key",
+  "method": "combined_fragment_cache_key",
+  "title": "フラグメントキャッシュの参照",
+  "use": "combined_fragment_cache_key(キー名)"
+},
+{
+  "url": "page/count_by_sql",
+  "method": "count_by_sql",
+  "title": "SQL文を使って件数を取得",
+  "use": "count_by_sql(SQL文)"
+},
+{
+  "url": "page/duplicable_q",
+  "method": "duplicable?",
+  "title": "複製可能かチェック",
+  "use": "duplicable?"
+},
+{
+  "url": "page/foreign_key_exists_q",
+  "method": "foreign_key_exists?",
+  "title": "テーブルに外部キー制約が存在するかチェック",
+  "use": "foreign_key_exists?(from_table [, to_table = nil, オプション])"
+},
+{
+  "url": "page/fragment_exist_q",
+  "method": "fragment_exist?",
+  "title": "フラグメントキャッシュが存在するか確認",
+  "use": "fragment_exist?(キー名 [,  オプション])"
+},
+{
+  "url": "page/html_escape",
+  "method": "html_escape",
+  "title": "HTMLタグをエスケープ",
+  "use": "html_escape(文字列)"
+},
+{
+  "url": "page/html_escape_once",
+  "method": "html_escape_once",
+  "title": "既にエスケープされた文字列はそのままで、HTMLタグをエスケープ",
+  "use": "html_escape_once(文字列)"
+},
+{
+  "url": "page/in_batches",
+  "method": "in_batches",
+  "title": "分割してレコードを取得して処理",
+  "use": "モデル.in_batches([オプション])"
+},
+{
+  "url": "page/index_name_exists_q",
+  "method": "index_name_exists?",
+  "title": "テーブルに指定した名前のインデックスが存在するかチェック",
+  "use": "index_name_exists?(テーブル名, インデックス名)"
+},
+{
+  "url": "page/indexes",
+  "method": "indexes",
+  "title": "指定されたテーブルのインデックスを配列で取得",
+  "use": "indexes(テーブル名)"
+},
+{
+  "url": "page/json_escape",
+  "method": "json_escape",
+  "title": "JSONエスケープ",
+  "use": "json_escape(文字列)"
+},
+{
+  "url": "page/left_outer_joins",
+  "method": "left_outer_joins",
+  "title": "関連するモデルの左外部結合",
+  "use": "モデル.left_outer_joins(モデル名)"
+},
+{
+  "url": "page/model_concat",
+  "method": "concat",
+  "title": "主キーを設定して複数のレコードを追加",
+  "use": "モデル.concat(モデル)"
+},
+{
+  "url": "page/model_distinct",
+  "method": "distinct",
+  "title": "重複のない値を取得",
+  "use": "モデル.distinct([重複を削除するか])"
+},
+{
+  "url": "page/model_or",
+  "method": "or",
+  "title": "OR条件式",
+  "use": "モデル.or(条件式)"
+},
+{
+  "url": "page/model_unscope",
+  "method": "unscope",
+  "title": "条件式を削除",
+  "use": "モデル.unscope(条件式)"
+},
+{
+  "url": "page/previous_changes",
+  "method": "previous_changes",
+  "title": "モデルが保存される前に変更された値をハッシュで取得",
+  "use": "モデル.previous_changes()"
+},
+{
+  "url": "page/redirect_back",
+  "method": "redirect_back",
+  "title": "直前のページにリダイレクト",
+  "use": "redirect_back(HTTP_REFERERが設定されていない場合のリダイレクト先 [, オプション])"
+},
+{
+  "url": "page/rescue_from",
+  "method": "rescue_from",
+  "title": "例外処理をまとめる",
+  "use": "rescue_from(例外 , with: メソッド)"
+},
+{
+  "url": "page/select_tag",
+  "method": "select_tag",
+  "title": "選択ボックスを生成",
+  "use": "select_tag(オブジェクト名, メソッド名, 要素(配列 or ハッシュ) [, オプション or HTML属性 or イベント属性])"
+},
+{
+  "url": "page/time_ago_in_words",
+  "method": "time_ago_in_words",
+  "title": "日時を表示",
+  "use": "time_ago_in_words(時間 [, オプション])"
+},
+{
+  "url": "page/uuid_v3",
+  "method": "uuid_v3",
+  "title": "Digest::MD5を使ったUUID",
+  "use": "Digest::UUID.uuid_v3(UUIDの名前空間, 名前)"
+},
+{
+  "url": "page/uuid_v4",
+  "method": "uuid_v4",
+  "title": "UUID",
+  "use": "Digest::UUID.uuid_v4"
+},
+{
+  "url": "page/uuid_v5",
+  "method": "uuid_v5",
+  "title": "Digest::SHA1を使ったUUID",
+  "use": "Digest::UUID.uuid_v5(UUIDの名前空間, 名前)"
+},
+{
+  "url": "page/word_wrap",
+  "method": "word_wrap",
+  "title": "指定された長さ以降の空白に改行を入れて出力",
+  "use": "word_wrap(text, [オプション])"
+},
+{
+  "url": "page/write_fragment",
+  "method": "write_fragment",
+  "title": "フラグメントキャッシュの保存",
+  "use": "write_fragment(キー名, 保存場所 [,  オプション])"
+},
+{
+  "url": "page/respond_to",
+  "method": "respond_to",
+  "title": "リクエストで指定されたフォーマットに合わせて出力",
+  "use": "respond_to do |format| end"
+},
+{
+  "url": "page/try",
+  "method": "try",
+  "title": "ぼっち演算",
+  "use": "オブジェクト.try(メソッド)"
+},
+{
+  "url": "page/concern",
+  "method": "concern",
+  "title": "共通のルーティング定義",
+  "use": "concern(名前, [コールバック])"
+},
+{
+  "url": "page/member",
+  "method": "member",
+  "title": "メンバールーティングを追加",
+  "use": "member"
+},
+{
+  "url": "page/validates_with",
+  "method": "validates_with",
+  "title": "バリデーションの別クラスにエラーを追加",
+  "use": "validates_with(引数)"
+},
+{
+  "url": "page/validates_each",
+  "method": "validates_each",
+  "title": "ブロックに対してのバリデーション",
+  "use": "validates_each(キー名, [,  オプション])"
+},
+{
+  "url": "page/model_select",
+  "method": "select",
+  "title": "カラムを指定して取得",
+  "use": "モデル.select(カラム名)"
+},
+{
+  "url": "page/model_only",
+  "method": "only",
+  "title": "指定した条件以外の条件をクエリから削除",
+  "use": "モデル.only(条件)"
+},
+{
+  "url": "page/benchmark",
+  "method": "benchmark",
+  "title": "ブロック内の実行時間を測定し結果をログに記録",
+  "use": "benchmark([メッセージ, オプション])"
+},
+{
+  "url": "page/collection_radio_buttons",
+  "method": "collection_radio_buttons",
+  "title": "モデルからラジオボタンを自動生成",
+  "use": "collection_radio_buttons(オブジェクト名, コレクション名, メソッド名, value値 [, オプション])"
+},
+{
+  "url": "page/collection_check_boxes",
+  "method": "collection_check_boxes",
+  "title": "モデルからチェックボックスを自動生成",
+  "use": "collection_check_boxes(オブジェクト名, メソッド名, コレクション名 [, オプション, checked_value, unchecked_value])"
+},
+{
+  "url": "page/rails_about",
+  "method": "rails about",
+  "title": "Railsアプリケーションのバージョン情報や各ディレクトリのライブラリ名などを出力",
+  "use": "$ rails about"
+},
+{
+  "url": "page/rails_assets",
+  "method": "rails assets",
+  "title": "アセット関連の作成処理",
+  "use": "$ rails assets"
+},
+{
+  "url": "page/rails_notes",
+  "method": "rails notes",
+  "title": "コードからコメントの部分を抽出",
+  "use": "$ ails notes"
+},
+{
+  "url": "page/rails_routes",
+  "method": "rails routes",
+  "title": "定義されている全ルーティングを出力",
+  "use": "$ rails routes"
+},
+{
+  "url": "page/rails_tmp",
+  "method": "rails tmp",
+  "title": "tmpディレクトリを生成",
+  "use": "$ rails tmp"
+},
+{
+  "url": "page/config_disable_sandbox",
+  "method": "config.disable_sandbox",
+  "title": "rails consoleでsandboxの起動不可",
+  "use": "config.disable_sandbox = Bool値"
+},
+{
+  "url": "page/config_enable_dependency_loading",
+  "method": "config.enable_dependency_loading",
+  "title": "cache_classesがtrueでも自動読み込みを有効",
+  "use": "config.enable_dependency_loading = Bool値"
+},
+{
+  "url": "page/config_debug_exception_response_format",
+  "method": "config.debug_exception_response_format",
+  "title": "developmentモードでエラーが発生した場合のレスポンスのフォーマットを定義",
+  "use": "config.debug_exception_response_format"
+},
+{
+  "url": "page/config_log_formatter",
+  "method": "config.log_formatter",
+  "title": "ロガーのフォーマットを定義",
+  "use": "config.log_formatter"
+},
+{
+  "url": "page/config_credentials_content_path",
+  "method": "config.credentials.content_path",
+  "title": "暗号化済みのcredentialのパスを定義",
+  "use": "config.credentials.content_path"
+},
+{
+  "url": "page/config_credentials_key_path",
+  "method": "config.credentials.key_path",
+  "title": "暗号化キーのパスを定義",
+  "use": "config.credentials.key_path"
+},
+{
+  "url": "page/after_initialize",
+  "method": "after_initialize",
+  "title": "モデルが作成される時に実行",
+  "use": "after_initializedo |x| end"
+},
+{
+  "url": "page/after_touch",
+  "method": "after_touch",
+  "title": "モデルをタッチするたびに実行",
+  "use": "after_touch |x| end"
+},
+{
+  "url": "page/define_model_callbacks",
+  "method": "define_model_callbacks",
+  "title": "デフォルトのコールバックを上書き",
+  "use": "define_model_callbacks(メソッド名 [, only: タイプ])"
+},
+{
+  "url": "page/append_after_action",
+  "method": "append_after_action",
+  "title": "アクションの後に処理を追加",
+  "use": "append_after_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/append_around_action",
+  "method": "append_around_action",
+  "title": "アクションの前後に処理を追加",
+  "use": "append_around_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/append_before_action",
+  "method": "append_before_action",
+  "title": "アクションの前に処理を追加",
+  "use": "append_before_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/prepend_after_action",
+  "method": "prepend_after_action",
+  "title": "アクションの後に処理を追加",
+  "use": "prepend_after_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/prepend_around_action",
+  "method": "prepend_around_action",
+  "title": "アクションの前後に処理を追加",
+  "use": "prepend_around_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/prepend_before_action",
+  "method": "prepend_before_action",
+  "title": "アクションの前に処理を追加",
+  "use": "prepend_before_action(コールバック名 [, オプション])"
+},
+{
+  "url": "page/skip_after_action",
+  "method": "skip_after_action",
+  "title": "アクションの後のコールバックをスキップ",
+  "use": ""
+},
+{
+  "url": "page/skip_around_action",
+  "method": "skip_around_action",
+  "title": "アクションに関するコールバックをスキップ",
+  "use": "skip_after_action(コールバック名)"
+},
+{
+  "url": "page/skip_before_action",
+  "method": "skip_before_action",
+  "title": "アクションの前のコールバックをスキップ",
+  "use": "skip_before_action(コールバック名)"
+},
+{
+  "url": "page/transaction",
+  "method": "transaction",
+  "title": "トランザクション",
+  "use": "モデル.transaction do"
+},
+{
+  "url": "page/direct",
+  "method": "direct",
+  "title": "カスタムURLヘルパーを定義 ",
+  "use": "direct(名前 [, オプション])"
+},
+{
+  "url": "page/resolve",
+  "method": "resolve",
+  "title": "モデルのURLマッピングを定義 ",
+  "use": "resolve(名前)"
+},
+{
+  "url": "page/http_basic_authenticate_with",
+  "method": "http_basic_authenticate_with",
+  "title": "Basic認証 ",
+  "use": "http_basic_authenticate_with(name: 名前, password: パスワード [, realm: 認証が必要がエリア名, オプション])"
+},
+{
+  "url": "page/protect_from_forgery",
+  "method": "protect_from_forgery",
+  "title": "CSRF対策の設定",
+  "use": "protect_from_forgery([オプション])"
+}
+]}

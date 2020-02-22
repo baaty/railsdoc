@@ -19,6 +19,10 @@
 {%- else %}
 {%- assign ogp = "ogp.png" %}
 {%- endif %}
+{%- assign method = "{{method}}" -%}
+{%- assign url = "{{url}}" -%}
+{%- assign desc = "{{title}}" -%}
+{%- assign use = "{{use}}" -%}
 <!doctype html>
 <html amp lang="jp">
   <head>
@@ -35,6 +39,7 @@
 {%- endif %}
     <meta property="og:image" content="https://railsdoc.com/assets/images/{{ogp}}">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -73,14 +78,60 @@
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
     <style amp-custom>
       {% include style.css %}
     </style>
   </head>
   <body>
-    <header class="col-12"><span role="button" class="sm-hide" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span>
+    <header class="col-12"><span role="button" class="sm-hide sidebar-open" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="block"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span>
     <h1><a href="/">Railsドキュメント</a></h1>
+    <div on="tap:search-lightbox" class="lightbox-open">
+      <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 24 24" width="36"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+    </div>
     </header>
+
+    <amp-lightbox id="search-lightbox" layout="nodisplay" scrollable>
+    <div class="sm-col-2 xs-hide lightbox-left" on="tap:search-lightbox.close" role="button"></div>
+    <div class="search sm-col-8 col-12">
+    <button on="tap:search-lightbox.close" class="lightbox-close" role="button">x</button>
+    <h2>検索</h2>
+    <amp-state id="searchAutocomplete" src="/search.json"></amp-state>
+    <form>
+      <amp-autocomplete filter="token-prefix" filter-value="method" min-characters="1" src="/search.json" on="select:AMP.setState({
+      filteredAutocomplete: searchAutocomplete.items.filter(a => a.method == event.value)
+    })">
+        <input type="search" name="search" class="search_box" placeholder="何のメソッドを探していますか？" value on="change:AMP.setState({
+      filteredAutocomplete: searchAutocomplete.items.filter(a => event.value == '' ? false : a.method.indexOf(event.value) != -1)
+    })">
+        <template type="amp-mustache" id="amp-template-custom">
+          <div data-value="{{method}}">{{method}}</div>
+        </template>
+      </amp-autocomplete>
+    </form>
+    <amp-list height="1000" [height]="1000 + filteredAutocomplete.length" [src]="filteredAutocomplete" binding="no">
+      <template type="amp-mustache">
+        <div data-value="{{method}}" class="result">
+          <h3><a href="/{{url}}">{{method}}</a></h3>
+          <dl>
+            <dt>説明</dt>
+            <dd>{{desc}}</dd>
+          </dl>
+          <dl>
+            <dt>使い方</dt>
+            <dd><pre><code>{{use}}</code></pre></dd>
+          </dl>
+          <dl>
+            <dt>詳細</dt>
+            <dd>オプションや例などは <a href="/{{url}}">{{method}} | Railsドキュメント</a> を参照</p></dd>
+          </dl>
+        </div>
+      </template>
+    </amp-list>
+    </div>
+    <div class="sm-col-2 xs-hide lightbox-right" on="tap:search-lightbox.close" role="button"></div>
+    </amp-lightbox>
+
     <amp-sidebar id="sidebar" layout="nodisplay" side="left">
       <ul>
       {%- for i in site.data.categories %}
