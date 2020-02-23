@@ -5,11 +5,13 @@ layout: page
 アンダーバー(_)をハイフン(-)に変換
 
 ### 使い方
+    dasherize("文字列")
+    or
     文字列.dasherize()
 
 ### 例
 #### アンダーバーをハイフンに変換
-    'puni_puni'.dasherize
+    dasherize('puni_puni')
     # "puni-puni"
 
 ### ソースコード

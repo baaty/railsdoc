@@ -6,7 +6,7 @@ layout: page
 ファイル名からクラス名へ変換など
 
 ### 使い方
-    文字列.camelize([オプション])
+    camelize(文字列 [, オプション])
 
 ### オプション
 
@@ -17,15 +17,15 @@ layout: page
 
 ### 例
 ##### キャメルケース
-    "product".camelize
+    camelize('product')
     # "Product"
 
 #### 「/」を含む文字の変換
-    "backoffice/session".camelize
+    camelize('backoffice/session')
     # "Backoffice::Session"
 
 #### ローワーキャメルケース
-    'active_record'.camelize(:lower)
+    camelize('active_record'. :lower)
     # "activeRecord"
 
 ### ソースコード

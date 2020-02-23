@@ -6,32 +6,28 @@ layout: page
 「config/initializers/inflections.rb」に定義を追加することによって、不可算名詞の追加が可能
 
 ### 使い方
-    文字列.singularize([ロケーション])
+    singularize(文字列 [, ロケーション])
 
 ### 例
 #### 複数形の名詞を単数形に変換
-    'posts'.singularize
+    singularize('posts')
     # "post"
 
 #### 不可算名詞
-    'octopi'.singularize
+    singularize('octopi')
     # "octopus"
 
 #### 不可算名詞
-    'sheep'.singularize
+    singularize('sheep')
     # "sheep"
 
-#### 文字列
-    'the blue mailmen'.singularize
-    # "the blue mailman"
-
 #### キャメルケース
-    'CamelOctopi'.singularize
+    singularize('CamelOctopi')
     # "CamelOctopus"
 
 #### ロケーション指定
-    'leyes'.singularize(:js)
+    singularize('leyes', :js)
     # "ley"
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activesupport/lib/active_support/core_ext/string/inflections.rb#L56)
+* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activesupport/lib/active_support/inflector/methods.rb#L48)

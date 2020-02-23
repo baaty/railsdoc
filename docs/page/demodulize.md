@@ -5,15 +5,17 @@ layout: page
 定数式からモジュール部分を削除
 
 ### 使い方
+    demodulize("文字列")
+    or
     文字列.demodulize()
 
 ### 例
 #### 定数式からモジュール部分を削除
-    'ActiveRecord::CoreExtensions::String::Inflections'.demodulize
+    demodulize('ActiveRecord::CoreExtensions::String::Inflections')
     # "Inflections"
 
 #### モジュール部分が無い
-    'Inflections'.demodulize
+    demodulize('Inflections')
     # "Inflections"
 
 ### ソースコード

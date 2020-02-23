@@ -6,11 +6,11 @@ layout: page
 「config/initializers/inflections.rb」に定義を追加することによって可能
 
 ### 使い方
-    テーブル名.classify
+    classify(テーブル名)
 
 ### 例
 #### 「people」を変換
-    "people".classify
+    classify("people")
     # "Person"
 
 ### ソースコード

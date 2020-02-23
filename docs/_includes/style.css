@@ -205,6 +205,8 @@ main .tag a {
 }
 .sidebar-open {
   fill: #fff;
+  color: #fff;
+  display: inline-block;
 }
 .row {
   display: flex;

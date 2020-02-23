@@ -6,20 +6,20 @@ layout: page
 「config/initializers/inflections.rb」に定義を追加することによって追加
 
 ### 使い方
-    クラス名.underscore
+    underscore("文字列")
 
 ### 例
 
 #### 「Product」を変換
-    "Product".underscore
+    underscore("Product")
     # "product"
 
 #### 「AdminUser」を変換
-    "AdminUser".underscore
+    underscore("AdminUser")
     # "admin_user"
 
 #### 「Backoffice::Session」を変換
-    "Backoffice::Session".underscore
+    underscore("Backoffice::Session")
     # "backoffice/session"
 
 ### ソースコード

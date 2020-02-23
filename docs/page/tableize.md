@@ -6,15 +6,15 @@ layout: page
 「config/initializers/inflections.rb」に定義を追加することによって追加
 
 ### 使い方
-    モデル.tableize()
+    tableize(文字列)
 
 ### 例
 #### 「Page」を変換
-    "Page".tableize
+    tableize("Page")
     # "pages"
 
 #### 「AdminUser」を変換
-    "AdminUser".tableize
+    tableize("AdminUser")
     # "admin_users"
 
 ### ソースコード
