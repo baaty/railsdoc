@@ -103,6 +103,7 @@ code {
 }
 pre {
 	white-space: pre-wrap;
+  word-break : break-all;
 }
 article {
   margin-bottom: 32px;
@@ -113,6 +114,7 @@ article p {
 article pre {
   margin-top: 4px;
   white-space: pre-wrap;
+  word-break : break-all;
 }
 article ul {
   margin-top: 4px;
