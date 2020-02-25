@@ -1,39 +1,32 @@
 ---
 layout: page
 ---
-1.  作業ディレクトリの作成
+1. 作業ディレクトリの作成
 
         $ mkdir rails
         $ cd rails
 
-2.  アプリケーション作成
+2. アプリケーション作成
 
         $ rails new demo
 
-3.  ディレクトリ移動
+3. ディレクトリ移動
 
         $ cd demo
 
-4.  必要なgemのインストール
+4. ジェネレータ
 
-        $ bundle install
+        $ rails generate controller Welcome index
 
-5.  データベースの設定
+5. ルーティング
 
-        $ vi config/database.yml
+        $ vim config/routes.rb
+        Rails.application.routes.draw do
+          get 'welcome/index'
+          root 'welcome#index'
+        end
 
-6.  データベースの作成
-
-        $ rake db:create
-
-7.  ジェネレータ
-
-        $ rails generate controller Say Hello goodbye
-
-8.  テーブル作成
-
-        $ rake db:migrate
-
-9.  サーバ起動
+6. サーバ起動
 
         $ rails server
+        # http://localhost:3000にアクセス
