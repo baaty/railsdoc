@@ -19,7 +19,7 @@ layout: page
 #### 既存のテーブルのリファレンスを削除
     remove_reference(:products, :user, index: true)
 
-#### ポリモーフィックを付与を指定
+#### ポリモーフィックを付与
     remove_reference(:products, :supplier, polymorphic: true)
 
 #### 外部キーの制約を指定

@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-「true」のとき、すべてのエラーをブラウザに表示をするかの設定を行います
+「true」のとき、すべてのエラーをブラウザに表示をするかの設定
 
 ### 使い方
     config.consider_all_requests_local = ( true | false )

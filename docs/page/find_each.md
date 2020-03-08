@@ -35,7 +35,7 @@ layout: page
     end
 
 ### 補足
-* find_in_batchesとの違いは1件ずつ処理を行うこと
+* find_in_batchesとの違いは1件ずつ処理すること
 
 ### ソースコード
 * [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/relation/batches.rb#L67)

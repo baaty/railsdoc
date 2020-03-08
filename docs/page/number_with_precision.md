@@ -36,7 +36,7 @@ layout: page
     number_with_precision(12345678, delimiter: ".")
     # 12.345.678
 
-#### 少数点の区切り文字を変更
+#### 小数点の区切り文字を変更
     number_with_precision(12345678.05, separator: " ")
     # 12,345,678 05
 

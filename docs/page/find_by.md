@@ -17,7 +17,7 @@ layout: page
     # <Page id: 1, category_id: 1>
     # SQL: SELECT "pages".* FROM "pages" WHERE "pages"."category_id" = 1 LIMIT 1
 
-#### category_idが1が存在しない場合
+#### category_idの1が存在しない場合
     Page.find_by category_id: 1
     # nil
 

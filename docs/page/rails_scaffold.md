@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-アプリケーションの基本的な機能の一覧(index)、詳細(show)、新規作成(new/create)、編集(edit/update)、削除(destroy)を行うために必要なコントローラ、モデル、ビューをまとめて生成
+アプリケーションの基本的な機能の一覧(index)、詳細(show)、新規作成(new/create)、編集(edit/update)、削除(destroy)するために必要なコントローラ、モデル、ビューをまとめて生成
 
 ### 使い方
     $ rails generate scaffold 名前 [カラム名:型]
@@ -15,12 +15,12 @@ layout: page
 -b, --builder-BUILDER       | builderのパスを指定
 -m, -template=TAMPLATE      | テンプレートのパス
 --skip-gemfile              | Grmfileを作成しない
---skip-bundle               | bundle installを行わない
+--skip-bundle               | bundle installしない
 -G, --skip-git              | .gitignore, .gitkeepを組み込まない
 -O, --skip-active-recode    | active recordを組み込まない
 -S, --skip-sprockets        | sprocketsファイルをスキップ
 -d, --database=DATABASE     | データベースの種類
--j, --javascript=JAVASCRIPT | 組み込むJavascriptライブラリーを指定。デフォルトは、jquery
+-j, --javascript=JAVASCRIPT | 組み込むJavaScriptライブラリーを指定。デフォルトは、jquery
 -J, --skip-javascript       | javaScriptを組み込まない
 --dev                       | github リポジトリ上の自分のコードから作成
 --edge                      | github リポジトリ上の最新のコードから作成

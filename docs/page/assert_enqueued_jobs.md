@@ -2,7 +2,7 @@
 layout: page
 ---
 ### 説明
-指定した個数のジョブが登録さているか確認
+指定した個数のジョブが登録されているか確認
 
 ### 使い方
     assert_enqueued_jobs(個数 [, オプション])
@@ -16,7 +16,7 @@ layout: page
 :queue  | キューを指定
 
 ### 例
-#### 指定した個数のジョブが登録さているか確認
+#### 指定した個数のジョブが登録されているか確認
     assert_enqueued_jobs 0
     HelloJob.perform_later('david')
     assert_enqueued_jobs 1

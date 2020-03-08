@@ -3,7 +3,7 @@ layout: page
 ---
 ### 説明
 アクションの前後に処理を追加  
-around_actionより前に処理を行う
+around_actionより前に処理
 
 ### 使い方
     prepend_around_action(コールバック名 [, オプション])

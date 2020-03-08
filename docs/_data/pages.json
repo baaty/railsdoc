@@ -3102,7 +3102,7 @@
   "config_cache_classes": {
     "category_id": 15,
     "created_at": "2013-05-16 13:24:37.639970",
-    "title": "アプリケーションクラスのリロードをするかの設定",
+    "title": "アプリケーションクラスのリロードするかの設定",
     "method": "config.cache_classes",
     "api_url": "",
     "api_method": "",
@@ -3466,7 +3466,7 @@
   "config_action_view_cache_template_loading": {
     "category_id": 15,
     "created_at": "2013-05-16 13:25:23.303819",
-    "title": "テンプレートのレンダリングのキャッシュするかの設定",
+    "title": "テンプレートのレンダリングをキャッシュするかの設定",
     "method": "config.action_view.cache_template_loading",
     "api_url": "",
     "api_method": "",
@@ -4430,7 +4430,7 @@
   "config_dependency_loading": {
     "category_id": 99,
     "created_at": "2013-05-16 13:28:44.265006",
-    "title": "設定のオートロードをするかの設定",
+    "title": "設定のオートロードするかの設定",
     "method": "config.dependency_loading",
     "api_url": "",
     "api_method": "",
@@ -10241,7 +10241,7 @@
   "config_active_record_pluralize_table_names": {
     "category_id": 15,
     "created_at": "2013-05-18 04:20:46.830085",
-    "title": "テーブル名を生成するときに複数形への変換をするかの設定",
+    "title": "テーブル名を生成するときに複数形への変換するかの設定",
     "method": "config.active_record.pluralize_table_names",
     "api_url": "",
     "api_method": "",
@@ -10574,7 +10574,7 @@
   "config_action_controller_perform_caching": {
     "category_id": 15,
     "created_at": "2013-05-18 06:06:00.927745",
-    "title": "コントローラのキャッシュ設定をするかの設定",
+    "title": "コントローラのキャッシュ設定するかの設定",
     "method": "config.action_controller.perform_caching",
     "api_url": "",
     "api_method": "",
@@ -11135,7 +11135,7 @@
   "config_action_mailer_perform_deliveries": {
     "category_id": 15,
     "created_at": "2013-05-18 06:44:44.618982",
-    "title": "電子メールの使用をするかの設定",
+    "title": "電子メールの使用するかの設定",
     "method": "config.action_mailer.perform_deliveries",
     "api_url": "",
     "api_method": "",
@@ -11326,7 +11326,7 @@
   "logger_silencer": {
     "category_id": 15,
     "created_at": "2013-05-18 06:54:18.349205",
-    "title": "サイレンサーのブロックをするかの設定",
+    "title": "サイレンサーのブロックするかの設定",
     "method": "ActiveSupport::Logger.silencer",
     "api_url": "",
     "api_method": "",
@@ -11424,7 +11424,7 @@
   "assert_enqueued_jobs": {
     "category_id": 21,
     "created_at": "2011-07-23 09:14:45.471397",
-    "title": "指定した個数のジョブが登録さているか確認",
+    "title": "指定した個数のジョブが登録されているか確認",
     "method": "assert_enqueued_jobs",
     "api_url": "https://api.rubyonrails.org/classes/ActiveJob/TestHelper.html#method-i-assert_enqueued_jobs",
     "api_method": "assert_enqueued_jobs(number, only: nil, except: nil, queue: nil)",

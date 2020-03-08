@@ -15,7 +15,7 @@ layout: page
 | -r, -ruby=PATH              | rubyバイナリのパス                   |         |
 | -m, -template=TAMPLATE      | テンプレートのパス                     |         |
 | --skip-gemfile              | Grmfileを作成しない               |         |
-| ｰB, --skip-bundle           | bundle installを行わない          |         |
+| ｰB, --skip-bundle           | bundle installしない          |         |
 | -G, --skip-git              | .gitignoreを組み込まない           |         |
 | --skip-keeps                | .keepを組み込まない                |         |
 | -O, --skip-active-recode    | active recordを組み込まない        |         |

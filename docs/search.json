@@ -561,7 +561,7 @@
 {
   "url": "page/config_cache_classes",
   "method": "config.cache_classes",
-  "title": "アプリケーションクラスのリロードをするかの設定",
+  "title": "アプリケーションクラスのリロードするかの設定",
   "use": "config.cache_classes"
 },
 {
@@ -627,7 +627,7 @@
 {
   "url": "page/config_action_view_cache_template_loading",
   "method": "config.action_view.cache_template_loading",
-  "title": "テンプレートのレンダリングのキャッシュするかの設定",
+  "title": "テンプレートのレンダリングをキャッシュするかの設定",
   "use": "config.action_view.cache_template_loading"
 },
 {
@@ -825,7 +825,7 @@
 {
   "url": "page/config_dependency_loading",
   "method": "config.dependency_loading",
-  "title": "設定のオートロードをするかの設定",
+  "title": "設定のオートロードするかの設定",
   "use": "config.dependency_loading"
 },
 {
@@ -2139,7 +2139,7 @@
 {
   "url": "page/config_active_record_pluralize_table_names",
   "method": "config.active_record.pluralize_table_names",
-  "title": "テーブル名を生成するときに複数形への変換をするかの設定",
+  "title": "テーブル名を生成するときに複数形への変換するかの設定",
   "use": "config.active_record.pluralize_table_names = false"
 },
 {
@@ -2217,7 +2217,7 @@
 {
   "url": "page/config_action_controller_perform_caching",
   "method": "config.action_controller.perform_caching",
-  "title": "コントローラのキャッシュ設定をするかの設定",
+  "title": "コントローラのキャッシュ設定するかの設定",
   "use": "config.action_controller.perform_caching = Bool値"
 },
 {
@@ -2409,7 +2409,7 @@
 {
   "url": "page/config_action_mailer_perform_deliveries",
   "method": "config.action_mailer.perform_deliveries",
-  "title": "電子メールの使用をするかの設定",
+  "title": "電子メールの使用するかの設定",
   "use": "config.action_mailer.perform_deliveries = Bool値"
 },
 {
@@ -2517,7 +2517,7 @@
 {
   "url": "page/logger_silencer",
   "method": "ActiveSupport::Logger.silencer",
-  "title": "サイレンサーのブロックをするかの設定",
+  "title": "サイレンサーのブロックするかの設定",
   "use": "ActiveSupport::Logger.silencer"
 },
 {
@@ -2547,7 +2547,7 @@
 {
   "url": "page/assert_enqueued_jobs",
   "method": "assert_enqueued_jobs",
-  "title": "指定した個数のジョブが登録さているか確認",
+  "title": "指定した個数のジョブが登録されているか確認",
   "use": "assert_enqueued_jobs(個数 [, オプション])"
 },
 {

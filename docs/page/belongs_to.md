@@ -23,7 +23,7 @@ layout: page
 :touch         | updated_atまたはupdated_onが保存または破棄された場合に現在の時刻を設定するか  |
 :inverse_of    | モデルを指定                                                      |
 :optional      | 関連付けの確認は行わないか？                                          |
-:required      | 関連付けの確認を行うか？                                            | true
+:required      | 関連付けの確認するか？                                              | true
 :default       | 特定のカラムの初期化                                               |
 
 ### 追加されているメソッド
