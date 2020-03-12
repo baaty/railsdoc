@@ -12,15 +12,19 @@ layout: page
 
 ### オプション
 
-オプション          | 説明
--------------- | ---------------
-:include_blank | 空のオプションを先頭に追加
-:prompt        | 指定したオプションを先頭に追加
-:selected      | 選択されたオプション
+オプション                | 説明
+---------------------|------------------------
+:object              | 選択タグに使用されるクラスのインスタンス
+:method              | 選択タグに対応する属性
+:collection          | タグを表すオブジェクトの配列
+:group_method        | グループ名
+:group_label_method  | グループ属性
+:option_key_method   | collectionと使用される値
+:option_value_method | optionタグのコンテンツとして使用される値
 
 ### HTML属性
 
-HTML属性      | 説明
+HTML属性   | 説明
 -----------|------------------
 :name      | 名称
 :size      | サイズ。ピクセル数で指定

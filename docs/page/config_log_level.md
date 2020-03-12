@@ -5,7 +5,7 @@ layout: page
 アプリケーションのログレベルを指定
 
 ### 使い方
-    config.log_level = ( :debug | :info | :error | :fatal )
+    config.log_level = ( :debug | :info | :warn | :error | :fatal )
 
 ### デフォルトの設定
 

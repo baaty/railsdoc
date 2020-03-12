@@ -5,7 +5,7 @@ layout: page
 モデルが作成される時に実行
 
 ### 使い方
-    after_initializedo |x|
+    after_initialize do |x|
       実行したい処理
     end
 

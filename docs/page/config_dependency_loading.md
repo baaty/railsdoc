@@ -6,7 +6,7 @@ layout: page
 config.cache_classesが「true」のときにのみ有効
 
 ### 使い方
-    config.dependency_loading
+    config.enable_dependency_loading
 
 ### デフォルトの設定
 
@@ -17,4 +17,4 @@ test        | false
 production  | true
 
 ### 例
-    config.dependency_loading = true
+    config.enable_dependency_loading = true

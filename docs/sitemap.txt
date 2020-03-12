@@ -287,7 +287,6 @@ https://railsdoc.com/page/asset_path
 https://railsdoc.com/page/attributes_before_type_cast
 https://railsdoc.com/page/record_timestamps
 https://railsdoc.com/page/has_attribute
-https://railsdoc.com/page/content_tag_for
 https://railsdoc.com/page/read_attribute_before_type_cast
 https://railsdoc.com/page/date_field_tag
 https://railsdoc.com/page/attribute_method_q

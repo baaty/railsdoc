@@ -5,6 +5,7 @@
 {%- else %}
 {%- assign title = 'Railsドキュメント' %}
 {%- endif %}
+
 {%- if include.description %}
 {%- assign description = include.description %}
 {%- elsif page.description %}
@@ -12,6 +13,7 @@
 {%- else %}
 {%- assign description = "" %}
 {%- endif %}
+
 {%- if include.ogp %}
 {%- assign ogp = include.ogp %}
 {%- elsif page.ogp %}
@@ -19,6 +21,7 @@
 {%- else %}
 {%- assign ogp = "ogp.png" %}
 {%- endif %}
+
 {%- assign method = "{{method}}" -%}
 {%- assign url = "{{url}}" -%}
 {%- assign desc = "{{title}}" -%}

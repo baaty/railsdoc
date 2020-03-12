@@ -1,0 +1,14 @@
+{%- capture nameStr %}{{page.name | remove: ".md"}}{% endcapture %}
+{%- if site.data.archive.pages_5_2_4_1[nameStr].method != "" %}
+{%- assign titleStr = site.data.archive.pages_5_2_4_1[nameStr].method %}
+{%- else %}
+{%- assign titleStr = site.data.archive.pages_5_2_4_1[nameStr].title %}
+{%- endif %}
+{%- include archive_header.html title=titleStr depth=".." %}
+<main class="sm-col-10">
+<article>
+<h2 id="{{ nameStr }}">{{ site.data.archive.pages_5_2_4_1[nameStr].title }}</h2>
+{{ content }}
+</article>
+</main class="sm-col-10">
+{% include footer.html %}

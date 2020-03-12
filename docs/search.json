@@ -824,9 +824,9 @@
 },
 {
   "url": "page/config_dependency_loading",
-  "method": "config.dependency_loading",
+  "method": "config.enable_dependency_loading",
   "title": "設定のオートロードするかの設定",
-  "use": "config.dependency_loading"
+  "use": "config.enable_dependency_loading"
 },
 {
   "url": "page/rake_log_clear",
@@ -1531,12 +1531,6 @@
   "use": "モデル.average(カラム名)"
 },
 {
-  "url": "page/config_serve_static_assets",
-  "method": "config.serve_static_assets",
-  "title": "assetsの静的ファイルの設定",
-  "use": "config.serve_static_assets"
-},
-{
   "url": "page/number_to_phone",
   "method": "number_to_phone",
   "title": "USの電話番号フォーマット",
@@ -1645,12 +1639,6 @@
   "use": "simple_format(文字列 [, オプション or HTML属性 or イベント属性])"
 },
 {
-  "url": "page/config_whiny_nils",
-  "method": "config.whiny_nils",
-  "title": "初期化されていないオブジェクトの警告",
-  "use": "config.whiny_nils = true"
-},
-{
   "url": "page/excerpt",
   "method": "excerpt",
   "title": "文字列から特定の部分のみ抽出",
@@ -1667,12 +1655,6 @@
   "method": "truncate",
   "title": "文字列を切り捨てる",
   "use": "truncate(文字列 [, オプション])"
-},
-{
-  "url": "page/config_assets_compress",
-  "method": "config.assets.compress",
-  "title": "assetsでコンパイルする設定",
-  "use": "config.assets.compress = true"
 },
 {
   "url": "page/save",
@@ -1985,12 +1967,6 @@
   "method": "has_attribute?",
   "title": "モデルに指定した属性が存在するかチェック",
   "use": "モデル.has_attribute?(属性)"
-},
-{
-  "url": "page/content_tag_for",
-  "method": "content_tag_for",
-  "title": "モデルから本体を持つ任意のタグを生成",
-  "use": "content_tag_for(タグの名前, モデル [, オプション])"
 },
 {
   "url": "page/color_field",

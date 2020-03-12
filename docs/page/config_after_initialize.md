@@ -7,7 +7,7 @@ layout: page
 
 ### 使い方
     config.after_initialize do
-     処理の内容
+      処理の内容
     end
 
 ### 例

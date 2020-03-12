@@ -1,0 +1,2767 @@
+{
+  "ruby_on_rails": {
+    "category_id": 1,
+    "title": "Ruby on Railsとは",
+    "method": ""
+  },
+  "rails_new": {
+    "category_id": 4,
+    "title": "新しいRailsのアプリケーションを作成",
+    "method": "rails new"
+  },
+  "migration_info": {
+    "category_id": 5,
+    "title": "マイグレーションとは",
+    "method": ""
+  },
+  "model_info": {
+    "category_id": 6,
+    "title": "モデルについて",
+    "method": ""
+  },
+  "controller_info": {
+    "category_id": 7,
+    "title": "コントローラについて",
+    "method": ""
+  },
+  "form_for": {
+    "category_id": 9,
+    "title": "特定のモデルに特化したフォームを生成",
+    "method": "form_for"
+  },
+  "form_tag": {
+    "category_id": 9,
+    "title": "汎用的なフォームを生成",
+    "method": "form_tag"
+  },
+  "form_with": {
+    "category_id": 9,
+    "title": "モデルなどからフォームタグを生成",
+    "method": "form_with"
+  },
+  "conf_info": {
+    "category_id": 15,
+    "title": "設定ファイルについて",
+    "method": ""
+  },
+  "test_info": {
+    "category_id": 16,
+    "title": "テストとは",
+    "method": ""
+  },
+  "asset_pipeline_info": {
+    "category_id": 23,
+    "title": "アセットパイプラインについて",
+    "method": ""
+  },
+  "gemfile_info": {
+    "category_id": 25,
+    "title": "Gemfile",
+    "method": ""
+  },
+  "rake_info": {
+    "category_id": 26,
+    "title": "Rakeとは",
+    "method": ""
+  },
+  "ruby_info": {
+    "category_id": 2,
+    "title": "Rubyとは",
+    "method": ""
+  },
+  "view_info": {
+    "category_id": 8,
+    "title": "ビューについて",
+    "method": ""
+  },
+  "route_info": {
+    "category_id": 14,
+    "title": "ルーティング定義",
+    "method": ""
+  },
+  "active_support_info": {
+    "category_id": 20,
+    "title": "アクティブサポートとは",
+    "method": ""
+  },
+  "application_controller_helpers": {
+    "category_id": 20,
+    "title": "ビュー以外でヘルパーを呼び出す",
+    "method": ""
+  },
+  "check_box": {
+    "category_id": 9,
+    "title": "チェックボックスを生成",
+    "method": "check_box"
+  },
+  "check_box_tag": {
+    "category_id": 9,
+    "title": "汎用的なチェックボックスを生成",
+    "method": "check_box_tag"
+  },
+  "configuration": {
+    "category_id": 1,
+    "title": "規約",
+    "method": ""
+  },
+  "variable_info": {
+    "category_id": 2,
+    "title": "変数",
+    "method": ""
+  },
+  "rails_scaffold": {
+    "category_id": 4,
+    "title": "アプリケーションに必要なファイルをまとめて生成",
+    "method": "rails generate scaffold"
+  },
+  "database_up": {
+    "category_id": 5,
+    "title": "カラムをバージョンアップ",
+    "method": "up"
+  },
+  "model_new": {
+    "category_id": 6,
+    "title": "モデルを生成",
+    "method": "new"
+  },
+  "model_build": {
+    "category_id": 6,
+    "title": "モデルを生成(newの別名)",
+    "method": "build"
+  },
+  "params": {
+    "category_id": 7,
+    "title": "パラメータの取得",
+    "method": "params"
+  },
+  "params_original_filename": {
+    "category_id": 7,
+    "title": "アップロードされたファイルを取得",
+    "method": ""
+  },
+  "validates_uniqueness_of": {
+    "category_id": 13,
+    "title": "属性の値が一意であることをバリデーション",
+    "method": "validates_uniqueness_of"
+  },
+  "rake_routes": {
+    "category_id": 14,
+    "title": "ルーティングの内容を確認",
+    "method": "rake routes"
+  },
+  "database_yml": {
+    "category_id": 15,
+    "title": "データベースの設定ファイル",
+    "method": ""
+  },
+  "empty": {
+    "category_id": 20,
+    "title": "真偽判定",
+    "method": ""
+  },
+  "fingerprinting": {
+    "category_id": 23,
+    "title": "フィンガープリンティング(Fingerprinting)",
+    "method": ""
+  },
+  "rake": {
+    "category_id": 26,
+    "title": "Rakeコマンド一覧",
+    "method": "rake -T"
+  },
+  "execution_environment": {
+    "category_id": 1,
+    "title": "Railsの実行環境",
+    "method": ""
+  },
+  "erb": {
+    "category_id": 8,
+    "title": "ERBとは",
+    "method": ""
+  },
+  "folder_structure": {
+    "category_id": 1,
+    "title": "フォルダ構造",
+    "method": ""
+  },
+  "numbers_and_strings": {
+    "category_id": 2,
+    "title": "数値と文字列",
+    "method": ""
+  },
+  "rails_generate_controller": {
+    "category_id": 4,
+    "title": "コントローラとビューの生成",
+    "method": "rails generate controller"
+  },
+  "rails_generate_migration": {
+    "category_id": 4,
+    "title": "マイグレーションファイルの生成",
+    "method": "rails generate migration"
+  },
+  "rails_generate_model": {
+    "category_id": 4,
+    "title": "モデルの生成",
+    "method": "rails generate model"
+  },
+  "database_down": {
+    "category_id": 5,
+    "title": "カラムをバージョンダウン",
+    "method": "down"
+  },
+  "model_create": {
+    "category_id": 6,
+    "title": "モデルを生成して保存",
+    "method": "create"
+  },
+  "view_variables": {
+    "category_id": 8,
+    "title": "ビューの変数",
+    "method": ""
+  },
+  "radio_button": {
+    "category_id": 9,
+    "title": "ラジオボタンを生成",
+    "method": "radio_button"
+  },
+  "radio_button_tag": {
+    "category_id": 9,
+    "title": "汎用的なラジオボックスを生成",
+    "method": "radio_button_tag"
+  },
+  "validates_associated": {
+    "category_id": 13,
+    "title": "関連付けられているオブジェクトをバリデーション",
+    "method": "validates_associated"
+  },
+  "match": {
+    "category_id": 14,
+    "title": "ルートを定義",
+    "method": "match"
+  },
+  "time_zone_list": {
+    "category_id": 18,
+    "title": "タイムゾーン一覧",
+    "method": ""
+  },
+  "pluralize": {
+    "category_id": 20,
+    "title": "複数形へ変換",
+    "method": ""
+  },
+  "singularize": {
+    "category_id": 20,
+    "title": "単数形へ変換",
+    "method": "singularize"
+  },
+  "config_assets_enabled": {
+    "category_id": 15,
+    "title": "アセットパイプラインを有効にするかの設定",
+    "method": "config.assets.enabled"
+  },
+  "rake_about": {
+    "category_id": 26,
+    "title": "使用しているライブラリのバージョンを確認",
+    "method": "rake about"
+  },
+  "application_creation_flow": {
+    "category_id": 1,
+    "title": "アプリケーション作成の流れ",
+    "method": ""
+  },
+  "array_info": {
+    "category_id": 2,
+    "title": "配列について",
+    "method": ""
+  },
+  "rails_server": {
+    "category_id": 4,
+    "title": "ローカルでサーバを起動",
+    "method": "rails server"
+  },
+  "database_change": {
+    "category_id": 5,
+    "title": "カラムを変更",
+    "method": "change"
+  },
+  "find_by": {
+    "category_id": 6,
+    "title": "条件を指定して最初の1件を取得",
+    "method": "find_by"
+  },
+  "find": {
+    "category_id": 6,
+    "title": "IDを指定してレコードを取得",
+    "method": "find"
+  },
+  "layout": {
+    "category_id": 7,
+    "title": "ページのレイアウトを設定",
+    "method": "layout"
+  },
+  "render": {
+    "category_id": 7,
+    "title": "表示させるviewファイルを指定して表示",
+    "method": "render"
+  },
+  "text_area": {
+    "category_id": 9,
+    "title": "テキストエリアを生成",
+    "method": "text_area"
+  },
+  "text_area_tag": {
+    "category_id": 9,
+    "title": "汎用的なテキストエリアを生成",
+    "method": "text_area_tag"
+  },
+  "verify": {
+    "category_id": 99,
+    "title": "実行前にリクエストのバリデーション",
+    "method": "verify"
+  },
+  "resources": {
+    "category_id": 14,
+    "title": "複数形のリソースのルーティング",
+    "method": "resources"
+  },
+  "fixtures": {
+    "category_id": 16,
+    "title": "テストデータ",
+    "method": ""
+  },
+  "underscore": {
+    "category_id": 20,
+    "title": "クラス名からファイル名へ変換",
+    "method": "underscore"
+  },
+  "camelize": {
+    "category_id": 20,
+    "title": "文字列をキャメルケースに変換",
+    "method": "camelize"
+  },
+  "tableize": {
+    "category_id": 20,
+    "title": "モデルクラス名からテーブル名へ変換",
+    "method": "tableize"
+  },
+  "classify": {
+    "category_id": 20,
+    "title": "テーブル名からモデルクラス名へ変換",
+    "method": "classify"
+  },
+  "hash_info": {
+    "category_id": 2,
+    "title": "ハッシュについて",
+    "method": ""
+  },
+  "rails_destroy": {
+    "category_id": 4,
+    "title": "自動生成したファイルの削除",
+    "method": "rails destroy"
+  },
+  "rails_plugin_install": {
+    "category_id": 4,
+    "title": "プラグインをインストール",
+    "method": "rails plugin install"
+  },
+  "create_table": {
+    "category_id": 5,
+    "title": "テーブルを作成",
+    "method": "create_table"
+  },
+  "render_to_string": {
+    "category_id": 7,
+    "title": "表示結果を文字列として取得",
+    "method": "render_to_string"
+  },
+  "password_field": {
+    "category_id": 9,
+    "title": "パスワード入力ボックスを生成",
+    "method": "password_field"
+  },
+  "password_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なパスワード入力ボックス",
+    "method": "password_field_tag"
+  },
+  "resource": {
+    "category_id": 14,
+    "title": "単一のリソースのルーティング",
+    "method": "resource"
+  },
+  "comment_syntax": {
+    "category_id": 8,
+    "title": "コメント構文",
+    "method": ""
+  },
+  "common_variables": {
+    "category_id": 15,
+    "title": "アプリケーションで共通の変数を設定",
+    "method": ""
+  },
+  "unit_test_info": {
+    "category_id": 16,
+    "title": "ユニットテストについて",
+    "method": ""
+  },
+  "rake_doc_rails": {
+    "category_id": 26,
+    "title": "Railsのドキュメントを生成",
+    "method": "rake doc:rails"
+  },
+  "rake_doc_app": {
+    "category_id": 26,
+    "title": "ソースコードからドキュメントを生成",
+    "method": "rake doc:app"
+  },
+  "conditional_branch": {
+    "category_id": 2,
+    "title": "条件分岐",
+    "method": ""
+  },
+  "rails_console": {
+    "category_id": 4,
+    "title": "コンソールを起動",
+    "method": "rails console"
+  },
+  "rename_table": {
+    "category_id": 5,
+    "title": "テーブル名を変更",
+    "method": "rename_table"
+  },
+  "redirect_to": {
+    "category_id": 7,
+    "title": "URLを指定して表示",
+    "method": "redirect_to"
+  },
+  "hidden_field": {
+    "category_id": 9,
+    "title": "隠しフィールドを生成",
+    "method": "hidden_field"
+  },
+  "hidden_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な隠しフィールドを生成",
+    "method": "hidden_field_tag"
+  },
+  "cache_info": {
+    "category_id": 11,
+    "title": "キャッシュについて",
+    "method": ""
+  },
+  "cache": {
+    "category_id": 11,
+    "title": "フラグメントキャッシュ",
+    "method": ""
+  },
+  "root": {
+    "category_id": 14,
+    "title": "ルートのURLを指定",
+    "method": "root"
+  },
+  "config_after_initialize": {
+    "category_id": 15,
+    "title": "初期化の最後に実行する処理の設定",
+    "method": "config.after_initialize"
+  },
+  "method_unit_test": {
+    "category_id": 16,
+    "title": "ユニットテストで使うメソッド",
+    "method": ""
+  },
+  "bundle": {
+    "category_id": 25,
+    "title": "必要なライブラリをインストール",
+    "method": "bundle"
+  },
+  "rake_notes": {
+    "category_id": 26,
+    "title": "ソースコードにTODOを記入",
+    "method": "rake notes"
+  },
+  "rake_db_drop": {
+    "category_id": 26,
+    "title": "データベースを削除",
+    "method": "rake db:drop"
+  },
+  "rails_dbconsole": {
+    "category_id": 4,
+    "title": "コンソールを起動",
+    "method": "rails dbconsole"
+  },
+  "drop_table": {
+    "category_id": 5,
+    "title": "テーブルを削除",
+    "method": "drop_table"
+  },
+  "find_each": {
+    "category_id": 6,
+    "title": "分割してレコードを取得して1件ずつ処理",
+    "method": "find_each"
+  },
+  "send_data": {
+    "category_id": 7,
+    "title": "バイナリデータを出力",
+    "method": "send_data"
+  },
+  "send_file": {
+    "category_id": 7,
+    "title": "画像やファイルのダウンロード",
+    "method": "send_file"
+  },
+  "yield": {
+    "category_id": 8,
+    "title": "コントローラで処理された内容を埋め込む先",
+    "method": "yield"
+  },
+  "label": {
+    "category_id": 9,
+    "title": "ラベルタグを生成",
+    "method": "label"
+  },
+  "label_tag": {
+    "category_id": 9,
+    "title": "汎用的なラベルタグを生成",
+    "method": "label_tag"
+  },
+  "scope": {
+    "category_id": 14,
+    "title": "URLにnamespaceを付与",
+    "method": "scope"
+  },
+  "config_asset_host": {
+    "category_id": 15,
+    "title": "アセットのホスト設定",
+    "method": "config.asset_host"
+  },
+  "functional_test": {
+    "category_id": 16,
+    "title": "ファンクショナルテスト",
+    "method": ""
+  },
+  "rake_db_migrate": {
+    "category_id": 26,
+    "title": "マイグレーションの実行",
+    "method": "rake db:migrate"
+  },
+  "blocks_and_iterators": {
+    "category_id": 2,
+    "title": "ブロックとイテレータ",
+    "method": ""
+  },
+  "expire_fragment": {
+    "category_id": 11,
+    "title": "フラグメントキャッシュを破棄",
+    "method": "expire_fragment"
+  },
+  "rails_runner": {
+    "category_id": 4,
+    "title": "Rails環境で動かすバッチ処理",
+    "method": "rails runner"
+  },
+  "change_table": {
+    "category_id": 5,
+    "title": "テーブル定義を変更",
+    "method": "change_table"
+  },
+  "find_in_batches": {
+    "category_id": 6,
+    "title": "分割してレコードを取得して処理",
+    "method": "find_in_batches"
+  },
+  "request": {
+    "category_id": 7,
+    "title": "リクエストを送ってきたユーザのヘッダー情報や環境変数を取得",
+    "method": "request"
+  },
+  "content_for": {
+    "category_id": 8,
+    "title": "レイアウトに複数のコンテンツを設定",
+    "method": "content_for"
+  },
+  "text_field": {
+    "category_id": 9,
+    "title": "テキストボックスを生成",
+    "method": "text_field"
+  },
+  "text_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なテキストボックスを生成",
+    "method": "text_field_tag"
+  },
+  "cookies": {
+    "category_id": 11,
+    "title": "クッキーを保存",
+    "method": "cookies"
+  },
+  "namespace": {
+    "category_id": 14,
+    "title": "名前空間を付与",
+    "method": "namespace"
+  },
+  "config_autoload_once_paths": {
+    "category_id": 15,
+    "title": "起動時のみロードする設定ファイルを追加",
+    "method": "config.autoload_once_paths"
+  },
+  "integration_test": {
+    "category_id": 16,
+    "title": "インテグレーションテスト",
+    "method": ""
+  },
+  "rake_db_version": {
+    "category_id": 26,
+    "title": "マイグレーションのバージョンを確認",
+    "method": "rake db:version"
+  },
+  "rake_db_migrate_status": {
+    "category_id": 26,
+    "title": "マイグレーションの履歴",
+    "method": "rake db:migrate:status"
+  },
+  "object_info": {
+    "category_id": 2,
+    "title": "オブジェクトについて",
+    "method": ""
+  },
+  "create_join_table": {
+    "category_id": 5,
+    "title": "テーブルを結合して作成",
+    "method": "create_join_table"
+  },
+  "find_or_create_by": {
+    "category_id": 6,
+    "title": "条件を指定して初めの1件を取得し1件もなければ作成(create)",
+    "method": "find_or_create_by"
+  },
+  "find_or_initialize_by": {
+    "category_id": 6,
+    "title": "条件を指定して初めの1件を取得し1件もなければ作成(new)",
+    "method": "find_or_initialize_by"
+  },
+  "head": {
+    "category_id": 7,
+    "title": "応答ステータスとヘッダ情報のみを表示",
+    "method": "head"
+  },
+  "layouts": {
+    "category_id": 8,
+    "title": "レイアウトテンプレート",
+    "method": ""
+  },
+  "file_field": {
+    "category_id": 9,
+    "title": "ファイル選択ボックスを生成",
+    "method": "file_field"
+  },
+  "file_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なファイル選択ボックスを生成",
+    "method": "file_field_tag"
+  },
+  "cookies_permanent": {
+    "category_id": 11,
+    "title": "永続化クッキー",
+    "method": "cookies.permanent"
+  },
+  "get": {
+    "category_id": 14,
+    "title": "GETリクエスト",
+    "method": "get"
+  },
+  "config_cache_classes": {
+    "category_id": 15,
+    "title": "アプリケーションクラスのリロードするかの設定",
+    "method": "config.cache_classes"
+  },
+  "rake_db_schema_load": {
+    "category_id": 26,
+    "title": "スキーマファイルでデータベースを作成",
+    "method": "rake db:schema:load"
+  },
+  "table_exists_q": {
+    "category_id": 5,
+    "title": "テーブルが存在するかチェック",
+    "method": "table_exists?"
+  },
+  "find_by_sql": {
+    "category_id": 6,
+    "title": "SQLを直接指定して取得",
+    "method": "find_by_sql"
+  },
+  "select_all": {
+    "category_id": 6,
+    "title": "SQLを直接指定して取得(非モデルオブジェクト)",
+    "method": "select_all"
+  },
+  "model_all": {
+    "category_id": 6,
+    "title": "すべてのレコードを取得",
+    "method": "all"
+  },
+  "flash": {
+    "category_id": 7,
+    "title": "簡単なメッセージを画面に表示",
+    "method": "flash"
+  },
+  "url_for": {
+    "category_id": 8,
+    "title": "URLを生成",
+    "method": "url_for"
+  },
+  "select": {
+    "category_id": 9,
+    "title": "選択ボックスを生成",
+    "method": "select"
+  },
+  "validates": {
+    "category_id": 13,
+    "title": "汎用的なバリデーション",
+    "method": "validates"
+  },
+  "post": {
+    "category_id": 14,
+    "title": "POSTリクエスト",
+    "method": "post"
+  },
+  "config_action_view_cache_template_loading": {
+    "category_id": 15,
+    "title": "テンプレートのレンダリングをキャッシュするかの設定",
+    "method": "config.action_view.cache_template_loading"
+  },
+  "symbol_info": {
+    "category_id": 2,
+    "title": "シンボルについて",
+    "method": ""
+  },
+  "cookies_signed": {
+    "category_id": 11,
+    "title": "署名付きクッキー",
+    "method": "cookies.signed"
+  },
+  "rake_db_schema_dump": {
+    "category_id": 26,
+    "title": "現在のデータベースからスキーマファイルを生成",
+    "method": "rake db:schema:dump"
+  },
+  "regular_info": {
+    "category_id": 2,
+    "title": "正規表現",
+    "method": ""
+  },
+  "drop_join_table": {
+    "category_id": 5,
+    "title": "結合テーブルを削除",
+    "method": "drop_join_table"
+  },
+  "model_first": {
+    "category_id": 6,
+    "title": "先頭のレコードを取得",
+    "method": "first"
+  },
+  "model_respond_to_q": {
+    "category_id": 6,
+    "title": "モデルが指定したメソッドを呼び出せるかチェック",
+    "method": "respond_to?"
+  },
+  "link_to": {
+    "category_id": 8,
+    "title": "リンクを生成",
+    "method": "link_to"
+  },
+  "options_for_select": {
+    "category_id": 9,
+    "title": "配列・ハッシュから選択肢を生成",
+    "method": "options_for_select"
+  },
+  "cookies_delete": {
+    "category_id": 11,
+    "title": "クッキーを削除",
+    "method": "cookies.delete"
+  },
+  "patch": {
+    "category_id": 14,
+    "title": "PATCHリクエスト",
+    "method": "patch"
+  },
+  "config_cache_store": {
+    "category_id": 99,
+    "title": "キャッシュストアの設定",
+    "method": "config.cache_store"
+  },
+  "rake_db_seed": {
+    "category_id": 26,
+    "title": "データベースに初期データを投入",
+    "method": "rake db:seed"
+  },
+  "ruby_convenience_methods": {
+    "category_id": 2,
+    "title": "Rubyの便利なメソッド",
+    "method": ""
+  },
+  "add_column": {
+    "category_id": 5,
+    "title": "カラムを追加",
+    "method": "add_column"
+  },
+  "last": {
+    "category_id": 6,
+    "title": "最後のレコードを取得",
+    "method": "last"
+  },
+  "link_to_if": {
+    "category_id": 8,
+    "title": "条件に一致したらリンクを生成",
+    "method": "link_to_if"
+  },
+  "grouped_options_for_select": {
+    "category_id": 9,
+    "title": "配列・ハッシュから作成した選択肢をグループ化",
+    "method": "grouped_options_for_select"
+  },
+  "put": {
+    "category_id": 14,
+    "title": "PUTリクエスト",
+    "method": "put"
+  },
+  "config_consider_all_requests_local": {
+    "category_id": 15,
+    "title": "エラー情報をブラウザに表示をするかの設定",
+    "method": "config.consider_all_requests_local"
+  },
+  "rake_db_fixtures_load": {
+    "category_id": 26,
+    "title": "データベースにテストデータを挿入",
+    "method": "rake db:fixtures:load"
+  },
+  "rename_column": {
+    "category_id": 5,
+    "title": "カラム名を変更",
+    "method": "rename_column"
+  },
+  "take": {
+    "category_id": 6,
+    "title": "指定した数のレコードを取得",
+    "method": "take"
+  },
+  "link_to_unless": {
+    "category_id": 8,
+    "title": "条件に一致しなかったらリンクを生成",
+    "method": "link_to_unless"
+  },
+  "option_groups_from_collection_for_select": {
+    "category_id": 9,
+    "title": "グループ分けされた選択肢を生成",
+    "method": "option_groups_from_collection_for_select"
+  },
+  "session": {
+    "category_id": 11,
+    "title": "セッションに保存",
+    "method": ""
+  },
+  "delete": {
+    "category_id": 14,
+    "title": "DELETEリクエスト",
+    "method": "delete"
+  },
+  "config_console": {
+    "category_id": 15,
+    "title": "使用するコンソールを設定",
+    "method": "config.console"
+  },
+  "date_related": {
+    "category_id": 20,
+    "title": "日付関連",
+    "method": ""
+  },
+  "rake_db_create": {
+    "category_id": 26,
+    "title": "データベースを作製",
+    "method": "rake db:create"
+  },
+  "change_column": {
+    "category_id": 5,
+    "title": "カラムの定義を変更",
+    "method": "change_column"
+  },
+  "model_where": {
+    "category_id": 6,
+    "title": "条件に当てはまる値を全て取得",
+    "method": "where"
+  },
+  "model_rewhere": {
+    "category_id": 6,
+    "title": "既存のwhere条件を上書き",
+    "method": "rewhere"
+  },
+  "link_to_unless_current": {
+    "category_id": 8,
+    "title": "現在のURLと一致しなかったらリンクを生成",
+    "method": "link_to_unless_current"
+  },
+  "options_from_collection_for_select": {
+    "category_id": 9,
+    "title": "選択ボックスを生成",
+    "method": "options_from_collection_for_select"
+  },
+  "reset_session": {
+    "category_id": 11,
+    "title": "セッション情報を削除",
+    "method": "reset_session"
+  },
+  "validates_presence_of": {
+    "category_id": 13,
+    "title": "値が空でないか",
+    "method": "validates_presence_of"
+  },
+  "config_dependency_loading": {
+    "category_id": 99,
+    "title": "設定のオートロードするかの設定",
+    "method": "config.enable_dependency_loading"
+  },
+  "datetime": {
+    "category_id": 20,
+    "title": "日時関連",
+    "method": ""
+  },
+  "rake_log_clear": {
+    "category_id": 26,
+    "title": "ログファイルを削除",
+    "method": "rake log:clear"
+  },
+  "remove_column": {
+    "category_id": 5,
+    "title": "カラムを削除",
+    "method": "remove_column"
+  },
+  "button_to": {
+    "category_id": 8,
+    "title": "ボタンでリンクを生成",
+    "method": "button_to"
+  },
+  "collection_select": {
+    "category_id": 9,
+    "title": "選択ボックスをモデルの情報を元に生成",
+    "method": "collection_select"
+  },
+  "session_session_id": {
+    "category_id": 11,
+    "title": "現在のセッション情報を取得",
+    "method": "session.session_id"
+  },
+  "validate": {
+    "category_id": 13,
+    "title": "モデルのバリデーションを定義",
+    "method": "validate"
+  },
+  "config_eager_load": {
+    "category_id": 15,
+    "title": "Eager Loadingの設定",
+    "method": "config.eager_load"
+  },
+  "time": {
+    "category_id": 20,
+    "title": "時間関連",
+    "method": ""
+  },
+  "rake_rails_update": {
+    "category_id": 26,
+    "title": "Railsのバージョンアップ",
+    "method": "rake rails:update"
+  },
+  "remove_columns": {
+    "category_id": 5,
+    "title": "複数のカラムを削除",
+    "method": "remove_columns"
+  },
+  "group": {
+    "category_id": 6,
+    "title": "取得した値をグループ化",
+    "method": "group"
+  },
+  "image_tag": {
+    "category_id": 8,
+    "title": "イメージタグを生成",
+    "method": "image_tag"
+  },
+  "grouped_collection_select": {
+    "category_id": 9,
+    "title": "選択ボックスをグループ化",
+    "method": "grouped_collection_select"
+  },
+  "validates_absence_of": {
+    "category_id": 13,
+    "title": "空白であることをバリデーション",
+    "method": "validates_absence_of"
+  },
+  "config_eager_load_namespaces": {
+    "category_id": 15,
+    "title": "Eager Loadingで使用するネームスペースの設定",
+    "method": "config.eager_load_namespaces"
+  },
+  "calculate_units": {
+    "category_id": 20,
+    "title": "単位を計算",
+    "method": ""
+  },
+  "rake_rails_templates_cop": {
+    "category_id": 26,
+    "title": "自動生成されるテンプレートをカスタマイズ",
+    "method": "rake rails:templates:copy"
+  },
+  "change_column_default": {
+    "category_id": 5,
+    "title": "カラムの初期値を設定",
+    "method": "change_column_default"
+  },
+  "change_column_comment": {
+    "category_id": 5,
+    "title": "カラムのコメントを変更",
+    "method": "change_column_comment"
+  },
+  "change_column_null": {
+    "category_id": 5,
+    "title": "NULL制約の追加または削除",
+    "method": "change_column_null"
+  },
+  "change_table_comment": {
+    "category_id": 5,
+    "title": "テーブルのコメントを変更",
+    "method": "change_table_comment"
+  },
+  "model_order": {
+    "category_id": 6,
+    "title": "取得した値を並び替え",
+    "method": "order"
+  },
+  "model_reorder": {
+    "category_id": 6,
+    "title": "既存の並び順を指定した条件に置き換える",
+    "method": "reorder"
+  },
+  "model_reverse_order": {
+    "category_id": 6,
+    "title": "取得した値を逆順に並び替え",
+    "method": "reverse_order"
+  },
+  "from_xml": {
+    "category_id": 7,
+    "title": "XML形式のデータをハッシュに変換",
+    "method": "from_xml"
+  },
+  "image_path": {
+    "category_id": 8,
+    "title": "画像へのパスを取得",
+    "method": "image_path"
+  },
+  "email_field": {
+    "category_id": 9,
+    "title": "メールアドレス入力ボックスを生成",
+    "method": "email_field"
+  },
+  "email_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なメールアドレス入力ボックスを生成",
+    "method": "email_field_tag"
+  },
+  "validates_acceptance_of": {
+    "category_id": 13,
+    "title": "チェックボックスにチェックが入っているかバリデーション",
+    "method": "validates_acceptance_of"
+  },
+  "config_eager_load_paths": {
+    "category_id": 15,
+    "title": "eager_loadのパスを設定",
+    "method": "config.eager_load_paths"
+  },
+  "constantize": {
+    "category_id": 20,
+    "title": "引数の文字列で指定した名前で定数を探す",
+    "method": "constantize"
+  },
+  "rake_db_rollback": {
+    "category_id": 26,
+    "title": "マイグレーションをロールバック",
+    "method": "rake db:rollback"
+  },
+  "column_exists_q": {
+    "category_id": 5,
+    "title": "カラムが存在するかチェック",
+    "method": "column_exists?"
+  },
+  "limit": {
+    "category_id": 6,
+    "title": "取得するレコード数の上限を指定",
+    "method": "limit"
+  },
+  "base_controller_path": {
+    "category_id": 7,
+    "title": "コントローラのパスを取得",
+    "method": "controller_path"
+  },
+  "base_controller_name": {
+    "category_id": 7,
+    "title": "コントローラのクラス名を取得",
+    "method": "controller_name"
+  },
+  "mail_to": {
+    "category_id": 8,
+    "title": "メールアドレス用のタグを生成",
+    "method": "mail_to"
+  },
+  "number_field": {
+    "category_id": 9,
+    "title": "数値入力ボックスを生成",
+    "method": "number_field"
+  },
+  "number_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な数値入力ボックスを生成",
+    "method": "number_field_tag"
+  },
+  "validates_confirmation_of": {
+    "category_id": 13,
+    "title": "2つのフィールドが等しいかバリデーション",
+    "method": "validates_confirmation_of"
+  },
+  "config_encoding": {
+    "category_id": 15,
+    "title": "アプリケーション全体のエンコーディングを設定",
+    "method": "config.encoding"
+  },
+  "dasherize": {
+    "category_id": 20,
+    "title": "アンダーバーをハイフンに変換",
+    "method": "dasherize"
+  },
+  "add_index": {
+    "category_id": 5,
+    "title": "インデックスを追加",
+    "method": "add_index"
+  },
+  "model_none": {
+    "category_id": 6,
+    "title": "空のモデルを取得",
+    "method": "none"
+  },
+  "model_offset": {
+    "category_id": 6,
+    "title": "特定のレコード位置から取得",
+    "method": "offset"
+  },
+  "model_readonly": {
+    "category_id": 6,
+    "title": "読み込み専用で取得",
+    "method": "readonly"
+  },
+  "audio_tag": {
+    "category_id": 8,
+    "title": "audioを生成",
+    "method": "audio_tag"
+  },
+  "range_field": {
+    "category_id": 9,
+    "title": "範囲選択バーを生成",
+    "method": "range_field"
+  },
+  "range_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な範囲選択バーを生成",
+    "method": "range_field_tag"
+  },
+  "validates_exclusion_of": {
+    "category_id": 13,
+    "title": "値が配列・範囲に含まれていないかバリデーション",
+    "method": "validates_exclusion_of"
+  },
+  "config_exceptions_app": {
+    "category_id": 15,
+    "title": "例外処理アプリケーションを設定",
+    "method": "config.exceptions_app"
+  },
+  "deconstantize": {
+    "category_id": 20,
+    "title": "文字列から右端のセグメントを削除",
+    "method": "deconstantize"
+  },
+  "rename_index": {
+    "category_id": 5,
+    "title": "インデックスを変更",
+    "method": "rename_index"
+  },
+  "having": {
+    "category_id": 6,
+    "title": "取得した値を絞り込む",
+    "method": "having"
+  },
+  "atom_feed": {
+    "category_id": 7,
+    "title": "Atomフィードを生成",
+    "method": "atom_feed"
+  },
+  "audio_path": {
+    "category_id": 8,
+    "title": "音声ファイルへのパス取得",
+    "method": "audio_path"
+  },
+  "search_field": {
+    "category_id": 9,
+    "title": "検索ボックスを生成",
+    "method": "search_field"
+  },
+  "search_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な検索ボックスを生成",
+    "method": "search_field_tag"
+  },
+  "validates_format_of": {
+    "category_id": 13,
+    "title": "正規表現パターンに一致しているかバリデーション",
+    "method": "validates_format_of"
+  },
+  "config_file_watcher": {
+    "category_id": 15,
+    "title": "ファイルシステム内の変更を検知するための設定",
+    "method": "config.file_watcher"
+  },
+  "demodulize": {
+    "category_id": 20,
+    "title": "文字列からモジュールの一部を削除",
+    "method": "demodulize"
+  },
+  "remove_index": {
+    "category_id": 5,
+    "title": "インデックスを削除",
+    "method": "remove_index"
+  },
+  "includes": {
+    "category_id": 6,
+    "title": "関連するテーブルをまとめて取得",
+    "method": "includes"
+  },
+  "auto_discovery_link_tag": {
+    "category_id": 8,
+    "title": "フィード検出機能を有効",
+    "method": "auto_discovery_link_tag"
+  },
+  "telephone_field": {
+    "category_id": 9,
+    "title": "電話番号入力ボックスを生成",
+    "method": "telephone_field"
+  },
+  "telephone_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な電話番号入力ボックスを生成",
+    "method": "telephone_field_tag"
+  },
+  "validates_inclusion_of": {
+    "category_id": 13,
+    "title": "値が配列・範囲に含まれているかバリデーション",
+    "method": "validates_inclusion_of"
+  },
+  "config_filter_parameters": {
+    "category_id": 15,
+    "title": "ログファイルにパラメータ情報を出力しない",
+    "method": "config.filter_parameters"
+  },
+  "foreign_key": {
+    "category_id": 20,
+    "title": "クラス名から外部キーの名前を作成",
+    "method": "foreign_key"
+  },
+  "add_foreign_key": {
+    "category_id": 20,
+    "title": "外部キー制約を追加",
+    "method": "add_foreign_key"
+  },
+  "index_exists_q": {
+    "category_id": 5,
+    "title": "インデックスが存在するかチェック",
+    "method": "index_exists?"
+  },
+  "index_name_exists_q": {
+    "category_id": 5,
+    "title": "テーブルに指定した名前のインデックスが存在するかチェック",
+    "method": "index_name_exists?"
+  },
+  "joins": {
+    "category_id": 6,
+    "title": "複数のテーブルを結合して取得",
+    "method": "joins"
+  },
+  "expires_in": {
+    "category_id": 7,
+    "title": "キャッシュのポリシーを設定",
+    "method": "expires_in"
+  },
+  "video_tag": {
+    "category_id": 8,
+    "title": "videoタグを生成",
+    "method": "video_tag"
+  },
+  "url_field": {
+    "category_id": 9,
+    "title": "URL入力ボックスを生成",
+    "method": "url_field"
+  },
+  "url_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なURL入力ボックスを生成",
+    "method": "url_field_tag"
+  },
+  "validates_length_of": {
+    "category_id": 13,
+    "title": "文字列の長さをチェック",
+    "method": "validates_length_of"
+  },
+  "config_force_ssl": {
+    "category_id": 15,
+    "title": "強制的にHTTPSプロトコルを使用するかの設定",
+    "method": "config.force_ssl"
+  },
+  "humanize": {
+    "category_id": 20,
+    "title": "最初の単語を大文字にしてアンダーバーをスペースへ変換し末尾の_idを削除",
+    "method": "humanize"
+  },
+  "timestamps": {
+    "category_id": 5,
+    "title": "created_atとupdated_atを生成",
+    "method": "timestamps"
+  },
+  "except": {
+    "category_id": 6,
+    "title": "適応した条件式を除外",
+    "method": "except"
+  },
+  "expires_now": {
+    "category_id": 7,
+    "title": "キャッシュの無効化",
+    "method": "expires_now"
+  },
+  "video_path": {
+    "category_id": 8,
+    "title": "動画ファイルへのパスを取得",
+    "method": "video_path"
+  },
+  "submit": {
+    "category_id": 9,
+    "title": "サブミットボタンを生成",
+    "method": "submit"
+  },
+  "submit_tag": {
+    "category_id": 9,
+    "title": "汎用的なサブミットボタンを生成",
+    "method": "submit_tag"
+  },
+  "validates_numericality_of": {
+    "category_id": 13,
+    "title": "数値の大小、型をチェック",
+    "method": "validates_numericality_of"
+  },
+  "config_log_level": {
+    "category_id": 15,
+    "title": "ログレベルの指定",
+    "method": "config.log_level"
+  },
+  "number_to_currency": {
+    "category_id": 20,
+    "title": "数値を通貨のフォーマットに変換",
+    "method": "number_to_currency"
+  },
+  "add_timestamps": {
+    "category_id": 5,
+    "title": "タイムスタンプを追加",
+    "method": "add_timestamps"
+  },
+  "model_from": {
+    "category_id": 6,
+    "title": "レコードが参照されるテーブルを指定",
+    "method": "from"
+  },
+  "logger": {
+    "category_id": 7,
+    "title": "ログを出力",
+    "method": "logger"
+  },
+  "favicon_link_tag": {
+    "category_id": 8,
+    "title": "ファビコンのタグを生成",
+    "method": "favicon_link_tag"
+  },
+  "datetime_select": {
+    "category_id": 9,
+    "title": "日時選択ボックスを生成",
+    "method": "datetime_select"
+  },
+  "config_log_tags": {
+    "category_id": 15,
+    "title": "タグ付きログの設定",
+    "method": "config.log_tags"
+  },
+  "number_to_human": {
+    "category_id": 20,
+    "title": "数値を単位のフォーマットに変換",
+    "method": "number_to_human"
+  },
+  "remove_timestamps": {
+    "category_id": 5,
+    "title": "created_atとupdated_atの削除",
+    "method": "remove_timestamps"
+  },
+  "fields_for": {
+    "category_id": 9,
+    "title": "モデルを固定してフォームを生成",
+    "method": "fields_for"
+  },
+  "config_logger": {
+    "category_id": 15,
+    "title": "使用するログオブジェクトの種類",
+    "method": "config.logger"
+  },
+  "number_to_human_size": {
+    "category_id": 20,
+    "title": "バイト単位の数値を変換",
+    "method": "number_to_human_size"
+  },
+  "references": {
+    "category_id": 5,
+    "title": "リファレンスを生成",
+    "method": "references"
+  },
+  "default_scope": {
+    "category_id": 6,
+    "title": "デフォルトのスコープを定義",
+    "method": "default_scope"
+  },
+  "javascript_path": {
+    "category_id": 8,
+    "title": "JavaScriptファイルへのパスを取得",
+    "method": "javascript_path"
+  },
+  "javascript_url": {
+    "category_id": 8,
+    "title": "JavaScriptファイルへのURLを取得",
+    "method": "javascript_url"
+  },
+  "field_set_tag": {
+    "category_id": 9,
+    "title": "フォームの要素をグループ化",
+    "method": "field_set_tag"
+  },
+  "number_to_percentage": {
+    "category_id": 20,
+    "title": "数値をパーセントに変換",
+    "method": "number_to_percentage"
+  },
+  "add_reference": {
+    "category_id": 5,
+    "title": "リファレンスを追加",
+    "method": "add_reference"
+  },
+  "count": {
+    "category_id": 6,
+    "title": "モデルのレコード数を取得",
+    "method": "count"
+  },
+  "url_options": {
+    "category_id": 7,
+    "title": "デフォルトのURLにマッピング",
+    "method": "url_options"
+  },
+  "stylesheet_link_tag": {
+    "category_id": 8,
+    "title": "外部スタイルシートを指定するリンクタグを生成",
+    "method": "stylesheet_link_tag"
+  },
+  "javascript_include_tag": {
+    "category_id": 8,
+    "title": "JavaScriptをインクルード",
+    "method": "javascript_include_tag"
+  },
+  "button": {
+    "category_id": 9,
+    "title": "ボタンを生成",
+    "method": "button"
+  },
+  "button_tag": {
+    "category_id": 9,
+    "title": "汎用的なボタンを生成",
+    "method": "button_tag"
+  },
+  "config_reload_classes_only_on_change": {
+    "category_id": 15,
+    "title": "ファイルの変更検知の設定",
+    "method": "config.reload_classes_only_on_change"
+  },
+  "number_with_delimiter": {
+    "category_id": 20,
+    "title": "桁区切り文字を追加",
+    "method": "number_with_delimiter"
+  },
+  "remove_reference": {
+    "category_id": 5,
+    "title": "リファレンスを削除",
+    "method": "remove_reference"
+  },
+  "stylesheet_path": {
+    "category_id": 8,
+    "title": "スタイルシートへのパスを取得",
+    "method": "stylesheet_path"
+  },
+  "stylesheet_url": {
+    "category_id": 8,
+    "title": "スタイルシートへのURLを取得",
+    "method": "stylesheet_url"
+  },
+  "image_submit_tag": {
+    "category_id": 9,
+    "title": "画像サブミットボタンを生成",
+    "method": "image_submit_tag"
+  },
+  "config_secret_key_base": {
+    "category_id": 15,
+    "title": "シークレットキーの設定",
+    "method": "config.secret_key_base"
+  },
+  "number_with_precision": {
+    "category_id": 20,
+    "title": "数値を特定の桁で丸める",
+    "method": "number_with_precision"
+  },
+  "execute": {
+    "category_id": 5,
+    "title": "マイグレーションファイルでSQLを実行",
+    "method": "execute"
+  },
+  "average": {
+    "category_id": 6,
+    "title": "カラムの平均値を計算",
+    "method": "average"
+  },
+  "number_to_phone": {
+    "category_id": 20,
+    "title": "USの電話番号フォーマット",
+    "method": "number_to_phone"
+  },
+  "maximum": {
+    "category_id": 6,
+    "title": "カラムの最大値を計算",
+    "method": "maximum"
+  },
+  "cycle": {
+    "category_id": 8,
+    "title": "奇数偶数で処理を変える",
+    "method": "cycle"
+  },
+  "config_colorize_logging": {
+    "category_id": 15,
+    "title": "ログを出力するときにカラーにするか",
+    "method": "config.colorize_logging"
+  },
+  "number_to_delimited": {
+    "category_id": 20,
+    "title": "数字を区切り文字を使用してグループ化",
+    "method": "number_to_delimited"
+  },
+  "minimum": {
+    "category_id": 6,
+    "title": "カラムの最小値を計算",
+    "method": "minimum"
+  },
+  "current_cycle": {
+    "category_id": 8,
+    "title": "奇数偶数で処理を変える",
+    "method": "current_cycle"
+  },
+  "config_session_store": {
+    "category_id": 15,
+    "title": "セッションストアの設定",
+    "method": "config.session_store"
+  },
+  "number_to_rounded": {
+    "category_id": 20,
+    "title": "フォーマットの指定されたレベル",
+    "method": "number_to_rounded"
+  },
+  "ids": {
+    "category_id": 6,
+    "title": "主キーを全て取得",
+    "method": "ids"
+  },
+  "reset_cycle": {
+    "category_id": 8,
+    "title": "cycleで返す値を初期化",
+    "method": "reset_cycle"
+  },
+  "config_time_zone": {
+    "category_id": 15,
+    "title": "タイムゾーンの設定",
+    "method": "config.time_zone"
+  },
+  "sum": {
+    "category_id": 6,
+    "title": "カラムの合計値を計算",
+    "method": "sum"
+  },
+  "debug": {
+    "category_id": 8,
+    "title": "デバッグを出力",
+    "method": "debug"
+  },
+  "config_beginning_of_week": {
+    "category_id": 15,
+    "title": "週の始まりの曜日の設定",
+    "method": "config.beginning_of_week"
+  },
+  "model_pluck": {
+    "category_id": 6,
+    "title": "指定したカラムのレコードの配列を取得",
+    "method": "pluck"
+  },
+  "simple_format": {
+    "category_id": 8,
+    "title": "文字列加工",
+    "method": "simple_format"
+  },
+  "excerpt": {
+    "category_id": 8,
+    "title": "文字列から特定の部分のみ抽出",
+    "method": "excerpt"
+  },
+  "model_reload": {
+    "category_id": 6,
+    "title": "モデルを再取得",
+    "method": "reload"
+  },
+  "truncate": {
+    "category_id": 8,
+    "title": "文字列を切り捨てる",
+    "method": "truncate"
+  },
+  "save": {
+    "category_id": 6,
+    "title": "データベースに保存",
+    "method": "save"
+  },
+  "config_assets_css_compressor": {
+    "category_id": 15,
+    "title": "CSSコンパイラーの設定",
+    "method": "config.assets.css_compressor"
+  },
+  "model_update": {
+    "category_id": 6,
+    "title": "データベースを更新",
+    "method": "update"
+  },
+  "model_update_all": {
+    "category_id": 6,
+    "title": "条件に一致するレコードをすべて更新",
+    "method": "update_all"
+  },
+  "model_update_attributes": {
+    "category_id": 6,
+    "title": "属性ハッシュを指定して更新",
+    "method": "update_attributes"
+  },
+  "model_update_attribute": {
+    "category_id": 6,
+    "title": "属性ハッシュを指定して更新",
+    "method": "update_attribute"
+  },
+  "highlight": {
+    "category_id": 8,
+    "title": "ハイライト表示",
+    "method": "highlight"
+  },
+  "config_assets_js_compressor": {
+    "category_id": 15,
+    "title": "JavaScriptのコンパイラーの設定",
+    "method": "config.assets.js_compressor"
+  },
+  "model_destroy": {
+    "category_id": 6,
+    "title": "ActiveRecordを使って指定した条件のレコードを削除",
+    "method": "destroy"
+  },
+  "model_delete": {
+    "category_id": 6,
+    "title": "指定した条件に一致するレコードをSQLを直接実行して削除",
+    "method": "delete"
+  },
+  "model_delete_all": {
+    "category_id": 6,
+    "title": "指定した条件に一致するレコードをSQLを直接実行して全て削除",
+    "method": "delete_all"
+  },
+  "model_destroy_all": {
+    "category_id": 6,
+    "title": "ActiveRecordを使って指定した条件の全てのレコードを削除",
+    "method": "destroy_all"
+  },
+  "model_not": {
+    "category_id": 6,
+    "title": "条件式に一致しないものを取得",
+    "method": "not"
+  },
+  "raw": {
+    "category_id": 8,
+    "title": "エスケープしない",
+    "method": "raw"
+  },
+  "config_assets_paths": {
+    "category_id": 15,
+    "title": "assetsへのパス",
+    "method": "config.assets.paths"
+  },
+  "calculate": {
+    "category_id": 6,
+    "title": "汎用的なカラム処理",
+    "method": "calculate"
+  },
+  "capture": {
+    "category_id": 8,
+    "title": "出力結果を変数に格納",
+    "method": "capture"
+  },
+  "config_assets_precompile": {
+    "category_id": 15,
+    "title": "assetでプリコンパイルする設定",
+    "method": "config.assets.precompile"
+  },
+  "clone": {
+    "category_id": 6,
+    "title": "コピーを生成",
+    "method": "clone"
+  },
+  "tag": {
+    "category_id": 8,
+    "title": "本体を持たない任意のタグを生成",
+    "method": "tag"
+  },
+  "config_assets_prefix": {
+    "category_id": 15,
+    "title": "アセットパイプラインでprefix",
+    "method": "config.assets.prefix"
+  },
+  "increment": {
+    "category_id": 6,
+    "title": "特定のレコードをインクリメント",
+    "method": "increment"
+  },
+  "content_tag": {
+    "category_id": 8,
+    "title": "本体を持つ任意のタグを生成",
+    "method": "content_tag"
+  },
+  "config_assets_digest": {
+    "category_id": 15,
+    "title": "assetにMD5フィンガープリントを使用",
+    "method": "config.assets.digest"
+  },
+  "model_changed": {
+    "category_id": 6,
+    "title": "属性変更を取得",
+    "method": "changed"
+  },
+  "model_changed_q": {
+    "category_id": 6,
+    "title": "保存していないレコードがあるかチェック",
+    "method": "changed?"
+  },
+  "strip_tags": {
+    "category_id": 8,
+    "title": "タグを取り除く",
+    "method": "strip_tags"
+  },
+  "config_assets_debug": {
+    "category_id": 15,
+    "title": "Assetの結合と圧縮の設定",
+    "method": "config.assets.debug"
+  },
+  "config_autoload_paths": {
+    "category_id": 15,
+    "title": "オートロード対象となるパスの追加",
+    "method": "config.autoload_paths"
+  },
+  "column_for_attribute": {
+    "category_id": 6,
+    "title": "カラム情報の取得",
+    "method": "column_for_attribute"
+  },
+  "strip_links": {
+    "category_id": 8,
+    "title": "リンクのみ取り除く",
+    "method": "strip_links"
+  },
+  "config_assets_cache_store": {
+    "category_id": 15,
+    "title": "キャッシュストアの設定",
+    "method": "config.assets.cache_store"
+  },
+  "attribute_names": {
+    "category_id": 6,
+    "title": "すべての属性名を配列で取得",
+    "method": "attribute_names"
+  },
+  "sanitize": {
+    "category_id": 8,
+    "title": "サニタイズ",
+    "method": "sanitize"
+  },
+  "config_assets_version": {
+    "category_id": 15,
+    "title": "Assetのバージョンを指定",
+    "method": "config.assets.version"
+  },
+  "attribute_for_inspect": {
+    "category_id": 6,
+    "title": "属性の値に似た文字列を取得",
+    "method": "attribute_for_inspect"
+  },
+  "current_page_q": {
+    "category_id": 8,
+    "title": "指定したURLが現在表示されているかチェック",
+    "method": "current_page?"
+  },
+  "config_assets_compile": {
+    "category_id": 15,
+    "title": "ファイルがないときにファイルを探して自動コンパイル",
+    "method": "config.assets.compile"
+  },
+  "attribute_present_q": {
+    "category_id": 6,
+    "title": "指定した属性が存在するかチェック",
+    "method": "attribute_present?"
+  },
+  "strftime": {
+    "category_id": 8,
+    "title": "日付データをフォーマット",
+    "method": "strftime"
+  },
+  "config_assets_logger": {
+    "category_id": 15,
+    "title": "Assetロガーの設定",
+    "method": "config.assets.logger"
+  },
+  "attributes": {
+    "category_id": 6,
+    "title": "全てのモデルオブジェクトと属性を取得",
+    "method": "attributes"
+  },
+  "asset_path": {
+    "category_id": 8,
+    "title": "assetファイルへのパスを取得",
+    "method": "asset_path"
+  },
+  "config_middleware": {
+    "category_id": 15,
+    "title": "アプリケーションのミドルウェアの設定",
+    "method": "config.middleware"
+  },
+  "config_middleware_use": {
+    "category_id": 15,
+    "title": "ミドルウェアを独自に追加",
+    "method": "config.middleware.use"
+  },
+  "attributes_before_type_cast": {
+    "category_id": 6,
+    "title": "型に変更前のハッシュを取得",
+    "method": "attributes_before_type_cast"
+  },
+  "config_middleware_swap": {
+    "category_id": 15,
+    "title": "ミドルウェアスタックを入れ替える",
+    "method": "config.middleware.swap"
+  },
+  "config_middleware_delete": {
+    "category_id": 15,
+    "title": "ミドルウェアスタックを削除",
+    "method": "config.middleware.delete"
+  },
+  "config_middleware_insert_after": {
+    "category_id": 15,
+    "title": "既存のミドルウェアの後に新しいミドルウェアを追加",
+    "method": "config.middleware.insert_after"
+  },
+  "record_timestamps": {
+    "category_id": 6,
+    "title": "タイムスタンプの自動保存を停止",
+    "method": "record_timestamps"
+  },
+  "has_attribute": {
+    "category_id": 6,
+    "title": "モデルに指定した属性が存在するかチェック",
+    "method": "has_attribute?"
+  },
+  "color_field": {
+    "category_id": 9,
+    "title": "色の入力欄を生成",
+    "method": "color_field"
+  },
+  "color_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な色の入力欄を生成",
+    "method": "color_field_tag"
+  },
+  "config_i18n_default_locale": {
+    "category_id": 15,
+    "title": "国際化対応のためのデフォルトのロケール",
+    "method": "config.i18n.default_locale"
+  },
+  "read_attribute_before_type_cast": {
+    "category_id": 6,
+    "title": "型に変更前のハッシュを取得",
+    "method": "read_attribute_before_type_cast"
+  },
+  "date_field": {
+    "category_id": 9,
+    "title": "日付の入力欄を生成",
+    "method": "date_field"
+  },
+  "date_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な日付の入力欄を生成",
+    "method": "date_field_tag"
+  },
+  "config_i18n_load_path": {
+    "category_id": 15,
+    "title": "ロケールファイルへのパス",
+    "method": "config.i18n.load_path"
+  },
+  "attribute_method_q": {
+    "category_id": 6,
+    "title": "指定したモデルオブジェクトの属性が存在するかチェック",
+    "method": "attribute_method?"
+  },
+  "datetime_field": {
+    "category_id": 9,
+    "title": "日時の入力欄を生成",
+    "method": "datetime_field"
+  },
+  "datetime_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な日時の入力欄を生成",
+    "method": "datetime_field_tag"
+  },
+  "config_active_record_logger": {
+    "category_id": 15,
+    "title": "ログオブジェクト",
+    "method": "config.active_record.logger"
+  },
+  "datetime_local_field": {
+    "category_id": 9,
+    "title": "ローカル日時の入力欄を生成",
+    "method": "datetime_local_field"
+  },
+  "datetime_local_field_tag": {
+    "category_id": 9,
+    "title": "汎用的なローカル日時の入力欄を生成",
+    "method": "datetime_local_field_tag"
+  },
+  "config_active_record_primary_key_prefix_type": {
+    "category_id": 15,
+    "title": "テーブルの主キーの設定",
+    "method": "config.active_record.primary_key_prefix_type"
+  },
+  "month_field": {
+    "category_id": 9,
+    "title": "月の入力欄を生成",
+    "method": "month_field"
+  },
+  "month_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な月の入力欄を生成",
+    "method": "month_field_tag"
+  },
+  "config_active_record_table_name_prefix": {
+    "category_id": 15,
+    "title": "テーブルを生成するときに指定した文字列を先頭に追加",
+    "method": "config.active_record.table_name_prefix"
+  },
+  "time_field": {
+    "category_id": 9,
+    "title": "時間の入力欄を生成",
+    "method": "time_field"
+  },
+  "time_field_tag": {
+    "category_id": 9,
+    "title": "汎用的な時間の入力欄を生成",
+    "method": "time_field_tag"
+  },
+  "config_active_record_table_name_suffix": {
+    "category_id": 15,
+    "title": "テーブルを生成するときに指定した文字列を最後に追加",
+    "method": "config.active_record.table_name_suffix"
+  },
+  "belongs_to": {
+    "category_id": 10,
+    "title": "参照元テーブルから参照先テーブルを参照",
+    "method": "belongs_to"
+  },
+  "exists_q": {
+    "category_id": 6,
+    "title": "レコードの存在を確認",
+    "method": "exists?"
+  },
+  "week_field": {
+    "category_id": 9,
+    "title": "週の入力欄を生成",
+    "method": "week_field"
+  },
+  "week_field_tag": {
+    "category_id": 9,
+    "title": "モデルと関連のない週の入力欄を生成",
+    "method": "week_field_tag"
+  },
+  "config_active_record_pluralize_table_names": {
+    "category_id": 15,
+    "title": "テーブル名を生成するときに複数形への変換するかの設定",
+    "method": "config.active_record.pluralize_table_names"
+  },
+  "has_one": {
+    "category_id": 10,
+    "title": "1対1の関連を宣言",
+    "method": "has_one"
+  },
+  "date_select": {
+    "category_id": 9,
+    "title": "日付選択ボックスを生成",
+    "method": "date_select"
+  },
+  "config_active_record_default_timezone": {
+    "category_id": 15,
+    "title": "データベースの処理の際に使うタイムゾーン",
+    "method": "config.active_record.default_timezone"
+  },
+  "has_many": {
+    "category_id": 10,
+    "title": "1対多の関連を宣言",
+    "method": "has_many"
+  },
+  "time_select": {
+    "category_id": 9,
+    "title": "時間選択ボックスを生成",
+    "method": "time_select"
+  },
+  "config_active_record_schema_format": {
+    "category_id": 15,
+    "title": "スキーマの形式を変更",
+    "method": "config.active_record.schema_format"
+  },
+  "has_and_belongs_to_many": {
+    "category_id": 10,
+    "title": "多対多の関連を宣言",
+    "method": "has_and_belongs_to_many"
+  },
+  "config_active_record_timestamped_migrations": {
+    "category_id": 15,
+    "title": "マイグレーションファイルの識別子を設定",
+    "method": "config.active_record.timestamped_migrations"
+  },
+  "to_xml": {
+    "category_id": 20,
+    "title": "XML変換",
+    "method": "to_xml"
+  },
+  "to_sql": {
+    "category_id": 6,
+    "title": "取得する時のSQLを表示",
+    "method": "to_sql"
+  },
+  "config_active_record_lock_optimistically": {
+    "category_id": 15,
+    "title": "楽観的ロックの設定",
+    "method": "config.active_record.lock_optimistically"
+  },
+  "polymorphic": {
+    "category_id": 10,
+    "title": "ポリモーフィック関連",
+    "method": ""
+  },
+  "config_action_controller_asset_host": {
+    "category_id": 15,
+    "title": "アセットファイルへのホストの設定",
+    "method": "config.action_controller.asset_host"
+  },
+  "config_action_controller_perform_caching": {
+    "category_id": 15,
+    "title": "コントローラのキャッシュ設定するかの設定",
+    "method": "config.action_controller.perform_caching"
+  },
+  "counter_cache": {
+    "category_id": 10,
+    "title": "カウンターキャッシュ",
+    "method": ""
+  },
+  "config_action_controller_default_static_extension": {
+    "category_id": 15,
+    "title": "キャッシュされたページに使用される拡張子の設定",
+    "method": "config.action_controller.default_static_extension"
+  },
+  "config_action_controller_default_charset": {
+    "category_id": 15,
+    "title": "コントローラのデフォルト文字コード",
+    "method": "config.action_controller.default_charset"
+  },
+  "model_new_record_q": {
+    "category_id": 6,
+    "title": "新しいレコードかチェック",
+    "method": "new_record?"
+  },
+  "model_persisted_q": {
+    "category_id": 6,
+    "title": "保存済みかチェック",
+    "method": "persisted?"
+  },
+  "model_destroyed_q": {
+    "category_id": 6,
+    "title": "削除済みかチェック",
+    "method": "destroyed?"
+  },
+  "config_action_controller_request_forgery_protection_token": {
+    "category_id": 15,
+    "title": "RequestForgeryのトークンパラメータを設定",
+    "method": "config.action_controller.request_forgery_protection_token"
+  },
+  "config_action_controller_allow_forgery_protectio": {
+    "category_id": 15,
+    "title": "CSRF保護をするかの設定",
+    "method": "config.action_controller.allow_forgery_protection"
+  },
+  "composed_of": {
+    "category_id": 6,
+    "title": "複数カラムをまとめる",
+    "method": "composed_of"
+  },
+  "config_action_controller_relative_url_root": {
+    "category_id": 15,
+    "title": "サブディレクトリ",
+    "method": "config.action_controller.relative_url_root"
+  },
+  "model_any_q": {
+    "category_id": 6,
+    "title": "モデルが空かチェック",
+    "method": "any?"
+  },
+  "config_action_controller_permit_all_parameters": {
+    "category_id": 15,
+    "title": "デフォルトで許可されるmass assignmentのパラメータの設定",
+    "method": "config.action_controller.permit_all_parameters"
+  },
+  "config_action_controller_logger": {
+    "category_id": 15,
+    "title": "アクションコントローラのロガー",
+    "method": "config.action_controller.logger"
+  },
+  "concat": {
+    "category_id": 8,
+    "title": "非出力コード内で出力",
+    "method": "concat"
+  },
+  "config_action_controller_action_on_unpermitted_params": {
+    "category_id": 15,
+    "title": "許可されていないパラメータの例外処理について",
+    "method": "config.action_controller.action_on_unpermitted_params"
+  },
+  "config_action_view_field_error_proc": {
+    "category_id": 15,
+    "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定",
+    "method": "config.action_view.field_error_proc"
+  },
+  "instance_method_already_implemented": {
+    "category_id": 6,
+    "title": "例外が発生するかチェック",
+    "method": "instance_method_already_implemented?"
+  },
+  "config_action_view_default_form_builder": {
+    "category_id": 15,
+    "title": "デフォルトで使用するビルダー形式",
+    "method": "config.action_view.default_form_builder"
+  },
+  "to_param": {
+    "category_id": 6,
+    "title": "URLのidの部分にid以外のものを指定",
+    "method": "to_param"
+  },
+  "config_action_view_erb_trim_mode": {
+    "category_id": 15,
+    "title": "ERBの処理方法",
+    "method": "config.action_view.erb_trim_mode"
+  },
+  "touch": {
+    "category_id": 6,
+    "title": "update_atを更新",
+    "method": "touch"
+  },
+  "config_action_view_embed_authenticity_token_in_remote_forms": {
+    "category_id": 15,
+    "title": "Fromでのauthenticity_tokenの付与について",
+    "method": "config.action_view.embed_authenticity_token_in_remote_forms"
+  },
+  "create_with": {
+    "category_id": 6,
+    "title": "関連モデルオブジェクトから新しい属性を作成",
+    "method": "create_with"
+  },
+  "config_action_view_prefix_partial_path_with_controller_namespace": {
+    "category_id": 15,
+    "title": "サブディレクトリの名前空間について",
+    "method": "config.action_view.prefix_partial_path_with_controller_namespace"
+  },
+  "eager_load": {
+    "category_id": 6,
+    "title": "左外部結合を使ってすべてのレコードを取得",
+    "method": "eager_load"
+  },
+  "config_action_view_logger": {
+    "category_id": 15,
+    "title": "ビューのロガーの設定",
+    "method": "config.action_view.logger"
+  },
+  "extending": {
+    "category_id": 6,
+    "title": "scopeを使ってモデルを拡張",
+    "method": "extending"
+  },
+  "config_action_mailer_logger": {
+    "category_id": 15,
+    "title": "電子メールで使用するデフォルトのロガーの設定",
+    "method": "config.action_mailer.logger"
+  },
+  "config_action_mailer_smtp_settings": {
+    "category_id": 15,
+    "title": "SMTPの設定",
+    "method": "config.action_mailer.smtp_settings"
+  },
+  "config_action_mailer_sendmail_settings": {
+    "category_id": 15,
+    "title": "センドメールの設定",
+    "method": "config.action_mailer.sendmail_settings"
+  },
+  "config_action_mailer_raise_delivery_errors": {
+    "category_id": 15,
+    "title": "電子メールが配信完了できない場合にエラーを発生させるかの設定",
+    "method": "config.action_mailer.raise_delivery_errors"
+  },
+  "config_action_mailer_delivery_method": {
+    "category_id": 15,
+    "title": "電子メールの配信方法を設定",
+    "method": "config.action_mailer.delivery_method"
+  },
+  "config_action_mailer_perform_deliveries": {
+    "category_id": 15,
+    "title": "電子メールの使用するかの設定",
+    "method": "config.action_mailer.perform_deliveries"
+  },
+  "config_action_mailer_default_options": {
+    "category_id": 15,
+    "title": "電子メールのデフォルトオプション",
+    "method": "config.action_mailer.default_options"
+  },
+  "config_action_mailer_observers": {
+    "category_id": 15,
+    "title": "メールが配信されたときに通知されオブザーバーを登録",
+    "method": "config.action_mailer.observers"
+  },
+  "config_action_mailer_interceptors": {
+    "category_id": 15,
+    "title": "電子メールが送信される前に呼び出させるインタープリタを登録",
+    "method": "config.action_mailer.interceptors"
+  },
+  "config_action_dispatch_session_store": {
+    "category_id": 15,
+    "title": "セッションストアの名前の設定",
+    "method": "config.action_dispatch.session_store"
+  },
+  "config_action_dispatch_default_headers": {
+    "category_id": 15,
+    "title": "デフォルトで設定されたHTMLヘッダを持つハッシュ",
+    "method": "config.action_dispatch.default_headers"
+  },
+  "config_action_dispatch_tld_length": {
+    "category_id": 15,
+    "title": "アプリケーションのトップドメインの長さを設定",
+    "method": "config.action_dispatch.tld_length"
+  },
+  "callbacks_before": {
+    "category_id": 99,
+    "title": "リクエストの前に実行する処理",
+    "method": "ActionDispatch::Callbacks.before"
+  },
+  "callbacks_to_prepare": {
+    "category_id": 15,
+    "title": "ActionDispatch::Callbacks.beforeの後に実行する処理",
+    "method": "ActionDispatch::Callbacks.to_prepare"
+  },
+  "callbacks_after": {
+    "category_id": 15,
+    "title": "リクエストの後に実行する処理",
+    "method": "ActionDispatch::Callbacks.after"
+  },
+  "config_active_support_bare": {
+    "category_id": 15,
+    "title": "アクティブサポートのロードの設定",
+    "method": "config.active_support.bare"
+  },
+  "config_active_support_escape_html_entities_in_json": {
+    "category_id": 15,
+    "title": "JSONのシリアル化でHTMLエンティティのエスケープ処理をするかの設定",
+    "method": "config.active_support.escape_html_entities_in_json"
+  },
+  "config_active_support_use_standard_json_time_format": {
+    "category_id": 15,
+    "title": "ISO8601形式に日時をシリアライズ",
+    "method": "config.active_support.use_standard_json_time_format"
+  },
+  "cache_store_logger": {
+    "category_id": 15,
+    "title": "キャッシュストアで使用するロガーの設定",
+    "method": "ActiveSupport::Cache::Store.logger"
+  },
+  "deprecation_behavior": {
+    "category_id": 15,
+    "title": "非推奨の警告の動作を設定",
+    "method": "ActiveSupport::Deprecation.behavior"
+  },
+  "deprecation_silence": {
+    "category_id": 15,
+    "title": "指定されたブロックで警告が表示されるか",
+    "method": "ActiveSupport::Deprecation.silence"
+  },
+  "deprecation_silenced": {
+    "category_id": 15,
+    "title": "非推奨の警告を標示するかの設定",
+    "method": "ActiveSupport::Deprecation.silenced"
+  },
+  "add_flash_types": {
+    "category_id": 7,
+    "title": "フラッシュメッセージのタイプを指定",
+    "method": "add_flash_types"
+  },
+  "logger_silencer": {
+    "category_id": 15,
+    "title": "サイレンサーのブロックするかの設定",
+    "method": "ActiveSupport::Logger.silencer"
+  },
+  "after_action": {
+    "category_id": 3,
+    "title": "アクションの後に処理を実行",
+    "method": "after_action"
+  },
+  "after_validation": {
+    "category_id": 15,
+    "title": "バリデーションの直後に呼び出されるメソッド",
+    "method": "after_validation"
+  },
+  "around_action": {
+    "category_id": 3,
+    "title": "アクションの前後に処理を実行",
+    "method": "around_action"
+  },
+  "array": {
+    "category_id": 20,
+    "title": "配列関係の便利関数",
+    "method": ""
+  },
+  "as_json": {
+    "category_id": 6,
+    "title": "モデルをハッシュ形式のJSONに変換",
+    "method": "as_json"
+  },
+  "active_job_info": {
+    "category_id": 21,
+    "title": "Rails標準のジョブを処理する仕組み",
+    "method": ""
+  },
+  "assert_enqueued_jobs": {
+    "category_id": 21,
+    "title": "指定した個数のジョブが登録されているか確認",
+    "method": "assert_enqueued_jobs"
+  },
+  "assert_enqueued_with": {
+    "category_id": 21,
+    "title": "指定した引数でジョブを登録",
+    "method": "assert_enqueued_with"
+  },
+  "assert_generates": {
+    "category_id": 14,
+    "title": "指定したパスが生成できるかバリデーション",
+    "method": "assert_generates"
+  },
+  "assert_recognizes": {
+    "category_id": 14,
+    "title": "ルーティングやオプションのバリデーション",
+    "method": "assert_recognizes"
+  },
+  "assert_redirected_to": {
+    "category_id": 14,
+    "title": "リダイレクト先がどうなっているかバリデーション",
+    "method": "assert_redirected_to"
+  },
+  "assert_response": {
+    "category_id": 14,
+    "title": "ステータスコードのバリデーション",
+    "method": "assert_response"
+  },
+  "assert_routing": {
+    "category_id": 14,
+    "title": "ルーティングとオプションのバリデーション",
+    "method": "assert_routing"
+  },
+  "before_action": {
+    "category_id": 3,
+    "title": "アクションの前に処理を実行",
+    "method": "before_action"
+  },
+  "before_validation": {
+    "category_id": 15,
+    "title": "バリデーションの直前に呼び出されるメソッドを設定",
+    "method": "before_validation"
+  },
+  "cache_if": {
+    "category_id": 8,
+    "title": "フラグメントキャッシュが有効かチェック",
+    "method": "cache_if"
+  },
+  "cdata_section": {
+    "category_id": 8,
+    "title": "指定された文字列からCDATAセクションを出力",
+    "method": "cdata_section"
+  },
+  "changes": {
+    "category_id": 6,
+    "title": "モデルの変更前と変更後の値をハッシュで取得",
+    "method": "changes"
+  },
+  "clear_validators": {
+    "category_id": 6,
+    "title": "全てのバリデーションをクリア",
+    "method": "clear_validators!"
+  },
+  "combined_fragment_cache_key": {
+    "category_id": 11,
+    "title": "フラグメントキャッシュの参照",
+    "method": "combined_fragment_cache_key"
+  },
+  "count_by_sql": {
+    "category_id": 6,
+    "title": "SQL文を使って件数を取得",
+    "method": "count_by_sql"
+  },
+  "duplicable_q": {
+    "category_id": 20,
+    "title": "複製可能かチェック",
+    "method": "duplicable?"
+  },
+  "foreign_key_exists_q": {
+    "category_id": 6,
+    "title": "テーブルに外部キー制約が存在するかチェック",
+    "method": "foreign_key_exists?"
+  },
+  "fragment_exist_q": {
+    "category_id": 11,
+    "title": "フラグメントキャッシュが存在するか確認",
+    "method": "fragment_exist?"
+  },
+  "hash": {
+    "category_id": 20,
+    "title": "ハッシュ関係の便利関数",
+    "method": ""
+  },
+  "html_escape": {
+    "category_id": 20,
+    "title": "HTMLタグをエスケープ",
+    "method": "html_escape"
+  },
+  "html_escape_once": {
+    "category_id": 20,
+    "title": "既にエスケープされた文字列はそのままで、HTMLタグをエスケープ",
+    "method": "html_escape_once"
+  },
+  "in_batches": {
+    "category_id": 6,
+    "title": "分割してレコードを取得して処理",
+    "method": "in_batches"
+  },
+  "indexes": {
+    "category_id": 6,
+    "title": "指定されたテーブルのインデックスを配列で取得",
+    "method": "indexes"
+  },
+  "int": {
+    "category_id": 20,
+    "title": "数値関係の便利関数",
+    "method": ""
+  },
+  "json_escape": {
+    "category_id": 20,
+    "title": "JSONエスケープ",
+    "method": "json_escape"
+  },
+  "left_outer_joins": {
+    "category_id": 6,
+    "title": "関連するモデルの左外部結合",
+    "method": "left_outer_joins"
+  },
+  "model_concat": {
+    "category_id": 6,
+    "title": "主キーを設定して複数のレコードを追加",
+    "method": "concat"
+  },
+  "model_distinct": {
+    "category_id": 6,
+    "title": "重複のない値を取得",
+    "method": "distinct"
+  },
+  "model_or": {
+    "category_id": 6,
+    "title": "OR条件式",
+    "method": "or"
+  },
+  "model_unscope": {
+    "category_id": 6,
+    "title": "条件式を削除",
+    "method": "unscope"
+  },
+  "previous_changes": {
+    "category_id": 6,
+    "title": "モデルが保存される前に変更された値をハッシュで取得",
+    "method": "previous_changes"
+  },
+  "redirect_back": {
+    "category_id": 7,
+    "title": "直前のページにリダイレクト",
+    "method": "redirect_back"
+  },
+  "rescue_from": {
+    "category_id": 20,
+    "title": "例外処理をまとめる",
+    "method": "rescue_from"
+  },
+  "select_tag": {
+    "category_id": 9,
+    "title": "選択ボックスを生成",
+    "method": "select_tag"
+  },
+  "time_ago_in_words": {
+    "category_id": 8,
+    "title": "日時を表示",
+    "method": "time_ago_in_words"
+  },
+  "uuid_v3": {
+    "category_id": 20,
+    "title": "Digest::MD5を使ったUUID",
+    "method": "uuid_v3"
+  },
+  "uuid_v4": {
+    "category_id": 20,
+    "title": "UUID",
+    "method": "uuid_v4"
+  },
+  "uuid_v5": {
+    "category_id": 20,
+    "title": "Digest::SHA1を使ったUUID",
+    "method": "uuid_v5"
+  },
+  "word_wrap": {
+    "category_id": 8,
+    "title": "指定された長さ以降の空白に改行を入れて出力",
+    "method": "word_wrap"
+  },
+  "write_fragment": {
+    "category_id": 11,
+    "title": "フラグメントキャッシュの保存",
+    "method": "write_fragment"
+  },
+  "respond_to": {
+    "category_id": 7,
+    "title": "リクエストで指定されたフォーマットに合わせて出力",
+    "method": "respond_to"
+  },
+  "try": {
+    "category_id": 20,
+    "title": "ぼっち演算",
+    "method": "try"
+  },
+  "concern": {
+    "category_id": 14,
+    "title": "共通のルーティング定義",
+    "method": "concern"
+  },
+  "member": {
+    "category_id": 14,
+    "title": "メンバールーティングを追加",
+    "method": "member"
+  },
+  "validates_with": {
+    "category_id": 13,
+    "title": "バリデーションの別クラスにエラーを追加",
+    "method": "validates_with"
+  },
+  "validates_each": {
+    "category_id": 13,
+    "title": "ブロックに対してのバリデーション",
+    "method": "validates_each"
+  },
+  "model_select": {
+    "category_id": 6,
+    "title": "カラムを指定して取得",
+    "method": "select"
+  },
+  "model_only": {
+    "category_id": 6,
+    "title": "指定した条件以外の条件をクエリから削除",
+    "method": "only"
+  },
+  "benchmark": {
+    "category_id": 8,
+    "title": "ブロック内の実行時間を測定し結果をログに記録",
+    "method": "benchmark"
+  },
+  "collection_radio_buttons": {
+    "category_id": 9,
+    "title": "モデルからラジオボタンを自動生成",
+    "method": "collection_radio_buttons"
+  },
+  "collection_check_boxes": {
+    "category_id": 9,
+    "title": "モデルからチェックボックスを自動生成",
+    "method": "collection_check_boxes"
+  },
+  "rails_about": {
+    "category_id": 4,
+    "title": "Railsアプリケーションのバージョン情報や各ディレクトリのライブラリ名などを出力",
+    "method": "rails about"
+  },
+  "rails_assets": {
+    "category_id": 4,
+    "title": "アセット関連の作成処理",
+    "method": "rails assets"
+  },
+  "rails_notes": {
+    "category_id": 4,
+    "title": "コードからコメントの部分を抽出",
+    "method": "rails notes"
+  },
+  "rails_routes": {
+    "category_id": 4,
+    "title": "定義されている全ルーティングを出力",
+    "method": "rails routes"
+  },
+  "rails_tmp": {
+    "category_id": 4,
+    "title": "tmpディレクトリを生成",
+    "method": "rails tmp"
+  },
+  "config_disable_sandbox": {
+    "category_id": 15,
+    "title": "rails consoleでsandboxの起動不可",
+    "method": "config.disable_sandbox"
+  },
+  "config_enable_dependency_loading": {
+    "category_id": 15,
+    "title": "cache_classesがtrueでも自動読み込みを有効",
+    "method": "config.enable_dependency_loading"
+  },
+  "config_debug_exception_response_format": {
+    "category_id": 15,
+    "title": "developmentモードでエラーが発生した場合のレスポンスのフォーマットを定義",
+    "method": "config.debug_exception_response_format"
+  },
+  "config_log_formatter": {
+    "category_id": 15,
+    "title": "ロガーのフォーマットを定義",
+    "method": "config.log_formatter"
+  },
+  "callback_info": {
+    "category_id": 3,
+    "title": "コールバックについて",
+    "method": ""
+  },
+  "after_initialize": {
+    "category_id": 3,
+    "title": "モデルが作成される時に実行",
+    "method": "after_initialize"
+  },
+  "after_touch": {
+    "category_id": 3,
+    "title": "モデルをタッチするたびに実行",
+    "method": "after_touch"
+  },
+  "define_model_callbacks": {
+    "category_id": 3,
+    "title": "デフォルトのコールバックを上書き",
+    "method": "define_model_callbacks"
+  },
+  "append_after_action": {
+    "category_id": 3,
+    "title": "アクションの後に処理を追加",
+    "method": "append_after_action"
+  },
+  "append_around_action": {
+    "category_id": 3,
+    "title": "アクションの前後に処理を追加",
+    "method": "append_around_action"
+  },
+  "append_before_action": {
+    "category_id": 3,
+    "title": "アクションの前に処理を追加",
+    "method": "append_before_action"
+  },
+  "prepend_after_action": {
+    "category_id": 3,
+    "title": "アクションの後に処理を追加",
+    "method": "prepend_after_action"
+  },
+  "prepend_around_action": {
+    "category_id": 3,
+    "title": "アクションの前後に処理を追加",
+    "method": "prepend_around_action"
+  },
+  "prepend_before_action": {
+    "category_id": 3,
+    "title": "アクションの前に処理を追加",
+    "method": "prepend_before_action"
+  },
+  "skip_after_action": {
+    "category_id": 3,
+    "title": "アクションの後のコールバックをスキップ",
+    "method": "skip_after_action"
+  },
+  "skip_around_action": {
+    "category_id": 3,
+    "title": "アクションに関するコールバックをスキップ",
+    "method": "skip_around_action"
+  },
+  "skip_before_action": {
+    "category_id": 3,
+    "title": "アクションの前のコールバックをスキップ",
+    "method": "skip_before_action"
+  },
+  "transaction": {
+    "category_id": 6,
+    "title": "トランザクション",
+    "method": "transaction"
+  },
+  "lock": {
+    "category_id": 6,
+    "title": "データベースのロック",
+    "method": ""
+  },
+  "direct": {
+    "category_id": 14,
+    "title": "カスタムURLヘルパーを定義 ",
+    "method": "direct"
+  },
+  "resolve": {
+    "category_id": 14,
+    "title": "モデルのURLマッピングを定義 ",
+    "method": "resolve"
+  },
+  "protect_from_forgery": {
+    "category_id": 7,
+    "title": "CSRF対策の設定",
+    "method": "protect_from_forgery"
+  }
+}

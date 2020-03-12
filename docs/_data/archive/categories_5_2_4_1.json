@@ -1,0 +1,107 @@
+[
+    {
+        "english_name": "rails_base",
+        "id": 1,
+        "name": "Railsの基礎知識"
+    },
+    {
+        "english_name": "ruby_base",
+        "id": 2,
+        "name": "Rubyの基礎知識"
+    },
+    {
+        "english_name": "gem",
+        "id": 25,
+        "name": "Gem"
+    },
+    {
+        "english_name": "rake",
+        "id": 26,
+        "name": "Rake"
+    },
+    {
+        "english_name": "rails",
+        "id": 4,
+        "name": "railsコマンド(rails)"
+    },
+    {
+        "english_name": "migration",
+        "id": 5,
+        "name": "マイグレーション(migration)"
+    },
+    {
+        "english_name": "model",
+        "id": 6,
+        "name": "モデル(model)"
+    },
+    {
+        "english_name": "controller",
+        "id": 7,
+        "name": "コントローラ(controller)"
+    },
+    {
+        "english_name": "view",
+        "id": 8,
+        "name": "ビュー(view)"
+    },
+    {
+        "english_name": "form",
+        "id": 9,
+        "name": "フォーム(form)"
+    },
+    {
+        "english_name": "association",
+        "id": 10,
+        "name": "アソシエーション(関連付け)"
+    },
+    {
+        "english_name": "callback",
+        "id": 3,
+        "name": "コールバック"
+    },
+    {
+        "english_name": "active_support",
+        "id": 20,
+        "name": "アクティブサポート(activesupport)"
+    },
+    {
+        "english_name": "active_job",
+        "id": 21,
+        "name": "アクティブジョブ(activejob)"
+    },
+    {
+        "english_name": "asset_pipeline",
+        "id": 23,
+        "name": "アセットパイプライン(Asset Pipeline)"
+    },
+    {
+        "english_name": "cookie_cache",
+        "id": 11,
+        "name": "クッキー・キャッシュ"
+    },
+    {
+        "english_name": "validation",
+        "id": 13,
+        "name": "バリデーション(validation)"
+    },
+    {
+        "english_name": "routes",
+        "id": 14,
+        "name": "ルーティング(routes)"
+    },
+    {
+        "english_name": "config",
+        "id": 15,
+        "name": "設定ファイル(config)"
+    },
+    {
+        "english_name": "test",
+        "id": 16,
+        "name": "テスト(test)"
+    },
+    {
+        "english_name": "etc",
+        "id": 18,
+        "name": "その他"
+    }
+]

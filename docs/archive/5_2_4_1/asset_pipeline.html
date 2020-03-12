@@ -1,0 +1,26 @@
+---
+title: "アセットパイプライン(Asset Pipeline)"
+---
+{% include archive_header.html depth="." %}
+<main class="col-12 sm-col-8">
+<article>
+{%- for i in site.data.archive.pages_5_2_4_1 -%}
+  {% if i[1].category_id != 23 %}{% continue %}{% endif %}
+  {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
+<section>
+  <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
+  {{ markdownStr | remove: "layout: archive_page" | remove: "---" | markdownify }}
+</section>
+{% endfor %}
+</article>
+</main>
+<aside class="xs-hide sm-col-2">
+  <h3>目次</h3>
+  <ol>
+    {%- for i in site.data.archive.pages_5_2_4_1 -%}
+      {%- if i[1].category_id != 23 -%}{% continue %}{%- endif -%}
+      <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
+    {% endfor %}
+  </ol>
+</aside>
+{% include footer.html %}

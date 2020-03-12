@@ -30,6 +30,16 @@ header h1 {
 header .block {
   margin-top: 16px;
 }
+#archive_header {
+  background-color: #222222;
+  color: #fff;
+  font-size: 80%;
+  padding: 2px 12px;
+  text-align: center;
+}
+#archive_header a {
+  color: inherit;
+}
 footer {
   width: 100%;
   background-color: #cc0000;
