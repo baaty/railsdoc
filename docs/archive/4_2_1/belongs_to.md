@@ -69,4 +69,4 @@ create_association!(attributes = {}) | 新しいオブジェクトを生成し�
     belongs_to :user, foreign_key => "blog_id"
 
 ### ソースコード
-    * [GitHub](https://github.com/rails/rails/blob/0af3dd4438047d8c5783dff1cfcf9c696b44bdff/activerecord/lib/active_record/associations.rb#L1514)
+* [GitHub](https://github.com/rails/rails/blob/0af3dd4438047d8c5783dff1cfcf9c696b44bdff/activerecord/lib/active_record/associations.rb#L1514)
