@@ -68,4 +68,4 @@ layout: archive_page
     belongs_to :account, default: -> { company.account }
 
 ### ソースコード
-    * [GitHub](https://github.com/rails/rails/blob/ac30e389ecfa0e26e3d44c1eda8488ddf63b3ecc/activerecord/lib/active_record/associations.rb#L1653)
+* [GitHub](https://github.com/rails/rails/blob/ac30e389ecfa0e26e3d44c1eda8488ddf63b3ecc/activerecord/lib/active_record/associations.rb#L1653)
