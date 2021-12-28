@@ -39,8 +39,8 @@
 {
   "url": "page/rails_scaffold",
   "method": "rails generate scaffold",
-  "title": "アプリケーションに必要なファイルをまとめて生成",
-  "use": "$ rails generate scaffold 名前 [カラム名:型]"
+  "title": "アプリケーションのひな型を生成",
+  "use": "rails generate scaffold 名前 [カラム名:型[:index]..] [オプション]"
 },
 {
   "url": "page/database_up",
@@ -79,34 +79,22 @@
   "use": "validates_uniqueness_of(フィールド名 [, オプション])"
 },
 {
-  "url": "page/rake_routes",
-  "method": "rake routes",
-  "title": "ルーティングの内容を確認",
-  "use": "$ rake routes"
-},
-{
-  "url": "page/rake",
-  "method": "rake -T",
-  "title": "Rakeコマンド一覧",
-  "use": "$ rake -T"
-},
-{
   "url": "page/rails_generate_controller",
   "method": "rails generate controller",
   "title": "コントローラとビューの生成",
-  "use": "$ rails generate controller 名前 [アクション名...]"
+  "use": "$ rails generate controller 名前 [アクション名..] [オプション]"
 },
 {
   "url": "page/rails_generate_migration",
   "method": "rails generate migration",
   "title": "マイグレーションファイルの生成",
-  "use": "$ rails generate migration 名前 [カラム名:型] [オプション]"
+  "use": "$ rails generate migration 名前 [カラム名:型[:index]..] [オプション]"
 },
 {
   "url": "page/rails_generate_model",
   "method": "rails generate model",
   "title": "モデルの生成",
-  "use": "$ rails generate model 名前 [カラム名:型] [オプション]"
+  "use": "$ rails generate model 名前 [カラム名:型[:index]..] [オプション]"
 },
 {
   "url": "page/database_down",
@@ -155,12 +143,6 @@
   "method": "config.assets.enabled",
   "title": "アセットパイプラインを有効にするかの設定",
   "use": "config.assets.enabled"
-},
-{
-  "url": "page/rake_about",
-  "method": "rake about",
-  "title": "使用しているライブラリのバージョンを確認",
-  "use": "$ rake about"
 },
 {
   "url": "page/rails_server",
@@ -250,13 +232,13 @@
   "url": "page/rails_destroy",
   "method": "rails destroy",
   "title": "自動生成したファイルの削除",
-  "use": "$ rails destroy ファイルの種類 [削除するファイル名 オプション]"
+  "use": "$ rails destroy ファイルの種類 [削除するファイル名] [オプション]"
 },
 {
-  "url": "page/rails_plugin_install",
-  "method": "rails plugin install",
+  "url": "page/rails_plugin_new",
+  "method": "rails plugin new",
   "title": "プラグインをインストール",
-  "use": "$ rails plugin install [プラグイン名/githubのURL] [オプション]"
+  "use": "$ rails plugin new パス [オプション]"
 },
 {
   "url": "page/create_table",
@@ -287,18 +269,6 @@
   "method": "resource",
   "title": "単一のリソースのルーティング",
   "use": "resource(リソース名 [, オプション])"
-},
-{
-  "url": "page/rake_doc_rails",
-  "method": "rake doc:rails",
-  "title": "Railsのドキュメントを生成",
-  "use": "$ rake doc.rails"
-},
-{
-  "url": "page/rake_doc_app",
-  "method": "rake doc:app",
-  "title": "ソースコードからドキュメントを生成",
-  "use": "$ rake doc:app"
 },
 {
   "url": "page/rails_console",
@@ -349,22 +319,16 @@
   "use": "bundle オプション"
 },
 {
-  "url": "page/rake_notes",
-  "method": "rake notes",
-  "title": "ソースコードにTODOを記入",
-  "use": "$ rake notes"
-},
-{
-  "url": "page/rake_db_drop",
-  "method": "rake db:drop",
+  "url": "page/rails_db_drop",
+  "method": "rails db:drop",
   "title": "データベースを削除",
-  "use": "$ rake db:drop"
+  "use": "rails db:drop"
 },
 {
   "url": "page/rails_dbconsole",
   "method": "rails dbconsole",
   "title": "コンソールを起動",
-  "use": "$ rails dbconsole [環境]"
+  "use": "rails dbconsole [環境]"
 },
 {
   "url": "page/drop_table",
@@ -421,10 +385,10 @@
   "use": "config.asset_host"
 },
 {
-  "url": "page/rake_db_migrate",
-  "method": "rake db:migrate",
+  "url": "page/rails_db_migrate",
+  "method": "rails db:migrate",
   "title": "マイグレーションの実行",
-  "use": "$ rake db:migrate [VERSION=バージョン番号 オプション]"
+  "use": "$ rails db:migrate [VERSION=バージョン番号 オプション]"
 },
 {
   "url": "page/expire_fragment",
@@ -493,16 +457,10 @@
   "use": "config.autoload_once_paths"
 },
 {
-  "url": "page/rake_db_version",
-  "method": "rake db:version",
+  "url": "page/rails_db_version",
+  "method": "rails db:version",
   "title": "マイグレーションのバージョンを確認",
-  "use": "$ rake db:version [RAILS_ENV=環境(development, text, production)]"
-},
-{
-  "url": "page/rake_db_migrate_status",
-  "method": "rake db:migrate:status",
-  "title": "マイグレーションの履歴",
-  "use": "$ rake db:migrate:status [RAILS_ENV=環境(development, text, production)]"
+  "use": "$ rails db:version [RAILS_ENV=環境(development, text, production)]"
 },
 {
   "url": "page/create_join_table",
@@ -691,10 +649,16 @@
   "use": "config.cache_store"
 },
 {
-  "url": "page/rake_db_seed",
-  "method": "rake db:seed",
+  "url": "page/rails_db_seed",
+  "method": "rails db:seed",
   "title": "データベースに初期データを投入",
-  "use": "$ rake db:seed"
+  "use": "$ rails db:seed"
+},
+{
+  "url": "page/rails_db_seed_replant",
+  "method": "rails db:seed:replant",
+  "title": "現在の環境の各データベースのテーブルを切り捨てseedをロード",
+  "use": "$ rails db:seed:replant"
 },
 {
   "url": "page/add_column",
@@ -733,12 +697,6 @@
   "use": "config.consider_all_requests_local"
 },
 {
-  "url": "page/rake_db_fixtures_load",
-  "method": "rake db:fixtures:load",
-  "title": "データベースにテストデータを挿入",
-  "use": "$ rake db:fixtures:load [FIXTURES=フィクスチャファイル名 RAILS_ENV=環境]"
-},
-{
   "url": "page/rename_column",
   "method": "rename_column",
   "title": "カラム名を変更",
@@ -775,10 +733,10 @@
   "use": "config.console"
 },
 {
-  "url": "page/rake_db_create",
-  "method": "rake db:create",
-  "title": "データベースを作製",
-  "use": "$ rake db:create [RAILS_ENV=環境(development, text, production)]"
+  "url": "page/rails_db_create",
+  "method": "rails db:create",
+  "title": "データベースを作成",
+  "use": "$ rails db:create [RAILS_ENV=環境(development, text, production)]"
 },
 {
   "url": "page/change_column",
@@ -829,12 +787,6 @@
   "use": "config.enable_dependency_loading"
 },
 {
-  "url": "page/rake_log_clear",
-  "method": "rake log:clear",
-  "title": "ログファイルを削除",
-  "use": "$ rake log:clear"
-},
-{
   "url": "page/remove_column",
   "method": "remove_column",
   "title": "カラムを削除",
@@ -871,12 +823,6 @@
   "use": "config.eager_load"
 },
 {
-  "url": "page/rake_rails_update",
-  "method": "rake rails:update",
-  "title": "Railsのバージョンアップ",
-  "use": "$ rake rails:update"
-},
-{
   "url": "page/remove_columns",
   "method": "remove_columns",
   "title": "複数のカラムを削除",
@@ -911,12 +857,6 @@
   "method": "config.eager_load_namespaces",
   "title": "Eager Loadingで使用するネームスペースの設定",
   "use": "config.eager_load_namespaces"
-},
-{
-  "url": "page/rake_rails_templates_cop",
-  "method": "rake rails:templates:copy",
-  "title": "自動生成されるテンプレートをカスタマイズ",
-  "use": "$ rake rails:templates:copy"
 },
 {
   "url": "page/change_column_default",
@@ -983,12 +923,6 @@
   "method": "constantize",
   "title": "引数の文字列で指定した名前で定数を探す",
   "use": "文字列.constantize()"
-},
-{
-  "url": "page/rake_db_rollback",
-  "method": "rake db:rollback",
-  "title": "マイグレーションをロールバック",
-  "use": "$ rake db:rollback"
 },
 {
   "url": "page/column_exists_q",
@@ -1681,12 +1615,6 @@
   "use": "モデル.update_all(カラム名: 値 [, オプション])"
 },
 {
-  "url": "page/model_update_attributes",
-  "method": "update_attributes",
-  "title": "属性ハッシュを指定して更新",
-  "use": "モデル.update_attributes(属性名, 値)"
-},
-{
   "url": "page/model_update_attribute",
   "method": "update_attribute",
   "title": "属性ハッシュを指定して更新",
@@ -1731,7 +1659,7 @@
 {
   "url": "page/model_destroy_all",
   "method": "destroy_all",
-  "title": "ActiveRecordを使って指定した条件の全てのレコードを削除",
+  "title": "指定した条件のレコードと関連しているレコードをすべて削除",
   "use": "モデル.destroy_all([検索条件])"
 },
 {
@@ -1955,12 +1883,6 @@
   "method": "config.middleware.insert_after",
   "title": "既存のミドルウェアの後に新しいミドルウェアを追加",
   "use": "config.middleware.insert_after"
-},
-{
-  "url": "page/record_timestamps",
-  "method": "record_timestamps",
-  "title": "タイムスタンプの自動保存を停止",
-  "use": "ActiveRecord::Base.record_timestamps = false"
 },
 {
   "url": "page/has_attribute",
@@ -2283,7 +2205,7 @@
 {
   "url": "page/config_action_view_field_error_proc",
   "method": "config.action_view.field_error_proc",
-  "title": "Active Recordでのエラーを表示するためのHTMLジェネレーターの設定",
+  "title": "アクティブレコードでのエラーを表示するためのHTMLジェネレーターの設定",
   "use": "config.action_view.field_error_proc"
 },
 {
@@ -2617,6 +2539,12 @@
   "use": "モデル.clear_validators!()"
 },
 {
+  "url": "page/fragment_cache_key",
+  "method": "fragment_cache_key",
+  "title": "フラグメントキャッシュキーのプレフィックス",
+  "use": "fragment_cache_key([値, キー])"
+},
+{
   "url": "page/combined_fragment_cache_key",
   "method": "combined_fragment_cache_key",
   "title": "フラグメントキャッシュの参照",
@@ -2723,6 +2651,12 @@
   "method": "redirect_back",
   "title": "直前のページにリダイレクト",
   "use": "redirect_back(HTTP_REFERERが設定されていない場合のリダイレクト先 [, オプション])"
+},
+{
+  "url": "page/redirect_back_or_to",
+  "method": "redirect_back_or_to",
+  "title": "直前のページにリダイレクトし、なければ指定したページへリダイレクト",
+  "use": "redirect_back_or_to(fallback_location, allow_other_host: 異なるホストへのリダイレクトを許可するか [, オプション])"
 },
 {
   "url": "page/rescue_from",
@@ -2841,14 +2775,8 @@
 {
   "url": "page/rails_about",
   "method": "rails about",
-  "title": "Railsアプリケーションのバージョン情報や各ディレクトリのライブラリ名などを出力",
+  "title": "Railsアプリケーションの色々な情報を出力",
   "use": "$ rails about"
-},
-{
-  "url": "page/rails_assets",
-  "method": "rails assets",
-  "title": "アセット関連の作成処理",
-  "use": "$ rails assets"
 },
 {
   "url": "page/rails_notes",
@@ -2861,12 +2789,6 @@
   "method": "rails routes",
   "title": "定義されている全ルーティングを出力",
   "use": "$ rails routes"
-},
-{
-  "url": "page/rails_tmp",
-  "method": "rails tmp",
-  "title": "tmpディレクトリを生成",
-  "use": "$ rails tmp"
 },
 {
   "url": "page/config_disable_sandbox",
@@ -2985,19 +2907,19 @@
 {
   "url": "page/direct",
   "method": "direct",
-  "title": "カスタムURLヘルパーを定義 ",
+  "title": "カスタムURLヘルパーを定義",
   "use": "direct(名前 [, オプション])"
 },
 {
   "url": "page/resolve",
   "method": "resolve",
-  "title": "モデルのURLマッピングを定義 ",
+  "title": "モデルのURLマッピングを定義",
   "use": "resolve(名前)"
 },
 {
   "url": "page/http_basic_authenticate_with",
   "method": "http_basic_authenticate_with",
-  "title": "Basic認証 ",
+  "title": "Basic認証",
   "use": "http_basic_authenticate_with(name: 名前, password: パスワード [, realm: 認証が必要がエリア名, オプション])"
 },
 {
@@ -3005,5 +2927,1104 @@
   "method": "protect_from_forgery",
   "title": "CSRF対策の設定",
   "use": "protect_from_forgery([オプション])"
+},
+{
+  "url": "page/weekday_options_for_select",
+  "title": "曜日のオプションタグを生成",
+  "method": "weekday_options_for_select",
+  "use": "weekday_options_for_select(オプション, 曜日のインデックスを値として使用するか, 曜日のフォーマット)",
+  "updated_at": "2021-10-10 00:00:00.593762"
+},
+{
+  "url": "page/weekday_select",
+  "title": "曜日のセレクトタグとオプションタグを生成",
+  "method": "weekday_select",
+  "use": "weekday_select(オブジェクト, メソッド, オプション)"
+},
+{
+  "url": "page/phone_to",
+  "title": "電話番号へのアンカーリンクを生成",
+  "method": "phone_to",
+  "use": "phone_to(電話番号, [リンクテキスト, オプション])"
+},
+{
+  "url": "page/sms_to",
+  "title": "SMS用のタグを生成",
+  "method": "sms_to",
+  "use": "sms_to(電話番号, [リンクテキスト, オプション])"
+},
+{
+  "url": "page/in_order_of",
+  "title": "特定の値のセットによる順序の指定",
+  "method": "in_order_of",
+  "use": "in_order_of(カラム, 値)"
+},
+{
+  "url": "page/action_cable_new",
+  "title": "特定の値のセットによる順序の指定",
+  "method": "new",
+  "use": "new(コネクション, 識別子 [, パラメータ])"
+},
+{
+  "url": "page/action_cable_meta_tag",
+  "title": "action-cable-urlのメタタグを生成",
+  "method": "action_cable_meta_tag",
+  "use": "action_cable_meta_tag()"
+},
+{
+  "url": "page/broadcast_to",
+  "title": "ブロードキャスト",
+  "method": "broadcast_to(",
+  "use": "broadcast_to(モデル, メッセージ)"
+},
+{
+  "url": "page/broadcasting_for",
+  "title": "ブロードキャスト",
+  "method": "broadcasting_for",
+  "use": "broadcasting_for(モデル)"
+},
+{
+  "url": "page/unsubscribed",
+  "title": "ケーブル接続を切断したときに呼び出される",
+  "method": "unsubscribed",
+  "use": "unsubscribed()"
+},
+{
+  "url": "page/transmit",
+  "title": "データのハッシュをサブスクライバに送信",
+  "method": "transmit",
+  "use": "transmit(データ, 識別子)"
+},
+{
+  "url": "page/subscription_rejected_q",
+  "title": "サブスクリプションが拒否されたか",
+  "method": "subscription_rejected?",
+  "use": "subscription_rejected?()"
+},
+{
+  "url": "page/subscription_confirmation_sent",
+  "title": "購読確認書の送付",
+  "method": "subscription_confirmation_sent",
+  "use": "subscription_confirmation_sent?()"
+},
+{
+  "url": "page/subscribed",
+  "title": "コンシューマーがチャンネルのサブスクライバーになると呼び出される",
+  "method": "subscribed",
+  "use": "subscribed()"
+},
+{
+  "url": "page/reject",
+  "title": "リジェクト",
+  "method": "reject",
+  "use": "reject()"
+},
+{
+  "url": "page/ensure_confirmation_sent",
+  "title": "確認書の送付",
+  "method": "ensure_confirmation_sent",
+  "use": "ensure_confirmation_sent()"
+},
+{
+  "url": "page/defer_subscription_confirmation_q",
+  "title": "サブスクリプション確認の延期",
+  "method": "defer_subscription_confirmation?",
+  "use": "defer_subscription_confirmation?()"
+},
+{
+  "url": "page/defer_subscription_confirmation",
+  "title": "サブスクリプション確認の延期",
+  "method": "defer_subscription_confirmation",
+  "use": "defer_subscription_confirmation!()"
+},
+{
+  "url": "page/subscribe_to_channel",
+  "title": "接続にサブスクリプションが追加された後に呼び出されサブスクリプションを確認または拒否",
+  "method": "subscribe_to_channel",
+  "use": "subscribe_to_channel()"
+},
+{
+  "url": "page/perform_action",
+  "title": "渡されたデータからアクション名を抽出しチャネル経由で処理",
+  "method": "perform_action",
+  "use": "perform_action(データ)"
+},
+{
+  "url": "page/clear_action_methods",
+  "title": "action_methodsを実行したときに再計算",
+  "method": "clear_action_methods",
+  "use": "clear_action_methods!()"
+},
+{
+  "url": "page/method_added",
+  "title": "新しいaction_methodが追加されるとキャッシュをリフレッシュ",
+  "method": "method_added",
+  "use": "method_added(名前)"
+},
+{
+  "url": "page/action_methods",
+  "title": "アクションメソッド名のリスト",
+  "method": "action_methods",
+  "use": "action_methods()"
+},
+{
+  "url": "page/fresh_when",
+  "title": "レスポンスにetagとlast_modifiedを設定してリクエストが新しい場合は304",
+  "method": "fresh_when",
+  "use": "fresh_when(オブジェクト) [, etag: ETag, weak_etag: 弱いETag, strong_etag: 強いETag, last_modified: 最終更新日のバリデータを設定, public: キャッシュ可能にしたいか, cache_control: Cache-Controlヘッダー, template: テンプレート])"
+},
+{
+  "url": "page/http_cache_forever",
+  "title": "ブラウザなどでのキャッシュを無期限",
+  "method": "http_cache_forever",
+  "use": "http_cache_forever(public: プロキシがレスポンスをキャッシュすることを許可するか)"
+},
+{
+  "url": "page/no_store",
+  "title": "HTTP1.1のCache-Controlヘッダにno-storeを設定",
+  "method": "no_store",
+  "use": "no_store()"
+},
+{
+  "url": "page/stale_q",
+  "title": "EtagとLast-Modifiedからリクエストが古いかチェック",
+  "method": "stale?",
+  "use": "stale?(オブジェクト [, etag: ETag, weak_etag: 弱いETag, strong_etag: 強いETag, last_modified: 最終更新日のバリデータを設定, public: キャッシュ可能にしたいか, cache_control: Cache-Controlヘッダー, template: テンプレート])"
+},
+{
+  "url": "page/param_encoding",
+  "title": "アクションのパラメータのエンコーディングを指定",
+  "method": "param_encoding",
+  "use": "param_encoding(アクション名, パラメータ, エンコードの種類)"
+},
+{
+  "url": "page/skip_parameter_encoding",
+  "title": "アクションのエンコーディングにASCII-8BITを指定",
+  "method": "skip_parameter_encoding",
+  "use": "skip_parameter_encoding(アクション名)"
+},
+{
+  "url": "page/with_routing",
+  "title": "さまざまなルート構成を簡単にテストするためのヘルパー",
+  "method": "with_routing",
+  "use": "with_routing()"
+},
+{
+  "url": "page/cookies_encrypted",
+  "title": "クライアントに送信する前にクッキーの値を自動的に暗号化し、読み取り時には復号化するjarを返す",
+  "method": "encrypted",
+  "use": "cookies.encrypted[クッキー名] = 値"
+},
+{
+  "url": "page/preload_link_tag",
+  "title": "ブラウザがプリロードに使用できるリンクタグ",
+  "method": "preload_link_tag",
+  "use": "preload_link_tag(パス [, オプション])"
+},
+{
+  "url": "page/asset_url",
+  "title": "公開ディレクトリにあるアセットへのURL",
+  "method": "asset_url",
+  "use": "asset_url(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/audio_url",
+  "title": "公開されているaudiosディレクトリ内のオーディオアセットへのURL",
+  "method": "audio_url",
+  "use": "audio_url(ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/font_path",
+  "title": "フォントアセットへのパス",
+  "method": "font_path",
+  "use": "font_path(フォントファイルへのパス [, オプション])"
+},
+{
+  "url": "page/font_url",
+  "title": "フォントアセットへのURL",
+  "method": "font_url",
+  "use": "font_url(フォントファイルへのパス [, オプション])"
+},
+{
+  "url": "page/image_url",
+  "title": "画像ファイルへのURL",
+  "method": "image_url",
+  "use": "image_url(画像ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/video_url",
+  "title": "動画ファイルへのURL",
+  "method": "video_url",
+  "use": "video_url(動画ファイルへのパス [, オプション])"
+},
+{
+  "url": "page/distance_of_time_in_words",
+  "title": "2つの時間のおおよその経過時間",
+  "method": "distance_of_time_in_words",
+  "use": "distance_of_time_in_words(開始時間, 終了時間 [, オプション])"
+},
+{
+  "url": "page/distance_of_time_in_words_to_now",
+  "title": "現在までのおおよその経過時間",
+  "method": "distance_of_time_in_words_to_now",
+  "use": "distance_of_time_in_words_to_now(開始時間 [, オプション])"
+},
+{
+  "url": "page/time_tag",
+  "title": "HTMLのタイムタグを生成",
+  "method": "time_tag",
+  "use": "time_tag(DateかTime [, 引数])"
+},
+{
+  "url": "page/field_id",
+  "title": "与えられたフィールドのHTMLのid属性値を生成",
+  "method": "field_id",
+  "use": "field_id(フィールド, 接尾語, index: インデックス)"
+},
+{
+  "url": "page/assign_attributes",
+  "title": "属性のハッシュを渡すことですべての属性を設定",
+  "method": "assign_attributes",
+  "use": "assign_attributes(属性のハッシュ)"
+},
+{
+  "url": "page/model_to_key",
+  "title": "すべての属性名を配列で取得",
+  "method": "to_key",
+  "use": "to_key()"
+},
+{
+  "url": "page/model_to_model",
+  "title": "オブジェクトがモデルを実装するように設計されているか",
+  "method": "to_model",
+  "use": "to_model()"
+},
+{
+  "url": "page/model_to_param",
+  "title": "URLでの使用に適したオブジェクトのキーを表す文字列",
+  "method": "to_param",
+  "use": "to_param()"
+},
+{
+  "url": "page/model_to_partial_path",
+  "title": "オブジェクトに関連するパスを示す文字列",
+  "method": "to_partial_path",
+  "use": "to_partial_path()"
+},
+{
+  "url": "page/model_changed_attributes",
+  "title": "保存されていない変更が加えられた属性の元の値を示すハッシュ",
+  "method": "changed_attributes",
+  "use": "changed_attributes()"
+},
+{
+  "url": "page/has_secure_password",
+  "title": "BCryptパスワードを設定して認証するためのメソッド",
+  "method": "has_secure_password",
+  "use": "has_secure_password(attribute = :password, validations: true)"
+},
+{
+  "url": "page/serializable_hash",
+  "title": "オブジェクトのシリアル化されたハッシュ",
+  "method": "serializable_hash",
+  "use": "serializable_hash([オプション])"
+},
+{
+  "url": "page/rails_generate_application_record",
+  "title": "application_recordファイルを生成",
+  "method": "rails generate application_record",
+  "use": "rails generate application_record [オプション]"
+},
+{
+  "url": "page/rails_generate_channel",
+  "title": "サーバとクライアントに新しいケーブルチャンネルを生成",
+  "method": "rails generate channel",
+  "use": "rails generate channel 名前 [メソッド..] [オプション]"
+},
+{
+  "url": "page/rails_generate_helper",
+  "title": "新しいヘルパーを生成",
+  "method": "rails generate helper",
+  "use": "rails generate helper 名前 [オプション]"
+},
+{
+  "url": "page/rails_generate_integration_test",
+  "title": "新しい統合テストを生成",
+  "method": "rails generate integration_test",
+  "use": "rails generate integration_test 名前 [オプション]"
+},
+{
+  "url": "page/rails_generate_jbuilder",
+  "title": "jbuilderファイルを生成",
+  "method": "rails generate jbuilder",
+  "use": "rails generate jbuilder 名前 [フィールド:型..] [オプション]"
+},
+{
+  "url": "page/rails_generate_job",
+  "title": "ジョブファイルを生成",
+  "method": "rails generate job",
+  "use": "rails generate job 名前 [オプション]"
+},
+{
+  "url": "page/rails_generate_mailbox",
+  "title": "新しいメールボックスクラスを生成",
+  "method": "rails generate mailbox",
+  "use": "rails generate mailbox 名前 [オプション]"
+},
+{
+  "url": "page/rails_generate_mailer",
+  "title": "新しいメーラーとそのビューを生成",
+  "method": "rails generate mailer",
+  "use": "rails generate mailer 名前 [メソッド..] [オプション]"
+},
+{
+  "url": "page/rails_generate_resource",
+  "title": "新しいリソースを生成",
+  "method": "rails generate resource",
+  "use": "rails generate resource 名前 [カラム名[:型][:index]..] [オプション]"
+},
+{
+  "url": "page/rails_scaffold_controller",
+  "title": "モデル以外のアプリケーションのひな型を生成",
+  "method": "rails generate scaffold_controller",
+  "use": "rails generate scaffold_controller 名前 [カラム名:型..] [オプション]"
+},
+{
+  "url": "page/rails_generate_system_test",
+  "title": "新しいシステムテストを生成",
+  "method": "rails generate system_test",
+  "use": "rails generate system_test 名前 [オプション]"
+},
+{
+  "url": "page/rails_generate_task",
+  "title": "新しいRakeタスクを生成",
+  "method": "rails generate task",
+  "use": "rails generate task 名前 [アクション..] [オプション]"
+},
+{
+  "url": "page/rails_action_mailbox_ingress_exim",
+  "title": "Eximからの受信メールをアクションメールボックスにリレー",
+  "method": "rails action_mailbox:ingress:exim",
+  "use": "rails action_mailbox:ingress:exim"
+},
+{
+  "url": "page/rails_action_mailbox_ingress_postfix",
+  "title": "Postfixからの受信メールをアクションメールボックスにリレー",
+  "method": "rails action_mailbox:ingress:postfix",
+  "use": "rails action_mailbox:ingress:postfix"
+},
+{
+  "url": "page/rails_action_mailbox_ingress_qmail",
+  "title": "Qmailからの受信メールをアクションメールボックスにリレー",
+  "method": "rails action_mailbox:ingress:qmail",
+  "use": "rails action_mailbox:ingress:qmail"
+},
+{
+  "url": "page/rails_action_mailbox_install",
+  "title": "アクションメールボックスとその依存関係をインストール",
+  "method": "rails action_mailbox:install",
+  "use": "rails action_mailbox:install"
+},
+{
+  "url": "page/rails_action_mailbox_install_migrations",
+  "title": "アクションメールボックスからアプリケーションへのマイグレーションのコピー",
+  "method": "rails action_mailbox:install:migrations",
+  "use": "rails action_mailbox:install:migrations"
+},
+{
+  "url": "page/rails_action_text_install",
+  "title": "マイグレーション、スタイルシート、JavaScriptの各ファイルをコピー",
+  "method": "rails action_text:install",
+  "use": "rails action_text:install"
+},
+{
+  "url": "page/rails_action_text_install_migrations",
+  "title": "マイグレーションをアクションテキストからアプリケーションにコピー",
+  "method": "rails action_text:install:migrations",
+  "use": "rails action_text:install:migrations"
+},
+{
+  "url": "page/rails_active_storage_install",
+  "title": "アクティブストレージのセットアップ",
+  "method": "rails active_storage:install",
+  "use": "rails active_storage:install"
+},
+{
+  "url": "page/rails_app_template",
+  "title": "テンプレートを適用",
+  "method": "rails app:template",
+  "use": "rails app:template"
+},
+{
+  "url": "page/rails_app_update",
+  "title": "対話形式でアップデート",
+  "method": "rails app:update",
+  "use": "rails app:update"
+},
+{
+  "url": "page/rails_assets_clean",
+  "title": "古いコンパイル済みのassetsを削除",
+  "method": "rails assets:clean",
+  "use": "rails assets:clean"
+},
+{
+  "url": "page/rails_assets_clobber",
+  "title": "コンパイル済みのassetsを削除",
+  "method": "rails assets:clobber",
+  "use": "rails assets:clobber"
+},
+{
+  "url": "page/rails_assets_environment",
+  "title": "アセットのコンパイル環境の読み込み",
+  "method": "rails assets:environment",
+  "use": "rails assets:environment"
+},
+{
+  "url": "page/rails_assets_precompile",
+  "title": "config.assets.precompileで指定されたすべてのアセットをコンパイル",
+  "method": "rails assets:precompile",
+  "use": "rails assets:precompile"
+},
+{
+  "url": "page/rails_cache_digests_dependencies",
+  "title": "直接のテンプレートの依存関係を調査",
+  "method": "rails cache_digests:dependencies",
+  "use": "rails cache_digests:dependencies"
+},
+{
+  "url": "page/rails_cache_digests_nested_dependencies",
+  "title": "ネストしたテンプレートの依存関係を調査",
+  "method": "rails cache_digests:nested_dependencies",
+  "use": "rails cache_digests:nested_dependencies"
+},
+{
+  "url": "page/rails_db_encryption_init",
+  "title": "暗号化を構成するための鍵セットを生成",
+  "method": "rails db:encryption:init",
+  "use": "rails db:encryption:init"
+},
+{
+  "url": "page/rails_db_environment_set",
+  "title": "データベースの環境値を設定",
+  "method": "rails db:environment:set",
+  "use": "rails db:environment:set"
+},
+{
+  "url": "page/rails_db_fixtures_load",
+  "title": "フィクスチャを現在の環境のデータベースにロード",
+  "method": "rails db:fixtures:load",
+  "use": "rails db:fixtures:load"
+},
+{
+  "url": "page/rails_db_prepare",
+  "title": "データベースのリペア",
+  "method": "rails db:prepare",
+  "use": "rails db:prepare"
+},
+{
+  "url": "page/rails_db_reset",
+  "title": "データベースのリセット",
+  "method": "rails db:reset",
+  "use": "rails db:reset"
+},
+{
+  "url": "page/rails_db_rollback",
+  "title": "データベースのロールバック",
+  "method": "rails db:rollback",
+  "use": "rails db:rollback"
+},
+{
+  "url": "page/rails_db_schema_cache_clear",
+  "title": "db/schema_cache.ymlファイルをクリア",
+  "method": "rails db:schema:cache:clear",
+  "use": "rails db:schema:cache:clear"
+},
+{
+  "url": "page/rails_db_schema_cache_dump",
+  "title": "db/schema_cache.ymlファイルを作成",
+  "method": "rails db:schema:cache:dump",
+  "use": "rails db:schema:cache:dump"
+},
+{
+  "url": "page/rails_db_setup",
+  "title": "データベースのセットアップ",
+  "method": "rails db:setup",
+  "use": "rails db:setup"
+},
+{
+  "url": "page/rails_db_structure_dump",
+  "title": "データベース構造をダンプ",
+  "method": "rails db:structure:dump",
+  "use": "rails db:structure:dump"
+},
+{
+  "url": "page/rails_db_structure_load",
+  "title": "structure.sqlファイルからデータベースを再構築",
+  "method": "rails db:structure:load",
+  "use": "rails db:structure:load"
+},
+{
+  "url": "page/rails_db_system_change",
+  "title": "使用するデータベースを変更",
+  "method": "rails db:system:change",
+  "use": "rails db:system:change [--to=使用するデータベース]"
+},
+{
+  "url": "page/rails_dev_cache",
+  "title": "development環境のキャッシュのオンオフ",
+  "method": "rails dev:cache",
+  "use": "rails dev:cache"
+},
+{
+  "url": "page/rails_importmap_install",
+  "title": "アプリケーションにImportmapを設定",
+  "method": "rails importmap:install",
+  "use": "rails importmap:install"
+},
+{
+  "url": "page/rails_initializers",
+  "title": "ニシャライザをパスとともに起動順に表示",
+  "method": "rails initializers",
+  "use": "rails initializers [オプション]"
+},
+{
+  "url": "page/rails_log_clear",
+  "title": "logディレクトリ以下にあるすべての*.logファイルを0バイトに切り詰める",
+  "method": "rails log:clear",
+  "use": "rails log:clear"
+},
+{
+  "url": "page/rails_middleware",
+  "title": "Rackのミドルウェアスタックを出力",
+  "method": "rails middleware",
+  "use": "rails middleware"
+},
+{
+  "url": "page/rails_restart",
+  "title": "アプリケーションを再起動",
+  "method": "rails restart",
+  "use": "rails restart"
+},
+{
+  "url": "page/rails_secret",
+  "title": "暗号化された安全な秘密鍵を生成",
+  "method": "rails secret",
+  "use": "rails secret"
+},
+{
+  "url": "page/rails_stats",
+  "title": "アプリケーションの統計情報",
+  "method": "rails stats",
+  "use": "rails stats"
+},
+{
+  "url": "page/rails_stimulus_install",
+  "title": "Stimulusをアプリケーションにインストール",
+  "method": "rails stimulus:install",
+  "use": "rails stimulus:install"
+},
+{
+  "url": "page/rails_stimulus_install_importmap",
+  "title": "importmap-railsが動作しているアプリケーションにStimulusをインストール",
+  "method": "rails stimulus:install:importmap",
+  "use": "rails stimulus:install:importmap"
+},
+{
+  "url": "page/rails_stimulus_install_node",
+  "title": "アプリケーションが動いているノードにStimulusをインストール",
+  "method": "rails stimulus:install:node",
+  "use": "rails stimulus:install:node"
+},
+{
+  "url": "page/rails_test",
+  "title": "テストの実行",
+  "method": "rails test",
+  "use": "rails test [オプション] [ファイルかディレクトリ..]"
+},
+{
+  "url": "page/rails_test_all",
+  "title": "システムテストを含むすべてのテストの実行",
+  "method": "rails test:all",
+  "use": "rails test:all"
+},
+{
+  "url": "page/rails_test_db",
+  "title": "テストの実行とデータベースのリセット",
+  "method": "rails test:db",
+  "use": "rails test:db"
+},
+{
+  "url": "page/rails_time_zones",
+  "title": "全てのタイムゾーンの一覧表示",
+  "method": "rails time:zones",
+  "use": "rails time:zones"
+},
+{
+  "url": "page/rails_tmp_clear",
+  "title": "tmpディレクトリからキャッシュ、ソケット、スクリーンショットファイルをクリア",
+  "method": "rails tmp:clear",
+  "use": "rails tmp:clear"
+},
+{
+  "url": "page/rails_tmp_create",
+  "title": "キャッシュ、ソケットなどをtmpディレクトリに作成",
+  "method": "rails tmp:create",
+  "use": "rails tmp:create"
+},
+{
+  "url": "page/rails_turbo_install",
+  "title": "Turboをアプリケーションにインストール",
+  "method": "rails turbo:install",
+  "use": "rails turbo:install"
+},
+{
+  "url": "page/rails_turbo_install_importmap",
+  "title": "アセットパイプラインでTurboをアプリケーションにインストール",
+  "method": "rails turbo:install:importmap",
+  "use": "rails turbo:install:importmap"
+},
+{
+  "url": "page/rails_turbo_install_node",
+  "title": "webpackerでTurboをアプリケーションにインストール",
+  "method": "rails turbo:install:node",
+  "use": "rails turbo:install:node"
+},
+{
+  "url": "page/rails_turbo_install_redis",
+  "title": "Redisのスイッチを入れ開発で使用",
+  "method": "rails turbo:install:redis",
+  "use": "rails turbo:install:redis"
+},
+{
+  "url": "page/rails_version",
+  "title": "Railsのバージョン",
+  "method": "rails version",
+  "use": "rails version"
+},
+{
+  "url": "page/rails_yarn_install",
+  "title": "Yarnで指定されたすべてのJavaScriptの依存関係をインストール",
+  "method": "rails yarn:install",
+  "use": "rails yarn:install"
+},
+{
+  "url": "page/rails_zeitwerk_check",
+  "title": "Zeitwerkの互換性についてプロジェクト構造をチェック",
+  "method": "rails zeitwerk:check",
+  "use": "rails zeitwerk:check"
+},
+{
+  "url": "page/rails_generate_benchmark",
+  "title": "ベンチマークを生成",
+  "method": "rails generate benchmark",
+  "use": "rails generate benchmark ファイル名"
+},
+{
+  "url": "page/reversible",
+  "title": "ロールバックする方法がわからない処理",
+  "method": "reversible",
+  "use": "reversible"
+},
+{
+  "url": "page/revert",
+  "title": "リバート",
+  "method": "revert",
+  "use": "revert"
+},
+{
+  "url": "page/up_only",
+  "title": "マイグレーションアップ時にのみ実行される処理",
+  "method": "up_only",
+  "use": "up_only"
+},
+{
+  "url": "page/add_check_constraint",
+  "title": "テーブルに新しい制約を追加",
+  "method": "add_check_constraint",
+  "use": "add_check_constraint(テーブル名, 条件 [, オプション])"
+},
+{
+  "url": "page/data_source_exists_q",
+  "title": "データソース名がデータベース上に存在するか",
+  "method": "data_source_exists?",
+  "use": "data_source_exists?(名前)"
+},
+{
+  "url": "page/remove_check_constraint",
+  "title": "指定された制約をテーブルから削除",
+  "method": "remove_check_constraint",
+  "use": "remove_check_constraint(table_name, expression = nil, **options)"
+},
+{
+  "url": "page/remove_foreign_key",
+  "title": "テーブルから指定された外部キーを削除",
+  "method": "remove_foreign_key",
+  "use": "remove_foreign_key(テーブル名 [, 参照先テーブル名, オプション])"
+},
+{
+  "url": "page/view_exists_q",
+  "title": "指定したビュー名ががデータベース上に存在するかチェック",
+  "method": "view_exists?",
+  "use": "view_exists?(ビュー名)"
+},
+{
+  "url": "page/model_fifth",
+  "title": "5番目のレコードを検索",
+  "method": "fifth",
+  "use": "fifth()"
+},
+{
+  "url": "page/model_second",
+  "title": "2番目のレコードを検索",
+  "method": "second",
+  "use": "second()"
+},
+{
+  "url": "page/model_third",
+  "title": "3番目のレコードを検索",
+  "method": "third",
+  "use": "third()"
+},
+{
+  "url": "page/model_fourth",
+  "title": "4番目のレコードを検索",
+  "method": "fourth",
+  "use": "fourth()"
+},
+{
+  "url": "page/find_sole_by",
+  "title": "条件を指定してレコードが1個しかない場合だけ取得",
+  "method": "find_sole_by",
+  "use": "find_sole_by(条件..)"
+},
+{
+  "url": "page/sole",
+  "title": "レコードが1個しかない場合だけ取得",
+  "method": "sole",
+  "use": "sole()"
+},
+{
+  "url": "page/cache_key",
+  "title": "このクエリを識別できるたキャッシュキーを取得",
+  "method": "cache_key",
+  "use": "モデル.cache_key([タイムスタンプカラム(updated_at)])"
+},
+{
+  "url": "page/delete_by",
+  "title": "指定された条件に一致するすべてのレコードを検索して削除",
+  "method": "delete_by",
+  "use": "モデル.delete_by(条件..)"
+},
+{
+  "url": "page/destroy_by",
+  "title": "指定された条件に一致するレコードと関連するレコードを検索してすべて削除",
+  "method": "destroy_by",
+  "use": "モデル.destroy_by(条件..)"
+},
+{
+  "url": "page/touch_all",
+  "title": "updated_atとupdated_on属性を現在の時刻または指定された時刻に設定",
+  "method": "touch_all",
+  "use": "モデル.touch_all([時刻のカラム名 , time: 時間])"
+},
+{
+  "url": "page/update_counters",
+  "title": "現在のリレーションのレコードのカウンタを更新",
+  "method": "update_counters",
+  "use": "モデル.update_counters(条件)"
+},
+{
+  "url": "page/alias_attribute",
+  "title": "属性のエイリアスを作成",
+  "method": "alias_attribute",
+  "use": "alias_attribute(エイリアス名, エイリアス元の属性名)"
+},
+{
+  "url": "page/assert_broadcast_on",
+  "title": "指定したメッセージがストリームに送信されているか確認",
+  "method": "assert_broadcast_on",
+  "use": "assert_broadcast_on(ストリーム, メッセージ)"
+},
+{
+  "url": "page/assert_broadcasts",
+  "title": "ストリームにブロードキャストされたメッセージの数を確認",
+  "method": "assert_broadcasts",
+  "use": "assert_broadcasts(ストリーム, メッセージ数)"
+},
+{
+  "url": "page/assert_no_broadcasts",
+  "title": "ストリームにメッセージが送信されていないことを確認",
+  "method": "assert_no_broadcasts",
+  "use": "assert_no_broadcasts(ストリーム)"
+},
+{
+  "url": "page/send_stream",
+  "title": "ストリームをブラウザに送信",
+  "method": "send_stream",
+  "use": "send_stream(filename: ファイル名, disposition: インラインで表示するか、ダウンロードするか [type: HTTPコンテンツタイプ])"
+},
+{
+  "url": "page/etag",
+  "title": "ETagを生成",
+  "method": "etag",
+  "use": "etag(情報)"
+},
+{
+  "url": "page/helper_attr",
+  "title": "コントローラの属性に対するヘルパーアクセサを宣言",
+  "method": "helper_attr",
+  "use": "helper_attr(属性)"
+},
+{
+  "url": "page/log_at",
+  "title": "リクエストごとに異なるログレベルを設定",
+  "method": "log_at",
+  "use": "log_at(ログレベル [, オプション])"
+},
+{
+  "url": "page/wrap_parameters",
+  "title": "ParamsWrapperが属性名を決定するために使用するモデルを設定",
+  "method": "wrap_parameters",
+  "use": "wrap_parameters(属性やモデルなど [, オプション])"
+},
+{
+  "url": "page/skip_forgery_protection",
+  "title": "CSRF対策の設定をオフ",
+  "method": "skip_forgery_protection",
+  "use": "skip_forgery_protection([オプション])"
+},
+{
+  "url": "page/request_authorization",
+  "title": "CSRF対策の設定をオフ",
+  "method": "authorization",
+  "use": "request.authorization()"
+},
+{
+  "url": "page/request_content_length",
+  "title": "リクエストのコンテンツの長さ",
+  "method": "content_length",
+  "use": "request.content_length()"
+},
+{
+  "url": "page/request_form_data_q",
+  "title": "リクエストボディにフォームデータが含まれているか",
+  "method": "form_data?",
+  "use": "request.form_data?()"
+},
+{
+  "url": "page/request_fullpath",
+  "title": "最後にリクエストされたURLのパラメターを含むフルパス",
+  "method": "fullpath",
+  "use": "request.fullpath()"
+},
+{
+  "url": "page/request_headers",
+  "title": "HTTPヘッダーを取得",
+  "method": "headers",
+  "use": "request.headers()"
+},
+{
+  "url": "page/request_ip",
+  "title": "クライアントのIPアドレス",
+  "method": "ip",
+  "use": "request.ip()"
+},
+{
+  "url": "page/request_key_q",
+  "title": "指定されたキーパラメーターにマッチするヘッダーがあるか",
+  "method": "key?",
+  "use": "request.key?()"
+},
+{
+  "url": "page/request_local_q",
+  "title": "リクエストの送信元がlocalhostか127.0.0.1であるか",
+  "method": "local?",
+  "use": "request.local?()"
+},
+{
+  "url": "page/media_type",
+  "title": "リクエストのMIMEタイプを取得",
+  "method": "media_type",
+  "use": "request.media_type()"
+},
+{
+  "url": "page/raw_post",
+  "title": "生のPOSTデータを取得",
+  "method": "raw_post",
+  "use": "request.raw_post()"
+},
+{
+  "url": "page/remote_ip",
+  "title": "クライアントのリモートIPアドレスを取得",
+  "method": "remote_ip",
+  "use": "request.remote_ip()"
+},
+{
+  "url": "page/request_id",
+  "title": "一意のリクエストIDを取得",
+  "method": "request_id",
+  "use": "request.request_id()"
+},
+{
+  "url": "page/request_request_method",
+  "title": "HTTPメソッドを取得",
+  "method": "request_method",
+  "use": "request.request_method()"
+},
+{
+  "url": "page/request_send_early_hints",
+  "title": "HTTP/2のステータスコードのEarly Hintsを取得",
+  "method": "send_early_hints",
+  "use": "request.send_early_hints()"
+},
+{
+  "url": "page/request_server_software",
+  "title": "HTTPサーバーソフトウェアの名称を取得",
+  "method": "server_software",
+  "use": "request.server_software()"
+},
+{
+  "url": "page/request_xml_http_request_q",
+  "title": "HTTPサーバーソフトウェアの名称を取得",
+  "method": "xml_http_request?",
+  "use": "request.xml_http_request?()"
+},
+{
+  "url": "page/response_body",
+  "title": "レスポンスの内容を文字列で取得",
+  "method": "body",
+  "use": "request.body()"
+},
+{
+  "url": "page/response_charset",
+  "title": "レスポンスのcharsetを取得",
+  "method": "charset",
+  "use": "request.charset()"
+},
+{
+  "url": "page/response_content_type",
+  "title": "コンテントタイプを設定",
+  "method": "content_type",
+  "use": "response.content_type = 'コンテントタイプ'"
+},
+{
+  "url": "page/response_cookies",
+  "title": "レスポンスクッキーをハッシュに変換して取得",
+  "method": "cookies",
+  "use": "response.cookies()"
+},
+{
+  "url": "page/response_message",
+  "title": "HTTPステータスコードに対応するメッセージを取得",
+  "method": "message",
+  "use": "response.message()"
+},
+{
+  "url": "page/response_response_code",
+  "title": "リクエストのレスポンスコードを取得",
+  "method": "response_code",
+  "use": "response.response_code()"
+},
+{
+  "url": "page/response_send_file",
+  "title": "パスに格納されているファイルをレスポンスボディとして返す",
+  "method": "send_file",
+  "use": "response.send_file(パス)"
+},
+{
+  "url": "page/driven_by",
+  "title": "システムテストの設定オプション",
+  "method": "driven_by",
+  "use": "driven_by(ドライバ, using: 使うブラウザ(chrome), screen_size: スクリーンサイズ([1400, 1400]), options: オプション)"
+},
+{
+  "url": "page/request_path_parameters",
+  "title": "リクエストのパスを形成するために使用されたパラメータのハッシュを取得",
+  "method": "path_parameters",
+  "use": "path_parameters()"
+},
+{
+  "url": "page/open_session",
+  "title": "新しいセッションインスタンスを開く",
+  "method": "open_session",
+  "use": "open_session()"
+},
+{
+  "url": "page/session_https",
+  "title": "セッションが安全なHTTPSリクエストか指定",
+  "method": "https!",
+  "use": "session.https!([セッションが安全なHTTPSリクエストか(true)])"
+},
+{
+  "url": "page/session_https_q",
+  "title": "セッションが安全なHTTPSリクエストか",
+  "method": "https?",
+  "use": "session.https?"
+},
+{
+  "url": "page/session_process",
+  "title": "実際のリクエストを実行",
+  "method": "process",
+  "use": "process(HTTPメソッド, リクエストを実行するためのURI [, params: パラメータ, headers: 追加のヘッダー, env: 追加のenv, xhr: Ajaxリクエストを行いたいか, as: リクエストを異なるコンテントタイプでエンコード])"
+},
+{
+  "url": "page/redirect",
+  "title": "任意のパスを別のパスにリダイレクト",
+  "method": "redirect",
+  "use": "redirect(パス)"
+},
+{
+  "url": "page/route_for",
+  "title": "ダイレクトまたは通常の名前のルート",
+  "method": "route_for",
+  "use": "route_for(名前, パス)"
+},
+{
+  "url": "page/mount",
+  "title": "ラックベースのアプリケーションをマウント",
+  "method": "mount",
+  "use": "mount(アプリケーション [, オプション])"
+},
+{
+  "url": "page/collection",
+  "title": "ルーティングにコレクションを追加",
+  "method": "collection",
+  "use": "collection()"
+},
+{
+  "url": "page/fixture_file_upload",
+  "title": "ファイルアップロードをテスト",
+  "method": "fixture_file_upload",
+  "use": "fixture_file_upload(パス [, タイプ, バイナリかどうか])"
+},
+{
+  "url": "page/assert_emails",
+  "title": "送信されたメールの数が指定された数と一致することを確認",
+  "method": "assert_emails",
+  "use": "assert_emails(メール数)"
+},
+{
+  "url": "page/assert_enqueued_email_with",
+  "title": "特定のメールがエンキューされたことを確認",
+  "method": "assert_enqueued_email_with",
+  "use": "assert_enqueued_email_with(メーラー, メソッド [, args: 引数, queue: キュー])"
+},
+{
+  "url": "page/assert_enqueued_emails",
+  "title": "後で配信するために保留されているメールの数を確認",
+  "method": "assert_enqueued_emails",
+  "use": "assert_enqueued_emails(メール数)"
+},
+{
+  "url": "page/assert_no_emails",
+  "title": "メールが送信されていないことを確認",
+  "method": "assert_no_emails",
+  "use": "assert_no_emails()"
+},
+{
+  "url": "page/assert_no_enqueued_emails",
+  "title": "メールキューがないことを確認",
+  "method": "assert_no_enqueued_emails",
+  "use": "assert_no_enqueued_emails()"
 }
 ]}

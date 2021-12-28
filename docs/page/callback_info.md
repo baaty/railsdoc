@@ -1,12 +1,16 @@
 ---
 layout: page
 ---
+
 ### コールバックとは
+
 コールバックとは、オブジェクトが変わる時に実行できる処理のこと  
 コールバックを使うことによって、モデルの作成後や保存前などに実行できるコードを書くことが可能
 
 ### コールバックの種類
+
 #### メソッド参照例
+
     before_destroy :delete_parents
     private
       def delete_parents
@@ -14,6 +18,7 @@ layout: page
       end
 
 #### コールバックオブジェクト
+
     class BankAccount < ActiveRecord::Base
       before_save      EncryptionWrapper.new
       after_save       EncryptionWrapper.new

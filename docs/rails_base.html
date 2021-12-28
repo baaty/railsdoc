@@ -1,12 +1,14 @@
 ---
 title: "Railsの基礎知識"
-description: "10秒でわかるRailsの超ざっくり基礎知識。"
+description: "5分でわかるRailsの超ざっくり基礎知識"
 ---
 {% include header.html %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 1 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 1 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="/page/{{i[0]}}">{{i[1].title}}</a></h2>

@@ -5,8 +5,10 @@ description: "フォーム関連の約50個のメソッドのオプションや�
 {% include header.html ogp="form.png" %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 9 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 9 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
@@ -23,12 +25,6 @@ description: "フォーム関連の約50個のメソッドのオプションや�
   {{ markdownStr | remove: "layout: page" | remove: "---" | markdownify }}
 </section>
 {% endfor %}
-<section>
-  <h2>おまけ</h2>
-  <p>Rails6のForm関連のメソッドの説明とバージョン情報を一枚の画像にまとめました</p>
-  <amp-img src="assets/images/form.png" alt="Rails6のForm関連メソッド一覧" width="144" height="80" role="button" tabindex="0" on="tap:ogp"></amp-img>
-  <amp-image-lightbox id="ogp" layout="nodisplay"></amp-image-lightbox>
-</section>
 </article>
 </main>
 <aside class="xs-hide sm-col-2">

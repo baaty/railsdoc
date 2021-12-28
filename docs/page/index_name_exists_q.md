@@ -1,15 +1,19 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 テーブルに指定した名前のインデックスが存在するか
 
 ### 使い方
+
     index_name_exists?(テーブル名, インデックス名)
 
 ### 例
-#### テーブルに指定した名前のインデックスが存在するか
+
     index_name_exists?(:pages, :title)
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/connection_adapters/abstract/schema_statements.rb#L853)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/activerecord/lib/active_record/connection_adapters/abstract/schema_statements.rb#L935)

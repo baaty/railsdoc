@@ -1,16 +1,20 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 すべてのレコードを取得
 
 ### 使い方
+
     モデル.all
 
 ### 例
-#### Pagesテーブルからすべてのレコードを取得
+
     Page.all
     # SELECT "pages".* FROM "pages"
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/scoping/named.rb#L26)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/activerecord/lib/active_record/scoping/named.rb#L22)

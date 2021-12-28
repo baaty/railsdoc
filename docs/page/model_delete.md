@@ -1,17 +1,26 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 指定した条件に一致するレコードをSQLを直接実行して削除  
 関連付けられたモデルは削除しない
 
 ### 使い方
-    モデル.delete(条件)
+
+    モデル.delete(IDかIDの配列)
 
 ### 例
-#### レコードを削除
-    person.pets.delete(Pet.find(1))
-    # [<Pet id: 1, name: "Fancy-Fancy", person_id: 1>]
+
+#### 指定した条件に一致するレコードをSQLを直接実行して削除  
+
+    Todo.delete(1)
+
+#### 配列で指定
+
+    Todo.delete([2,3,4])
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/associations/collection_proxy.rb#L617)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/activerecord/lib/active_record/persistence.rb#L474)

@@ -1,15 +1,19 @@
 ---
 layout: page
 ---
+
 ### 使い方
+
     #coding: utf-8
     require 'test_helper'
     class ArticleTest < ActiveSupport::TestCase
-    test テスト名 do
-    テストコード
+      test テスト名 do
+        テストコード
+      end
     end
 
 ### 例
+
     class ShopTest < ActiveSupport::TestCase
       def test_instanciate_from_cvs_string
         shop = Ship.parse("コーヒー, aaa")

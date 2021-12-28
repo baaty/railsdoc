@@ -1,25 +1,31 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 コントローラで処理された内容を埋め込む先を指定
 
 ### 使い方
+
     <%= yield %>
 
 ### 例
+
 #### コントローラで処理された内容を埋め込む先を指定
+
     <body>
-    <%= yield %>
+        <%= yield %>
     </body>
 
 #### headerの時にjavaScriptのタグを表示
-##### app/layouts/application.html.erb
+
+    # app/layouts/application.html.erb
     <body>
-    <%= yield :header %>
+        <%= yield :header %>
     </body>
 
-##### app/views/pages/show.thml.erb
+    # app/views/pages/show.thml.erb
     <% content_for :header do %>
-    <%= javascript_include_tag "page.js" %>
+        <%= javascript_include_tag "page.js" %>
     <% end %>

@@ -98,7 +98,7 @@ https://railsdoc.com/page/camelize
 https://railsdoc.com/page/tableize
 https://railsdoc.com/page/classify
 https://railsdoc.com/page/rails_destroy
-https://railsdoc.com/page/rails_plugin_install
+https://railsdoc.com/page/rails_plugin_new
 https://railsdoc.com/page/create_table
 https://railsdoc.com/page/render_to_string
 https://railsdoc.com/page/resource
@@ -285,7 +285,6 @@ https://railsdoc.com/page/strftime
 https://railsdoc.com/page/attributes
 https://railsdoc.com/page/asset_path
 https://railsdoc.com/page/attributes_before_type_cast
-https://railsdoc.com/page/record_timestamps
 https://railsdoc.com/page/has_attribute
 https://railsdoc.com/page/read_attribute_before_type_cast
 https://railsdoc.com/page/date_field_tag

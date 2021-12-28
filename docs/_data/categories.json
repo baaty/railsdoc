@@ -12,34 +12,10 @@
         "description": "1分で見直すRubyの文法の基礎"
     },
     {
-        "english_name": "gem",
-        "id": 25,
-        "name": "Gem",
-        "description": "パッケージ管理ツールのGem(ジェム)の使い方"
-    },
-    {
-        "english_name": "rake",
-        "id": 26,
-        "name": "Rake",
-        "description": "ビルドツールのRakeで使えるオプションや使い方の例など"
-    },
-    {
         "english_name": "rails",
         "id": 4,
         "name": "railsコマンド(rails)",
         "description": "Railsコマンドで使えるオプションや使い方の例など"
-    },
-    {
-        "english_name": "migration",
-        "id": 5,
-        "name": "マイグレーション(migration)",
-        "description": "マイグレーションの記述の仕方やメソッドのオプションや使い方の例など"
-    },
-    {
-        "english_name": "model",
-        "id": 6,
-        "name": "モデル(model)",
-        "description": "モデル関連の100個以上のメソッドのオプションや使い方の例など"
     },
     {
         "english_name": "controller",
@@ -60,10 +36,58 @@
         "description": "フォーム関連の約50個のメソッドのオプションや使い方の例など"
     },
     {
+        "english_name": "model",
+        "id": 6,
+        "name": "モデル(model)",
+        "description": "モデル関連の100個以上のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "model_errors",
+        "id": 31,
+        "name": "モデルエラー",
+        "description": "モデルのエラー関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "parameters",
+        "id": 30,
+        "name": "パラメータ(parameters)",
+        "description": "パラメータ関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "migration",
+        "id": 5,
+        "name": "マイグレーション(migration)",
+        "description": "マイグレーションの記述の仕方やメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "request",
+        "id": 28,
+        "name": "リクエスト(request)",
+        "description": "リクエスト関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "response",
+        "id": 29,
+        "name": "レスポンス(response)",
+        "description": "レスポンス関連のメソッドのオプションや使い方の例など"
+    },
+    {
         "english_name": "association",
         "id": 10,
         "name": "アソシエーション(関連付け)",
         "description": "アソシエーション関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "validation",
+        "id": 13,
+        "name": "バリデーション(validation)",
+        "description": "バリデーション関連のメソッド"
+    },
+    {
+        "english_name": "routes",
+        "id": 14,
+        "name": "ルーティング(routes)",
+        "description": "ルーティング関連のメソッド"
     },
     {
         "english_name": "callback",
@@ -84,6 +108,12 @@
         "description": "アクティブジョブ関連のメソッドのオプションや使い方の例など"
     },
     {
+        "english_name": "action_cable",
+        "id": 27,
+        "name": "アクションケーブル(Action Cable)",
+        "description": "アクションケーブル関連のメソッドのオプションや使い方の例など"
+    },
+    {
         "english_name": "asset_pipeline",
         "id": 23,
         "name": "アセットパイプライン(Asset Pipeline)",
@@ -94,18 +124,6 @@
         "id": 11,
         "name": "クッキー・キャッシュ",
         "description": "クッキー・キャッシュで使えるメソッド"
-    },
-    {
-        "english_name": "validation",
-        "id": 13,
-        "name": "バリデーション(validation)",
-        "description": "バリデーション関連のメソッド"
-    },
-    {
-        "english_name": "routes",
-        "id": 14,
-        "name": "ルーティング(routes)",
-        "description": "ルーティング関連のメソッド"
     },
     {
         "english_name": "config",

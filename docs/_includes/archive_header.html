@@ -59,13 +59,13 @@
     </style>
   </head>
   <body>
-    <div class="col-12" id="archive_header">古いバージョンのドキュメントです。最新のバージョンは<a href="/">Rails6.0.2.1</a></div>
+    <div class="col-12" id="archive_header">古いバージョンのドキュメントです。最新のバージョンは<a href="/">Rails7.0.0</a></div>
     <header class="col-12"><div role="button" class="sm-hide sidebar-open" aria-label="open sidebar" on="tap:sidebar.toggle" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" class="block"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></div>
-    <h1><a href="{{include.depth}}/">Railsドキュメント(v5.2.4.1)</a></h1>
+    <h1><a href="{{include.depth}}/">Railsドキュメント(v6.0.2.1)</a></h1>
     </header>
     <amp-sidebar id="sidebar" layout="nodisplay" side="left">
       <ul>
-      {%- for i in site.data.archive.categories_5_2_4_1 %}
+      {%- for i in site.data.archive.categories_6_0_2_1 %}
         <li><a href="{{include.depth}}/{{i.english_name}}">{{i.name}}</a></li>
       {%- endfor %}
       </ul>
@@ -73,7 +73,7 @@
     <nav class="sm-col-2 xs-hide">
       <h3>メニュー</h3>
       <ul>
-      {%- for i in site.data.archive.categories_5_2_4_1 %}
+      {%- for i in site.data.archive.categories_6_0_2_1 %}
         <li><a href="{{include.depth}}/{{i.english_name}}">{{i.name}}</a></li>
       {%- endfor %}
       </ul>

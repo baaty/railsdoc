@@ -5,8 +5,10 @@ description: "コールバック関連の約20個のメソッドのオプショ�
 {% include header.html %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 3 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 3 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
@@ -38,7 +40,7 @@ description: "コールバック関連の約20個のメソッドのオプショ�
   <h4>逆引き</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {%- if i[1].category_id != 8 -%}{% continue %}{%- endif -%}
+      {%- if i[1].category_id != 3 -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
     {% endfor %}
   </ol>

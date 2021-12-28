@@ -1,7 +1,9 @@
 ---
 layout: page
 ---
+
 ### 楽観的ロック
+
 あらかじめカラムのロックバージョンを記録しておき、更新時にロックバージョンが変わっていないことをバリデーションして保存
 
     class CreateAddLockColumnToEntries < ActiveRecord::Migration
@@ -17,8 +19,9 @@ layout: page
     end
 
 ### 悲観的ロック
+
 データベース側でレコードをロックし、並行に更新できないようにする
 
     locked_entry = Entry.find(１，lock: true)
 
-* MySQLとPostgreSQLでのみ利用可能
+- MySQLとPostgreSQLでのみ利用可能

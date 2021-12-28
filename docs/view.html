@@ -1,12 +1,14 @@
 ---
 title: "ビュー(view)"
-description: "ビュー関連の約40個のメソッドのオプションや使い方の例など。yield／content_for／layouts／url_for／link_to／link_to_if／link_to_unless／link_to_unless_current／button_to／image_tag／image_path／mail_to／audio_tag／audio_path／auto_discovery_link_tag／video_tag／expires_now／favicon_link_tag／javascript_path／stylesheet_link_tag／javascript_include_tag／stylesheet_path／cycle／current_cycle／reset_cycle／debug／simple_format／excerpt／truncate／highlight／raw／capture／tag／content_tag／strip_tags／strip_links／sanitize／current_page?／strftime／asset_path／cache_if／cdata_section／time_ago_in_words／word_wrap"
+description: "ビュー関連の40個以上のメソッドのオプションや使い方の例など"
 ---
 {% include header.html %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 8 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 8 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>

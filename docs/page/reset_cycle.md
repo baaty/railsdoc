@@ -1,14 +1,17 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 cycleで返す値を初期化
 
 ### 使い方
-    reset_cycle([名前])
+
+    reset_cycle(名前='default')
 
 ### 例
-#### cycleで返す値を初期化
+
     <ul>
     <% @pages.each do |i| %>
       <li class="<%= cycle("even", "odd") %>">
@@ -19,7 +22,7 @@ cycleで返す値を初期化
       </li%>
     <% end %>
     </ul>
-    # <ul>
+    #=> <ul>
     # <li class="even">page内容1</li>
     # <li class="even">page内容1</li>
     # <li class="odd">page内容2</li>
@@ -29,4 +32,5 @@ cycleで返す値を初期化
     # </ul>
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/text_helper.rb#L401)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionview/lib/action_view/helpers/text_helper.rb#L405)

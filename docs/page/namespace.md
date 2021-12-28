@@ -1,25 +1,28 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 名前空間によってグループ化
 
 ### 使い方
-    namespace モジュール名 [, オプション] do
-      ルート定義
-    end
+
+    namespace(モジュール名, オプション={}, ブロック引数)
 
 ### オプション
 
-オプション         | 説明
-------------- | ------------
-:path         | ルートのパスを指定
-:module       | namespaceを指定
-:as           | ルート名に使用する別名
-:shallow_path | 指定したパラメータを先頭に追加
+| オプション    | 説明                           |
+| ------------- | ------------------------------ |
+| :path         | ルートのパスを指定             |
+| :module       | namespaceを指定                |
+| :as           | ルート名に使用する別名         |
+| :shallow_path | 指定したパラメータを先頭に追加 |
 
 ### 例
+
 #### userにadminの名前空間を付与
+
     namespace :admin do
       resources :user
     end
@@ -32,6 +35,7 @@ layout: page
     #                  DELETE /admin/user/:id(.:format)      admin/user#destroy
 
 #### sekretと言う名のpathを指定
+
     namespace :admin, path: "sekret" do
       resources :user
     end
@@ -44,6 +48,7 @@ layout: page
     #                  DELETE /sekret/user/:id(.:format)      admin/user#destroy
 
 #### sekretと言う名のモジュールを指定
+
     namespace :admin, module: "sekret" do
       resources :user
     end
@@ -56,6 +61,7 @@ layout: page
     #                  DELETE /admin/user/:id(.:format)      sekret/user#destroy
 
 #### sekretと言う名のルート名を指定
+
     namespace :admin, as: "sekret" do
       resources :user
     end
@@ -68,4 +74,5 @@ layout: page
     #                   DELETE /admin/user/:id(.:format)      admin/user#destroy
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/action_dispatch/routing/mapper.rb#L945)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionpack/lib/action_dispatch/routing/mapper.rb#L929)

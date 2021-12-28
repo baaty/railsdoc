@@ -1,12 +1,14 @@
 ---
-title: "Rake"
-description: "ビルドツールのRakeで使えるオプションや使い方の例など。rake -T／rake about／rake doc:rails／rake doc:app／rake notes／rake db:drop／rake db:migrate／rake db:version／rake db:migrate:status／rake db:schema:load／rake db:schema:dump／rake db:seed／rake db:fixtures:load／rake db:create／rake log:clear／rake rails:update／rake rails:templates:copy／rake db:rollback"
+title: "リクエスト(request)"
+description: "リクエストの記述の仕方やメソッドのオプションや使い方の例など"
 ---
-{% include header.html %}
+{% include header.html ogp="migration.png" %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 26 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 28 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>
@@ -30,7 +32,7 @@ description: "ビルドツールのRakeで使えるオプションや使い方�
   <h4>メソッド一覧</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {%- if i[1].category_id != 26 -%}{% continue %}{%- endif -%}
+      {%- if i[1].category_id != 28 -%}{% continue %}{%- endif -%}
       {%- if i[1].method == "" -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].method}}</a></li>
     {% endfor %}
@@ -38,7 +40,7 @@ description: "ビルドツールのRakeで使えるオプションや使い方�
   <h4>逆引き</h4>
   <ol>
     {%- for i in site.data.pages -%}
-      {%- if i[1].category_id != 26 -%}{% continue %}{%- endif -%}
+      {%- if i[1].category_id != 28 -%}{% continue %}{%- endif -%}
       <li><a href="#{{i[0]}}">{{i[1].title}}</a></li>
     {% endfor %}
   </ol>

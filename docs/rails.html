@@ -1,12 +1,14 @@
 ---
 title: "railsコマンド(rails)"
-description: "Railsコマンドで使えるオプションや使い方の例など。rails new／rails generate scaffold／rails generate controller／rails generate migration／rails generate model／rails server／rails destroy／rails plugin install／rails console／rails dbconsole／rails runner"
+description: "Railsコマンドで使えるオプションや使い方の例など"
 ---
 {% include header.html %}
 <main class="col-12 sm-col-8">
 <article>
+  <h1>{{ title | replace: "| Railsドキュメント", "" }}</h1>
 {%- for i in site.data.pages -%}
-  {% if i[1].category_id != 4 %}{% continue %}{% endif %}
+  {%- if i[1].category_id != 4 -%}{% continue %}{%- endif -%}
+  {%- if i[1].book == true -%}{% continue %}{%- endif -%}
   {% capture markdownStr %}{% capture new_var %}page/{{i[0]}}.md{% endcapture %}{% include_relative {{new_var}} %}{% endcapture %}
 <section>
   <h2 id="{{i[0]}}"><a href="page/{{i[0]}}">{{i[1].title}}</a></h2>

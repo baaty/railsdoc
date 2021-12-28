@@ -114,6 +114,7 @@ code {
 pre {
 	white-space: pre-wrap;
   word-break : break-all;
+  margin-bottom: 24px;
 }
 article {
   margin-bottom: 32px;
@@ -133,17 +134,23 @@ article aside {
   padding-left: 0;
   padding-right: 0;
 }
+article table {
+  margin-bottom: 24px;
+}
 main .tag {
   display: inline-block;
-  background-color: #7f8c8d;
-  color: #fff;
+  border: #7f8c8d 1px solid;
   padding: 2px 4px;
   margin: 0 4px 4px 0;
   font-size: 80%;
+  border-radius: 4px;
 }
 main .tag a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
+}
+aside {
+  margin-bottom: 32px;
 }
 .versions li {
   text-decoration: none;

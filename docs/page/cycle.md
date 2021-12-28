@@ -1,18 +1,22 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 奇数と偶数で処理を変える
 
 ### 使い方
-    cycle(値 [, ..])
+
+    cycle(値..)
 
 ### 補足
-* reset_cycleでリセット
-* current_cycleで現在の値を取得
+
+- reset_cycleでリセット
+- current_cycleで現在の値を取得
 
 ### 例
-#### 奇数、偶数でclass名を変える
+
     <ul>
     <% @pages.each do |i| %>
       <li class="<%= cycle("even", "odd") %>">
@@ -20,11 +24,12 @@ layout: page
       </li%>
     <% end %>
     </ul>
-    # <ul>
+    #=> <ul>
     # <li class="even">page内容1</li>
     # <li class="odd">page内容2</li>
     # <li class="even">page内容3</li>
     # </ul>
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/text_helper.rb#L354)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionview/lib/action_view/helpers/text_helper.rb#L358)

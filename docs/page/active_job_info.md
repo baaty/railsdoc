@@ -1,5 +1,7 @@
 ---
 layout: page
 ---
-### Active Jobとは
+
+### アクティブジョブ(Active Job)とは
+
 Rails標準のジョブを処理する仕組み

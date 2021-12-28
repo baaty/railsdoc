@@ -1,15 +1,19 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 フラグメントキャッシュが存在するか
 
 ### 使い方
-    fragment_exist?(キー名 [,  オプション])
+
+    fragment_exist?(キー名, オプション=nil)
 
 ### 例
-#### フラグメントキャッシュが存在するか
+
     fragment_exist? 'ratings_cache'
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionpack/lib/abstract_controller/caching/fragments.rb#L105)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionpack/lib/abstract_controller/caching/fragments.rb#L105)

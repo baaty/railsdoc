@@ -1,21 +1,36 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 モデルを固定してフォームを生成  
 form_for内で異なるモデルを編集できるようになる
 
 ### 使い方
-    <%= fields_for(モデル) do |i| %>
-    <% end %>
+
+    fields_for(名前, モデル=nil, オプション={}, ブロック引数)
 
 ### 例
-#### pageモデルにcategoryモデルの情報を入力
-    <%= form_for(@page) do |i| %>
-      <%= fields_for @page.category do |category| %>
-        <%= category.text_field :name %>
-      <% end %>
+
+#### モデルを固定してフォームを生成  
+
+    <%= fields_for :permission, @person.permission do |permission_fields| %>
+      Admin?  : <%= permission_fields.check_box :admin %>
+    <% end %>
+
+#### 簡略化
+
+    <%= fields_for :permission do |permission_fields| %>
+      Admin?: <%= permission_fields.check_box :admin %>
+    <% end %>
+
+#### モデル自体を渡す
+
+    <%= fields_for @person.permission do |permission_fields| %>
+      Admin?: <%= permission_fields.check_box :admin %>
     <% end %>
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/form_helper.rb#L1007)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionview/lib/action_view/helpers/form_helper.rb#L1020)

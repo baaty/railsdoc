@@ -1,17 +1,22 @@
 ---
 layout: page
 ---
+
 ### 説明
-フラグメントキャッシュが有効かチェック
+
+条件式がtrueの時にキャッシュ
 
 ### 使い方
-    cache_if(条件式 [, キー名, オプション])
+
+    cache_if(条件式, キー名={}, オプション={}, ブロック引数)
 
 ### 例
+
     <% cache_if admin?, project do %>
       <b>All the topics on this project</b>
       <%= render project.topics %>
     <% end %>
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/cache_helper.rb#L183)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionview/lib/action_view/helpers/cache_helper.rb#L215)

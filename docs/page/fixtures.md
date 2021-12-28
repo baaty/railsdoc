@@ -1,13 +1,17 @@
 ---
 layout: page
 ---
+
 ### 説明
-事前に用意したテストデータを読み込み、常にDBの内容を一定に保つための仕組みのことを、フィクスチャと呼ぶ
+
+事前に用意したテストデータを読み込み常にDBの内容を一定に保つための仕組みのことをフィクスチャと呼ぶ
 
 ### フィクスチャを用意
+
     test/fixtures/テーブル名.yml
 
 ### 例
+
     rubyonrails:
       id: 1
       name: Ruby on Rails
@@ -19,6 +23,7 @@ layout: page
       url: http://www.google.com
 
 ### テスト内からフィクスチャを読み込む
+
     require 'test_helper'
 
     class WebSiteTest < ActiveSupport::TestCase
@@ -28,6 +33,7 @@ layout: page
     end
 
 ### フィクスチャを使用
+
     require 'test_helper'
 
     class SiteTest < ActiveSupport::TestCase
@@ -49,23 +55,24 @@ layout: page
     end
 
 ### フィクスチャからのデータの取得
+
 フィクスチャに含まれているデータはテストの実行時に使うもの
 
-* 開発用データ用のディレクトリの作成
+- 開発用データ用のディレクトリの作成
     $ mkdir db/migrate/dev_data
-* YAMLファイルの作成
-* マイグレーションファイルの作成
+- YAMLファイルの作成
+- マイグレーションファイルの作成
     $ ruby script/generate migration <マイグレーション名>
-* マイグレーションファイルの編集
+- マイグレーションファイルの編集
     require 'active_recode/fixtures'
     class <クラス名> < ActiveRecode::Migration
-      def self.up
-        down
+    def self.up
+    down
 
-        directory = File.join(File.dirname(__FILE__), 'dwv_data')
-        Fixtures.create_fixtures(disrectory, "<YAML名>")
-      end
-      def self.down
-        YAML名.delete_all
-      end
+          directory = File.join(File.dirname(__FILE__), 'dwv_data')
+          Fixtures.create_fixtures(disrectory, "<YAML名>")
+        end
+        def self.down
+          YAML名.delete_all
+        end
     end

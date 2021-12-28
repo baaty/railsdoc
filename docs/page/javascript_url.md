@@ -1,22 +1,26 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 JavaScriptファイルへのURLを取得
 
 ### 使い方
-    javascript_url(ファイルへのパス [, オプション])
+
+    javascript_url(ファイルへのパス, オプション={})
 
 ### オプション
 
-オプション          | 説明
----------------|----------------
-:host          | 相対パスの場合にホストを追加
+| オプション | 説明                         |
+| ---------- | ---------------------------- |
+| :host      | 相対パスの場合にホストを追加 |
 
 ### 例
+
     javascript_url "js/xmlhr.js", host: "http://stage.example.com"
     # http://stage.example.com/assets/js/xmlhr.js
 
-
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/actionview/lib/action_view/helpers/asset_url_helper.rb#L330)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/actionview/lib/action_view/helpers/asset_url_helper.rb#L332)

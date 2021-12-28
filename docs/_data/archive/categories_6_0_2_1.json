@@ -1,0 +1,134 @@
+[
+    {
+        "english_name": "rails_base",
+        "id": 1,
+        "name": "Railsの基礎知識",
+        "description": "10秒でわかるRailsの超ざっくり基礎知識"
+    },
+    {
+        "english_name": "ruby_base",
+        "id": 2,
+        "name": "Rubyの基礎知識",
+        "description": "1分で見直すRubyの文法の基礎"
+    },
+    {
+        "english_name": "gem",
+        "id": 25,
+        "name": "Gem",
+        "description": "パッケージ管理ツールのGem(ジェム)の使い方"
+    },
+    {
+        "english_name": "rake",
+        "id": 26,
+        "name": "Rake",
+        "description": "ビルドツールのRakeで使えるオプションや使い方の例など"
+    },
+    {
+        "english_name": "rails",
+        "id": 4,
+        "name": "railsコマンド(rails)",
+        "description": "Railsコマンドで使えるオプションや使い方の例など"
+    },
+    {
+        "english_name": "migration",
+        "id": 5,
+        "name": "マイグレーション(migration)",
+        "description": "マイグレーションの記述の仕方やメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "model",
+        "id": 6,
+        "name": "モデル(model)",
+        "description": "モデル関連の100個以上のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "controller",
+        "id": 7,
+        "name": "コントローラ(controller)",
+        "description": "コントローラ関連の20個以上のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "view",
+        "id": 8,
+        "name": "ビュー(view)",
+        "description": "ビュー関連の約40個のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "form",
+        "id": 9,
+        "name": "フォーム(form)",
+        "description": "フォーム関連の約50個のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "association",
+        "id": 10,
+        "name": "アソシエーション(関連付け)",
+        "description": "アソシエーション関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "callback",
+        "id": 3,
+        "name": "コールバック",
+        "description": "コールバック関連の約20個のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "active_support",
+        "id": 20,
+        "name": "アクティブサポート(activesupport)",
+        "description": "Railsで使える便利メソッド"
+    },
+    {
+        "english_name": "active_job",
+        "id": 21,
+        "name": "アクティブジョブ(activejob)",
+        "description": "アクティブジョブ関連のメソッドのオプションや使い方の例など"
+    },
+    {
+        "english_name": "asset_pipeline",
+        "id": 23,
+        "name": "アセットパイプライン(Asset Pipeline)",
+        "description": "アセットパイプラインの使い方から関連するメソッドなど"
+    },
+    {
+        "english_name": "cookie_cache",
+        "id": 11,
+        "name": "クッキー・キャッシュ",
+        "description": "クッキー・キャッシュで使えるメソッド"
+    },
+    {
+        "english_name": "validation",
+        "id": 13,
+        "name": "バリデーション(validation)",
+        "description": "バリデーション関連のメソッド"
+    },
+    {
+        "english_name": "routes",
+        "id": 14,
+        "name": "ルーティング(routes)",
+        "description": "ルーティング関連のメソッド"
+    },
+    {
+        "english_name": "config",
+        "id": 15,
+        "name": "設定ファイル(config)",
+        "description": "設定ファイルの設定項目について"
+    },
+    {
+        "english_name": "test",
+        "id": 16,
+        "name": "テスト(test)",
+        "description": "テスト関連のメソッド"
+    },
+    {
+        "english_name": "etc",
+        "id": 18,
+        "name": "その他",
+        "description": "その他"
+    },
+    {
+        "english_name": "deprecated",
+        "id": 99,
+        "name": "廃止",
+        "description": "最新のバージョンでは廃止になっているメソッドなど"
+    }
+]

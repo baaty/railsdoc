@@ -1,13 +1,17 @@
 ---
 layout: page
 ---
+
 ### 説明
+
 SQL文を直接書いて取得
 
 ### 使い方
-    select_all(SQL文, [名前, binds, preparable])
+
+    select_all(SQL文, 名前=nil, バインド=[], プレパラート=nil, async: Async=false)
 
 ### 例
+
     Client.connection.select_all("SELECT first_name, created_at FROM clients WHERE id = '1'").to_hash
     # [
     #   {"first_name"=>"Rafael", "created_at"=>"2012-11-10 23:23:45.281189"},
@@ -15,7 +19,9 @@ SQL文を直接書いて取得
     # ]
 
 ### 補足
-* find_by_sqlとの違いは取得したオブジェクトのインスタンス化は行わないこと
+
+- find_by_sqlとの違いは取得したオブジェクトのインスタンス化は行わないこと
 
 ### ソースコード
-* [GitHub](https://github.com/rails/rails/blob/f33d52c95217212cbacc8d5e44b5a8e3cdc6f5b3/activerecord/lib/active_record/connection_adapters/abstract/database_statements.rb#L59)
+
+- [GitHub](https://github.com/rails/rails/blob/984c3ef2775781d47efa9f541ce570daa2434a80/activerecord/lib/active_record/connection_adapters/abstract/database_statements.rb#L62)
