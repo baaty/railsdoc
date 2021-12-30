@@ -16,7 +16,7 @@ layout: page
 | -------------- | ------------------------------------------------ | ----------------------------- |
 | :column        | 外部キーカラム名                                 | to_table.singularize + "\_id" |
 | :primary_key   | 参照先テーブルの主キー                           | id                            |
-| :name          | 制約                                             | fk*rails*<identifier>         |
+| :name          | 制約                                             | fk_rails_\<identifier\>         |
 | :on_delete     | 削除時のアクション                               |                               |
 | :on_update     | 更新時のアクション                               |                               |
 | :if_not_exists | 外部キーがすでに存在する場合は再追加しない       |                               |
