@@ -7762,7 +7762,7 @@
   "image_url": {
     "category_id": 8,
     "created_at": "2021-10-13 00:00:00.000000",
-    "title": "画像のを取得",
+    "title": "画像のURLを取得",
     "method": "image_url",
     "api_url": "https://api.rubyonrails.org/classes/ActionView/Helpers/AssetUrlHelper.html#method-i-image_url",
     "api_method": "image_url(source, options = {})",
